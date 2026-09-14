@@ -1,0 +1,86 @@
+/* 面板容器：高对比度边框 + 圆角，颜色全部走 Infima 变量，自动适配亮 / 暗色 */
+
+.panel {
+  margin: 1.25rem 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background-color: var(--ifm-background-surface-color);
+  overflow: hidden;
+}
+
+/* 相邻面板贴边合并为一条分隔线，连续堆叠时更像一组折叠面板 */
+.panel + .panel {
+  margin-top: -1px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border: 0;
+  background-color: var(--ifm-color-emphasis-100);
+  color: var(--ifm-heading-color);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.header:hover {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+/* 用 focus-visible 保留键盘焦点提示，鼠标点击不出描边 */
+.header:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: -2px;
+}
+
+.icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.title {
+  flex: 1 1 auto;
+}
+
+.chevron {
+  flex: 0 0 auto;
+  color: var(--ifm-color-content-secondary);
+  transition: transform 0.24s ease;
+}
+
+.panelOpen .chevron {
+  transform: rotate(180deg);
+}
+
+/* 内容区：高度由内联 style 控制，这里只负责裁剪与过渡 */
+.content {
+  overflow: hidden;
+  transition: height 0.24s ease;
+}
+
+.contentInner {
+  padding: 0.9rem 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* 去掉尾随元素的底部外边距，避免展开后多出一段空白 */
+.contentInner > :last-child {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header,
+  .chevron,
+  .content {
+    transition: none;
+  }
+}

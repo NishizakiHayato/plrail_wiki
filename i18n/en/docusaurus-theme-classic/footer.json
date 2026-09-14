@@ -1,0 +1,10 @@
+{
+  "link.title.知识库": {
+    "message": "Wiki",
+    "description": "The title of the footer links column with title=知识库 in the footer"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 Polish Railways Game Wiki",
+    "description": "The footer copyright"
+  }
+}

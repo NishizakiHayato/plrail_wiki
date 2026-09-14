@@ -1,0 +1,16 @@
+# 依赖
+node_modules/
+
+# Docusaurus 构建与缓存
+.docusaurus/
+build/
+.cache-loader/
+
+# 系统 / 编辑器
+.DS_Store
+*.log
+.env
+.env.local
+
+# 调研 / 过程性草稿（只留在本地，不进版本库）
+研究报告-Forgejo文档站生产线与多语言.md

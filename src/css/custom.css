@@ -1,0 +1,171 @@
+/**
+ *
+ * 品牌蓝基准：
+ *   --ifm-color-primary: #112a5a;
+ *
+ * 注意两点（否则会出现「深色文字压深色底、正文看不见」）：
+ *   1. 背景色必须显式声明：Infima 亮色下 --ifm-background-color 为 transparent，
+ *      若不覆盖会透出浏览器/UA 底色。
+ *   2. 变量同时用 :root 与 html[data-theme='...'] 声明：后者权重(0,1,1)高于 :root(0,1,0)，
+ *      可避免被 CSS 合并或声明顺序影响。
+ */
+
+/* ============================ 亮色 ============================ */
+:root,
+html[data-theme='light'] {
+  /* 品牌蓝阶（由 #112a5a 按 HSL 明度推得） */
+  --ifm-color-primary: #112a5a;
+  --ifm-color-primary-dark: #0d2044;
+  --ifm-color-primary-darker: #0a1833;
+  --ifm-color-primary-darkest: #071022;
+  --ifm-color-primary-light: #173878;
+  --ifm-color-primary-lighter: #1d489a;
+  --ifm-color-primary-lightest: #265cc5;
+
+  /* 背景与表面 */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #ffffff;
+  --ifm-hover-overlay: rgba(17, 42, 90, 0.06);
+
+  /* 正文与标题 */
+  --ifm-font-color-base: #1c1e21;
+  --ifm-color-content: #1c1e21;
+  --ifm-color-content-secondary: #4a5057;
+  --ifm-heading-color: #111a2b;
+
+  /* 链接：用深一档蓝，保证白底可读性（比品牌蓝本身对比度更高） */
+  --ifm-link-color: #0d2044;
+  --ifm-link-hover-color: #173878;
+
+  /* 导航栏 */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-link-color: #1c1e21;
+  --ifm-navbar-link-hover-color: #173878;
+
+  /* 侧边栏 */
+  --ifm-menu-color: #3c4149;
+  --ifm-menu-color-active: #0d2044;
+  --ifm-menu-color-background-active: rgba(17, 42, 90, 0.1);
+  --ifm-menu-color-background-hover: rgba(17, 42, 90, 0.06);
+
+  /* 右侧目录 */
+  --ifm-toc-link-color: #4a5057;
+  --ifm-toc-border-color: #e3e8f2;
+
+  /* 表格与代码 */
+  --ifm-table-head-background: #eef2f9;
+  --ifm-table-stripe-background: rgba(17, 42, 90, 0.04);
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(17, 42, 90, 0.12);
+
+  /* 提示框（admonition）蓝色系 */
+  --ifm-color-primary-contrast-background: #e6ecf7;
+  --ifm-color-primary-contrast-foreground: #111a2b;
+
+  /* 品牌自有变量 */
+  --bt-blue: #112a5a;
+  --bt-blue-dark: #0a1833;
+  --bt-sky: #4b7ddd;
+  --bt-ink: #111a2b;
+  --bt-mist: #e6ecf7;
+}
+
+/* ============================ 暗色 ============================ */
+html[data-theme='dark'] {
+  /* 品牌蓝：暗色下整体提亮若干档（L 21% → 58%），以拉开对比 */
+  --ifm-color-primary: #4b7ddd;
+  --ifm-color-primary-dark: #316ad8;
+  --ifm-color-primary-darker: #265cc5;
+  --ifm-color-primary-darkest: #2150ab;
+  --ifm-color-primary-light: #658fe2;
+  --ifm-color-primary-lighter: #7ea2e6;
+  --ifm-color-primary-lightest: #a1bbed;
+
+  /* 背景与表面（取自宝塔暗色主题） */
+  --ifm-background-color: #1b1b1d;
+  --ifm-background-surface-color: #242526;
+  --ifm-hover-overlay: rgba(255, 255, 255, 0.05);
+
+  /* 正文与标题 */
+  --ifm-font-color-base: #e3e3e3;
+  --ifm-color-content: #e3e3e3;
+  --ifm-color-content-secondary: #b9bec4;
+  --ifm-heading-color: #f0f5fd;
+
+  /* 链接 */
+  --ifm-link-color: #7ea2e6;
+  --ifm-link-hover-color: #658fe2;
+
+  /* 导航栏 */
+  --ifm-navbar-background-color: #242526;
+  --ifm-navbar-link-color: #e3e3e3;
+  --ifm-navbar-link-hover-color: #7ea2e6;
+
+  /* 侧边栏 */
+  --ifm-menu-color: #c9ced6;
+  --ifm-menu-color-active: #7ea2e6;
+  --ifm-menu-color-background-active: rgba(126, 162, 230, 0.14);
+  --ifm-menu-color-background-hover: rgba(126, 162, 230, 0.08);
+
+  /* 右侧目录 */
+  --ifm-toc-link-color: #b9bec4;
+  --ifm-toc-border-color: #2f3134;
+
+  /* 表格与代码 */
+  --ifm-table-head-background: #1a2136;
+  --ifm-table-stripe-background: rgba(255, 255, 255, 0.06);
+  --docusaurus-highlighted-code-line-bg: rgba(126, 162, 230, 0.15);
+
+  /* 提示框 */
+  --ifm-color-primary-contrast-background: #131c33;
+  --ifm-color-primary-contrast-foreground: #e6ecf7;
+}
+
+/* ================= 背景兜底：确保任何情况下都有实底色 ================= */
+html,
+body {
+  background-color: var(--ifm-background-color);
+}
+
+html:not([data-theme='dark']),
+html:not([data-theme='dark']) body {
+  background-color: #ffffff;
+}
+
+html[data-theme='dark'],
+html[data-theme='dark'] body {
+  background-color: #1b1b1d;
+}
+
+/* ============ 首页 Hero：品牌蓝渐变 + 白字 ============ */
+/* 渐变两端都需满足白字对比度 >= 3:1（大号文本），
+   这里取品牌蓝的中深两档，实测对比度均高于 5:1。 */
+.hero--primary {
+  --ifm-hero-background-color: transparent;
+  --ifm-hero-text-color: #fff;
+  background: linear-gradient(135deg, #173878, #0a1833);
+}
+
+html[data-theme='dark'] .hero--primary {
+  background: linear-gradient(135deg, #0d2044, #071022);
+}
+
+.hero--primary .hero__title,
+.hero--primary .hero__subtitle {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* ============ 导航栏站点 Logo ============ */
+/* logo.png 是「深蓝 + 红」双色横版图（839×400），尺寸无需额外声明：
+   Infima 把容器 .navbar__logo 定为 height: 2rem，内部 img 为 height: 100%，
+   宽度按原比例自适应（约 67px）。
+   深蓝部分在暗色导航栏 #242526 上几乎不可辨，这里垫一层白色衬底——
+   用 box-shadow 外扩而不是 padding，因为 Infima 全局是 border-box，
+   加 padding 会挤掉 img 的高度。若日后有专门的暗色版 logo，
+   改用 themeConfig.navbar.logo.srcDark，并删掉这段。 */
+html[data-theme='dark'] .navbar__logo {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 0 3px #fff;
+}

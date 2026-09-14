@@ -1,0 +1,146 @@
+# Forgejo Actions 工作流
+#
+# 注意：
+#   - 工作流目录是 .forgejo/workflows/（不是 .github/workflows/）
+#   - action 使用「完全限定 URL + commit SHA」：
+#       * 完全限定 URL 可避免受实例管理员修改 DEFAULT_ACTIONS_URL 影响
+#       * commit SHA 可避免 tag 被篡改（官方安全建议）
+#   - 下方 SHA 为示例占位，首次接入时请替换为实际 release 对应的 commit SHA
+
+name: docs-pipeline
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'i18n/**'
+      - 'docusaurus.config.js'
+      - 'sidebars/**'
+      - 'scripts/**'
+      - 'package.json'
+      - '.forgejo/workflows/docs.yml'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+# 同一分支的新推送自动取消旧运行
+concurrency:
+  group: docs-${{ forgejo.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ------------------------------------------------------------------
+  # 门禁：多实例 × 多版本 × 多语言 的译文完整性
+  # ------------------------------------------------------------------
+  i18n-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: https://data.forgejo.org/actions/checkout@v6 # TODO: pin commit SHA
+        with:
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: https://data.forgejo.org/actions/setup-node@v4 # TODO: pin commit SHA
+        with:
+          node-version: '20'
+
+      - name: Check translations for all instances
+        # 英文当前仅占位 / 预留，无法保证每篇都有译文，
+        # 因此默认只列出缺失清单、不阻塞流水线。
+        # 英文转正后加上下面两段即可恢复门禁：
+        #   env:
+        #     STRICT_I18N: "1"
+        run: bash scripts/check-i18n.sh
+
+  # ------------------------------------------------------------------
+  # 构建：安装依赖 → docusaurus build → 上传产物
+  # ------------------------------------------------------------------
+  build:
+    needs: [i18n-check]
+    runs-on: ubuntu-latest
+    steps:
+      # actions/checkout 的 lfs 开关依赖 git-lfs 可执行文件，镜像没带时先装上
+      - name: Install git-lfs
+        run: |
+          command -v git-lfs >/dev/null 2>&1 && exit 0
+          if command -v sudo >/dev/null 2>&1; then SUDO=sudo; else SUDO=""; fi
+          $SUDO apt-get update -qq
+          $SUDO apt-get install -y -qq git-lfs
+
+      - name: Checkout
+        uses: https://data.forgejo.org/actions/checkout@v6 # TODO: pin commit SHA
+        with:
+          persist-credentials: false
+          # 必须：默认只拉 LFS 指针文件，不拉的话产物里的图片是坏的空壳，
+          # 而且流水线照样是绿的，属于不冒烟就发现不了的故障
+          lfs: true
+
+      - name: Setup Node
+        uses: https://data.forgejo.org/actions/setup-node@v4 # TODO: pin commit SHA
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site (all locales, single-domain)
+        run: npm run build
+
+      # 若改为「多域名」策略，可用矩阵按语言分别构建（单语言产物不带 /<locale>/ 前缀）：
+      #
+      # strategy:
+      #   fail-fast: false
+      #   matrix:
+      #     locale: [zh-Hans, en]
+      # steps:
+      #   - run: npx docusaurus build --locale ${{ matrix.locale }}
+
+      - name: Upload build artifact
+        uses: https://data.forgejo.org/actions/upload-artifact@v4 # TODO: pin commit SHA
+        with:
+          name: docs-build
+          path: build
+          retention-days: 7
+
+  # ------------------------------------------------------------------
+  # 部署：FTP / FTPS 上传构建产物
+  #
+  # 需要配置（Settings → Actions → Secrets and variables）：
+  #   secrets.FTP_USER       FTP 用户名
+  #   secrets.FTP_PASSWORD   FTP 密码
+  #   vars.FTP_HOST          FTP 主机
+  #   vars.FTP_PORT          （可选）端口，默认 21
+  #   vars.FTP_REMOTE        （可选）远端目录，默认站点根目录 /
+  #   vars.FTP_TLS           （可选）0 = 明文 FTP；默认 1（显式 FTPS）
+  #
+  # 同步策略为镜像：本地没有的远端文件会被删除，
+  # .well-known/ 与 .htaccess 默认保留（证书校验 / 服务器配置用）。
+  # ------------------------------------------------------------------
+  deploy:
+    needs: [build]
+    if: forgejo.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      # 部署脚本 scripts/deploy-ftp.py 在仓库里，需要先检出
+      - name: Checkout
+        uses: https://data.forgejo.org/actions/checkout@v6 # TODO: pin commit SHA
+        with:
+          persist-credentials: false
+
+      - name: Download build artifact
+        uses: https://data.forgejo.org/actions/download-artifact@v4 # TODO: pin commit SHA
+        with:
+          name: docs-build
+
+      - name: Upload to FTP
+        env:
+          FTP_HOST: ${{ vars.FTP_HOST }}
+          FTP_PORT: ${{ vars.FTP_PORT }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_REMOTE: ${{ vars.FTP_REMOTE }}
+          FTP_TLS: ${{ vars.FTP_TLS }}
+        run: python3 scripts/deploy-ftp.py --local build
