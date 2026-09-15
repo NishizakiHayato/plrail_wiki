@@ -24,6 +24,17 @@ const games = [
 // 「编辑此页」指向 Forgejo/Gitea 的 Web 编辑器：<仓库>/_edit/<分支>/<文件相对路径>
 const EDIT_URL = 'https://code.shinetsurailway.net/PLRail/wiki/_edit/main/';
 
+// 搜索后端开关：
+//   设置 MEILI_HOST（+ MEILI_SEARCH_KEY）→ 浏览器直连 Meilisearch
+//   或设置 MEILI_ENDPOINT（如 https://wiki.plrail.com/api/search）
+//     → 走同域反向代理，密钥由 Nginx 注入，浏览器不接触密钥（推荐）
+//   两者都未设置 → 使用本地离线索引（构建期生成 lunr 索引）
+const MEILI_HOST = process.env.MEILI_HOST || '';
+const MEILI_SEARCH_KEY = process.env.MEILI_SEARCH_KEY || '';
+const MEILI_INDEX = process.env.MEILI_INDEX || 'wiki_docs';
+const MEILI_ENDPOINT = process.env.MEILI_ENDPOINT || '';
+const MEILI_ENABLED = Boolean(MEILI_HOST || MEILI_ENDPOINT);
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '波兰铁路游戏知识库',
@@ -75,6 +86,47 @@ const config = {
       editLocalizedFiles: true, // 「编辑此页」指向 i18n 译文，方便译者提 PR
     }),
   ]),
+
+  // ------------------------------------------------------------------
+  // 全文搜索
+  //   默认：本地离线索引（构建期生成 lunr 索引，随静态站部署）
+  //   设置 MEILI_HOST / MEILI_ENDPOINT 后：改用 Meilisearch，这里不再注册本地搜索主题
+  // ------------------------------------------------------------------
+  themes: MEILI_ENABLED
+    ? []
+    : [
+        [
+          require.resolve('@easyops-cn/docusaurus-search-local'),
+          /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
+          ({
+            hashed: true, // 索引文件带内容哈希，便于长期缓存
+            indexBlog: false, // 本站无博客
+            indexPages: false,
+            // 每个游戏实例一个路由前缀，全部纳入索引
+            docsRouteBasePath: games.map((game) => game.id),
+            docsDir: games.map((game) => `docs/${game.id}`),
+            // 多实例且没有 default 实例时，必须指定一个实例用于版本/上下文判断
+            docsPluginIdForPreferredVersion: games[0].id,
+            language: ['en', 'zh'], // 中英混排内容
+            removeDefaultStopWordFilter: true, // 中文不要丢停用词
+            highlightSearchTermsOnTargetPage: true, // 跳转后高亮关键词
+            searchResultLimits: 10,
+            searchResultContextMaxLength: 60,
+          }),
+        ],
+      ],
+
+  customFields: {
+    // 前端搜索框据此决定走 Meilisearch 还是本地索引
+    meilisearch: MEILI_ENABLED
+      ? {
+          host: MEILI_HOST,
+          searchKey: MEILI_SEARCH_KEY,
+          indexUid: MEILI_INDEX,
+          endpoint: MEILI_ENDPOINT,
+        }
+      : null,
+  },
 
   themeConfig:
     /** @type {import('@docusaurus/theme-classic').ThemeConfig} */

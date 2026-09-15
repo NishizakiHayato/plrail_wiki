@@ -14,3 +14,6 @@ build/
 
 # 调研 / 过程性草稿（只留在本地，不进版本库）
 研究报告-Forgejo文档站生产线与多语言.md
+
+# Meilisearch 数据目录
+deploy/meilisearch/data.ms/

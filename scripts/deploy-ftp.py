@@ -266,7 +266,9 @@ def main(argv=None):
     if not remote.startswith("/"):
         remote = f"/{remote}"
 
-    print(f"==> 目标: {args.host}:{args.port}{remote} | TLS: {use_tls} | 被动: {not args.active}")
+    # FTP 主机可能含 IP；CI 中设 FTP_HIDE_HOST=1 可避免把它写进公开日志
+    shown_host = "<已隐藏>" if os.environ.get("FTP_HIDE_HOST") == "1" else args.host
+    print(f"==> 目标: {shown_host}:{args.port}{remote} | TLS: {use_tls} | 被动: {not args.active}")
     print(f"==> 本地: {os.path.abspath(local)} | 删除多余文件: {delete} | 演练: {dry_run}")
 
     ftp = connect(args.host, args.port, args.user, args.password,

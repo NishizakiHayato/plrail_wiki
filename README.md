@@ -182,10 +182,23 @@ STRICT_I18N=1 npm run check-i18n    # 缺失译文视为失败（英文转正后
 | --- | --- | --- |
 | `FTP_USER` | secret | FTP 用户名 |
 | `FTP_PASSWORD` | secret | FTP 密码 |
-| `FTP_HOST` | variable | FTP 主机 |
+| `FTP_HOST` | secret | FTP 主机。**按机密处理**（可能含 IP / 内网地址）；日志中由 `FTP_HIDE_HOST=1` 隐藏 |
 | `FTP_PORT` | variable | 可选，默认 21 |
 | `FTP_REMOTE` | variable | 可选，远端目录，默认站点根目录 `/` |
 | `FTP_TLS` | variable | 可选，`0` = 明文 FTP；默认 `1`（显式 FTPS） |
+
+搜索相关的**可选**配置（不配则使用本地离线索引，流水线照常全绿）：
+
+| 名称 | 类型 | 说明 |
+| --- | --- | --- |
+| `MEILI_ENDPOINT` | variable | 前端搜索端点：`https://wiki.plrail.com/api/search`（站点 Nginx 反代）。**会写进前端产物，只能填域名** |
+| `MEILI_ENABLED` | variable | 填 `1` 才运行索引 job；未接入 Meilisearch 时留空，流水线照常全绿 |
+| `MEILI_HOST` | secret | Meilisearch 地址（含端口）。**可能含内网 IP，按机密处理** |
+| `MEILI_ADMIN_KEY` | secret | 灌索引用的 master key 或 admin key |
+| `MEILI_INDEX` | variable | 可选，索引名，默认 `wiki_docs` |
+
+> 防泄露：`MEILI_HOST` / `MEILI_ADMIN_KEY` 必须是 secret，工作流里禁止 `echo` 它们或开启 `set -x`；
+> `scripts/search/meili-index.mjs` 不回显地址且错误信息会打码，`scripts/deploy-ftp.py` 在 `FTP_HIDE_HOST=1` 时隐藏 FTP 主机。
 
 上传逻辑在 `scripts/deploy-ftp.py`（只用 Python 标准库，无需装依赖），本地也能直接用：
 
