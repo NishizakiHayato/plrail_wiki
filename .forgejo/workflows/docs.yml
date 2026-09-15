@@ -157,6 +157,7 @@ jobs:
         uses: https://data.forgejo.org/forgejo/download-artifact@v7 # 769f970437aa3291b13f35dc23fc87967d7fb19f
         with:
           name: docs-build
+          path: build
 
       - name: Upload to FTP
         env:
