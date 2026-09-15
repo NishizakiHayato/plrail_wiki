@@ -1,0 +1,31 @@
+services:
+  meilisearch:
+    image: getmeili/meilisearch:v1.53.2
+    container_name: wiki-meilisearch
+    restart: unless-stopped
+    # host 网络（仅 Linux 生效）：容器直接使用宿主机网络栈。
+    #
+    # 为什么用 host：bridge 模式 + ports 映射时，Docker 会自行写入 iptables 规则，
+    # 该规则优先于 ufw，导致 ufw 对 7700 的限制失效（端口会被直接暴露到公网）。
+    # 改用 host 后端口由 Meilisearch 自己监听，完全交给 ufw 管控，
+    # 外部 Runner 才能按 IP 白名单访问。
+    #
+    # 注意：host 模式下 ports 字段无效（compose 会报错），因此这里不写 ports。
+    network_mode: host
+    environment:
+      # 生产环境必填，否则 Meilisearch 会以无鉴权的 development 模式启动
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:?请设置 MEILI_MASTER_KEY}
+      MEILI_ENV: production
+      MEILI_NO_ANALYTICS: "true"
+      MEILI_DB_PATH: /meili_data/data.ms
+      # 监听全部地址，访问控制交给 ufw（见 README / nginx-search.conf 说明）
+      MEILI_HTTP_ADDR: 0.0.0.0:7700
+    volumes:
+      - ./data.ms:/meili_data
+    healthcheck:
+      # host 模式下 127.0.0.1 即宿主机本机
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:7700/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s

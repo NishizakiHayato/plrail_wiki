@@ -20,6 +20,7 @@ on:
       - 'docusaurus.config.js'
       - 'sidebars/**'
       - 'scripts/**'
+      - 'src/**' # 主题 / 搜索框等前端代码也要触发重新构建
       - 'package.json'
       - '.forgejo/workflows/docs.yml'
   workflow_dispatch:
@@ -112,6 +113,11 @@ jobs:
 
       - name: Build site (all locales, single-domain)
         run: npm run build
+        env:
+          # 未配置时自动回退到本地离线索引（构建期生成 lunr 索引），不影响现有部署。
+          # 注意：这个值会写进前端产物，只能填域名（如 https://wiki.plrail.com/api/search），
+          # 绝不能填 IP 或内网地址。
+          MEILI_ENDPOINT: ${{ vars.MEILI_ENDPOINT }}
         # 若改为「多域名」策略，可用矩阵按语言分别构建（单语言产物不带 /<locale>/ 前缀）：
         #
         # strategy:
@@ -134,10 +140,16 @@ jobs:
   # 需要配置（Settings → Actions → Secrets and variables）：
   #   secrets.FTP_USER     FTP 用户名
   #   secrets.FTP_PASSWORD FTP 密码
-  #   vars.FTP_HOST        FTP 主机
+  #   secrets.FTP_HOST     FTP 主机
   #   vars.FTP_PORT        （可选）端口，默认 21
   #   vars.FTP_REMOTE      （可选）远端目录，默认站点根目录 /
   #   vars.FTP_TLS         （可选）0 = 明文 FTP；默认 1（显式 FTPS）
+  #
+  # 防泄露约定：
+  #   1) FTP_HOST 走 secrets（主机名可能含 IP），不得写成 vars 或硬编码
+  #   2) 本 job 内禁止 echo $FTP_HOST、禁止 set -x、禁止整体打印 env
+  #   3) FTP_HIDE_HOST=1 已开启，deploy-ftp.py 不会把目标主机写进日志
+  #   4) FTP_TLS 保持默认 1（显式 FTPS），避免凭据明文传输
   #
   # 同步策略为镜像：本地没有的远端文件会被删除，
   # .well-known/ 与 .htaccess 默认保留（证书校验 / 服务器配置用）。
@@ -161,10 +173,51 @@ jobs:
 
       - name: Upload to FTP
         env:
-          FTP_HOST: ${{ vars.FTP_HOST }}
+          FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_PORT: ${{ vars.FTP_PORT }}
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           FTP_REMOTE: ${{ vars.FTP_REMOTE }}
           FTP_TLS: ${{ vars.FTP_TLS }}
+          # 日志里隐藏 FTP 主机（避免主机名 / IP 出现在公开的运行日志中）
+          FTP_HIDE_HOST: '1'
         run: python3 scripts/deploy-ftp.py --local build
+
+  # ------------------------------------------------------------------
+  # 搜索索引：站点上线后再刷新，避免索引领先于页面内容
+  #
+  # 需要配置（Settings → Actions → Secrets and variables）：
+  #   vars.MEILI_ENABLED       '1' 才运行本 job（开关，非敏感）
+  #   secrets.MEILI_HOST       Meilisearch 地址（含端口，可能含内网 IP，按机密处理）
+  #   secrets.MEILI_ADMIN_KEY  灌索引用的 admin / master key
+  #   vars.MEILI_INDEX         可选，索引名，默认 wiki_docs
+  #
+  # 防泄露约定：
+  #   1) 地址与密钥一律走 secrets，不得写成 vars、不得硬编码进仓库
+  #   2) 本 job 内禁止 echo $MEILI_HOST、禁止 set -x、禁止整体打印 env
+  #   3) scripts/search/meili-index.mjs 不回显地址，错误信息也做了打码
+  # ------------------------------------------------------------------
+  index-search:
+    needs: [deploy]
+    # secrets 不能出现在 if 表达式里，故用非敏感的 MEILI_ENABLED 作为开关
+    if: forgejo.ref == 'refs/heads/main' && vars.MEILI_ENABLED == '1'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: https://data.forgejo.org/actions/checkout@v6 # TODO: pin commit SHA
+        with:
+          persist-credentials: false
+          lfs: false
+
+      - name: Setup Node
+        uses: https://data.forgejo.org/actions/setup-node@v4 # TODO: pin commit SHA
+        with:
+          node-version: '20'
+
+      # 索引脚本零依赖（只用 Node 内置 fetch），无需 npm ci
+      - name: Rebuild search index
+        run: node scripts/search/meili-index.mjs
+        env:
+          MEILI_HOST: ${{ secrets.MEILI_HOST }}
+          MEILI_ADMIN_KEY: ${{ secrets.MEILI_ADMIN_KEY }}
+          MEILI_INDEX: ${{ vars.MEILI_INDEX }}
