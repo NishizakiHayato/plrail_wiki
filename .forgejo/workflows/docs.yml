@@ -181,6 +181,7 @@ jobs:
           FTP_TLS: ${{ vars.FTP_TLS }}
           # 日志里隐藏 FTP 主机（避免主机名 / IP 出现在公开的运行日志中）
           FTP_HIDE_HOST: '1'
+          FTP_FORCE: '1'
         run: python3 scripts/deploy-ftp.py --local build
 
   # ------------------------------------------------------------------
