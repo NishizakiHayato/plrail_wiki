@@ -3,13 +3,15 @@
 # 注意：
 #   - 工作流目录是 .forgejo/workflows/（不是 .github/workflows/）
 #   - action 使用「完全限定 URL + commit SHA」：
-#       * 完全限定 URL 可避免受实例管理员修改 DEFAULT_ACTIONS_URL 影响
-#       * commit SHA 可避免 tag 被篡改（官方安全建议）
+#     * 完全限定 URL 可避免受实例管理员修改 DEFAULT_ACTIONS_URL 影响
+#     * commit SHA 可避免 tag 被篡改（官方安全建议）
 #   - 下方 SHA 为示例占位，首次接入时请替换为实际 release 对应的 commit SHA
-
 name: docs-pipeline
 
 on:
+  # 只在「合并进 main」之后运行：PR 合并本身就会在 main 上产生一次 push 事件。
+  # 不再监听 pull_request —— 既避免外部 PR 的内容直接在本机 Runner 上执行，
+  # 也避免 PR 阶段占用 Runner 与构建资源。
   push:
     branches: [main]
     paths:
@@ -20,8 +22,6 @@ on:
       - 'scripts/**'
       - 'package.json'
       - '.forgejo/workflows/docs.yml'
-  pull_request:
-    branches: [main]
   workflow_dispatch:
 
 # 同一分支的新推送自动取消旧运行
@@ -50,8 +50,8 @@ jobs:
         # 英文当前仅占位 / 预留，无法保证每篇都有译文，
         # 因此默认只列出缺失清单、不阻塞流水线。
         # 英文转正后加上下面两段即可恢复门禁：
-        #   env:
-        #     STRICT_I18N: "1"
+        # env:
+        #   STRICT_I18N: "1"
         run: bash scripts/check-i18n.sh
 
   # ------------------------------------------------------------------
@@ -61,7 +61,7 @@ jobs:
     needs: [i18n-check]
     runs-on: ubuntu-latest
     steps:
-      # actions/checkout 的 lfs 开关依赖 git-lfs 可执行文件，镜像没带时先装上
+      # 下一步的匿名 git lfs 需要 git-lfs 可执行文件，镜像没带时先装上
       - name: Install git-lfs
         run: |
           command -v git-lfs >/dev/null 2>&1 && exit 0
@@ -69,13 +69,38 @@ jobs:
           $SUDO apt-get update -qq
           $SUDO apt-get install -y -qq git-lfs
 
+      # 刻意不用 actions/checkout 的 lfs 开关：
+      # 它会把 Actions 任务令牌写成 http.<host>.extraheader，
+      # 该凭据会被实例的 LFS 端点以 401 拒绝（forgejo#2809），
+      # 而 git-lfs 收到 401 后不会退回匿名访问，直接判定失败。
+      # 仓库是公开的，改为下面两步匿名拉取。
       - name: Checkout
         uses: https://data.forgejo.org/actions/checkout@v6 # TODO: pin commit SHA
         with:
           persist-credentials: false
-          # 必须：默认只拉 LFS 指针文件，不拉的话产物里的图片是坏的空壳，
-          # 而且流水线照样是绿的，属于不冒烟就发现不了的故障
-          lfs: true
+          lfs: false
+
+      - name: Fetch LFS objects (anonymous)
+        run: |
+          # 清掉 checkout 注入的临时凭据文件，否则 git-lfs 仍会带上被拒的认证头
+          rm -f /tmp/git-credentials-*.config "${RUNNER_TEMP:-/tmp}"/git-credentials-*.config
+          git lfs install --local
+          git lfs pull
+
+      # 必须：漏拉 LFS 时产物里的图片是坏的空壳，而流水线照样是绿的，
+      # 属于不冒烟就发现不了的故障。这里显式失败。
+      - name: Verify LFS objects are materialized
+        run: |
+          git lfs ls-files -l
+          pointers="$(git lfs ls-files -l | awk '{print $NF}' | while read -r f; do
+            head -c 60 "$f | grep -q 'version https://git-lfs && echo "$f"
+          done)"
+          if [ -n "$pointers ]; then
+            echo "LFS 指针未被实体化："
+            echo "$pointers"
+            exit 1
+          fi
+          echo "所有 LFS 文件均为实体内容"
 
       - name: Setup Node
         uses: https://data.forgejo.org/actions/setup-node@v4 # TODO: pin commit SHA
@@ -88,15 +113,14 @@ jobs:
 
       - name: Build site (all locales, single-domain)
         run: npm run build
-
-      # 若改为「多域名」策略，可用矩阵按语言分别构建（单语言产物不带 /<locale>/ 前缀）：
-      #
-      # strategy:
-      #   fail-fast: false
-      #   matrix:
-      #     locale: [zh-Hans, en]
-      # steps:
-      #   - run: npx docusaurus build --locale ${{ matrix.locale }}
+        # 若改为「多域名」策略，可用矩阵按语言分别构建（单语言产物不带 /<locale>/ 前缀）：
+        #
+        # strategy:
+        #   fail-fast: false
+        #   matrix:
+        #     locale: [zh-Hans, en]
+        # steps:
+        #   - run: npx docusaurus build --locale ${{ matrix.locale }}
 
       - name: Upload build artifact
         uses: https://data.forgejo.org/actions/upload-artifact@v4 # TODO: pin commit SHA
@@ -109,12 +133,12 @@ jobs:
   # 部署：FTP / FTPS 上传构建产物
   #
   # 需要配置（Settings → Actions → Secrets and variables）：
-  #   secrets.FTP_USER       FTP 用户名
-  #   secrets.FTP_PASSWORD   FTP 密码
-  #   vars.FTP_HOST          FTP 主机
-  #   vars.FTP_PORT          （可选）端口，默认 21
-  #   vars.FTP_REMOTE        （可选）远端目录，默认站点根目录 /
-  #   vars.FTP_TLS           （可选）0 = 明文 FTP；默认 1（显式 FTPS）
+  #   secrets.FTP_USER     FTP 用户名
+  #   secrets.FTP_PASSWORD FTP 密码
+  #   vars.FTP_HOST        FTP 主机
+  #   vars.FTP_PORT        （可选）端口，默认 21
+  #   vars.FTP_REMOTE      （可选）远端目录，默认站点根目录 /
+  #   vars.FTP_TLS         （可选）0 = 明文 FTP；默认 1（显式 FTPS）
   #
   # 同步策略为镜像：本地没有的远端文件会被删除，
   # .well-known/ 与 .htaccess 默认保留（证书校验 / 服务器配置用）。
