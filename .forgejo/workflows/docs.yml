@@ -65,7 +65,7 @@ jobs:
       - name: Install git-lfs
         run: |
           command -v git-lfs >/dev/null 2>&1 && exit 0
-          if command -v sudo >/dev/null 2>&1; then SUDO=sudo; else SUDO=""; fi
+          if command -v sudo >/dev/null 2>&1; then SUDO=sudo; else SUDO=; fi
           $SUDO apt-get update -qq
           $SUDO apt-get install -y -qq git-lfs
 
@@ -83,28 +83,23 @@ jobs:
       - name: Fetch LFS objects (anonymous)
         run: |
           # 清掉 checkout 注入的临时凭据文件，否则 git-lfs 仍会带上被拒的认证头
-          rm -f /tmp/git-credentials-*.config "${RUNNER_TEMP:-/tmp}"/git-credentials-*.config
+          rm -f /tmp/git-credentials-*.config
+          rm -f $RUNNER_TEMP/git-credentials-*.config
           git lfs install --local
           git lfs pull
 
       # 必须：漏拉 LFS 时产物里的图片是坏的空壳，而流水线照样是绿的，
       # 属于不冒烟就发现不了的故障。这里显式失败。
-      # 注意：所有语句单行闭合引号（避免 runner 生成脚本时引号失配）；
-      # exit 1 必须落在步骤主 shell 上（写在管道子 shell 里不会让步骤失败）。
+      # 本段刻意不含任何双引号（粘贴时容易被吞）；exit 1 落在步骤主 shell 上，
+      # 管道子 shell 里的 exit 不会让步骤失败。
       - name: Verify LFS objects are materialized
         run: |
           git lfs ls-files -l
-          bad=""
-          for f in $(git lfs ls-files -l | awk '{print $NF}'); do
-            if head -c 60 "$f | grep -q 'version https://git-lfs'; then
-              bad="$bad $f"
-            fi
-          done
-          if [ -n "$bad ]; then
-            echo "LFS 指针未被实体化:$bad"
+          if git lfs ls-files -l | awk '{print $2}' | grep -q '^-$'; then
+            echo 存在未实体化的 LFS 指针
             exit 1
           fi
-          echo "所有 LFS 文件均为实体内容"
+          echo 所有 LFS 文件均已实体化
 
       - name: Setup Node
         uses: https://data.forgejo.org/actions/setup-node@v4 # TODO: pin commit SHA
