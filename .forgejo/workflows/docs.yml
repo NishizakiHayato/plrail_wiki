@@ -89,15 +89,19 @@ jobs:
 
       # 必须：漏拉 LFS 时产物里的图片是坏的空壳，而流水线照样是绿的，
       # 属于不冒烟就发现不了的故障。这里显式失败。
+      # 注意：所有语句单行闭合引号（避免 runner 生成脚本时引号失配）；
+      # exit 1 必须落在步骤主 shell 上（写在管道子 shell 里不会让步骤失败）。
       - name: Verify LFS objects are materialized
         run: |
           git lfs ls-files -l
-          pointers="$(git lfs ls-files -l | awk '{print $NF}' | while read -r f; do
-            head -c 60 "$f | grep -q 'version https://git-lfs && echo "$f"
-          done)"
-          if [ -n "$pointers ]; then
-            echo "LFS 指针未被实体化："
-            echo "$pointers"
+          bad=""
+          for f in $(git lfs ls-files -l | awk '{print $NF}'); do
+            if head -c 60 "$f | grep -q 'version https://git-lfs'; then
+              bad="$bad $f"
+            fi
+          done
+          if [ -n "$bad ]; then
+            echo "LFS 指针未被实体化:$bad"
             exit 1
           fi
           echo "所有 LFS 文件均为实体内容"
