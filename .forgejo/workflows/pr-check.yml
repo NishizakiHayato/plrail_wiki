@@ -1,0 +1,55 @@
+# Forgejo Actions：PR 门禁（合并前的只读检查）
+#
+# 与 .forgejo/workflows/docs.yml 的分工：
+#   docs.yml      —— 合并进 main 之后：译文检查 → 构建 → FTP 部署
+#   pr-check.yml  —— 合并之前：只读校验，不构建、不部署、不接触任何 secret
+#
+# 注意（承接 docs.yml 顶部那条说明）：
+#   pull_request 事件检出的是 PR 的内容，跑的脚本也来自 PR 分支，
+#   即「PR 里的代码会在本机 Runner 上执行」。本工作流刻意保持最小面：
+#   persist-credentials: false、不注入任何 secret、不做 npm install，
+#   只执行仓库内的 read-only 检查脚本。
+#   若将来接受外部贡献且不信任其 PR 内容，需要把这类检查迁出去跑。
+name: pr-check
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'docs/**'
+      - 'docusaurus.config.js'
+      - 'sidebars/**'
+      - 'scripts/check-slug.mjs'
+      - '.forgejo/workflows/pr-check.yml'
+
+# 同一 PR 的新推送自动取消旧的检查
+concurrency:
+  group: pr-check-${{ forgejo.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ------------------------------------------------------------------
+  # 门禁：同一 docs 实例内的 URL slug 不得重复
+  #
+  # 为什么需要单独一步：Docusaurus 遇到重复路由只在 build 日志里打
+  # WARNING（Duplicate routes found!），构建照样成功、流水线照样绿，
+  # 上线后表现为页面被后加载的那篇覆盖、链接随机跳错。
+  # 这条检查把问题挡在合并之前。
+  # ------------------------------------------------------------------
+  slug-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR
+        uses: https://data.forgejo.org/actions/checkout@v6 # TODO: pin commit SHA
+        with:
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: https://data.forgejo.org/actions/setup-node@v4 # TODO: pin commit SHA
+        with:
+          node-version: '20'
+
+      # 脚本零依赖（只用 Node 内置模块），无需 npm ci
+      - name: Check duplicate doc slugs per instance
+        run: node scripts/check-slug.mjs

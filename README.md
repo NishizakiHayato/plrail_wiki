@@ -35,6 +35,7 @@ npm run serve   # 本地检查生产构建，默认 http://localhost:3000/
 
 ```bash
 npm run check-i18n   # 校验译文完整性（CI 门禁）
+npm run check-slug   # 校验同一实例内的 URL slug 是否重复（PR 门禁）
 ```
 
 ## 目录结构
@@ -140,6 +141,39 @@ scripts/       维护脚本
 - 在正文里提到组件名时要用反引号（`` `<Collapse>` ``），直接写会被当成真实标签去渲染。
 - 表格单元格里同样要用反引号包裹 `<Collapse` 这类内容。
 
+### slug 重复检查（PR 门禁）
+
+每篇文档的最终 URL（permalink）必须在**同一个实例内唯一**。两条相同的路由会让
+后加载的那篇覆盖先加载的，表现为页面丢失、导航随机跳错。注意 `npm run build` 对
+这种情况**只打 WARNING（`Duplicate routes found!`）、不会让构建失败**，所以单独设了
+一道检查：
+
+```bash
+npm run check-slug     # 有重复就退出码 1
+INSTANCES="simrail" npm run check-slug   # 只查某个实例
+```
+
+检查脚本是 `scripts/check-slug.mjs`（零依赖，只用 Node 内置模块），按 Docusaurus 的
+规则复算每篇文档的路由：`docs/<游戏>/` 下每个顶层目录算一个实例，考虑 frontmatter 的
+`slug`（`/` 开头为相对实例根，否则相对所在目录）、`id`、文件名数字前缀
+（`02-faq.md` 与 `faq.md` 撞车）、`index` / `README` / 与目录同名的首页文件；
+`_` 开头的文件与目录、`__tests__/`、`*.test.*` 按 partial 跳过。
+
+常见修法：给其中一篇加唯一 slug，或合并 / 删除重复文档。
+
+```md
+---
+slug: /faq/install
+---
+```
+
+流水线分工：
+
+| 工作流 | 触发 | 作用 |
+| --- | --- | --- |
+| `.forgejo/workflows/pr-check.yml` | PR 到 `main`（opened / synchronize / reopened） | 跑 `check-slug`，失败则 PR 检查不通过、不能合并 |
+| `.forgejo/workflows/docs.yml` | push 到 `main` | 译文检查 → slug 检查（兜底）→ 构建 → FTP 部署 |
+
 ### 多语言：英文目前是占位 / 预留
 
 站点已配好 i18n（`i18n.defaultLocale` 为 `zh-Hans`，附加 `en`），但**现阶段英文不是必须交付的内容**，只作占位与预留。每个游戏实例有各自的译文目录：
@@ -174,7 +208,9 @@ STRICT_I18N=1 npm run check-i18n    # 缺失译文视为失败（英文转正后
 
 ## 部署
 
-推送到 `main` 后由 `.forgejo/workflows/docs.yml` 自动完成：译文检查 → `npm run build` → **FTP 上传**到 `https://wiki.plrail.com/`。
+提交 PR 后 `.forgejo/workflows/pr-check.yml` 会先跑只读的 slug 重复检查；通过后，
+推送 / 合并到 `main` 再由 `.forgejo/workflows/docs.yml` 完成：译文检查 → slug 检查 →
+`npm run build` → **FTP 上传**到 `https://wiki.plrail.com/`。
 
 需要在仓库 **Settings → Actions → Secrets and variables** 里配置：
 
@@ -228,7 +264,7 @@ git lfs install
 
 ```bash
 git lfs ls-files                                   # 被 LFS 跟踪的文件
-git check-attr filter -- static/img/docusaurus.png # 应输出：filter: lfs
+git check-attr filter -- static/img/logo.png        # 应输出：filter: lfs
 ```
 
 注意事项：

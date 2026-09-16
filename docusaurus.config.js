@@ -148,11 +148,13 @@ const config = {
             position: 'left',
             label: game.label,
           })),
-          // 语言切换
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+          // 语言切换（暂时屏蔽：英文译文尚未就绪，先不暴露入口。
+          //   i18n.locales 保持不变，/en/ 路由与 i18n 目录不受影响；
+          //   恢复时只需解除下面这段注释）
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
