@@ -33,7 +33,9 @@ const MEILI_HOST = process.env.MEILI_HOST || '';
 const MEILI_SEARCH_KEY = process.env.MEILI_SEARCH_KEY || '';
 const MEILI_INDEX = process.env.MEILI_INDEX || 'wiki_docs';
 const MEILI_ENDPOINT = process.env.MEILI_ENDPOINT || '';
-const MEILI_ENABLED = Boolean(MEILI_HOST || MEILI_ENDPOINT);
+// 启用条件必须与 src/theme/SearchBar/index.js 的判断保持一致：
+// 三者不同步会导致「本地搜索插件被跳过，Meilisearch 又没启用」，搜索框直接消失。
+const MEILI_ENABLED = Boolean(MEILI_ENDPOINT || (MEILI_HOST && MEILI_SEARCH_KEY));
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
