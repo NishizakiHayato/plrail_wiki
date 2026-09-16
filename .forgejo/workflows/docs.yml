@@ -12,6 +12,7 @@ on:
   # 只在「合并进 main」之后运行：PR 合并本身就会在 main 上产生一次 push 事件。
   # 不再监听 pull_request —— 既避免外部 PR 的内容直接在本机 Runner 上执行，
   # 也避免 PR 阶段占用 Runner 与构建资源。
+  # PR 阶段需要的轻量门禁放在 .forgejo/workflows/pr-check.yml（只读、不构建、无 secret）。
   push:
     branches: [main]
     paths:
@@ -56,10 +57,36 @@ jobs:
         run: bash scripts/check-i18n.sh
 
   # ------------------------------------------------------------------
+  # 门禁：同一 docs 实例内的 URL slug 不得重复
+  #
+  # PR 阶段由 .forgejo/workflows/pr-check.yml 拦截（重复就拒绝合并）；
+  # 这里再跑一次作为兜底：直接推 main、或绕过 PR 检查的改动仍会被挡住。
+  #
+  # 单独设这道门禁的原因：重复路由在 docusaurus build 里只是 WARNING，
+  # 构建不会失败，必须显式检查。
+  # ------------------------------------------------------------------
+  slug-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: https://data.forgejo.org/actions/checkout@v6 # TODO: pin commit SHA
+        with:
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: https://data.forgejo.org/actions/setup-node@v4 # TODO: pin commit SHA
+        with:
+          node-version: '20'
+
+      # 脚本零依赖（只用 Node 内置模块），无需 npm ci
+      - name: Check duplicate doc slugs per instance
+        run: node scripts/check-slug.mjs
+
+  # ------------------------------------------------------------------
   # 构建：安装依赖 → docusaurus build → 上传产物
   # ------------------------------------------------------------------
   build:
-    needs: [i18n-check]
+    needs: [i18n-check, slug-check]
     runs-on: ubuntu-latest
     steps:
       # 下一步的匿名 git lfs 需要 git-lfs 可执行文件，镜像没带时先装上
