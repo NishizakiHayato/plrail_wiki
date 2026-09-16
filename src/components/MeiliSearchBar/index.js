@@ -1,6 +1,7 @@
 import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {useHistory} from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import clsx from 'clsx';
 import styles from './styles.module.css';
 
 /**
@@ -10,6 +11,8 @@ import styles from './styles.module.css';
 export default function MeiliSearchBar(props) {
   const {siteConfig} = useDocusaurusContext();
   const cfg = props?.host ? props : siteConfig.customFields?.meilisearch || {};
+  // 由调用方（移动端搜索面板）传入，用于撑满面板宽度
+  const {className} = props || {};
   const host = (cfg.host || '').replace(/\/$/, '');
   const searchKey = cfg.searchKey || '';
   const indexUid = cfg.indexUid || 'wiki_docs';
@@ -137,7 +140,7 @@ export default function MeiliSearchBar(props) {
   if (!enabled) return null;
 
   return (
-    <div className={styles.box} ref={boxRef}>
+    <div className={clsx(styles.box, className)} ref={boxRef}>
       <input
         ref={inputRef}
         type="search"
