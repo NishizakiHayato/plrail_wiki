@@ -1,0 +1,86 @@
+/* 移动端搜索：图标 + 点击展开的置顶面板 */
+
+.mobile {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: var(--ifm-global-radius);
+  background: none;
+  color: var(--ifm-navbar-link-color);
+  cursor: pointer;
+}
+
+.toggle:hover {
+  background: var(--ifm-hover-overlay);
+  color: var(--ifm-navbar-link-hover-color);
+}
+
+/* 覆盖整屏：面板在顶部，其余是点击即关的遮罩 */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 400; /* 高于导航栏（Infima 为 200） */
+}
+
+.backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.panel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--ifm-navbar-background-color);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.close {
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: var(--ifm-global-radius);
+  background: none;
+  color: var(--ifm-navbar-link-color);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.close:hover {
+  background: var(--ifm-hover-overlay);
+  color: var(--ifm-navbar-link-hover-color);
+}
+
+/* 面板内的搜索框撑满宽度：
+   两个后端的输入框宽度都写在各自的样式里，这里统一覆盖（选择器权重更高），
+   不依赖它们的类名（本地插件用 .navbar__search-input，Meili 用 CSS Module 哈希类）。 */
+.inner {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.inner :global(.navbar__search) {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.inner input {
+  width: 100%;
+}
