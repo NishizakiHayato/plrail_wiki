@@ -99,7 +99,18 @@
 }
 
 @media (max-width: 996px) {
+  .box {
+    min-width: 0;
+  }
+
+  /* 与本地搜索框一致的收窄策略：按视口自适应，不让搜索框挤掉站点名称 */
   .input {
-    width: 140px;
+    width: min(140px, 40vw);
+    padding-right: 10px;
+  }
+
+  /* 触屏设备按不出 ⌘K / Ctrl+K，这个提示只是占位，窄屏直接去掉 */
+  .hint {
+    display: none;
   }
 }

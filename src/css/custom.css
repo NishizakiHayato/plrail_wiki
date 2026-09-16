@@ -169,3 +169,49 @@ html[data-theme='dark'] .navbar__logo {
   border-radius: 8px;
   box-shadow: 0 0 0 3px #fff;
 }
+
+/* ============ 移动端导航栏：搜索框不再遮挡站点名称 ============ */
+/* 成因：Infima 允许 .navbar__brand 被压缩（min-width: 0），但站点名称没有裁剪，
+   文字会溢出品牌区，被右侧带底色的搜索框压在下面（视觉上就是「挡住网站名称」）。
+   这里让品牌区可伸缩 + 省略号，右侧搜索区只占自身宽度，两者不再抢同一块空间。 */
+@media (max-width: 996px) {
+  .navbar__inner {
+    flex-wrap: nowrap;
+  }
+
+  .navbar__brand {
+    flex: 0 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    margin-right: 0.25rem;
+  }
+
+  .navbar__logo {
+    flex: 0 0 auto;
+  }
+
+  .navbar__title {
+    flex: 0 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* 右侧分组不再 flex-grow，剩余空间留给站点名称 */
+  .navbar__items--right {
+    flex: 0 0 auto;
+    margin-left: auto;
+  }
+
+  /* 本地离线索引（@easyops-cn/docusaurus-search-local）：
+     Infima 默认 9rem，在 320~360px 屏上仍会把名称挤没，按视口再收一档。
+     只收输入框本身，容器不加 max-width，避免连带压窄搜索建议浮层。 */
+  .navbar__search {
+    min-width: 0;
+  }
+
+  .navbar__search-input {
+    width: min(9rem, 40vw);
+  }
+}
