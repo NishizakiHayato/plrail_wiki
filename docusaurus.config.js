@@ -45,8 +45,10 @@ const config = {
   url: 'https://wiki.plrail.com',
   baseUrl: '/', // 部署在域名根路径
   favicon: 'img/favicon.ico',
-  // 显式声明，避免不同托管商对尾斜杠处理不一致（参考 slorber/trailing-slash-guide）
-  trailingSlash: false,
+  // 生成「目录式」产物：<route>/index.html（而非 <route>.html 扁平文件）。
+  // 多数 Web 服务器（Nginx 目录索引 / 虚拟主机面板）只认目录里的 index.html，
+  // 扁平的 xxx.html 无法被无扩展名 URL 命中，直链会兜底到首页 index.html。
+  trailingSlash: true,
 
   // ------------------------------------------------------------------
   // 多语言：默认中文；英文目前仅占位 / 预留
