@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 6
 title: ETCS简介
-description: SimRail 中的 ETCS（欧洲列车控制系统）简介
+description: 本文系统介绍 SimRail（模拟铁路）游戏内的 ETCS（欧洲列车控制系统）。内容涵盖 ETCS 的定义与组成、ETCS 级别（级别0、NTC、级别1、级别2）及其数据传递方式、各类操作模式（IS、SF、SL、SB、SH、FS、SR、OS、TR、PT）的含义，并详细说明司机人机界面（DMI）的各分区功能、系统启动流程、系统干预与制动、DMI 菜单以及设备开关位置等实用操作知识。
 keywords: [SimRail, ETCS, ERTMS]
 tags: [SimRail, ETCS]
-slug: /general/ETCS
+slug: /general/etcs
 ---
 
 :::warning
