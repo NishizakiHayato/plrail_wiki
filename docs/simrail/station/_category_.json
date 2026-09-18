@@ -1,0 +1,10 @@
+{
+  "label": "车站",
+  "position": 5,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "SimRail车站信息",
+    "slug": "/station"
+  }
+}

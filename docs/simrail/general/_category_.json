@@ -1,7 +1,7 @@
 {
   "label": "通用信息",
   "position": 2,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
     "description": "SimRail 通用知识",
