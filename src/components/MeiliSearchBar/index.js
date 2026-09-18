@@ -1,5 +1,6 @@
 import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {useHistory} from '@docusaurus/router';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import clsx from 'clsx';
 import styles from './styles.module.css';
@@ -22,6 +23,8 @@ export default function MeiliSearchBar(props) {
   const endpoint = (cfg.endpoint || '').replace(/\/$/, '');
 
   const history = useHistory();
+  // 独立搜索结果页（/search/）：下拉框只出前 8 条，「查看全部结果」跳到那里
+  const searchPagePath = useBaseUrl('/search/');
   const [query, setQuery] = useState('');
   const [hits, setHits] = useState([]);
   const [active, setActive] = useState(0);
@@ -117,9 +120,24 @@ export default function MeiliSearchBar(props) {
     [history],
   );
 
+  /** 跳转到独立搜索结果页（保留关键词，URL 可分享） */
+  const goSearchPage = useCallback(() => {
+    const keyword = query.trim();
+    if (!keyword) return;
+    setOpen(false);
+    history.push(`${searchPagePath}?q=${encodeURIComponent(keyword)}`);
+  }, [history, query, searchPagePath]);
+
   const onKeyDown = (e) => {
     if (e.key === 'Escape') return setOpen(false);
-    if (!hits.length) return;
+    if (!hits.length) {
+      // 没有候选结果时，回车直接进结果页，避免「越搜越空」的死胡同
+      if (e.key === 'Enter' && query.trim()) {
+        e.preventDefault();
+        goSearchPage();
+      }
+      return;
+    }
     if (e.key === 'ArrowDown') {
       e.preventDefault();
       setActive((i) => (i + 1) % hits.length);
@@ -181,6 +199,16 @@ export default function MeiliSearchBar(props) {
               <div className={styles.hitPath}>{hit.breadcrumb || hit.url}</div>
             </button>
           ))}
+          {!error && hits.length > 0 && (
+            // onMouseDown 阻断失焦，避免「点下去先关闭下拉、click 落空」
+            <button
+              type="button"
+              className={styles.dropdownFooter}
+              onMouseDown={(e) => e.preventDefault()}
+              onClick={goSearchPage}>
+              查看全部结果 →
+            </button>
+          )}
         </div>
       )}
     </div>

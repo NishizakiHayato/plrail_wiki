@@ -37,6 +37,29 @@ const MEILI_ENDPOINT = process.env.MEILI_ENDPOINT || '';
 // 三者不同步会导致「本地搜索插件被跳过，Meilisearch 又没启用」，搜索框直接消失。
 const MEILI_ENABLED = Boolean(MEILI_ENDPOINT || (MEILI_HOST && MEILI_SEARCH_KEY));
 
+// ------------------------------------------------------------------
+// 独立搜索结果页路由：/search/?q=…&page=2
+//
+// 为什么不放在 src/pages/search.js：
+//   本地搜索插件（@easyops-cn/docusaurus-search-local）自带一个 /search/ 路由，
+//   两者同时存在会触发 Docusaurus 的「Duplicate routes」警告，且最终命中哪个
+//   页面不确定。所以按后端二选一注册：
+//     Meilisearch 模式 → 本插件注册 /search/，指向 SearchPage 组件；
+//     本地索引模式   → 不注册，继续用本地搜索插件自带的结果页。
+// ------------------------------------------------------------------
+function meiliSearchPagePlugin() {
+  return {
+    name: 'meili-search-page',
+    contentLoaded({actions: {addRoute}}) {
+      addRoute({
+        path: '/search/', // 与 baseUrl 一致；本站部署在根路径
+        component: require.resolve('./src/components/SearchPage/index.js'),
+        exact: true,
+      });
+    },
+  };
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '波兰铁路游戏知识库',
@@ -77,19 +100,22 @@ const config = {
     ],
   ],
 
-  // 每个游戏一个 docs 插件实例
-  plugins: games.map((game) => [
-    '@docusaurus/plugin-content-docs',
-    /** @type {import('@docusaurus/plugin-content-docs').Options} */
-    ({
-      id: game.id,
-      path: `docs/${game.id}`,
-      routeBasePath: game.id,
-      sidebarPath: `./sidebars/${game.id}.js`,
-      editUrl: EDIT_URL,
-      editLocalizedFiles: true, // 「编辑此页」指向 i18n 译文，方便译者提 PR
-    }),
-  ]),
+  // 每个游戏一个 docs 插件实例；已启用 Meilisearch 时再追加独立结果页路由
+  plugins: [
+    ...games.map((game) => [
+      '@docusaurus/plugin-content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        id: game.id,
+        path: `docs/${game.id}`,
+        routeBasePath: game.id,
+        sidebarPath: `./sidebars/${game.id}.js`,
+        editUrl: EDIT_URL,
+        editLocalizedFiles: true, // 「编辑此页」指向 i18n 译文，方便译者提 PR
+      }),
+    ]),
+    ...(MEILI_ENABLED ? [meiliSearchPagePlugin] : []),
+  ],
 
   // ------------------------------------------------------------------
   // 全文搜索
