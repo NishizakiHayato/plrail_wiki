@@ -158,6 +158,18 @@
     "message": "warning",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
+  "theme.admonition.secondary": {
+    "message": "secondary",
+    "description": "The default label used for the Secondary admonition (:::secondary)"
+  },
+  "theme.admonition.important": {
+    "message": "important",
+    "description": "The default label used for the Important admonition (:::important)"
+  },
+  "theme.admonition.success": {
+    "message": "success",
+    "description": "The default label used for the Success admonition (:::success)"
+  },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "Close",
     "description": "The ARIA label for close button of announcement bar"

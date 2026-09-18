@@ -204,3 +204,79 @@ html[data-theme='dark'] .navbar__logo {
     margin-left: auto;
   }
 }
+
+/* ============ 正文内可折叠 <details> 面板 ============ */
+/* 背景：Docusaurus 的 MDXComponents 会把 HTML 的 <details> 替换成内置主题组件
+   @docusaurus/theme-classic/theme/Details，而该组件里硬编码了
+     const InfimaClasses = 'alert alert--info';
+   于是每个 <details> 都被套上 info 提示框的蓝底 + 左侧蓝边。
+   这里把折叠面板还原成中性面板，而不是蓝色提示框。
+
+   选择器为什么是 details.alert--info（而不是 .alert / .alert--info）：
+     · 详情度 (0,1,1) 高于 Infima 的 .alert--info (0,1,0)，可稳定覆盖变量；
+     · 「元素 + 类」限定只命中 <details>，而正文里的 :::info 渲染为
+       <div class="alert alert--info">，其蓝色提示语义不受影响。
+
+   另注：面板内容被 Docusaurus 包了两层 div（Collapsible 外层 + 带哈希类名的
+   .collapsibleContent 内层），类名经 CSS Modules 哈希后不可直接书写，
+   因此内容区用结构选择器 > div > div 定位。 */
+details.alert--info {
+  /* 覆盖 Infima .alert 读取的配色变量 */
+  --ifm-alert-background-color: var(--ifm-background-surface-color);
+  --ifm-alert-background-color-highlight: var(--ifm-color-emphasis-100);
+  --ifm-alert-foreground-color: var(--ifm-font-color-base);
+  --ifm-alert-border-color: var(--ifm-color-emphasis-300);
+  --ifm-alert-border-radius: 8px;
+  --ifm-alert-shadow: none;
+  /* 折叠三角箭头：theme-classic 默认把 --docusaurus-details-decoration-color
+     绑到 --ifm-alert-border-color，跟了浅灰边框色会太淡。
+     这里改用与 Collapse 组件 chevron 相同的次级文字色，亮 / 暗色下都清晰。 */
+  --docusaurus-details-decoration-color: var(--ifm-color-content-secondary);
+
+  /* .alert 会顺带把面板内的链接与行内代码改成提示框配色，这里还原为正文默认。
+     取值与上方亮色主题里的 --ifm-link-color / --ifm-link-hover-color 保持一致。 */
+  --ifm-link-color: var(--ifm-color-primary-dark);
+  --ifm-link-hover-color: var(--ifm-color-primary-light);
+  --ifm-link-decoration: none;
+  --ifm-code-background: var(--ifm-color-emphasis-100);
+
+  /* 四边等宽细边框，抹掉 alert 的左侧粗色条 */
+  border-width: 1px;
+  border-style: solid;
+  border-left-width: 1px;
+  box-shadow: none;
+  padding: 0; /* 内边距改由标题栏 / 内容区各自提供 */
+  overflow: hidden; /* 防止内层底色越出圆角 */
+}
+
+/* 暗色主题下链接取提亮后的蓝色，与 html[data-theme='dark'] 中的取值一致 */
+html[data-theme='dark'] details.alert--info {
+  --ifm-link-color: var(--ifm-color-primary-lighter);
+  --ifm-link-hover-color: var(--ifm-color-primary-light);
+}
+
+/* 标题栏：浅灰横条；左内边距为原生三角箭头留位 */
+details.alert--info > summary {
+  padding: 0.7rem 1rem 0.7rem 1.8rem;
+  background-color: var(--ifm-color-emphasis-100);
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+details.alert--info > summary:hover {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+/* 三角箭头垂直居中：只改 top / margin，
+   保留主题用来做展开动画的 transform（旋转）与 transform-origin。 */
+details.alert--info > summary::before {
+  top: 50%;
+  margin-top: calc(var(--docusaurus-details-summary-arrow-size) * -1);
+}
+
+/* 内容区：收起时外层被 display:none 隐藏，因此这条分隔线只在展开后可见 */
+details.alert--info > div > div {
+  margin-top: 0;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  padding: 0.9rem 1rem;
+}
