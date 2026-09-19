@@ -17,7 +17,7 @@ slug: /station/station_info/katowice_zawodzie
 
 ![卡托维兹 扎沃杰站位置示意二](/img/simrail/station/station_info/katowice_zawodzie/location-2.webp)
 
-卡托维兹 扎沃杰（Katowice Zawodzie）是卡托维兹（Katowice）的相邻车站，负责分流开往扎维尔切（Zawiercie）或克拉科夫（Kraków）的列车。有两条线路穿过该站，分别是 LK1 和 LK138，它们都来自卡托维兹。LK1 线通往索斯诺维茨总站（Sosnowiec Główny）（通向扎维尔切），LK138 线则通往萨贝尔尼亚（Szabelnia）（通向梅斯沃维采 → 克拉科夫）。
+卡托维兹 扎沃杰（Katowice Zawodzie）是卡托维兹（Katowice）的相邻车站，负责分流开往扎维尔切（Zawiercie）或克拉科夫（Kraków）的列车。有两条线路穿过该站，分别是 LK1 和 LK138，它们都来自卡托维兹。LK1 线通往索斯诺维茨总站（Sosnowiec Główny）（通向扎维尔切），LK138 线则往萨贝尔尼亚（Szabelnia）,经由梅斯沃维采，通往克拉科夫）。
 
 ## 描述
 
