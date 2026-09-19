@@ -164,3 +164,9 @@ CCTV名称：ŁA_10.814
 | --- | --- |
 | R5 | LK25（去往罗兹 奥莱胡夫） |
 | R7 | LK17/LK25（去往扎科维采南） |
+
+::::::info
+
+本文在[LCS Gałkówek的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/Ga%C5%82k%C3%B3wek)的基础上，翻译和修改而成。
+
+::::::

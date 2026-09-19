@@ -139,3 +139,9 @@ CCTV名称：SEM_O-P
 - 若开放进路 P→D，信号机 P 将显示 40km/h 限速。当开放进路 D→C2 时，P 处将显示最高速度（Vmax），但 D 信号机仍指示 40km/h 限速。若设定线路 C2→Bkps，出站信号将显示最高速度（Vmax）。
 - 本站管辖范围内有两处铁路道口需人工操控（通过“ZAMK”指令关闭）
 - 部分进路存在溜逸风险，例如：当 2 道占用时，禁止设定 P→D 进路。
+
+::::::info
+
+本文在[Dąbrowa Górnicza的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/D%C4%85browa-G%C3%B3rnicza)的基础上，翻译和修改而成。
+
+::::::

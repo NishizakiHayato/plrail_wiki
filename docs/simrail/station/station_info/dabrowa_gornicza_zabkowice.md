@@ -183,3 +183,9 @@ CCTV名称：POST_DZA
 | --- | --- |
 | R2 | LK1 LK160 LK186 |
 | R3 | LK133 |
+
+::::::info
+
+本文在[Dąbrowa Górnicza Ząbkowice的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/D%C4%85browa-G%C3%B3rnicza-Z%C4%85bkowice)的基础上，翻译和修改而成。
+
+::::::

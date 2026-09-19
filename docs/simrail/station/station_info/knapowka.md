@@ -77,3 +77,9 @@ slug: /station/station_info/knapowka
 | 频道 | 线路 |
 | --- | --- |
 | R1 | LK4 |
+
+::::::info
+
+本文在[Knapówka的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/Knap%C3%B3wka)的基础上，翻译和修改而成。
+
+::::::

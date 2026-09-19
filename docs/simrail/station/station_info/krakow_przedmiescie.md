@@ -73,3 +73,9 @@ slug: /station/station_info/krakow_przedmiescie
 **当克拉科夫总站（Kraków Główny KGB）的“WY”三角型信号状态中继器点亮时，这代表 KGB 已经开放了对应轨道的出站信号，请在此时为对应的列车办理进路，而非列车进入区间之后。**
 
 :::::
+
+::::::info
+
+本文在[Kraków Przedmieście的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/Krak%C3%B3w-Przedmie%C5%9Bcie)的基础上，翻译和修改而成。
+
+::::::

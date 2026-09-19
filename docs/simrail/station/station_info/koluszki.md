@@ -242,3 +242,9 @@ CCTV名称：SEM_A_B
 ### 特别事项
 
 该信号楼有两个控制屏幕，可以单独访问。
+
+::::::info
+
+本文在[Koluszki的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/Koluszki)的基础上，翻译和修改而成。
+
+::::::

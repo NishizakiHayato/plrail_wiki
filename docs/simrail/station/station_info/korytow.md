@@ -120,3 +120,9 @@ CCTV名称：SEM_A-B
 **像[伏沃多维采乡 古拉（Góra Włodowska）](./gora_wlodowska.md)一样，2 道和 4 道无法开往谢利基（Szeligi）方向的 1S 轨道。**
 
 :::::
+
+::::::info
+
+本文在[Korytów的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/Koryt%C3%B3w)的基础上，翻译和修改而成。
+
+::::::

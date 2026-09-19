@@ -92,3 +92,9 @@ CCTV名称：DGHK_2.724
 - 当向栋布罗瓦-古尔尼恰 斯特热梅希采（Dąbrowa Górnicza Strzemieszyce）设置接发车进路时，切勿忘记通过闭路电视监控（CCTV）关闭道口。
 - 目前没有前往栋布罗瓦-古尔尼恰 斯特热梅希采（Dąbrowa Górnicza Strzemieszyce）的列车，仅有来自该方向的列车。
 - 控制面板右上侧的部分已不存在，您可通过标识或未点亮的信号灯确认这一情况。
+
+::::::info
+
+本文在[Dąbrowa Górnicza Huta Katowice的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/D%C4%85browa-G%C3%B3rnicza-Huta-Katowice)的基础上，翻译和修改而成。
+
+::::::

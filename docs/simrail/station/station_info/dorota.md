@@ -78,3 +78,9 @@ slug: /station/station_info/dorota
 - 目前，通往索斯诺维茨 延佐尔（Sosnowiec Jęzor）的线路仍然关闭，无法使用。
 - 由于列车从闭塞信号机处起将低速运行，导致往返尤利乌什（Juliusz）的闭塞分区被长时间占用。
 - 此外，轨道占用状态（即轨道是被占用还是空闲）不会在控制台上显示。一旦列车完全进入区间，就必须立即使用“KO”键进行确认，才能再次解除闭塞。
+
+::::::info
+
+本文在[Dorota的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/Dorota)的基础上，翻译和修改而成。
+
+::::::

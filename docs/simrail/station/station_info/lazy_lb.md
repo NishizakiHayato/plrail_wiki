@@ -124,3 +124,9 @@ CCTV名称：SEM_Q123-Q125
 | 频道 | 线路 |
 | --- | --- |
 | R2 | LK1 LK154 LK160 LK186 |
+
+::::::info
+
+本文在[Łazy的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/%C5%81azy-%C5%81b)的基础上，翻译和修改而成。
+
+::::::

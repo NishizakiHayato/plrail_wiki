@@ -173,3 +173,9 @@ CCTV名称：SEM_DM_P
 | 频道 | 线路 |
 | --- | --- |
 | R1 | LK 15 |
+
+::::::info
+
+本文在[LCS Głowno的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/LCS-G%C5%82owno)的基础上，翻译和修改而成。
+
+::::::

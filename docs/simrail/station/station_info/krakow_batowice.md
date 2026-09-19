@@ -114,3 +114,9 @@ CCTV名称：POST_SKP
 但可以通过使用**允许列车通过停车信号机**的方式来允许列车越过显示停止的信号机。
 
 :::::
+
+::::::info
+
+本文在[Kraków Batowice的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/Krak%C3%B3w-Batowice)的基础上，翻译和修改而成。
+
+::::::

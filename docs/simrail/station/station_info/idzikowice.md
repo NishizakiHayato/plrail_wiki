@@ -100,3 +100,9 @@ CCTV名称：L4_82.192_A
 | 频道 | 线路 |
 | --- | --- |
 | R1 | LK4/LK573/LK574 |
+
+::::::info
+
+本文在[Idzikowice的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/Idzikowice)的基础上，翻译和修改而成。
+
+::::::

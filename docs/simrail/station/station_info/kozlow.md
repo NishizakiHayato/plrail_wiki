@@ -132,3 +132,9 @@ LK64 线往斯布罗瓦（Sprowa）方向直到斯塔日内（Starzyny）是全 
 **因此如果计划进行非常用方向行车（左道行车）必须认真查看 EDR，确保不会阻碍反向的列车运行，尤其是当计划进行非常用方向行车的列车具有较低的 Vmax 速度时。**
 
 :::::
+
+::::::info
+
+本文在[Kozłów的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/Koz%C5%82%C3%B3w)的基础上，翻译和修改而成。
+
+::::::

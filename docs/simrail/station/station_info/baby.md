@@ -140,3 +140,9 @@ CCTV名称：SEM_S-T
 | 频道 | 线路 |
 | --- | --- |
 | R2 | LK1 |
+
+::::::info
+
+本文在[Baby的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/Baby)的基础上，翻译和修改而成。
+
+::::::

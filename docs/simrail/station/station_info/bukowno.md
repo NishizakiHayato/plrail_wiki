@@ -141,3 +141,9 @@ CCTV名称：POST_BO11
 - 股道3、5、6和11已关闭。你无法在那里转动道岔，且轨道上设有D1(停车)标志。
 - 顶部还可以控制LHS线路，但这是一条宽轨线路，SimRail中该线路上没有列车运行。
 - 左下角有通往博罗瓦丘（Borowa Górka）和亚沃日诺-什恰科瓦（Jaworzno Szczakowa）的路线，白天每小时大约有一班列车行驶。
+
+::::::info
+
+本文在[Bukowno的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/Bukowno)的基础上，翻译和修改而成。
+
+::::::

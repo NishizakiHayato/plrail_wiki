@@ -140,3 +140,9 @@ CCTV名称：SEM_A1_B1_B2
 对于从卡托维兹方向进入 2 道的进路，必须先关闭道口，然后才能设置。
 
 :::::
+
+::::::info
+
+本文在[Katowice Zawodzie的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/Katowice-Zawodzie)的基础上，翻译和修改而成。
+
+::::::

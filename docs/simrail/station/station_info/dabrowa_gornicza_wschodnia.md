@@ -125,3 +125,9 @@ CCTV名称：PLATFORMS
 **不要使用通往栋布罗瓦-古尔尼恰 斯特热梅希采（Dąbrowa Górnicza Strzemieszyce）的左侧轨道，否则你将无法恢复联锁装置。**
 
 :::::
+
+::::::info
+
+本文在[Dąbrowa Górnicza Wschodnia的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/D%C4%85browa-G%C3%B3rnicza-Wschodnia)的基础上，翻译和修改而成。
+
+::::::

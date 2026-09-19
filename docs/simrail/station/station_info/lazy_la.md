@@ -184,3 +184,9 @@ CCTV名称：SEM_B_C1_C2_D3
 4号及106至122号轨道已封锁，禁止使用。
 
 :::::
+
+::::::info
+
+本文在[Łazy Ła的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/%C5%81azy-%C5%81a)的基础上，翻译和修改而成。
+
+::::::

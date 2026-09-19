@@ -87,3 +87,9 @@ CCTV名称：SEM_C-D-E-F
 | --- | --- |
 | R5 | LK14 |
 | R6 | LK542/LK543 |
+
+::::::info
+
+本文在[Gajewniki的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/Gajewniki)的基础上，翻译和修改而成。
+
+::::::

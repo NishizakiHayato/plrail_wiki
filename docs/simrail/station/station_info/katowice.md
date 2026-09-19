@@ -170,3 +170,9 @@ CCTV名称：SEM_T
 **从卡托维兹开往 Katowice Brynów 的列车可以经由 LK656 线路立体疏解，该线路按照单线半自动闭塞办理。**
 
 :::::
+
+::::::info
+
+本文在[Katowice的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/Katowice)的基础上，翻译和修改而成。
+
+::::::

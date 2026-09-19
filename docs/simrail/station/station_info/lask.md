@@ -140,3 +140,9 @@ CCTV名称：L14_29.970_A
 | 频道 | 线路 |
 | --- | --- |
 | R5 | LK14 |
+
+::::::info
+
+本文在[Łask的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/%C5%81ask)的基础上，翻译和修改而成。
+
+::::::

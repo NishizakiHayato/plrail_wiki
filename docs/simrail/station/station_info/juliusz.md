@@ -87,3 +87,9 @@ slug: /station/station_info/juliusz
 **不要使用通往索斯诺维茨 丹杜夫卡（Sosnowiec Dańdówka）的左侧轨道，否则你将无法恢复联锁装置。**
 
 :::::
+
+::::::info
+
+本文在[Juliusz的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/Juliusz)的基础上，翻译和修改而成。
+
+::::::

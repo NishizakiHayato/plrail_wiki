@@ -111,3 +111,9 @@ CCTV名称：SEM_A-B
 伏沃多维采乡 古拉（Góra Włodowska）车站的西侧（也就是调度台的左侧部分）和常规咽喉相比缺少一组道岔。因此在右侧来车需要待避时，不推荐将列车安排在 2 道或 4 道停车，如果南行（往左边的）列车在 2 道或 4 道停车，那么将不得不向扎维尔切（Zawiercie）要求反向行车才能继续运行，这可能造成混乱与延误。
 
 :::::
+
+::::::info
+
+本文在[Góra Włodowska的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/G%C3%B3ra-W%C5%82odowska)的基础上，翻译和修改而成。
+
+::::::
