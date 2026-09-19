@@ -69,12 +69,12 @@ slug: /station/station_info/bedzin
 | 2 | 750m |
 | 4 | 594m |
 | 6 | 578m |
-| 8 无电区 | 502m |
-| 10 无电区 | 400m |
-| 12 无电区 | 350m |
-| 14 无电区 | 264m |
-| 16 无电区 | 185m |
-| 18 无电区 | 316m |
+| 8 <span style={{ color: 'red' }}>无电区</span> | 502m |
+| 10 <span style={{ color: 'red' }}>无电区</span> | 400m |
+| 12 <span style={{ color: 'red' }}>无电区</span> | 350m |
+| 14 <span style={{ color: 'red' }}>无电区</span> | 264m |
+| 16 <span style={{ color: 'red' }}>无电区</span> | 185m |
+| 18 <span style={{ color: 'red' }}>无电区</span> | 316m |
 
 </details>
 

@@ -19,7 +19,7 @@ slug: /station/station_info/bukowno
 
 布科夫诺（Bukowno）站位于斯瓦夫库夫（Sławków）和奥尔库什（Olkusz）之间，有十条股道，其中四条可为两个站台提供服务。只有通勤列车在此停靠。
 
-## 说明
+## 描述
 
 ::::info
 
@@ -67,26 +67,26 @@ slug: /station/station_info/bukowno
 | **D1** | 1 | 735m |
 | **F2** | 2 | 624m |
 | **D2** | 2 | 650m |
-| **F3** 已关闭 | 3 | 681m |
-| **D3** 已关闭 | 3 | 696m |
+| **F3** <span style={{ color: 'red' }}>已关闭</span> | 3 | 681m |
+| **D3** <span style={{ color: 'red' }}>已关闭</span> | 3 | 696m |
 | **F4** | 4 | 720m |
 | **D4** | 4 | 691m |
-| **F5** 已关闭 | 5 | 696m |
-| **D5** 已关闭 | 5 | 695m |
-| **F6** 已关闭 | 6 | 679m |
-| **D6** 已关闭 | 6 | 626m |
+| **F5** <span style={{ color: 'red' }}>已关闭</span> | 5 | 696m |
+| **D5** <span style={{ color: 'red' }}>已关闭</span> | 5 | 695m |
+| **F6** <span style={{ color: 'red' }}>已关闭</span> | 6 | 679m |
+| **D6** <span style={{ color: 'red' }}>已关闭</span> | 6 | 626m |
 | **F7** | 7 | 651m |
 | **D7** | 7 | 677m |
 | **F8** | 8 | 679m |
 | **D8** | 8 | 646m |
 | **F9** | 9 | 651m |
 | **D9** | 9 | 643m |
-| **F11** 已关闭 | 11 | 667m |
-| **D11** 已关闭 | 11 | 643m |
-| **Tm9** 非电化 | 21 | 230m |
-| **Tm1** 非电化 | 23 | 136m |
-| **Tm11** 非电化 | 25 | 80m |
-| **Tm51** 非电化 | 41 | 317m |
+| **F11** <span style={{ color: 'red' }}>已关闭</span> | 11 | 667m |
+| **D11** <span style={{ color: 'red' }}>已关闭</span> | 11 | 643m |
+| **Tm9** <span style={{ color: 'red' }}>非电化</span> | 21 | 230m |
+| **Tm1** <span style={{ color: 'red' }}>非电化</span> | 23 | 136m |
+| **Tm11** <span style={{ color: 'red' }}>非电化</span> | 25 | 80m |
+| **Tm51** <span style={{ color: 'red' }}>非电化</span> | 41 | 317m |
 | **R** **LHS** (宽轨轨道) | 201 | 984m |
 | **H** **LHS** (宽轨轨道) | 201 | 984m |
 | **S** **LHS** (宽轨轨道) | 203 | 984m |
