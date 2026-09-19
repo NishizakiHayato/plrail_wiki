@@ -113,3 +113,9 @@ CCTV名称：SEM_O_P
 | 频道 | 线路 |
 | --- | --- |
 | R4 | LK 11 |
+
+::::::info
+
+本文在[Bełchów的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Electronical-interlocking/Be%C5%82ch%C3%B3w)的基础上，翻译和修改而成。
+
+::::::

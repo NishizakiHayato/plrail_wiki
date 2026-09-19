@@ -170,6 +170,26 @@ html[data-theme='dark'] .navbar__logo {
   box-shadow: 0 0 0 3px #fff;
 }
 
+/* 兜底：<html data-theme> 不是 light / dark 时，logo 会被主题组件隐藏。
+   背景：navbar.logo 由 Docusaurus 的 ThemedComponent 渲染，其样式只有三条
+   （@docusaurus/theme-common/.../ThemedComponent/styles.module.css）：
+     .themedComponent                             { display: none }        ← 默认一律隐藏
+     [data-theme='light'] .themedComponent--light { display: initial }
+     [data-theme='dark']  .themedComponent--dark  { display: initial }
+   变体类名带 CSS Module 哈希（themedComponent--light_NVdE），普通 CSS 里写不出来，
+   所以这里改用 .navbar__logo img 定位。
+   而 data-theme 的值是不受校验的：Docusaurus 的内联脚本会把 localStorage.theme
+   或 ?docusaurus-theme= / ?docusaurus-data-theme= 的值**原样**写进该属性
+   （见 docusaurus-theme-classic/src/inlineScripts.ts）。一旦它既不是 light 也不是
+   dark（例如残留的 'system'），上面两条「放开」规则都不命中，图片就被默认态隐藏——
+   症状正是「站内其它一切正常，只有 logo 凭空消失」。
+   兜底策略：非 dark 时一律显示浅色版（此时站点配色本身就是浅色）。
+   限定 :first-child 是因为 SSR / hydration 阶段两张图会同时存在且浅色在前，
+   这样不会凭空多渲染出一个暗色 logo。 */
+html:not([data-theme='dark']) .navbar__logo img:first-child {
+  display: initial;
+}
+
 /* ============ 移动端导航栏：站点名称 ============ */
 /* 移动端搜索框已收成一个图标（见 src/theme/SearchBar），这里只做兜底：
    Infima 允许 .navbar__brand 被压缩（min-width: 0），而站点名称没有裁剪，

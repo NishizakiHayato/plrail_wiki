@@ -69,12 +69,12 @@ slug: /station/station_info/bedzin
 | 2 | 750m |
 | 4 | 594m |
 | 6 | 578m |
-| 8 无电区 | 502m |
-| 10 无电区 | 400m |
-| 12 无电区 | 350m |
-| 14 无电区 | 264m |
-| 16 无电区 | 185m |
-| 18 无电区 | 316m |
+| 8 <span style={{ color: 'red' }}>无电区</span> | 502m |
+| 10 <span style={{ color: 'red' }}>无电区</span> | 400m |
+| 12 <span style={{ color: 'red' }}>无电区</span> | 350m |
+| 14 <span style={{ color: 'red' }}>无电区</span> | 264m |
+| 16 <span style={{ color: 'red' }}>无电区</span> | 185m |
+| 18 <span style={{ color: 'red' }}>无电区</span> | 316m |
 
 </details>
 
@@ -127,3 +127,9 @@ CCTV名称：SEM_P-R-S
 - **设置通往栋布罗瓦-古尔尼恰（Dąbrowa Górnicza）的进路时，务必先开放C信号机或者D信号机——若未开放此信号机，任何从E组信号机经C或D的进路均无法建立，此为安全强制要求。**
 - 本站仅启用1道、2道、4道及6道，其余轨道因未架设接触网已封闭。其中8道与10道红光带常亮。
 - 通往索斯诺维茨总站（Sosnowiec Główny）方向存在第三条轨道，现已废弃，其历史走向原为索斯诺维茨波贡（Sosnowiec Pogoń），现仅能用于调车作业，相关道岔已被锁定。
+
+::::::info
+
+本文在[Będzin的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/B%C4%99dzin)的基础上，翻译和修改而成。
+
+::::::

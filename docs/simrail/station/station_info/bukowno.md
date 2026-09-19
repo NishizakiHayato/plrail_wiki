@@ -19,7 +19,7 @@ slug: /station/station_info/bukowno
 
 布科夫诺（Bukowno）站位于斯瓦夫库夫（Sławków）和奥尔库什（Olkusz）之间，有十条股道，其中四条可为两个站台提供服务。只有通勤列车在此停靠。
 
-## 说明
+## 描述
 
 ::::info
 
@@ -67,26 +67,26 @@ slug: /station/station_info/bukowno
 | **D1** | 1 | 735m |
 | **F2** | 2 | 624m |
 | **D2** | 2 | 650m |
-| **F3** 已关闭 | 3 | 681m |
-| **D3** 已关闭 | 3 | 696m |
+| **F3** <span style={{ color: 'red' }}>已关闭</span> | 3 | 681m |
+| **D3** <span style={{ color: 'red' }}>已关闭</span> | 3 | 696m |
 | **F4** | 4 | 720m |
 | **D4** | 4 | 691m |
-| **F5** 已关闭 | 5 | 696m |
-| **D5** 已关闭 | 5 | 695m |
-| **F6** 已关闭 | 6 | 679m |
-| **D6** 已关闭 | 6 | 626m |
+| **F5** <span style={{ color: 'red' }}>已关闭</span> | 5 | 696m |
+| **D5** <span style={{ color: 'red' }}>已关闭</span> | 5 | 695m |
+| **F6** <span style={{ color: 'red' }}>已关闭</span> | 6 | 679m |
+| **D6** <span style={{ color: 'red' }}>已关闭</span> | 6 | 626m |
 | **F7** | 7 | 651m |
 | **D7** | 7 | 677m |
 | **F8** | 8 | 679m |
 | **D8** | 8 | 646m |
 | **F9** | 9 | 651m |
 | **D9** | 9 | 643m |
-| **F11** 已关闭 | 11 | 667m |
-| **D11** 已关闭 | 11 | 643m |
-| **Tm9** 非电化 | 21 | 230m |
-| **Tm1** 非电化 | 23 | 136m |
-| **Tm11** 非电化 | 25 | 80m |
-| **Tm51** 非电化 | 41 | 317m |
+| **F11** <span style={{ color: 'red' }}>已关闭</span> | 11 | 667m |
+| **D11** <span style={{ color: 'red' }}>已关闭</span> | 11 | 643m |
+| **Tm9** <span style={{ color: 'red' }}>非电化</span> | 21 | 230m |
+| **Tm1** <span style={{ color: 'red' }}>非电化</span> | 23 | 136m |
+| **Tm11** <span style={{ color: 'red' }}>非电化</span> | 25 | 80m |
+| **Tm51** <span style={{ color: 'red' }}>非电化</span> | 41 | 317m |
 | **R** **LHS** (宽轨轨道) | 201 | 984m |
 | **H** **LHS** (宽轨轨道) | 201 | 984m |
 | **S** **LHS** (宽轨轨道) | 203 | 984m |
@@ -141,3 +141,9 @@ CCTV名称：POST_BO11
 - 股道3、5、6和11已关闭。你无法在那里转动道岔，且轨道上设有D1(停车)标志。
 - 顶部还可以控制LHS线路，但这是一条宽轨线路，SimRail中该线路上没有列车运行。
 - 左下角有通往博罗瓦丘（Borowa Górka）和亚沃日诺-什恰科瓦（Jaworzno Szczakowa）的路线，白天每小时大约有一班列车行驶。
+
+::::::info
+
+本文在[Bukowno的官方Wiki](https://wiki.simrail.eu/en/Stations/Poland/Relay-interlocking/Bukowno)的基础上，翻译和修改而成。
+
+::::::
