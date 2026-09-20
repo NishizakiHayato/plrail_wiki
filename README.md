@@ -1,8 +1,8 @@
 # 波兰铁路游戏知识库（文档站）
 
-基于 Docusaurus 3 的**多实例 × 多语言**文档站。
+基于 Docusaurus 3 的**多实例**文档站。
 
-内容按**游戏**分成 5 个互相独立的 docs 实例，每个实例有自己的源目录、路由前缀、侧边栏与 i18n 目录：
+内容按**游戏**分成 5 个互相独立的 docs 实例，每个实例有自己的源目录、路由前缀与侧边栏：
 
 | 游戏 | 源目录 | 路由前缀 | 插件实例 id |
 | --- | --- | --- | --- |
@@ -34,8 +34,8 @@ npm run serve   # 本地检查生产构建，默认 http://localhost:3000/
 其它：
 
 ```bash
-npm run check-i18n   # 校验译文完整性（CI 门禁）
 npm run check-slug   # 校验同一实例内的 URL slug 是否重复（PR 门禁）
+npm run check-i18n   # 校验译文完整性（仅恢复多语言后才有意义，见下文）
 ```
 
 ## 目录结构
@@ -174,42 +174,47 @@ slug: /faq/install
 | `.forgejo/workflows/pr-check.yml` | PR 到 `main`（opened / synchronize / reopened） | 跑 `check-slug`，失败则 PR 检查不通过、不能合并 |
 | `.forgejo/workflows/docs.yml` | push 到 `main` | 译文检查 → slug 检查（兜底）→ 构建 → FTP 部署 |
 
-### 多语言：英文目前是占位 / 预留
+### 多语言：英文已移除
 
-站点已配好 i18n（`i18n.defaultLocale` 为 `zh-Hans`，附加 `en`），但**现阶段英文不是必须交付的内容**，只作占位与预留。每个游戏实例有各自的译文目录：
+`docusaurus.config.js` 的 `i18n.locales` 现在只有 `zh-Hans`，站点不再生成 `/en/` 路由。
 
-```
-i18n/en/docusaurus-plugin-content-docs-simrail/current/   # 对应 docs/simrail/
-i18n/en/docusaurus-plugin-content-docs-maszyna/current/   # 对应 docs/maszyna/
-...（td2 / isdr / tpf2 同理）
-```
+**为什么移除**：Docusaurus 会为 `locales` 里的每种语言各跑一遍全部插件（含 5 个 docs 实例）。
+即使英文没有任何实际译文，MDX 里引用的图片也会随各语言产物被重复处理、重复输出，
+构建耗时和产物体积都接近翻倍。英文当时只是占位、没有维护价值，于是先摘掉。
 
-- 中文版（`docs/<游戏>/`）是唯一需要维护的版本，**新增文档不必同步英文译文**。
-- 将来要正式做英文，按相同路径建文件即可。
+残留说明：
 
-自查译文情况：
+- `i18n/en/` 目录（`code.json` + `docusaurus-theme-classic/`）**保留但不再参与构建**，
+  里面是主题词条的英文译文，将来恢复英文时可以直接复用。确认不需要可以整个删掉。
+- `npm run check-i18n`（`scripts/check-i18n.sh`）是给多语言用的，单语言下跑出来的是
+  满屏「缺失译文」提示，没有参考价值；CI 里对应的 `i18n-check` job 已一并下线。
+- 本地搜索插件的 `language: ['en', 'zh']` 与语言无关，是**分词器**配置（正文含大量
+  英文专有名词），保持不动。
 
-```bash
-npm run check-i18n                  # 缺失译文只列出清单，不计入失败
-STRICT_I18N=1 npm run check-i18n    # 缺失译文视为失败（英文转正后再启用）
-```
+将来要恢复英文：
+
+1. `docusaurus.config.js`：`locales` 改回 `['zh-Hans', 'en']`，并补回
+   `localeConfigs.en`；如需语言切换入口，再解除 navbar 里 `localeDropdown` 的注释。
+2. 按 `i18n/en/<插件实例名>/current/` 路径补译文，例如
+   `i18n/en/docusaurus-plugin-content-docs-simrail/current/` 对应 `docs/simrail/`。
+3. `.forgejo/workflows/docs.yml`：把 `i18n-check` job 加回 `build` 的 `needs`。
 
 ### 本地预览
 
 - **开发预览**：`npm run start`，默认 `http://localhost:3000/`；端口被占用时加 `npm run start -- --port 3001` 指定。
-- **检查生产构建**：先 `npm run build` 再 `npm run serve`。构建会为每种语言各输出一份，这是同时检查中文（`/`）和英文（`/en/`）的方式。
+- **检查生产构建**：先 `npm run build` 再 `npm run serve`。
 
 两个注意点：
 
 1. **不要在 `docusaurus start` 运行时跑 `npm run build`**。两者共用 `.docusaurus/` 目录，并发执行会把开发服务器的内容注册表写成生产态，导致所有文档页报 `Cannot read properties of undefined (reading 'id')`。真出现了就停掉 dev、删掉 `.docusaurus/` 再重启。
-2. 开发服务器一次只加载一种语言（默认 `zh-Hans`）。需要英文开发预览用 `npm run start -- --locale en`，此时整站会挂到 `/en/` 下。
+2. 多语言已下线，开发服务器与构建都只处理 `zh-Hans`。
 
 ---
 
 ## 部署
 
 提交 PR 后 `.forgejo/workflows/pr-check.yml` 会先跑只读的 slug 重复检查；通过后，
-推送 / 合并到 `main` 再由 `.forgejo/workflows/docs.yml` 完成：译文检查 → slug 检查 →
+推送 / 合并到 `main` 再由 `.forgejo/workflows/docs.yml` 完成：slug 检查 →
 `npm run build` → **FTP 上传**到 `https://wiki.plrail.com/`。
 
 需要在仓库 **Settings → Actions → Secrets and variables** 里配置：
