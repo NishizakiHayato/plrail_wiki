@@ -68,7 +68,8 @@ jobs:
   # 构建：安装依赖 → docusaurus build → 上传产物
   # ------------------------------------------------------------------
   build:
-    needs: [i18n-check, slug-check]
+    # i18n-check 已随多语言下线一并移除，别再往 needs 里写（指向不存在的 job 会让工作流无效）
+    needs: [slug-check]
     runs-on: ubuntu-latest
     steps:
       # 下一步的匿名 git lfs 需要 git-lfs 可执行文件，镜像没带时先装上
