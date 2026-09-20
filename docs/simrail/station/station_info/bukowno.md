@@ -13,9 +13,9 @@ slug: /station/station_info/bukowno
 
 ## 位置
 
-![布科夫诺站位置示意一](/img/simrail/station/station_info/bukowno/location-1.webp)
+![布科夫诺站位置示意一](pathname:///img/simrail/station/station_info/bukowno/location-1.webp)
 
-![布科夫诺站位置示意二](/img/simrail/station/station_info/bukowno/location-2.webp)
+![布科夫诺站位置示意二](pathname:///img/simrail/station/station_info/bukowno/location-2.webp)
 
 布科夫诺（Bukowno）站位于斯瓦夫库夫（Sławków）和奥尔库什（Olkusz）之间，有十条股道，其中四条可为两个站台提供服务。只有通勤列车在此停靠。
 
@@ -38,21 +38,21 @@ slug: /station/station_info/bukowno
 <details>
 <summary>基本</summary>
 
-![布科夫诺站调度面板（基本视图）](/img/simrail/station/station_info/bukowno/panel-basic.webp)
+![布科夫诺站调度面板（基本视图）](pathname:///img/simrail/station/station_info/bukowno/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![布科夫诺站 CCTV 位置](/img/simrail/station/station_info/bukowno/cctv-locations.webp)
+![布科夫诺站 CCTV 位置](pathname:///img/simrail/station/station_info/bukowno/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![布科夫诺站道岔限速](/img/simrail/station/station_info/bukowno/switch-speed-limit.webp)
+![布科夫诺站道岔限速](pathname:///img/simrail/station/station_info/bukowno/switch-speed-limit.webp)
 
 </details>
 
@@ -101,7 +101,7 @@ slug: /station/station_info/bukowno
 <details>
 <summary>BO_54.578</summary>
 
-![布科夫诺站 CCTV BO_54.578](/img/simrail/station/station_info/bukowno/cctv-bo-54-578.webp)
+![布科夫诺站 CCTV BO_54.578](pathname:///img/simrail/station/station_info/bukowno/cctv-bo-54-578.webp)
 
 CCTV名称：BO_54.578
 
@@ -114,7 +114,7 @@ CCTV名称：BO_54.578
 <details>
 <summary>POST_BO11</summary>
 
-![布科夫诺站 CCTV POST_BO11](/img/simrail/station/station_info/bukowno/cctv-post-bo11.webp)
+![布科夫诺站 CCTV POST_BO11](pathname:///img/simrail/station/station_info/bukowno/cctv-post-bo11.webp)
 
 CCTV名称：POST_BO11
 

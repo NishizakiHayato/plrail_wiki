@@ -19,9 +19,9 @@ slug: /station/station_info/baby
 
 ## 位置
 
-![巴贝站位置示意一](/img/simrail/station/station_info/baby/location-1.webp)
+![巴贝站位置示意一](pathname:///img/simrail/station/station_info/baby/location-1.webp)
 
-![巴贝站位置示意二](/img/simrail/station/station_info/baby/location-2.webp)
+![巴贝站位置示意二](pathname:///img/simrail/station/station_info/baby/location-2.webp)
 
 一个位于彼得库夫-特雷布纳尔斯基（Piotrków Trybunalski）与科卢什基（Koluszki）之间的车站，该站设有侧线、装卸场，以及位置不同寻常的站台——位于进站信号机与出站信号机之间，这使得办客和待避无法同时进行。
 
@@ -44,21 +44,21 @@ slug: /station/station_info/baby
 <details>
 <summary>基本</summary>
 
-![巴贝站调度面板（基本视图）](/img/simrail/station/station_info/baby/panel-basic.webp)
+![巴贝站调度面板（基本视图）](pathname:///img/simrail/station/station_info/baby/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![巴贝站 CCTV 位置](/img/simrail/station/station_info/baby/cctv-locations.webp)
+![巴贝站 CCTV 位置](pathname:///img/simrail/station/station_info/baby/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![巴贝站道岔限速](/img/simrail/station/station_info/baby/switch-speed-limit.webp)
+![巴贝站道岔限速](pathname:///img/simrail/station/station_info/baby/switch-speed-limit.webp)
 
 </details>
 
@@ -92,7 +92,7 @@ slug: /station/station_info/baby
 <details open>
 <summary>L1_129.839_A</summary>
 
-![CCTV L1_129.839_A](/img/simrail/station/station_info/baby/cctv-l1-129-839-a.webp)
+![CCTV L1_129.839_A](pathname:///img/simrail/station/station_info/baby/cctv-l1-129-839-a.webp)
 
 CCTV名称：L1_129.839_A
 
@@ -105,7 +105,7 @@ CCTV名称：L1_129.839_A
 <details>
 <summary>PLATFORMS</summary>
 
-![CCTV PLATFORMS](/img/simrail/station/station_info/baby/cctv-platforms.webp)
+![CCTV PLATFORMS](pathname:///img/simrail/station/station_info/baby/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -116,7 +116,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_A-B</summary>
 
-![CCTV SEM_A-B](/img/simrail/station/station_info/baby/cctv-sem-a-b.webp)
+![CCTV SEM_A-B](pathname:///img/simrail/station/station_info/baby/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 
@@ -127,7 +127,7 @@ CCTV名称：SEM_A-B
 <details>
 <summary>SEM_S-T</summary>
 
-![CCTV SEM_S-T](/img/simrail/station/station_info/baby/cctv-sem-s-t.webp)
+![CCTV SEM_S-T](pathname:///img/simrail/station/station_info/baby/cctv-sem-s-t.webp)
 
 CCTV名称：SEM_S-T
 

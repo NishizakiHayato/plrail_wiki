@@ -21,9 +21,9 @@ slug: /station/station_info/starzyny
 
 ## 位置
 
-![斯塔日内站位置示意一](/img/simrail/station/station_info/starzyny/location-1.webp)
+![斯塔日内站位置示意一](pathname:///img/simrail/station/station_info/starzyny/location-1.webp)
 
-![斯塔日内站位置示意二](/img/simrail/station/station_info/starzyny/location-2.webp)
+![斯塔日内站位置示意二](pathname:///img/simrail/station/station_info/starzyny/location-2.webp)
 
 LCS斯塔日内线路所（Starzyny）是从中央铁路干线前往科兹武夫（Kozłów）时的第一站。列车可以从这里转线到CMK前往华沙，或者向西经由科涅茨波尔（Koniecpol）前往琴斯托霍瓦（Częstochowa）。在此可远程控制临近的斯布罗瓦线路所（Sprowa）。
 
@@ -46,18 +46,18 @@ LCS斯塔日内线路所（Starzyny）是从中央铁路干线前往科兹武夫
 <details>
 <summary>基本</summary>
 
-![斯塔日内站调度面板（基本视图一）](/img/simrail/station/station_info/starzyny/panel-basic-1.webp)
+![斯塔日内站调度面板（基本视图一）](pathname:///img/simrail/station/station_info/starzyny/panel-basic-1.webp)
 
-![斯塔日内站调度面板（基本视图二）](/img/simrail/station/station_info/starzyny/panel-basic-2.webp)
+![斯塔日内站调度面板（基本视图二）](pathname:///img/simrail/station/station_info/starzyny/panel-basic-2.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![斯塔日内站道岔限速一](/img/simrail/station/station_info/starzyny/switch-speed-limit-1.webp)
+![斯塔日内站道岔限速一](pathname:///img/simrail/station/station_info/starzyny/switch-speed-limit-1.webp)
 
-![斯塔日内站道岔限速二](/img/simrail/station/station_info/starzyny/switch-speed-limit-2.webp)
+![斯塔日内站道岔限速二](pathname:///img/simrail/station/station_info/starzyny/switch-speed-limit-2.webp)
 
 </details>
 
@@ -68,7 +68,7 @@ LCS斯塔日内配备了两台CCTV设备，两台都在斯布罗瓦。
 <details>
 <summary>SP_17.988</summary>
 
-![斯塔日内站 CCTV SP_17.988](/img/simrail/station/station_info/starzyny/cctv-sp-17-988.webp)
+![斯塔日内站 CCTV SP_17.988](pathname:///img/simrail/station/station_info/starzyny/cctv-sp-17-988.webp)
 
 CCTV名称：SP_17.988
 
@@ -79,7 +79,7 @@ CCTV名称：SP_17.988
 <details>
 <summary>SP_A-B</summary>
 
-![斯塔日内站 CCTV SP_A-B](/img/simrail/station/station_info/starzyny/cctv-sp-a-b.webp)
+![斯塔日内站 CCTV SP_A-B](pathname:///img/simrail/station/station_info/starzyny/cctv-sp-a-b.webp)
 
 CCTV名称：SP_A-B
 
@@ -108,7 +108,7 @@ LK64线自斯塔日内（Starzyny）往科兹武夫（Kozłów）方向是全Sim
 
 **危险！请留意死锁的可能性。**
 
-![斯塔日内站img](/img/simrail/station/station_info/starzyny/img.webp)
+![斯塔日内站img](pathname:///img/simrail/station/station_info/starzyny/img.webp)
 
 如上图所示，此时各列车互相阻碍，谁也无法继续运行，因此请特别留意，不要随意同意闭塞和左道行车请求，同意前必须检查EDR上的运行方向，确保不会因此发生死锁。
 

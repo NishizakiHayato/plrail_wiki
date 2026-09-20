@@ -74,14 +74,20 @@ const config = {
   trailingSlash: true,
 
   // ------------------------------------------------------------------
-  // 多语言：默认中文；英文目前仅占位 / 预留
+  // 多语言：仅保留简体中文
+  //
+  // 为什么这里只留一种语言：
+  //   Docusaurus 会为 locales 里的每种语言各跑一遍所有插件（含 5 个 docs 实例），
+  //   MDX 里引用的图片会随各语言产物被重复处理 / 重复输出，构建耗时与体积翻倍。
+  //   英文目前只是占位、没有实际译文，故移除。
+  //
+  // 将来要恢复英文：把 'en' 加回 locales（并补回 localeConfigs.en）。
   // ------------------------------------------------------------------
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en'],
+    locales: ['zh-Hans'],
     localeConfigs: {
       'zh-Hans': {label: '简体中文', htmlLang: 'zh-CN'},
-      en: {label: 'English', htmlLang: 'en'},
     },
   },
 
@@ -176,9 +182,9 @@ const config = {
             position: 'left',
             label: game.label,
           })),
-          // 语言切换（暂时屏蔽：英文译文尚未就绪，先不暴露入口。
-          //   i18n.locales 保持不变，/en/ 路由与 i18n 目录不受影响；
-          //   恢复时只需解除下面这段注释）
+          // 语言切换：英文已从 i18n.locales 移除，站点不再有 /en/ 路由，
+          //   这里自然也没有可切换的语言，故不放 localeDropdown。
+          //   将来恢复英文时，再把这段和 i18n.locales 里的 'en' 一起加回来。
           // {
           //   type: 'localeDropdown',
           //   position: 'right',

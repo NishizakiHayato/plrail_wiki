@@ -27,9 +27,9 @@ slug: /station/station_info/galkowek
 
 ## 位置
 
-![加乌库维克站位置示意一](/img/simrail/station/station_info/galkowek/location-1.webp)
+![加乌库维克站位置示意一](pathname:///img/simrail/station/station_info/galkowek/location-1.webp)
 
-![加乌库维克站位置示意二](/img/simrail/station/station_info/galkowek/location-2.webp)
+![加乌库维克站位置示意二](pathname:///img/simrail/station/station_info/galkowek/location-2.webp)
 
 加乌库维克（Gałkówek）信号楼位于 LK17 和 LK25 线路上，设有五条股道和两个站台，服务于两条站台股道。相邻信号楼在 LK17 线路上为罗兹 维泽夫（Łódź Widzew）和科卢什基（Koluszki），在 LK25 线路上为扎科维采南（Żakowice Południowe）和罗兹 奥莱胡夫（Łódź Olechów）。罗兹 安杰尤夫（Łódź Andrzejów，ŁAn）车站位于 LK17 线路上，由加乌库维克远程控制，设有三条股道，其中两条用于图定列车服务，一条用于停放，以及两个站台。
 
@@ -52,28 +52,28 @@ slug: /station/station_info/galkowek
 <details>
 <summary>基本</summary>
 
-![加乌库维克站调度面板（基本视图）](/img/simrail/station/station_info/galkowek/panel-basic.webp)
+![加乌库维克站调度面板（基本视图）](pathname:///img/simrail/station/station_info/galkowek/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![加乌库维克站 CCTV 位置](/img/simrail/station/station_info/galkowek/cctv-locations.webp)
+![加乌库维克站 CCTV 位置](pathname:///img/simrail/station/station_info/galkowek/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![加乌库维克站道岔限速](/img/simrail/station/station_info/galkowek/switch-speed-limit.webp)
+![加乌库维克站道岔限速](pathname:///img/simrail/station/station_info/galkowek/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![加乌库维克站 ETCS 等级](/img/simrail/station/station_info/galkowek/etcs-level.webp)
+![加乌库维克站 ETCS 等级](pathname:///img/simrail/station/station_info/galkowek/etcs-level.webp)
 
 </details>
 
@@ -115,7 +115,7 @@ slug: /station/station_info/galkowek
 <details>
 <summary>PLATFORMS</summary>
 
-![加乌库维克站 CCTV PLATFORMS](/img/simrail/station/station_info/galkowek/cctv-platforms.webp)
+![加乌库维克站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/galkowek/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -126,7 +126,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_A_B_C_D</summary>
 
-![加乌库维克站 CCTV SEM_A_B_C_D](/img/simrail/station/station_info/galkowek/cctv-sem-a-b-c-d.webp)
+![加乌库维克站 CCTV SEM_A_B_C_D](pathname:///img/simrail/station/station_info/galkowek/cctv-sem-a-b-c-d.webp)
 
 CCTV名称：SEM_A_B_C_D
 
@@ -137,7 +137,7 @@ CCTV名称：SEM_A_B_C_D
 <details>
 <summary>ŁA_SEM_A-B</summary>
 
-![加乌库维克站 CCTV ŁA_SEM_A-B](/img/simrail/station/station_info/galkowek/cctv-la-sem-a-b.webp)
+![加乌库维克站 CCTV ŁA_SEM_A-B](pathname:///img/simrail/station/station_info/galkowek/cctv-la-sem-a-b.webp)
 
 CCTV名称：ŁA_SEM_A-B
 
@@ -148,7 +148,7 @@ CCTV名称：ŁA_SEM_A-B
 <details>
 <summary>ŁA_10.814</summary>
 
-![加乌库维克站 CCTV ŁA_10.814](/img/simrail/station/station_info/galkowek/cctv-la-10-814.webp)
+![加乌库维克站 CCTV ŁA_10.814](pathname:///img/simrail/station/station_info/galkowek/cctv-la-10-814.webp)
 
 CCTV名称：ŁA_10.814
 

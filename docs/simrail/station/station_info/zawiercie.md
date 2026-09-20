@@ -13,9 +13,9 @@ slug: /station/station_info/zawiercie
 
 ## 位置
 
-![扎维尔切站位置示意一](/img/simrail/station/station_info/zawiercie/location-1.webp)
+![扎维尔切站位置示意一](pathname:///img/simrail/station/station_info/zawiercie/location-1.webp)
 
-![扎维尔切站位置示意二](/img/simrail/station/station_info/zawiercie/location-2.webp)
+![扎维尔切站位置示意二](pathname:///img/simrail/station/station_info/zawiercie/location-2.webp)
 
 扎维尔切（Zawiercie）站是一个拥有两座站台、多条侧线的枢纽大站，货运列车及大多数客运列车均在此停靠。中央铁路干线（CMK，即LK 4）至此终止，从华沙（Warszawa）方向驶来的列车将继续在1号线（LK 1）上运行。
 
@@ -38,14 +38,14 @@ slug: /station/station_info/zawiercie
 <details>
 <summary>基本</summary>
 
-![扎维尔切站调度面板（基本视图）](/img/simrail/station/station_info/zawiercie/panel-basic.webp)
+![扎维尔切站调度面板（基本视图）](pathname:///img/simrail/station/station_info/zawiercie/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置和道岔限速</summary>
 
-![扎维尔切站 CCTV 位置和道岔限速](/img/simrail/station/station_info/zawiercie/cctv-locations-and-switch-speed-limit.webp)
+![扎维尔切站 CCTV 位置和道岔限速](pathname:///img/simrail/station/station_info/zawiercie/cctv-locations-and-switch-speed-limit.webp)
 
 </details>
 
@@ -114,7 +114,7 @@ slug: /station/station_info/zawiercie
 <details>
 <summary>SEM_R</summary>
 
-![扎维尔切站 CCTV SEM_R](/img/simrail/station/station_info/zawiercie/cctv-sem-r.webp)
+![扎维尔切站 CCTV SEM_R](pathname:///img/simrail/station/station_info/zawiercie/cctv-sem-r.webp)
 
 CCTV名称：SEM_R
 
@@ -125,7 +125,7 @@ CCTV名称：SEM_R
 <details>
 <summary>SEM_W</summary>
 
-![扎维尔切站 CCTV SEM_W](/img/simrail/station/station_info/zawiercie/cctv-sem-w.webp)
+![扎维尔切站 CCTV SEM_W](pathname:///img/simrail/station/station_info/zawiercie/cctv-sem-w.webp)
 
 CCTV名称：SEM_W
 
@@ -136,7 +136,7 @@ CCTV名称：SEM_W
 <details>
 <summary>SEM_M-N</summary>
 
-![扎维尔切站 CCTV SEM_M-N](/img/simrail/station/station_info/zawiercie/cctv-sem-m-n.webp)
+![扎维尔切站 CCTV SEM_M-N](pathname:///img/simrail/station/station_info/zawiercie/cctv-sem-m-n.webp)
 
 CCTV名称：SEM_M-N
 
@@ -147,7 +147,7 @@ CCTV名称：SEM_M-N
 <details>
 <summary>PLATFORMS</summary>
 
-![扎维尔切站 CCTV PLATFORMS](/img/simrail/station/station_info/zawiercie/cctv-platforms.webp)
+![扎维尔切站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/zawiercie/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -158,7 +158,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_A-B-C-D</summary>
 
-![扎维尔切站 CCTV SEM_A-B-C-D](/img/simrail/station/station_info/zawiercie/cctv-sem-a-b-c-d.webp)
+![扎维尔切站 CCTV SEM_A-B-C-D](pathname:///img/simrail/station/station_info/zawiercie/cctv-sem-a-b-c-d.webp)
 
 CCTV名称：SEM_A-B-C-D
 

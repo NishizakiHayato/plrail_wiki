@@ -13,9 +13,9 @@ slug: /station/station_info/krakow_przedmiescie
 
 ## 位置
 
-![克拉科夫 郊区站位置示意一](/img/simrail/station/station_info/krakow_przedmiescie/location-1.webp)
+![克拉科夫 郊区站位置示意一](pathname:///img/simrail/station/station_info/krakow_przedmiescie/location-1.webp)
 
-![克拉科夫 郊区站位置示意二](/img/simrail/station/station_info/krakow_przedmiescie/location-2.webp)
+![克拉科夫 郊区站位置示意二](pathname:///img/simrail/station/station_info/krakow_przedmiescie/location-2.webp)
 
 克拉科夫 郊区（Kraków Przedmieście）线路所是与克拉科夫总站直接相连的一个站点。该线路所位于克拉科夫“郊区”，其主要任务是将从克拉科夫 巴托维采（[Kraków Batowice](./krakow_batowice.md)）开来的列车发送到克拉科夫总站（Kraków Główny）和克拉科夫 奥尔沙（Kraków Olsza）。
 
@@ -40,14 +40,14 @@ slug: /station/station_info/krakow_przedmiescie
 <details>
 <summary>基本</summary>
 
-![克拉科夫 郊区站调度面板（基本视图）](/img/simrail/station/station_info/krakow_przedmiescie/panel-basic.webp)
+![克拉科夫 郊区站调度面板（基本视图）](pathname:///img/simrail/station/station_info/krakow_przedmiescie/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![克拉科夫 郊区站道岔限速](/img/simrail/station/station_info/krakow_przedmiescie/switch-speed-limit.webp)
+![克拉科夫 郊区站道岔限速](pathname:///img/simrail/station/station_info/krakow_przedmiescie/switch-speed-limit.webp)
 
 </details>
 

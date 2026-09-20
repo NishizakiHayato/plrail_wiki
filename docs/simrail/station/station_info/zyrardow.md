@@ -27,9 +27,9 @@ slug: /station/station_info/zyrardow
 
 ## 位置
 
-![日拉尔杜夫站位置示意一](/img/simrail/station/station_info/zyrardow/location-1.webp)
+![日拉尔杜夫站位置示意一](pathname:///img/simrail/station/station_info/zyrardow/location-1.webp)
 
-![日拉尔杜夫站位置示意二](/img/simrail/station/station_info/zyrardow/location-2.webp)
+![日拉尔杜夫站位置示意二](pathname:///img/simrail/station/station_info/zyrardow/location-2.webp)
 
 LCS日拉尔杜夫（Żyrardów，Zr）位于LK1线，全站共设5条股道及2座站台，站台股道共计3条。
 
@@ -56,36 +56,36 @@ LCS日拉尔杜夫（Żyrardów，Zr）位于LK1线，全站共设5条股道及2
 <details>
 <summary>基本</summary>
 
-![日拉尔杜夫站调度面板（基本视图一）](/img/simrail/station/station_info/zyrardow/panel-basic-1.webp)
+![日拉尔杜夫站调度面板（基本视图一）](pathname:///img/simrail/station/station_info/zyrardow/panel-basic-1.webp)
 
-![日拉尔杜夫站调度面板（基本视图二）](/img/simrail/station/station_info/zyrardow/panel-basic-2.webp)
+![日拉尔杜夫站调度面板（基本视图二）](pathname:///img/simrail/station/station_info/zyrardow/panel-basic-2.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![日拉尔杜夫站 CCTV 位置一](/img/simrail/station/station_info/zyrardow/cctv-locations-1.webp)
+![日拉尔杜夫站 CCTV 位置一](pathname:///img/simrail/station/station_info/zyrardow/cctv-locations-1.webp)
 
-![日拉尔杜夫站 CCTV 位置二](/img/simrail/station/station_info/zyrardow/cctv-locations-2.webp)
+![日拉尔杜夫站 CCTV 位置二](pathname:///img/simrail/station/station_info/zyrardow/cctv-locations-2.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![日拉尔杜夫站道岔限速一](/img/simrail/station/station_info/zyrardow/switch-speed-limit-1.webp)
+![日拉尔杜夫站道岔限速一](pathname:///img/simrail/station/station_info/zyrardow/switch-speed-limit-1.webp)
 
-![日拉尔杜夫站道岔限速二](/img/simrail/station/station_info/zyrardow/switch-speed-limit-2.webp)
+![日拉尔杜夫站道岔限速二](pathname:///img/simrail/station/station_info/zyrardow/switch-speed-limit-2.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![日拉尔杜夫站 ETCS 等级一](/img/simrail/station/station_info/zyrardow/etcs-level-1.webp)
+![日拉尔杜夫站 ETCS 等级一](pathname:///img/simrail/station/station_info/zyrardow/etcs-level-1.webp)
 
-![日拉尔杜夫站 ETCS 等级二](/img/simrail/station/station_info/zyrardow/etcs-level-2.webp)
+![日拉尔杜夫站 ETCS 等级二](pathname:///img/simrail/station/station_info/zyrardow/etcs-level-2.webp)
 
 </details>
 
@@ -130,7 +130,7 @@ LCS日拉尔杜夫配备了四台CCTV设备，其中两台位于马佐夫舍省 
 <details>
 <summary>PLATFORMS</summary>
 
-![日拉尔杜夫站 CCTV PLATFORMS](/img/simrail/station/station_info/zyrardow/cctv-platforms.webp)
+![日拉尔杜夫站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/zyrardow/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -141,7 +141,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_A_B</summary>
 
-![日拉尔杜夫站 CCTV SEM_A_B](/img/simrail/station/station_info/zyrardow/cctv-sem-a-b.webp)
+![日拉尔杜夫站 CCTV SEM_A_B](pathname:///img/simrail/station/station_info/zyrardow/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A_B
 
@@ -152,7 +152,7 @@ CCTV名称：SEM_A_B
 <details>
 <summary>RM_SEM-C-D</summary>
 
-![日拉尔杜夫站 CCTV RM_SEM-C-D](/img/simrail/station/station_info/zyrardow/cctv-rm-sem-c-d.webp)
+![日拉尔杜夫站 CCTV RM_SEM-C-D](pathname:///img/simrail/station/station_info/zyrardow/cctv-rm-sem-c-d.webp)
 
 CCTV名称：RM_SEM-C-D
 
@@ -163,7 +163,7 @@ CCTV名称：RM_SEM-C-D
 <details>
 <summary>RM_SEM-A-B</summary>
 
-![日拉尔杜夫站 CCTV RM_SEM-A-B](/img/simrail/station/station_info/zyrardow/cctv-rm-sem-a-b.webp)
+![日拉尔杜夫站 CCTV RM_SEM-A-B](pathname:///img/simrail/station/station_info/zyrardow/cctv-rm-sem-a-b.webp)
 
 CCTV名称：RM_SEM-A-B
 

@@ -13,9 +13,9 @@ slug: /station/station_info/zastow
 
 ## 位置
 
-![扎斯图夫站位置示意一](/img/simrail/station/station_info/zastow/location-1.webp)
+![扎斯图夫站位置示意一](pathname:///img/simrail/station/station_info/zastow/location-1.webp)
 
-![扎斯图夫站位置示意二](/img/simrail/station/station_info/zastow/location-2.webp)
+![扎斯图夫站位置示意二](pathname:///img/simrail/station/station_info/zastow/location-2.webp)
 
 扎斯图夫站（Zastow）是一个位于拉契波罗维采（Raciborowice）和熊村（Niedzwiedz）之间的小站。有两条侧线可供慢车待避，另外两条设有站台的股道仅供通勤列车停靠。
 
@@ -38,14 +38,14 @@ slug: /station/station_info/zastow
 <details>
 <summary>基本</summary>
 
-![扎斯图夫站调度面板（基本视图）](/img/simrail/station/station_info/zastow/panel-basic.webp)
+![扎斯图夫站调度面板（基本视图）](pathname:///img/simrail/station/station_info/zastow/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![扎斯图夫站道岔限速](/img/simrail/station/station_info/zastow/switch-speed-limit.webp)
+![扎斯图夫站道岔限速](pathname:///img/simrail/station/station_info/zastow/switch-speed-limit.webp)
 
 </details>
 
@@ -74,7 +74,7 @@ slug: /station/station_info/zastow
 <details>
 <summary>ZS_308.035</summary>
 
-![扎斯图夫站 CCTV ZS_308.035](/img/simrail/station/station_info/zastow/cctv-zs-308-035.webp)
+![扎斯图夫站 CCTV ZS_308.035](pathname:///img/simrail/station/station_info/zastow/cctv-zs-308-035.webp)
 
 CCTV名称：ZS_308.035
 
@@ -87,7 +87,7 @@ CCTV名称：ZS_308.035
 <details>
 <summary>SEM_A-B</summary>
 
-![扎斯图夫站 CCTV SEM_A-B](/img/simrail/station/station_info/zastow/cctv-sem-a-b.webp)
+![扎斯图夫站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/zastow/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 

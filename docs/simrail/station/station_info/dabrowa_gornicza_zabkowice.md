@@ -13,9 +13,9 @@ slug: /station/station_info/dabrowa_gornicza_zabkowice
 
 ## 位置
 
-![栋布罗瓦-古尔尼恰 宗布科维采站位置示意一](/img/simrail/station/station_info/dabrowa_gornicza_zabkowice/location-1.webp)
+![栋布罗瓦-古尔尼恰 宗布科维采站位置示意一](pathname:///img/simrail/station/station_info/dabrowa_gornicza_zabkowice/location-1.webp)
 
-![栋布罗瓦-古尔尼恰 宗布科维采站位置示意二](/img/simrail/station/station_info/dabrowa_gornicza_zabkowice/location-2.webp)
+![栋布罗瓦-古尔尼恰 宗布科维采站位置示意二](pathname:///img/simrail/station/station_info/dabrowa_gornicza_zabkowice/location-2.webp)
 
 栋布罗瓦-古尔尼恰 宗布科维采（Dąbrowa Górnicza Ząbkowice）车站（DZ）位于 LK 1 线上，划分为 DZA、DZB 和 DZB2 三个区域。DZA 区域包含九条股道，DZB 区域设有六条股道，配备三座站台及五条站台股道，DZB2 区域则提供十条股道。由本站出发的线路包括：通往克拉科夫总站（Kraków Główny）的 LK 133 线，以及通往扎维尔切（Zawiercie）的 LK 160 线和 LK 186 线。LK 1 线上的相邻信号楼为瓦济 C 信号楼（Łazy Łc）和栋布罗瓦-古尔尼恰（Dąbrowa Górnicza）；LK 133 线上为栋布罗瓦-古尔尼恰 卡托维兹钢铁厂（Dąbrowa Górnicza Huta Katowice）；LK 160 线和 LK 186 线上为瓦济 C 信号楼（Łazy Łc）。
 
@@ -38,21 +38,21 @@ slug: /station/station_info/dabrowa_gornicza_zabkowice
 <details>
 <summary>基本</summary>
 
-![栋布罗瓦-古尔尼恰 宗布科维采站调度面板（基本视图）](/img/simrail/station/station_info/dabrowa_gornicza_zabkowice/panel-basic.webp)
+![栋布罗瓦-古尔尼恰 宗布科维采站调度面板（基本视图）](pathname:///img/simrail/station/station_info/dabrowa_gornicza_zabkowice/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![栋布罗瓦-古尔尼恰 宗布科维采站 CCTV 位置](/img/simrail/station/station_info/dabrowa_gornicza_zabkowice/cctv-locations.webp)
+![栋布罗瓦-古尔尼恰 宗布科维采站 CCTV 位置](pathname:///img/simrail/station/station_info/dabrowa_gornicza_zabkowice/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![栋布罗瓦-古尔尼恰 宗布科维采站道岔限速](/img/simrail/station/station_info/dabrowa_gornicza_zabkowice/switch-speed-limit.webp)
+![栋布罗瓦-古尔尼恰 宗布科维采站道岔限速](pathname:///img/simrail/station/station_info/dabrowa_gornicza_zabkowice/switch-speed-limit.webp)
 
 </details>
 
@@ -147,7 +147,7 @@ slug: /station/station_info/dabrowa_gornicza_zabkowice
 <details>
 <summary>SEM_Y-Z</summary>
 
-![栋布罗瓦-古尔尼恰 宗布科维采站 CCTV SEM_Y-Z](/img/simrail/station/station_info/dabrowa_gornicza_zabkowice/cctv-sem-y-z.webp)
+![栋布罗瓦-古尔尼恰 宗布科维采站 CCTV SEM_Y-Z](pathname:///img/simrail/station/station_info/dabrowa_gornicza_zabkowice/cctv-sem-y-z.webp)
 
 CCTV名称：SEM_Y-Z
 
@@ -158,7 +158,7 @@ CCTV名称：SEM_Y-Z
 <details>
 <summary>SEM-A-B-E-H</summary>
 
-![栋布罗瓦-古尔尼恰 宗布科维采站 CCTV SEM-A-B-E-H](/img/simrail/station/station_info/dabrowa_gornicza_zabkowice/cctv-sem-a-b-e-h.webp)
+![栋布罗瓦-古尔尼恰 宗布科维采站 CCTV SEM-A-B-E-H](pathname:///img/simrail/station/station_info/dabrowa_gornicza_zabkowice/cctv-sem-a-b-e-h.webp)
 
 CCTV名称：SEM-A-B-E-H
 
@@ -169,7 +169,7 @@ CCTV名称：SEM-A-B-E-H
 <details>
 <summary>POST_DZA</summary>
 
-![栋布罗瓦-古尔尼恰 宗布科维采站 CCTV POST_DZA](/img/simrail/station/station_info/dabrowa_gornicza_zabkowice/cctv-post-dza.webp)
+![栋布罗瓦-古尔尼恰 宗布科维采站 CCTV POST_DZA](pathname:///img/simrail/station/station_info/dabrowa_gornicza_zabkowice/cctv-post-dza.webp)
 
 CCTV名称：POST_DZA
 

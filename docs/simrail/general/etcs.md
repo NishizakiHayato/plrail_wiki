@@ -36,7 +36,7 @@ ETCS系统受益于轨道设备和车载设备，可以在多种级别下提供�
 
 ### 级别0
 
-![ETCS级别0的DMI显示](/img/simrail/general/etcs/level-0.png)
+![ETCS级别0的DMI显示](pathname:///img/simrail/general/etcs/level-0.png)
 
 监管仅限于监控司机是否超过线路最高允许速度。无法与线路旁的设备进行交互时适用。
 
@@ -48,21 +48,21 @@ ETCS系统受益于轨道设备和车载设备，可以在多种级别下提供�
 
 ### NTC
 
-![当地安全系统图标1](/img/simrail/general/etcs/ntc-1.png)
-![当地安全系统图标2](/img/simrail/general/etcs/ntc-2.png)
-![当地安全系统图标3](/img/simrail/general/etcs/ntc-3.png)
+![当地安全系统图标1](pathname:///img/simrail/general/etcs/ntc-1.png)
+![当地安全系统图标2](pathname:///img/simrail/general/etcs/ntc-2.png)
+![当地安全系统图标3](pathname:///img/simrail/general/etcs/ntc-3.png)
 
 在这个级别，系统将不会监控列车的速度或司机的操作。取而代之地，列车将通过ETCS界面在当地安全系统的监管下运行，如SHP、LZB等。
 
 ### 级别1
 
-![ETCS级别1的DMI显示](/img/simrail/general/etcs/level-1.png)
+![ETCS级别1的DMI显示](pathname:///img/simrail/general/etcs/level-1.png)
 
 在这个级别下，系统将会监控列车的速度、列车是否及时在停止信号前停车、以及按照限速进行制动。信息通过轨道上的Eurobalise实现点式传输。
 
 ### 级别2
 
-![ETCS级别2的DMI显示](/img/simrail/general/etcs/level-2.png)
+![ETCS级别2的DMI显示](pathname:///img/simrail/general/etcs/level-2.png)
 
 与级别1类似，但信息通过GSM-R基站实现连续传输。Eurobalise仅用于精确的列车位置检测。
 
@@ -76,61 +76,61 @@ ETCS系统受益于轨道设备和车载设备，可以在多种级别下提供�
 
 ### IS 隔离
 
-![IS 隔离模式图标](/img/simrail/general/etcs/mode-is.png)
+![IS 隔离模式图标](pathname:///img/simrail/general/etcs/mode-is.png)
 
 ETCS车载系统被司机物理断开（使用开关）而不会监管列车运行。
 
 ### SF 系统故障
 
-![SF 系统故障模式图标](/img/simrail/general/etcs/mode-sf.png)
+![SF 系统故障模式图标](pathname:///img/simrail/general/etcs/mode-sf.png)
 
 表示ETCS系统出现故障。此模式会在车载设备报告内部错误、失效、或元件受损的情况下出现，使得其无法监管列车运行。
 
 ### SL 休眠
 
-![SL 休眠模式图标](/img/simrail/general/etcs/mode-sl.png)
+![SL 休眠模式图标](pathname:///img/simrail/general/etcs/mode-sl.png)
 
 车载设备处于联机运行状态，但铁道车辆已关闭的情况下，系统将进入休眠模式。
 
 ### SB 就绪
 
-![SB 就绪模式图标](/img/simrail/general/etcs/mode-sb.png)
+![SB 就绪模式图标](pathname:///img/simrail/general/etcs/mode-sb.png)
 
 车载设备处于联机运行状态，铁道车辆已启动但ETCS尚未工作的情况下，系统将处于就绪模式。
 
 ### SH 调车
 
-![SH 调车模式图标](/img/simrail/general/etcs/mode-sh.png)
+![SH 调车模式图标](pathname:///img/simrail/general/etcs/mode-sh.png)
 
 用于调车的驾驶模式。在该模式下一般会有速度限制，并由应答器限制能够行驶的区域。如果通过了这些应答器，紧急制动将会被触发。
 
 ### FS 完全监控
 
-![FS 完全监控模式图标](/img/simrail/general/etcs/mode-fs.png)
+![FS 完全监控模式图标](pathname:///img/simrail/general/etcs/mode-fs.png)
 
 ETCS系统的车载设备将会按照列车当前所处的ETCS级别条件提供对列车的完全监管。此模式保障最高级别的监控和对列车移动和安全功能的控制。
 
 ### SR 司机责任
 
-![SR 司机责任模式图标](/img/simrail/general/etcs/mode-sr.png)
+![SR 司机责任模式图标](pathname:///img/simrail/general/etcs/mode-sr.png)
 
 ETCS系统的车载设备因为交通原因不会监管列车。在这个模式下，对于安全的责任完全交给司机，司机必须按照实际给出的信号和指示行车，并实时查看前方状况。
 
 ### OS 目视
 
-![OS 目视模式图标](/img/simrail/general/etcs/mode-os.png)
+![OS 目视模式图标](pathname:///img/simrail/general/etcs/mode-os.png)
 
 一种在控制轨道占用的设备功能不正常时激活的模式。在此模式下，ETCS车载设备仅部分监控列车运行。系统会控制最大允许速度和指定停车地点，同时司机负责密切观察路线。司机必须确保正在行驶的轨道不被另一个列车占用轨道，并保持警惕，注意前方的轨道。
 
 ### TR 冒进防护
 
-![TR 冒进防护模式图标](/img/simrail/general/etcs/mode-tr.png)
+![TR 冒进防护模式图标](pathname:///img/simrail/general/etcs/mode-tr.png)
 
 在冒进防护模式下，列车因为司机的操作被系统控制停车。这可能是由于明显超过速度限制或越过停止信号等原因。
 
 ### PT 冒进后防护
 
-![PT 冒进后防护模式图标](/img/simrail/general/etcs/mode-pt.png)
+![PT 冒进后防护模式图标](pathname:///img/simrail/general/etcs/mode-pt.png)
 
 冒进后防护模式在列车被ETCS停车后（冒进模式之后）激活。此模式需要司机在紧急停车后确认准备就绪以及能够继续运行列车。
 
@@ -144,9 +144,9 @@ ETCS系统的车载设备因为交通原因不会监管列车。在这个模式�
 
 级别1和级别2的主要区别在于列车和轨道调度装置之间的数据传输方法，如下列图片所示：（上图为ETCS级别1，下图为ETCS级别2）
 
-![ETCS级别1的数据传输：应答器点式传输](/img/simrail/general/etcs/transmission-level-1.png)
+![ETCS级别1的数据传输：应答器点式传输](pathname:///img/simrail/general/etcs/transmission-level-1.png)
 
-![ETCS级别2的数据传输：GSM-R连续传输](/img/simrail/general/etcs/transmission-level-2.png)
+![ETCS级别2的数据传输：GSM-R连续传输](pathname:///img/simrail/general/etcs/transmission-level-2.png)
 
 在级别1，列车在应答器（位于信号机前几米处）上方通过的时刻以点为单位进行传输。在级别2，通过无线电连续进行传输。
 
@@ -160,7 +160,7 @@ ETCS系统的车载设备因为交通原因不会监管列车。在这个模式�
 
 在这种情况下，司机必须独立做出反应并开始制动——如果他们不这样做，在显示停止信号的信号机处越过应答器将触发紧急制动！
 
-![司机必须自行观察信号机](/img/simrail/general/etcs/balise-signal-observation.png)
+![司机必须自行观察信号机](pathname:///img/simrail/general/etcs/balise-signal-observation.png)
 
 所提供的例子清楚地表明，ETCS系统并没有取代司机或解除他们观察路线的责任，它只是作为一个支持因素。
 
@@ -176,7 +176,7 @@ DMI是一块装在铁路车辆上的额外屏幕，包含速度表，显示：�
 
 ### DMI外观
 
-![ETCS DMI 各分区示意](/img/simrail/general/etcs/dmi-overview.png)
+![ETCS DMI 各分区示意](pathname:///img/simrail/general/etcs/dmi-overview.png)
 
 上图是一个ETCS DMI的示例，其中各分区的功能如下：
 
@@ -194,7 +194,7 @@ DMI是一块装在铁路车辆上的额外屏幕，包含速度表，显示：�
 
 该组件仅在直接接近变速/停车点时可见。
 
-![DMI 距离指示](/img/simrail/general/etcs/dmi-distance.png)
+![DMI 距离指示](pathname:///img/simrail/general/etcs/dmi-distance.png)
 
 上图中左侧的距离指示条表明距离停车的限速0标识还有1080m。
 
@@ -215,25 +215,25 @@ DMI是一块装在铁路车辆上的额外屏幕，包含速度表，显示：�
 
 #### 接近更低速度，速度在允许范围内
 
-![接近更低速度，速度在允许范围内](/img/simrail/general/etcs/dmi-speed-within-limit.png)
+![接近更低速度，速度在允许范围内](pathname:///img/simrail/general/etcs/dmi-speed-within-limit.png)
 
 此图表明列车当前速度为109km/h，需要减速到70km/h（黄色与灰色包围产生区分的位置），当前ETCS允许的最高速度是120km/h（黄色包围标识的最高速度）。
 
 #### 接近更低速度，速度略微超过允许范围
 
-![接近更低速度，速度略微超过允许范围](/img/simrail/general/etcs/dmi-speed-slightly-over.png)
+![接近更低速度，速度略微超过允许范围](pathname:///img/simrail/general/etcs/dmi-speed-slightly-over.png)
 
 列车当前速度为129km/h，需要在前方的停止信号处停车，当前ETCS允许的速度为119km/h（黄色包围标识的最高速度），“允许”略微超出的部分显示为橙色。在此种情况下ETCS不会采取措施，但需要司机增加制动力度，追上黄色区。
 
 #### 接近更低速度，速度完全超过允许范围
 
-![接近更低速度，速度完全超过允许范围](/img/simrail/general/etcs/dmi-speed-over-limit.png)
+![接近更低速度，速度完全超过允许范围](pathname:///img/simrail/general/etcs/dmi-speed-over-limit.png)
 
 列车当前速度为73km/h，需要在前方的停止信号处停车，当前ETCS允许的速度为49km/h，由于此时已经严重超速，ETCS自动为列车应用了制动。
 
 #### 列车接近停止信号机
 
-![列车接近停止信号机](/img/simrail/general/etcs/dmi-speed-release.png)
+![列车接近停止信号机](pathname:///img/simrail/general/etcs/dmi-speed-release.png)
 
 此时可以注意到，速度表左下方有一个40和对应的浅灰色区域，这个40被称为释放速度，如果列车降到释放速度范围内，列车将不会施加制动，直到前方的信号机处。
 
@@ -255,24 +255,24 @@ DMI是一块装在铁路车辆上的额外屏幕，包含速度表，显示：�
 
 #### 进路规划图标
 
-- 降低受电弓：![降低受电弓图标1](/img/simrail/general/etcs/icon-lower-pantograph-1.png) ![降低受电弓图标2](/img/simrail/general/etcs/icon-lower-pantograph-2.png)
-- 升起受电弓：![升起受电弓图标1](/img/simrail/general/etcs/icon-raise-pantograph-1.png) ![升起受电弓图标2](/img/simrail/general/etcs/icon-raise-pantograph-2.png)
-- 中性区段开始：![中性区段开始图标1](/img/simrail/general/etcs/icon-neutral-section-start-1.png) ![中性区段开始图标2](/img/simrail/general/etcs/icon-neutral-section-start-2.png)
-- 中性区段结束：![中性区段结束图标1](/img/simrail/general/etcs/icon-neutral-section-end-1.png) ![中性区段结束图标2](/img/simrail/general/etcs/icon-neutral-section-end-2.png)
-- 禁停区：![禁停区图标](/img/simrail/general/etcs/icon-no-stop-zone.png) 于此紧急制动会使列车停在不适宜的位置，例如高架桥和隧道等，游戏中称之为“禁停区”。
-- GSM-R覆盖范围外：![GSM-R覆盖范围外图标](/img/simrail/general/etcs/icon-gsm-r-out-of-coverage.png)
-- 限速提升的位置：![限速提升图标](/img/simrail/general/etcs/icon-speed-increase.png)
-- 限速下降的位置：![限速下降图标1](/img/simrail/general/etcs/icon-speed-decrease-1.png) ![限速下降图标2](/img/simrail/general/etcs/icon-speed-decrease-2.png)
-- 鸣笛位置：![鸣笛位置图标](/img/simrail/general/etcs/icon-horn.png)
-- 无受电弓区域开始：![无受电弓区域开始图标1](/img/simrail/general/etcs/icon-no-pantograph-start-1.png) ![无受电弓区域开始图标2](/img/simrail/general/etcs/icon-no-pantograph-start-2.png)
-- 进入不同接触网电压制式区域：![接触网电压制式图标1](/img/simrail/general/etcs/icon-power-system-1.png) ![接触网电压制式图标2](/img/simrail/general/etcs/icon-power-system-2.png) ![接触网电压制式图标3](/img/simrail/general/etcs/icon-power-system-3.png) ![接触网电压制式图标4](/img/simrail/general/etcs/icon-power-system-4.png)
-- 进入禁止使用磁轨制动的区域：![禁止磁轨制动图标1](/img/simrail/general/etcs/icon-eddy-brake-ban-1.png) ![禁止磁轨制动图标2](/img/simrail/general/etcs/icon-eddy-brake-ban-2.png)
+- 降低受电弓：![降低受电弓图标1](pathname:///img/simrail/general/etcs/icon-lower-pantograph-1.png) ![降低受电弓图标2](pathname:///img/simrail/general/etcs/icon-lower-pantograph-2.png)
+- 升起受电弓：![升起受电弓图标1](pathname:///img/simrail/general/etcs/icon-raise-pantograph-1.png) ![升起受电弓图标2](pathname:///img/simrail/general/etcs/icon-raise-pantograph-2.png)
+- 中性区段开始：![中性区段开始图标1](pathname:///img/simrail/general/etcs/icon-neutral-section-start-1.png) ![中性区段开始图标2](pathname:///img/simrail/general/etcs/icon-neutral-section-start-2.png)
+- 中性区段结束：![中性区段结束图标1](pathname:///img/simrail/general/etcs/icon-neutral-section-end-1.png) ![中性区段结束图标2](pathname:///img/simrail/general/etcs/icon-neutral-section-end-2.png)
+- 禁停区：![禁停区图标](pathname:///img/simrail/general/etcs/icon-no-stop-zone.png) 于此紧急制动会使列车停在不适宜的位置，例如高架桥和隧道等，游戏中称之为“禁停区”。
+- GSM-R覆盖范围外：![GSM-R覆盖范围外图标](pathname:///img/simrail/general/etcs/icon-gsm-r-out-of-coverage.png)
+- 限速提升的位置：![限速提升图标](pathname:///img/simrail/general/etcs/icon-speed-increase.png)
+- 限速下降的位置：![限速下降图标1](pathname:///img/simrail/general/etcs/icon-speed-decrease-1.png) ![限速下降图标2](pathname:///img/simrail/general/etcs/icon-speed-decrease-2.png)
+- 鸣笛位置：![鸣笛位置图标](pathname:///img/simrail/general/etcs/icon-horn.png)
+- 无受电弓区域开始：![无受电弓区域开始图标1](pathname:///img/simrail/general/etcs/icon-no-pantograph-start-1.png) ![无受电弓区域开始图标2](pathname:///img/simrail/general/etcs/icon-no-pantograph-start-2.png)
+- 进入不同接触网电压制式区域：![接触网电压制式图标1](pathname:///img/simrail/general/etcs/icon-power-system-1.png) ![接触网电压制式图标2](pathname:///img/simrail/general/etcs/icon-power-system-2.png) ![接触网电压制式图标3](pathname:///img/simrail/general/etcs/icon-power-system-3.png) ![接触网电压制式图标4](pathname:///img/simrail/general/etcs/icon-power-system-4.png)
+- 进入禁止使用磁轨制动的区域：![禁止磁轨制动图标1](pathname:///img/simrail/general/etcs/icon-eddy-brake-ban-1.png) ![禁止磁轨制动图标2](pathname:///img/simrail/general/etcs/icon-eddy-brake-ban-2.png)
 - 此外，轨道坡度也显示在此，带有加号的灰条意为上坡，带有减号的灰条意为下坡。
 - 右侧的蓝色矩形区域标识限速和以1/4和1/2按比例收缩距离。
 
 #### 解读示例
 
-![进路规划解读示例](/img/simrail/general/etcs/dmi-route-planning-example.png)
+![进路规划解读示例](pathname:///img/simrail/general/etcs/dmi-route-planning-example.png)
 
 上图中所显示的内容为，列车当前速度为133km/h，并在中性区段和鸣笛位置行驶。中性区域结束于前方约100m处，从当前位置直到前方300m处为5‰的上坡道，接下来大约900m是22‰的下坡道。
 
@@ -304,29 +304,29 @@ ETCS系统的一些功能需要进行长按而不是简单按下即可。
 
 #### 级间转换
 
-![级别转换确认（触摸屏）](/img/simrail/general/etcs/level-transition-touch.png)
+![级别转换确认（触摸屏）](pathname:///img/simrail/general/etcs/level-transition-touch.png)
 
 列车以级别1以速度为133km/h行驶，将要到达级别转换为级别0的区间。司机必须确认级别转换——按下速度表下方的黄框，未相应确认请求会导致紧急制动。
 
-![级别转换确认（键盘）](/img/simrail/general/etcs/level-transition-keyboard.png)
+![级别转换确认（键盘）](pathname:///img/simrail/general/etcs/level-transition-keyboard.png)
 
 列车以级别1以速度为133km/h行驶，将要到达级别转换为级别0的区间。司机必须确认级别转换——按下ENTER按钮（Ack），未相应确认请求会导致紧急制动。
 
 #### 系统自动制动
 
-![系统自动制动](/img/simrail/general/etcs/service-brake-ack.png)
+![系统自动制动](pathname:///img/simrail/general/etcs/service-brake-ack.png)
 
 列车以88km/h行驶在允许速度为70km/h的地点，且会在300米内到达EoA（行车许可终点）。因司机未采取制动措施，系统实施了制动，此时级别1图标下方出现红色图标。当列车停止后，后续驾驶需要按下制动图标（或ENTER键）来确认制动操作。
 
 #### ETCS L2完全监控模式
 
-![ETCS L2 已连接RBC](/img/simrail/general/etcs/l2-rbc-connected.png)
+![ETCS L2 已连接RBC](pathname:///img/simrail/general/etcs/l2-rbc-connected.png)
 
 列车在级别2以FS完全监控模式运行，且连接到了RBC——级别2图标的下方会出现该图标。
 
 #### ETCS L2无线通信中断
 
-![ETCS L2 与RBC失联](/img/simrail/general/etcs/l2-rbc-disconnected.png)
+![ETCS L2 与RBC失联](pathname:///img/simrail/general/etcs/l2-rbc-disconnected.png)
 
 列车在级别2以FS完全监控模式运行，此时列车与RBC（无线闭塞中心）失联——级别2图标的下方会出现灰底的红色图标。如果若干秒未重新建立RBC的连接，列车会自动制动。在此情景下，后续驾驶应使用SR或IS模式。
 
@@ -347,17 +347,17 @@ ETCS系统的一些功能需要进行长按而不是简单按下即可。
 
 在激活驾驶室后，屏幕会询问你司机号，数据必须通过触摸键盘或屏幕周围的按键输入，数据输入确认的方式是点击输入区域（触摸屏）或按屏幕旁边的ENTRY键。
 
-![输入司机号（触摸键盘）](/img/simrail/general/etcs/startup-driver-id-touch.png)
+![输入司机号（触摸键盘）](pathname:///img/simrail/general/etcs/startup-driver-id-touch.png)
 
-![输入司机号（实体按键）](/img/simrail/general/etcs/startup-driver-id-keys.png)
+![输入司机号（实体按键）](pathname:///img/simrail/general/etcs/startup-driver-id-keys.png)
 
 下一步是选择监管级别。选择适合于当前轨道的适当的ETCS级别，如果列车在ETCS区域之外，你应该选择当地安全系统，如SHP。
 
-![选择监管级别](/img/simrail/general/etcs/startup-level.png)
+![选择监管级别](pathname:///img/simrail/general/etcs/startup-level.png)
 
 下一个屏幕取决于选择的级别。对于级别2，系统会询问RBC数据，对于其他级别，会返回主菜单。
 
-![RBC数据输入](/img/simrail/general/etcs/startup-rbc-data.png)
+![RBC数据输入](pathname:///img/simrail/general/etcs/startup-rbc-data.png)
 
 当选择级别2时，必须输入RBC数据。如果列车此前就在ETCS的监管下，“连接至最近RBC”选择就是可选的。如果没有，你需要手工输入RBC数据。选择“输入RBC数据”。
 
@@ -377,19 +377,19 @@ RBC数据包含两栏，RBC编号和RBC电话号码。这些数据司机应该�
 
 在输入RBC信息（或回主菜单）后，“启动”按钮并不能使用，这是因为缺乏列车数据。ETCS系统需要输入列车数据、长度、以及制动比这些信息可以在时刻表上看到。要输入列车数据，点击主菜单的“列车数据”项目。对于动车组，如ED250，数据往往是预设的，直接选择相应列车数据组就可以了。但是对于ET25担当的各类列车，则必须手动输入数据。
 
-![列车数据输入](/img/simrail/general/etcs/startup-train-data.png)
+![列车数据输入](pathname:///img/simrail/general/etcs/startup-train-data.png)
 
 列车数据在HUD左侧的时刻表版块上可以找到，单位为m的数值为列车长度，而带有％的数值为制动比。
 
-![时刻表版块中的列车长度与制动比](/img/simrail/general/etcs/startup-timetable-train-data.png)
+![时刻表版块中的列车长度与制动比](pathname:///img/simrail/general/etcs/startup-timetable-train-data.png)
 
 最大速度通常在路书中可以找到，首先通过点击打开路书。
 
-![打开路书](/img/simrail/general/etcs/startup-open-timetable.png)
+![打开路书](pathname:///img/simrail/general/etcs/startup-open-timetable.png)
 
 在Vmax那一栏对应的数据就是路书载明的最大速度。
 
-![路书中的Vmax](/img/simrail/general/etcs/startup-timetable-vmax.png)
+![路书中的Vmax](pathname:///img/simrail/general/etcs/startup-timetable-vmax.png)
 
 :::warning
 
@@ -428,7 +428,7 @@ ETCS系统会在以下情况紧急制动：
 - 应答器报文错误
 - 车辆遛逸
 
-![ETCS 实施制动](/img/simrail/general/etcs/brake-intervention.png)
+![ETCS 实施制动](pathname:///img/simrail/general/etcs/brake-intervention.png)
 
 如果列车制动到了停止信号之后，系统会进入TRIP冒进模式。司机需要确认模式切换。进一步的驾驶需要在与调度员协商后以SR模式继续。
 
@@ -464,9 +464,9 @@ ETCS系统会在以下情况紧急制动：
 
 ### 速度钩子
 
-![速度钩子](/img/simrail/general/etcs/speed-hook.png)
+![速度钩子](pathname:///img/simrail/general/etcs/speed-hook.png)
 
-在SR、SH、OS模式下，ETCS屏幕上会出现一个速度钩子![速度钩子图标](/img/simrail/general/etcs/speed-hook-icon.png)。按下对应的按钮，就可以显示当前模式下允许运行的最大速度，这有助于防止忘记当前速度限制的情况。
+在SR、SH、OS模式下，ETCS屏幕上会出现一个速度钩子![速度钩子图标](pathname:///img/simrail/general/etcs/speed-hook-icon.png)。按下对应的按钮，就可以显示当前模式下允许运行的最大速度，这有助于防止忘记当前速度限制的情况。
 
 ## 系统关闭/重启
 
@@ -476,19 +476,19 @@ ETCS系统会在以下情况紧急制动：
 
 E6ACTa、ET25、Dragon 2的隔离开关位于驾驶室面向后部右上方的面板上。
 
-![E6ACTa / ET25 / Dragon 2 的隔离开关](/img/simrail/general/etcs/switch-e6acta-et25-dragon2.png)
+![E6ACTa / ET25 / Dragon 2 的隔离开关](pathname:///img/simrail/general/etcs/switch-e6acta-et25-dragon2.png)
 
 ### ED250 - Pendolino
 
 ED250的隔离开关位于驾驶室面向后部右方的面板上。
 
-![ED250 的隔离开关](/img/simrail/general/etcs/switch-ed250.png)
+![ED250 的隔离开关](pathname:///img/simrail/general/etcs/switch-ed250.png)
 
 ### 36WEd - Impuls II
 
 36WEd的隔离开关位于驾驶室面向前方左侧一个被盖子盖住的位置，打开盖子即可操作隔离开关。
 
-![36WEd 的隔离开关](/img/simrail/general/etcs/switch-36wed.png)
+![36WEd 的隔离开关](pathname:///img/simrail/general/etcs/switch-36wed.png)
 
 ## 参考文献
 

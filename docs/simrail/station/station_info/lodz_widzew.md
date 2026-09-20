@@ -19,9 +19,9 @@ slug: /station/station_info/lodz_widzew
 
 ## 位置
 
-![罗兹 维泽夫站位置示意一](/img/simrail/station/station_info/lodz_widzew/location-1.webp)
+![罗兹 维泽夫站位置示意一](pathname:///img/simrail/station/station_info/lodz_widzew/location-1.webp)
 
-![罗兹 维泽夫站位置示意二](/img/simrail/station/station_info/lodz_widzew/location-2.webp)
+![罗兹 维泽夫站位置示意二](pathname:///img/simrail/station/station_info/lodz_widzew/location-2.webp)
 
 罗兹 维泽夫站（Łódź Widzew，ŁW）是罗兹市较大的火车站之一。该站拥有十条股道以及三个站台，共有六条站台股道。从这个车站远程控制罗兹 马里辛（Łódź Marysin）和罗兹 栋布罗瓦（Łódź Dąbrowa）。此外，罗兹城市铁路公司（Łódzka Kolej Aglomeracyjna，ŁKA）的车辆段位于该车站旁边。 相邻的信号楼有：位于LK16铁路线上的兹盖日（Zgierz）、位于LK17铁路线上的加乌库维克（Gałkówek）和罗兹 法布里奇纳（Łódź Fabryczna）、位于LK540铁路线上的罗兹 霍伊内（Łódź Chojny），以及位于LK541铁路线上的罗兹 奥莱胡夫（Łódź Olechów）。
 
@@ -44,36 +44,36 @@ slug: /station/station_info/lodz_widzew
 <details>
 <summary>基本</summary>
 
-![罗兹 维泽夫站调度面板（基本视图一）](/img/simrail/station/station_info/lodz_widzew/panel-basic-1.webp)
+![罗兹 维泽夫站调度面板（基本视图一）](pathname:///img/simrail/station/station_info/lodz_widzew/panel-basic-1.webp)
 
-![罗兹 维泽夫站调度面板（基本视图二）](/img/simrail/station/station_info/lodz_widzew/panel-basic-2.webp)
+![罗兹 维泽夫站调度面板（基本视图二）](pathname:///img/simrail/station/station_info/lodz_widzew/panel-basic-2.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![罗兹 维泽夫站 CCTV 位置一](/img/simrail/station/station_info/lodz_widzew/cctv-locations-1.webp)
+![罗兹 维泽夫站 CCTV 位置一](pathname:///img/simrail/station/station_info/lodz_widzew/cctv-locations-1.webp)
 
-![罗兹 维泽夫站 CCTV 位置二](/img/simrail/station/station_info/lodz_widzew/cctv-locations-2.webp)
+![罗兹 维泽夫站 CCTV 位置二](pathname:///img/simrail/station/station_info/lodz_widzew/cctv-locations-2.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![罗兹 维泽夫站道岔限速一](/img/simrail/station/station_info/lodz_widzew/switch-speed-limit-1.webp)
+![罗兹 维泽夫站道岔限速一](pathname:///img/simrail/station/station_info/lodz_widzew/switch-speed-limit-1.webp)
 
-![罗兹 维泽夫站道岔限速二](/img/simrail/station/station_info/lodz_widzew/switch-speed-limit-2.webp)
+![罗兹 维泽夫站道岔限速二](pathname:///img/simrail/station/station_info/lodz_widzew/switch-speed-limit-2.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![罗兹 维泽夫站 ETCS 等级一](/img/simrail/station/station_info/lodz_widzew/etcs-level-1.webp)
+![罗兹 维泽夫站 ETCS 等级一](pathname:///img/simrail/station/station_info/lodz_widzew/etcs-level-1.webp)
 
-![罗兹 维泽夫站 ETCS 等级二](/img/simrail/station/station_info/lodz_widzew/etcs-level-2.webp)
+![罗兹 维泽夫站 ETCS 等级二](pathname:///img/simrail/station/station_info/lodz_widzew/etcs-level-2.webp)
 
 </details>
 
@@ -125,7 +125,7 @@ slug: /station/station_info/lodz_widzew
 <details>
 <summary>PLATFORM_1</summary>
 
-![罗兹 维泽夫站 CCTV PLATFORM_1](/img/simrail/station/station_info/lodz_widzew/cctv-platform-1.webp)
+![罗兹 维泽夫站 CCTV PLATFORM_1](pathname:///img/simrail/station/station_info/lodz_widzew/cctv-platform-1.webp)
 
 CCTV名称：PLATFORM_1
 
@@ -136,7 +136,7 @@ CCTV名称：PLATFORM_1
 <details>
 <summary>PLATFORM_3</summary>
 
-![罗兹 维泽夫站 CCTV PLATFORM_3](/img/simrail/station/station_info/lodz_widzew/cctv-platform-3.webp)
+![罗兹 维泽夫站 CCTV PLATFORM_3](pathname:///img/simrail/station/station_info/lodz_widzew/cctv-platform-3.webp)
 
 CCTV名称：PLATFORM_3
 
@@ -147,7 +147,7 @@ CCTV名称：PLATFORM_3
 <details>
 <summary>SEM_T_U_V_W</summary>
 
-![罗兹 维泽夫站 CCTV SEM_T_U_V_W](/img/simrail/station/station_info/lodz_widzew/cctv-sem-t-u-v-w.webp)
+![罗兹 维泽夫站 CCTV SEM_T_U_V_W](pathname:///img/simrail/station/station_info/lodz_widzew/cctv-sem-t-u-v-w.webp)
 
 CCTV名称：SEM_T_U_V_W
 

@@ -19,9 +19,9 @@ slug: /station/station_info/lowicz_glowny
 
 ## 位置
 
-![沃维奇总站站位置示意一](/img/simrail/station/station_info/lowicz_glowny/location-1.webp)
+![沃维奇总站站位置示意一](pathname:///img/simrail/station/station_info/lowicz_glowny/location-1.webp)
 
-![沃维奇总站站位置示意二](/img/simrail/station/station_info/lowicz_glowny/location-2.webp)
+![沃维奇总站站位置示意二](pathname:///img/simrail/station/station_info/lowicz_glowny/location-2.webp)
 
 沃维奇总站（Łowicz Główny）是一个位于铁路线 LK3、LK11 与一部分LK15，还有通往沃维奇 郊区（Łowicz Przedmieście）的联络线 LK531 和 LK532 交汇处的联锁站。它远程控制沃维奇总站 1 号汇线点（Łowicz Główny PZS R1）和12号汇线点（Łowicz Główny PZS R12）。相邻的联锁站有沃维奇 郊区（Łowicz Przedmieście）、贝德纳雷（Bednary）、贝乌胡夫（Bełchów）和雅茨科维采（Jackowice）。该站设有两座岛式站台用于客运服务。
 
@@ -44,21 +44,21 @@ slug: /station/station_info/lowicz_glowny
 <details>
 <summary>基本</summary>
 
-![沃维奇总站站调度面板（基本视图）](/img/simrail/station/station_info/lowicz_glowny/panel-basic.webp)
+![沃维奇总站站调度面板（基本视图）](pathname:///img/simrail/station/station_info/lowicz_glowny/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![沃维奇总站站 CCTV 位置](/img/simrail/station/station_info/lowicz_glowny/cctv-locations.webp)
+![沃维奇总站站 CCTV 位置](pathname:///img/simrail/station/station_info/lowicz_glowny/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![沃维奇总站站道岔限速](/img/simrail/station/station_info/lowicz_glowny/switch-speed-limit.webp)
+![沃维奇总站站道岔限速](pathname:///img/simrail/station/station_info/lowicz_glowny/switch-speed-limit.webp)
 
 </details>
 
@@ -69,7 +69,7 @@ slug: /station/station_info/lowicz_glowny
 <details>
 <summary>SEM_LG_A1-A2</summary>
 
-![沃维奇总站站 CCTV SEM_LG_A1-A2](/img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-a1-a2.webp)
+![沃维奇总站站 CCTV SEM_LG_A1-A2](pathname:///img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-a1-a2.webp)
 
 CCTV名称：SEM_LG_A1-A2
 
@@ -80,7 +80,7 @@ CCTV名称：SEM_LG_A1-A2
 <details>
 <summary>L11_18.682_A</summary>
 
-![沃维奇总站站 CCTV L11_18.682_A](/img/simrail/station/station_info/lowicz_glowny/cctv-l11-18-682-a.webp)
+![沃维奇总站站 CCTV L11_18.682_A](pathname:///img/simrail/station/station_info/lowicz_glowny/cctv-l11-18-682-a.webp)
 
 CCTV名称：L11_18.682_A
 
@@ -91,7 +91,7 @@ CCTV名称：L11_18.682_A
 <details>
 <summary>SEM_LG_D</summary>
 
-![沃维奇总站站 CCTV SEM_LG_D](/img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-d.webp)
+![沃维奇总站站 CCTV SEM_LG_D](pathname:///img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-d.webp)
 
 CCTV名称：SEM_LG_D
 
@@ -102,7 +102,7 @@ CCTV名称：SEM_LG_D
 <details>
 <summary>SEM_LG_G1-G2</summary>
 
-![沃维奇总站站 CCTV SEM_LG_G1-G2](/img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-g1-g2.webp)
+![沃维奇总站站 CCTV SEM_LG_G1-G2](pathname:///img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-g1-g2.webp)
 
 CCTV名称：SEM_LG_G1-G2
 
@@ -113,7 +113,7 @@ CCTV名称：SEM_LG_G1-G2
 <details>
 <summary>SEM_LG_P</summary>
 
-![沃维奇总站站 CCTV SEM_LG_P](/img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-p.webp)
+![沃维奇总站站 CCTV SEM_LG_P](pathname:///img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-p.webp)
 
 CCTV名称：SEM_LG_P
 
@@ -124,7 +124,7 @@ CCTV名称：SEM_LG_P
 <details>
 <summary>SEM_LG_R</summary>
 
-![沃维奇总站站 CCTV SEM_LG_R](/img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-r.webp)
+![沃维奇总站站 CCTV SEM_LG_R](pathname:///img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-r.webp)
 
 CCTV名称：SEM_LG_R
 
@@ -135,7 +135,7 @@ CCTV名称：SEM_LG_R
 <details>
 <summary>PLATFORMS_LG</summary>
 
-![沃维奇总站站 CCTV PLATFORMS_LG](/img/simrail/station/station_info/lowicz_glowny/cctv-platforms-lg.webp)
+![沃维奇总站站 CCTV PLATFORMS_LG](pathname:///img/simrail/station/station_info/lowicz_glowny/cctv-platforms-lg.webp)
 
 CCTV名称：PLATFORMS_LG
 
@@ -146,7 +146,7 @@ CCTV名称：PLATFORMS_LG
 <details>
 <summary>L3.81.600_A</summary>
 
-![沃维奇总站站 CCTV L3.81.600_A](/img/simrail/station/station_info/lowicz_glowny/cctv-l3-81-600-a.webp)
+![沃维奇总站站 CCTV L3.81.600_A](pathname:///img/simrail/station/station_info/lowicz_glowny/cctv-l3-81-600-a.webp)
 
 CCTV名称：L3.81.600_A
 
@@ -157,7 +157,7 @@ CCTV名称：L3.81.600_A
 <details>
 <summary>SEM_LG_Z-W</summary>
 
-![沃维奇总站站 CCTV SEM_LG_Z-W](/img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-z-w.webp)
+![沃维奇总站站 CCTV SEM_LG_Z-W](pathname:///img/simrail/station/station_info/lowicz_glowny/cctv-sem-lg-z-w.webp)
 
 CCTV名称：SEM_LG_Z-W
 

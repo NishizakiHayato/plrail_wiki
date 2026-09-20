@@ -19,9 +19,9 @@ slug: /station/station_info/rokiciny
 
 ## 位置
 
-![罗基齐内站位置示意一](/img/simrail/station/station_info/rokiciny/location-1.webp)
+![罗基齐内站位置示意一](pathname:///img/simrail/station/station_info/rokiciny/location-1.webp)
 
-![罗基齐内站位置示意二](/img/simrail/station/station_info/rokiciny/location-2.webp)
+![罗基齐内站位置示意二](pathname:///img/simrail/station/station_info/rokiciny/location-2.webp)
 
 罗基齐内站（Rokiciny，Rk）位于华沙西（Warszawa Zachodnia）–卡托维兹（Katowice）线路的LK 1线路上。该站共有五条股道。该站站台位于进站信号机和出站信号机之间，这意味着越行和旅客乘降不能同时进行。相邻信号楼为往琴斯托霍瓦（Częstochowa）方向的巴贝（Baby）和往华沙（Warszawa）或罗兹（Łódź）方向的科卢什基（Koluszki）。
 
@@ -44,21 +44,21 @@ slug: /station/station_info/rokiciny
 <details>
 <summary>基本</summary>
 
-![罗基齐内站调度面板（基本视图）](/img/simrail/station/station_info/rokiciny/panel-basic.webp)
+![罗基齐内站调度面板（基本视图）](pathname:///img/simrail/station/station_info/rokiciny/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![罗基齐内站 CCTV 位置](/img/simrail/station/station_info/rokiciny/cctv-locations.webp)
+![罗基齐内站 CCTV 位置](pathname:///img/simrail/station/station_info/rokiciny/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![罗基齐内站道岔限速](/img/simrail/station/station_info/rokiciny/switch-speed-limit.webp)
+![罗基齐内站道岔限速](pathname:///img/simrail/station/station_info/rokiciny/switch-speed-limit.webp)
 
 </details>
 
@@ -89,7 +89,7 @@ slug: /station/station_info/rokiciny
 <details>
 <summary>L1_114.334_A</summary>
 
-![罗基齐内站 CCTV L1_114.334_A](/img/simrail/station/station_info/rokiciny/cctv-l1-114-334-a.webp)
+![罗基齐内站 CCTV L1_114.334_A](pathname:///img/simrail/station/station_info/rokiciny/cctv-l1-114-334-a.webp)
 
 CCTV名称：L1_114.334_A
 
@@ -102,7 +102,7 @@ CCTV名称：L1_114.334_A
 <details>
 <summary>PLATFORMS</summary>
 
-![罗基齐内站 CCTV PLATFORMS](/img/simrail/station/station_info/rokiciny/cctv-platforms.webp)
+![罗基齐内站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/rokiciny/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -113,7 +113,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_A-B</summary>
 
-![罗基齐内站 CCTV SEM_A-B](/img/simrail/station/station_info/rokiciny/cctv-sem-a-b.webp)
+![罗基齐内站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/rokiciny/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 
@@ -124,7 +124,7 @@ CCTV名称：SEM_A-B
 <details>
 <summary>SEM_N-O</summary>
 
-![罗基齐内站 CCTV SEM_N-O](/img/simrail/station/station_info/rokiciny/cctv-sem-n-o.webp)
+![罗基齐内站 CCTV SEM_N-O](pathname:///img/simrail/station/station_info/rokiciny/cctv-sem-n-o.webp)
 
 CCTV名称：SEM_N-O
 

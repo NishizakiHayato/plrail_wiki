@@ -19,9 +19,9 @@ slug: /station/station_info/lodz_chojny
 
 ## 位置
 
-![罗兹 霍伊内站位置示意一](/img/simrail/station/station_info/lodz_chojny/location-1.webp)
+![罗兹 霍伊内站位置示意一](pathname:///img/simrail/station/station_info/lodz_chojny/location-1.webp)
 
-![罗兹 霍伊内站位置示意二](/img/simrail/station/station_info/lodz_chojny/location-2.webp)
+![罗兹 霍伊内站位置示意二](pathname:///img/simrail/station/station_info/lodz_chojny/location-2.webp)
 
 罗兹 霍伊内（Łódź Chojny，ŁCh）位于LK 25线及通往罗兹 维泽夫（Łódź Widzew）的联络线LK 540上。该站共设五条股道，其中三条配有站台。
 
@@ -46,21 +46,21 @@ slug: /station/station_info/lodz_chojny
 <details>
 <summary>基本</summary>
 
-![罗兹 霍伊内站调度面板（基本视图）](/img/simrail/station/station_info/lodz_chojny/panel-basic.webp)
+![罗兹 霍伊内站调度面板（基本视图）](pathname:///img/simrail/station/station_info/lodz_chojny/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![罗兹 霍伊内站 CCTV 位置](/img/simrail/station/station_info/lodz_chojny/cctv-locations.webp)
+![罗兹 霍伊内站 CCTV 位置](pathname:///img/simrail/station/station_info/lodz_chojny/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![罗兹 霍伊内站道岔限速](/img/simrail/station/station_info/lodz_chojny/switch-speed-limit.webp)
+![罗兹 霍伊内站道岔限速](pathname:///img/simrail/station/station_info/lodz_chojny/switch-speed-limit.webp)
 
 </details>
 
@@ -95,7 +95,7 @@ slug: /station/station_info/lodz_chojny
 <details>
 <summary>L25_7.679_A</summary>
 
-![罗兹 霍伊内站 CCTV L25_7.679_A](/img/simrail/station/station_info/lodz_chojny/cctv-l25-7-679-a.webp)
+![罗兹 霍伊内站 CCTV L25_7.679_A](pathname:///img/simrail/station/station_info/lodz_chojny/cctv-l25-7-679-a.webp)
 
 CCTV名称：L25_7.679_A
 
@@ -108,7 +108,7 @@ CCTV名称：L25_7.679_A
 <details>
 <summary>L25_6.666_A</summary>
 
-![罗兹 霍伊内站 CCTV L25_6.666_A](/img/simrail/station/station_info/lodz_chojny/cctv-l25-6-666-a.webp)
+![罗兹 霍伊内站 CCTV L25_6.666_A](pathname:///img/simrail/station/station_info/lodz_chojny/cctv-l25-6-666-a.webp)
 
 CCTV名称：L25_6.666_A
 
@@ -121,7 +121,7 @@ CCTV名称：L25_6.666_A
 <details>
 <summary>L25_6.073_A</summary>
 
-![罗兹 霍伊内站 CCTV L25_6.073_A](/img/simrail/station/station_info/lodz_chojny/cctv-l25-6-073-a.webp)
+![罗兹 霍伊内站 CCTV L25_6.073_A](pathname:///img/simrail/station/station_info/lodz_chojny/cctv-l25-6-073-a.webp)
 
 CCTV名称：L25_6.073_A
 
@@ -134,7 +134,7 @@ CCTV名称：L25_6.073_A
 <details>
 <summary>SEM_A-X</summary>
 
-![罗兹 霍伊内站 CCTV SEM_A-X](/img/simrail/station/station_info/lodz_chojny/cctv-sem-a-x.webp)
+![罗兹 霍伊内站 CCTV SEM_A-X](pathname:///img/simrail/station/station_info/lodz_chojny/cctv-sem-a-x.webp)
 
 CCTV名称：SEM_A-X
 
@@ -145,7 +145,7 @@ CCTV名称：SEM_A-X
 <details>
 <summary>SEM_O-P-S-R</summary>
 
-![罗兹 霍伊内站 CCTV SEM_O-P-S-R](/img/simrail/station/station_info/lodz_chojny/cctv-sem-o-p-s-r.webp)
+![罗兹 霍伊内站 CCTV SEM_O-P-S-R](pathname:///img/simrail/station/station_info/lodz_chojny/cctv-sem-o-p-s-r.webp)
 
 CCTV名称：SEM_O-P-S-R
 

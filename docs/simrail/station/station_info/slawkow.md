@@ -13,9 +13,9 @@ slug: /station/station_info/slawkow
 
 ## 位置
 
-![斯瓦夫库夫站位置示意一](/img/simrail/station/station_info/slawkow/location-1.webp)
+![斯瓦夫库夫站位置示意一](pathname:///img/simrail/station/station_info/slawkow/location-1.webp)
 
-![斯瓦夫库夫站位置示意二](/img/simrail/station/station_info/slawkow/location-2.webp)
+![斯瓦夫库夫站位置示意二](pathname:///img/simrail/station/station_info/slawkow/location-2.webp)
 
 斯瓦夫库夫站（Sławków）是一个位于栋布罗瓦-古尔尼恰东站（Dabrowa Górnicza Wschodnia）和布科夫诺站（Bukowno）中间的中等车站。共有四条电气化轨道，其中两条共用一个站台，有区域列车停靠。
 
@@ -38,14 +38,14 @@ slug: /station/station_info/slawkow
 <details>
 <summary>基本</summary>
 
-![斯瓦夫库夫站调度面板（基本视图）](/img/simrail/station/station_info/slawkow/panel-basic.webp)
+![斯瓦夫库夫站调度面板（基本视图）](pathname:///img/simrail/station/station_info/slawkow/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![斯瓦夫库夫站道岔限速](/img/simrail/station/station_info/slawkow/switch-speed-limit.webp)
+![斯瓦夫库夫站道岔限速](pathname:///img/simrail/station/station_info/slawkow/switch-speed-limit.webp)
 
 </details>
 
@@ -79,7 +79,7 @@ slug: /station/station_info/slawkow
 <details>
 <summary>L62_60.445_A</summary>
 
-![斯瓦夫库夫站 CCTV L62_60.445_A](/img/simrail/station/station_info/slawkow/cctv-l62-60-445-a.webp)
+![斯瓦夫库夫站 CCTV L62_60.445_A](pathname:///img/simrail/station/station_info/slawkow/cctv-l62-60-445-a.webp)
 
 CCTV名称：L62_60.445_A
 

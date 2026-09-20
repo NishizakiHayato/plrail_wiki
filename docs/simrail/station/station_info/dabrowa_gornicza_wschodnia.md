@@ -13,9 +13,9 @@ slug: /station/station_info/dabrowa_gornicza_wschodnia
 
 ## 位置
 
-![栋布罗瓦-古尔尼恰东站位置示意一](/img/simrail/station/station_info/dabrowa_gornicza_wschodnia/location-1.webp)
+![栋布罗瓦-古尔尼恰东站位置示意一](pathname:///img/simrail/station/station_info/dabrowa_gornicza_wschodnia/location-1.webp)
 
-![栋布罗瓦-古尔尼恰东站位置示意二](/img/simrail/station/station_info/dabrowa_gornicza_wschodnia/location-2.webp)
+![栋布罗瓦-古尔尼恰东站位置示意二](pathname:///img/simrail/station/station_info/dabrowa_gornicza_wschodnia/location-2.webp)
 
 栋布罗瓦-古尔尼恰东（Dąbrowa Górnicza Wschodnia）是一个四线交汇点，有两条双线铁路通过：一条从斯瓦夫库夫（Sławków）开往栋布罗瓦-古尔尼恰 斯特热梅希采（Dąbrowa Górnicza Strzemieszyce）的线路，另一条是从栋布罗瓦-古尔尼恰货场（Dąbrowa Górnicza Towarowa）开往多罗塔（Dorota）支线的货运线。这两条线路在车站以东几公里处立体交汇。该站有六条正线，其中两条位于一个岛式站台上。这个站台可以通过一座横跨轨道的公路高架桥进入。过去，在 2 道和 4 道之间还有一个站台，如今只剩下遗迹。该站有两个支线：一条通往矿石处理场（那里有一条通往卡托维兹钢铁厂的传送带），另一条通往圣戈班玻璃波兰公司的玻璃厂。列车的调度由名为“DW”的信号楼负责，该信号楼配备有继电器信号设备。
 
@@ -38,21 +38,21 @@ slug: /station/station_info/dabrowa_gornicza_wschodnia
 <details>
 <summary>基本</summary>
 
-![栋布罗瓦-古尔尼恰东站调度面板（基本视图）](/img/simrail/station/station_info/dabrowa_gornicza_wschodnia/panel-basic.webp)
+![栋布罗瓦-古尔尼恰东站调度面板（基本视图）](pathname:///img/simrail/station/station_info/dabrowa_gornicza_wschodnia/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![栋布罗瓦-古尔尼恰东站 CCTV 位置](/img/simrail/station/station_info/dabrowa_gornicza_wschodnia/cctv-locations.webp)
+![栋布罗瓦-古尔尼恰东站 CCTV 位置](pathname:///img/simrail/station/station_info/dabrowa_gornicza_wschodnia/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![栋布罗瓦-古尔尼恰东站道岔限速](/img/simrail/station/station_info/dabrowa_gornicza_wschodnia/switch-speed-limit.webp)
+![栋布罗瓦-古尔尼恰东站道岔限速](pathname:///img/simrail/station/station_info/dabrowa_gornicza_wschodnia/switch-speed-limit.webp)
 
 </details>
 
@@ -93,7 +93,7 @@ slug: /station/station_info/dabrowa_gornicza_wschodnia
 <details>
 <summary>SEM_T-U-W-X</summary>
 
-![栋布罗瓦-古尔尼恰东站 CCTV SEM_T-U-W-X](/img/simrail/station/station_info/dabrowa_gornicza_wschodnia/cctv-sem-t-u-w-x.webp)
+![栋布罗瓦-古尔尼恰东站 CCTV SEM_T-U-W-X](pathname:///img/simrail/station/station_info/dabrowa_gornicza_wschodnia/cctv-sem-t-u-w-x.webp)
 
 CCTV名称：SEM_T-U-W-X
 
@@ -104,7 +104,7 @@ CCTV名称：SEM_T-U-W-X
 <details>
 <summary>PLATFORMS</summary>
 
-![栋布罗瓦-古尔尼恰东站 CCTV PLATFORMS](/img/simrail/station/station_info/dabrowa_gornicza_wschodnia/cctv-platforms.webp)
+![栋布罗瓦-古尔尼恰东站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/dabrowa_gornicza_wschodnia/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 

@@ -13,9 +13,9 @@ slug: /station/station_info/raciborowice
 
 ## 位置
 
-![拉契波罗维采站位置示意一](/img/simrail/station/station_info/raciborowice/location-1.webp)
+![拉契波罗维采站位置示意一](pathname:///img/simrail/station/station_info/raciborowice/location-1.webp)
 
-![拉契波罗维采站位置示意二](/img/simrail/station/station_info/raciborowice/location-2.webp)
+![拉契波罗维采站位置示意二](pathname:///img/simrail/station/station_info/raciborowice/location-2.webp)
 
 拉契波罗维采站是一个小线路所，负责将克拉科夫新钢铁厂和克拉科夫-巴托维采方向的列车进行分离与汇合。
 
@@ -38,14 +38,14 @@ slug: /station/station_info/raciborowice
 <details>
 <summary>基本</summary>
 
-![拉契波罗维采站调度面板（基本视图）](/img/simrail/station/station_info/raciborowice/panel-basic.webp)
+![拉契波罗维采站调度面板（基本视图）](pathname:///img/simrail/station/station_info/raciborowice/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![拉契波罗维采站道岔限速](/img/simrail/station/station_info/raciborowice/switch-speed-limit.webp)
+![拉契波罗维采站道岔限速](pathname:///img/simrail/station/station_info/raciborowice/switch-speed-limit.webp)
 
 </details>
 

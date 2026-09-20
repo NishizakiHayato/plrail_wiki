@@ -13,9 +13,9 @@ slug: /station/station_info/lazy_lc
 
 ## 位置
 
-![瓦济 C 信号楼位置示意一](/img/simrail/station/station_info/lazy_lc/location-1.webp)
+![瓦济 C 信号楼位置示意一](pathname:///img/simrail/station/station_info/lazy_lc/location-1.webp)
 
-![瓦济 C 信号楼位置示意二](/img/simrail/station/station_info/lazy_lc/location-2.webp)
+![瓦济 C 信号楼位置示意二](pathname:///img/simrail/station/station_info/lazy_lc/location-2.webp)
 
 瓦济 C 信号楼是一个连接瓦济站的信号楼，信号楼可控制道岔将货物列车从宗布科维采、普热米亚尔基引向瓦济站的货运区，所有客运列车通过。
 
@@ -38,14 +38,14 @@ slug: /station/station_info/lazy_lc
 <details>
 <summary>基本</summary>
 
-![瓦济 C 信号楼调度面板（基本视图）](/img/simrail/station/station_info/lazy_lc/panel-basic.webp)
+![瓦济 C 信号楼调度面板（基本视图）](pathname:///img/simrail/station/station_info/lazy_lc/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![瓦济 C 信号楼道岔限速](/img/simrail/station/station_info/lazy_lc/switch-speed-limit.webp)
+![瓦济 C 信号楼道岔限速](pathname:///img/simrail/station/station_info/lazy_lc/switch-speed-limit.webp)
 
 </details>
 

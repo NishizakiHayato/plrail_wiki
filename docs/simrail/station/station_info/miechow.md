@@ -13,9 +13,9 @@ slug: /station/station_info/miechow
 
 ## 位置
 
-![梅胡夫站位置示意一](/img/simrail/station/station_info/miechow/location-1.webp)
+![梅胡夫站位置示意一](pathname:///img/simrail/station/station_info/miechow/location-1.webp)
 
-![梅胡夫站位置示意二](/img/simrail/station/station_info/miechow/location-2.webp)
+![梅胡夫站位置示意二](pathname:///img/simrail/station/station_info/miechow/location-2.webp)
 
 梅胡夫站（Miechów）是一个位于隧道村和斯沃姆尼基之间的小站，位于华沙（Warszawa）至克拉科夫（Kraków）的LK8铁路线上，有四条股道，可用于供慢速列车待避。车站有两条股道位于站台旁通勤列车和一些速度较慢的长途列车在此停靠。
 
@@ -38,21 +38,21 @@ slug: /station/station_info/miechow
 <details>
 <summary>基本</summary>
 
-![梅胡夫站调度面板（基本视图）](/img/simrail/station/station_info/miechow/panel-basic.webp)
+![梅胡夫站调度面板（基本视图）](pathname:///img/simrail/station/station_info/miechow/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![梅胡夫站 CCTV 位置](/img/simrail/station/station_info/miechow/cctv-locations.webp)
+![梅胡夫站 CCTV 位置](pathname:///img/simrail/station/station_info/miechow/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![梅胡夫站道岔限速](/img/simrail/station/station_info/miechow/switch-speed-limit.webp)
+![梅胡夫站道岔限速](pathname:///img/simrail/station/station_info/miechow/switch-speed-limit.webp)
 
 </details>
 
@@ -86,7 +86,7 @@ slug: /station/station_info/miechow
 <details>
 <summary>SEM_A-B</summary>
 
-![梅胡夫站 CCTV SEM_A-B](/img/simrail/station/station_info/miechow/cctv-sem-a-b.webp)
+![梅胡夫站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/miechow/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 
@@ -97,7 +97,7 @@ CCTV名称：SEM_A-B
 <details>
 <summary>SEM_N-O</summary>
 
-![梅胡夫站 CCTV SEM_N-O](/img/simrail/station/station_info/miechow/cctv-sem-n-o.webp)
+![梅胡夫站 CCTV SEM_N-O](pathname:///img/simrail/station/station_info/miechow/cctv-sem-n-o.webp)
 
 CCTV名称：SEM_N-O
 

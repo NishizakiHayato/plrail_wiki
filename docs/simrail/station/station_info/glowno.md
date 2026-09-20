@@ -27,9 +27,9 @@ slug: /station/station_info/glowno
 
 ## 位置
 
-![格沃夫诺站位置示意一](/img/simrail/station/station_info/glowno/location-1.webp)
+![格沃夫诺站位置示意一](pathname:///img/simrail/station/station_info/glowno/location-1.webp)
 
-![格沃夫诺站位置示意二](/img/simrail/station/station_info/glowno/location-2.webp)
+![格沃夫诺站位置示意二](pathname:///img/simrail/station/station_info/glowno/location-2.webp)
 
 格沃夫诺本地控制中心（LCS Głowno）位于铁路线 LK15 上，远程控制多玛涅维采（Domaniewice）联锁站，并监督该线路区段的列车运行。相邻联锁站为格林尼克本地控制中心（LCS Glinnik）和沃维奇 郊区（Łowicz Przedmieście）。格沃夫诺（Głowno）和多玛涅维采（Domaniewice）均设有两个侧式站台，用于客运服务。
 
@@ -52,27 +52,27 @@ slug: /station/station_info/glowno
 <details>
 <summary>基本</summary>
 
-![格沃夫诺站调度面板（基本视图一）](/img/simrail/station/station_info/glowno/panel-basic-1.webp)
+![格沃夫诺站调度面板（基本视图一）](pathname:///img/simrail/station/station_info/glowno/panel-basic-1.webp)
 
-![格沃夫诺站调度面板（基本视图二）](/img/simrail/station/station_info/glowno/panel-basic-2.webp)
+![格沃夫诺站调度面板（基本视图二）](pathname:///img/simrail/station/station_info/glowno/panel-basic-2.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![格沃夫诺站 CCTV 位置一](/img/simrail/station/station_info/glowno/cctv-locations-1.webp)
+![格沃夫诺站 CCTV 位置一](pathname:///img/simrail/station/station_info/glowno/cctv-locations-1.webp)
 
-![格沃夫诺站 CCTV 位置二](/img/simrail/station/station_info/glowno/cctv-locations-2.webp)
+![格沃夫诺站 CCTV 位置二](pathname:///img/simrail/station/station_info/glowno/cctv-locations-2.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![格沃夫诺站道岔限速一](/img/simrail/station/station_info/glowno/switch-speed-limit-1.webp)
+![格沃夫诺站道岔限速一](pathname:///img/simrail/station/station_info/glowno/switch-speed-limit-1.webp)
 
-![格沃夫诺站道岔限速二](/img/simrail/station/station_info/glowno/switch-speed-limit-2.webp)
+![格沃夫诺站道岔限速二](pathname:///img/simrail/station/station_info/glowno/switch-speed-limit-2.webp)
 
 </details>
 
@@ -83,7 +83,7 @@ LCS格沃夫诺配备了八台 CCTV 设备。
 <details>
 <summary>SEM_GN_A</summary>
 
-![格沃夫诺站 CCTV SEM_GN_A](/img/simrail/station/station_info/glowno/cctv-sem-gn-a.webp)
+![格沃夫诺站 CCTV SEM_GN_A](pathname:///img/simrail/station/station_info/glowno/cctv-sem-gn-a.webp)
 
 CCTV名称：SEM_GN_A
 
@@ -94,7 +94,7 @@ CCTV名称：SEM_GN_A
 <details>
 <summary>PLATFORMS_GN</summary>
 
-![格沃夫诺站 CCTV PLATFORMS_GN](/img/simrail/station/station_info/glowno/cctv-platforms-gn.webp)
+![格沃夫诺站 CCTV PLATFORMS_GN](pathname:///img/simrail/station/station_info/glowno/cctv-platforms-gn.webp)
 
 CCTV名称：PLATFORMS_GN
 
@@ -105,7 +105,7 @@ CCTV名称：PLATFORMS_GN
 <details>
 <summary>L15_32.572_A</summary>
 
-![格沃夫诺站 CCTV L15_32.572_A](/img/simrail/station/station_info/glowno/cctv-l15-32-572-a.webp)
+![格沃夫诺站 CCTV L15_32.572_A](pathname:///img/simrail/station/station_info/glowno/cctv-l15-32-572-a.webp)
 
 CCTV名称：L15_32.572_A
 
@@ -116,7 +116,7 @@ CCTV名称：L15_32.572_A
 <details>
 <summary>SEM_GN_K</summary>
 
-![格沃夫诺站 CCTV SEM_GN_K](/img/simrail/station/station_info/glowno/cctv-sem-gn-k.webp)
+![格沃夫诺站 CCTV SEM_GN_K](pathname:///img/simrail/station/station_info/glowno/cctv-sem-gn-k.webp)
 
 CCTV名称：SEM_GN_K
 
@@ -127,7 +127,7 @@ CCTV名称：SEM_GN_K
 <details>
 <summary>SEM_DM_A</summary>
 
-![格沃夫诺站 CCTV SEM_DM_A](/img/simrail/station/station_info/glowno/cctv-sem-dm-a.webp)
+![格沃夫诺站 CCTV SEM_DM_A](pathname:///img/simrail/station/station_info/glowno/cctv-sem-dm-a.webp)
 
 CCTV名称：SEM_DM_A
 
@@ -138,7 +138,7 @@ CCTV名称：SEM_DM_A
 <details>
 <summary>PLATFORMS_DM</summary>
 
-![格沃夫诺站 CCTV PLATFORMS_DM](/img/simrail/station/station_info/glowno/cctv-platforms-dm.webp)
+![格沃夫诺站 CCTV PLATFORMS_DM](pathname:///img/simrail/station/station_info/glowno/cctv-platforms-dm.webp)
 
 CCTV名称：PLATFORMS_DM
 
@@ -149,7 +149,7 @@ CCTV名称：PLATFORMS_DM
 <details>
 <summary>L15_22.114_A</summary>
 
-![格沃夫诺站 CCTV L15_22.114_A](/img/simrail/station/station_info/glowno/cctv-l15-22-114-a.webp)
+![格沃夫诺站 CCTV L15_22.114_A](pathname:///img/simrail/station/station_info/glowno/cctv-l15-22-114-a.webp)
 
 CCTV名称：L15_22.114_A
 
@@ -160,7 +160,7 @@ CCTV名称：L15_22.114_A
 <details>
 <summary>SEM_DM_P</summary>
 
-![格沃夫诺站 CCTV SEM_DM_P](/img/simrail/station/station_info/glowno/cctv-sem-dm-p.webp)
+![格沃夫诺站 CCTV SEM_DM_P](pathname:///img/simrail/station/station_info/glowno/cctv-sem-dm-p.webp)
 
 CCTV名称：SEM_DM_P
 

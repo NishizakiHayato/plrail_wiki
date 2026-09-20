@@ -13,9 +13,9 @@ slug: /station/station_info/lazy_la
 
 ## 位置
 
-![瓦济 A 信号楼位置示意一](/img/simrail/station/station_info/lazy_la/location-1.webp)
+![瓦济 A 信号楼位置示意一](pathname:///img/simrail/station/station_info/lazy_la/location-1.webp)
 
-![瓦济 A 信号楼位置示意二](/img/simrail/station/station_info/lazy_la/location-2.webp)
+![瓦济 A 信号楼位置示意二](pathname:///img/simrail/station/station_info/lazy_la/location-2.webp)
 
 瓦济 A 信号楼（Łazy Ła）位于连接华沙（Warszawa）至卡托维兹（Katowice）的 LK 1 号线上。其北侧邻接大型信号楼扎维尔切（Zawiercie），南侧则是瓦济客场（Łazy Łb）。此外，值得一提的还有相邻的编组站信号楼 Ła-1，但该信号楼在游戏中并未实现。那里的轨道目前处于封闭状态，无法使用。
 
@@ -42,7 +42,7 @@ slug: /station/station_info/lazy_la
 <details>
 <summary>基本</summary>
 
-![瓦济 A 信号楼调度面板（基本视图）](/img/simrail/station/station_info/lazy_la/panel-basic.webp)
+![瓦济 A 信号楼调度面板（基本视图）](pathname:///img/simrail/station/station_info/lazy_la/panel-basic.webp)
 
 </details>
 
@@ -128,7 +128,7 @@ slug: /station/station_info/lazy_la
 <details>
 <summary>POST_LA1</summary>
 
-![瓦济 A 信号楼 CCTV POST_LA1](/img/simrail/station/station_info/lazy_la/cctv-post-la1.webp)
+![瓦济 A 信号楼 CCTV POST_LA1](pathname:///img/simrail/station/station_info/lazy_la/cctv-post-la1.webp)
 
 CCTV名称：POST_LA1
 
@@ -139,7 +139,7 @@ CCTV名称：POST_LA1
 <details>
 <summary>SEM_H324</summary>
 
-![瓦济 A 信号楼 CCTV SEM_H324](/img/simrail/station/station_info/lazy_la/cctv-sem-h324.webp)
+![瓦济 A 信号楼 CCTV SEM_H324](pathname:///img/simrail/station/station_info/lazy_la/cctv-sem-h324.webp)
 
 CCTV名称：SEM_H324
 
@@ -150,7 +150,7 @@ CCTV名称：SEM_H324
 <details>
 <summary>SEM_F103-F117</summary>
 
-![瓦济 A 信号楼 CCTV SEM_F103-F117](/img/simrail/station/station_info/lazy_la/cctv-sem-f103-f117.webp)
+![瓦济 A 信号楼 CCTV SEM_F103-F117](pathname:///img/simrail/station/station_info/lazy_la/cctv-sem-f103-f117.webp)
 
 CCTV名称：SEM_F103-F117
 
@@ -161,7 +161,7 @@ CCTV名称：SEM_F103-F117
 <details>
 <summary>SEM_B_C1_C2_D3</summary>
 
-![瓦济 A 信号楼 CCTV SEM_B_C1_C2_D3](/img/simrail/station/station_info/lazy_la/cctv-sem-b-c1-c2-d3.webp)
+![瓦济 A 信号楼 CCTV SEM_B_C1_C2_D3](pathname:///img/simrail/station/station_info/lazy_la/cctv-sem-b-c1-c2-d3.webp)
 
 CCTV名称：SEM_B_C1_C2_D3
 

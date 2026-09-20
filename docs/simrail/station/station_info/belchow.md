@@ -19,9 +19,9 @@ slug: /station/station_info/belchow
 
 ## 位置
 
-![贝乌胡夫站位置示意一](/img/simrail/station/station_info/belchow/location-1.webp)
+![贝乌胡夫站位置示意一](pathname:///img/simrail/station/station_info/belchow/location-1.webp)
 
-![贝乌胡夫站位置示意二](/img/simrail/station/station_info/belchow/location-2.webp)
+![贝乌胡夫站位置示意二](pathname:///img/simrail/station/station_info/belchow/location-2.webp)
 
 贝乌胡夫（Bełchów，缩写 Bł）是位于铁路线 LK11 上的一处联锁站，由斯凯尔涅维采（Skierniewice）联锁站远程控制，负责监督贝乌胡夫（Bełchów）地区的列车运行。相邻联锁站为斯凯尔涅维采（Skierniewice）和沃维奇总站（Łowicz Główny）。该站设有一座岛式站台，用于客运服务。
 
@@ -44,21 +44,21 @@ slug: /station/station_info/belchow
 <details>
 <summary>基本</summary>
 
-![贝乌胡夫站调度面板（基本视图）](/img/simrail/station/station_info/belchow/panel-basic.webp)
+![贝乌胡夫站调度面板（基本视图）](pathname:///img/simrail/station/station_info/belchow/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![贝乌胡夫站 CCTV 位置](/img/simrail/station/station_info/belchow/cctv-locations.webp)
+![贝乌胡夫站 CCTV 位置](pathname:///img/simrail/station/station_info/belchow/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![贝乌胡夫站道岔限速](/img/simrail/station/station_info/belchow/switch-speed-limit.webp)
+![贝乌胡夫站道岔限速](pathname:///img/simrail/station/station_info/belchow/switch-speed-limit.webp)
 
 </details>
 
@@ -67,7 +67,7 @@ slug: /station/station_info/belchow
 <details>
 <summary>L11_10.831_A</summary>
 
-![贝乌胡夫站 CCTV L11_10.831_A](/img/simrail/station/station_info/belchow/cctv-l11-10-831-a.webp)
+![贝乌胡夫站 CCTV L11_10.831_A](pathname:///img/simrail/station/station_info/belchow/cctv-l11-10-831-a.webp)
 
 CCTV名称：L11_10.831_A
 
@@ -78,7 +78,7 @@ CCTV名称：L11_10.831_A
 <details>
 <summary>SEM_A_B</summary>
 
-![贝乌胡夫站 CCTV SEM_A_B](/img/simrail/station/station_info/belchow/cctv-sem-a-b.webp)
+![贝乌胡夫站 CCTV SEM_A_B](pathname:///img/simrail/station/station_info/belchow/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A_B
 
@@ -89,7 +89,7 @@ CCTV名称：SEM_A_B
 <details>
 <summary>PLATFORMS</summary>
 
-![贝乌胡夫站 CCTV PLATFORMS](/img/simrail/station/station_info/belchow/cctv-platforms.webp)
+![贝乌胡夫站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/belchow/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -100,7 +100,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_O_P</summary>
 
-![贝乌胡夫站 CCTV SEM_O_P](/img/simrail/station/station_info/belchow/cctv-sem-o-p.webp)
+![贝乌胡夫站 CCTV SEM_O_P](pathname:///img/simrail/station/station_info/belchow/cctv-sem-o-p.webp)
 
 CCTV名称：SEM_O_P
 

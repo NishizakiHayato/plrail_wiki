@@ -19,9 +19,9 @@ slug: /station/station_info/lowicz_przedmiescie
 
 ## 位置
 
-![沃维奇 郊区站位置示意一](/img/simrail/station/station_info/lowicz_przedmiescie/location-1.webp)
+![沃维奇 郊区站位置示意一](pathname:///img/simrail/station/station_info/lowicz_przedmiescie/location-1.webp)
 
-![沃维奇 郊区站位置示意二](/img/simrail/station/station_info/lowicz_przedmiescie/location-2.webp)
+![沃维奇 郊区站位置示意二](pathname:///img/simrail/station/station_info/lowicz_przedmiescie/location-2.webp)
 
 沃维奇 郊区（Łowicz Przedmieście）是位于铁路线 LK15 上的联锁站。相邻联锁站为沃维奇总站（Łowicz Główny）、贝德纳雷（Bednary）和多玛涅维采（Domaniewice）。该站设有三座站台，用于客运服务。
 
@@ -44,21 +44,21 @@ slug: /station/station_info/lowicz_przedmiescie
 <details>
 <summary>基本</summary>
 
-![沃维奇 郊区站调度面板（基本视图）](/img/simrail/station/station_info/lowicz_przedmiescie/panel-basic.webp)
+![沃维奇 郊区站调度面板（基本视图）](pathname:///img/simrail/station/station_info/lowicz_przedmiescie/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![沃维奇 郊区站 CCTV 位置](/img/simrail/station/station_info/lowicz_przedmiescie/cctv-locations.webp)
+![沃维奇 郊区站 CCTV 位置](pathname:///img/simrail/station/station_info/lowicz_przedmiescie/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![沃维奇 郊区站道岔限速](/img/simrail/station/station_info/lowicz_przedmiescie/switch-speed-limit.webp)
+![沃维奇 郊区站道岔限速](pathname:///img/simrail/station/station_info/lowicz_przedmiescie/switch-speed-limit.webp)
 
 </details>
 
@@ -69,7 +69,7 @@ slug: /station/station_info/lowicz_przedmiescie
 <details>
 <summary>L15_9.922_A</summary>
 
-![沃维奇 郊区站 CCTV L15_9.922_A](/img/simrail/station/station_info/lowicz_przedmiescie/cctv-l15-9-922-a.webp)
+![沃维奇 郊区站 CCTV L15_9.922_A](pathname:///img/simrail/station/station_info/lowicz_przedmiescie/cctv-l15-9-922-a.webp)
 
 CCTV名称：L15_9.922_A
 
@@ -82,7 +82,7 @@ CCTV名称：L15_9.922_A
 <details>
 <summary>L15_9.584_A</summary>
 
-![沃维奇 郊区站 CCTV L15_9.584_A](/img/simrail/station/station_info/lowicz_przedmiescie/cctv-l15-9-584-a.webp)
+![沃维奇 郊区站 CCTV L15_9.584_A](pathname:///img/simrail/station/station_info/lowicz_przedmiescie/cctv-l15-9-584-a.webp)
 
 CCTV名称：L15_9.584_A
 
@@ -95,7 +95,7 @@ CCTV名称：L15_9.584_A
 <details>
 <summary>SEM_LP_A</summary>
 
-![沃维奇 郊区站 CCTV SEM_LP_A](/img/simrail/station/station_info/lowicz_przedmiescie/cctv-sem-lp-a.webp)
+![沃维奇 郊区站 CCTV SEM_LP_A](pathname:///img/simrail/station/station_info/lowicz_przedmiescie/cctv-sem-lp-a.webp)
 
 CCTV名称：SEM_LP_A
 
@@ -106,7 +106,7 @@ CCTV名称：SEM_LP_A
 <details>
 <summary>SEM_LP_B-C</summary>
 
-![沃维奇 郊区站 CCTV SEM_LP_B-C](/img/simrail/station/station_info/lowicz_przedmiescie/cctv-sem-lp-b-c.webp)
+![沃维奇 郊区站 CCTV SEM_LP_B-C](pathname:///img/simrail/station/station_info/lowicz_przedmiescie/cctv-sem-lp-b-c.webp)
 
 CCTV名称：SEM_LP_B-C
 
@@ -117,7 +117,7 @@ CCTV名称：SEM_LP_B-C
 <details>
 <summary>PLATFORMS_LP</summary>
 
-![沃维奇 郊区站 CCTV PLATFORMS_LP](/img/simrail/station/station_info/lowicz_przedmiescie/cctv-platforms-lp.webp)
+![沃维奇 郊区站 CCTV PLATFORMS_LP](pathname:///img/simrail/station/station_info/lowicz_przedmiescie/cctv-platforms-lp.webp)
 
 CCTV名称：PLATFORMS_LP
 
@@ -128,7 +128,7 @@ CCTV名称：PLATFORMS_LP
 <details>
 <summary>SEM_LP_M</summary>
 
-![沃维奇 郊区站 CCTV SEM_LP_M](/img/simrail/station/station_info/lowicz_przedmiescie/cctv-sem-lp-m.webp)
+![沃维奇 郊区站 CCTV SEM_LP_M](pathname:///img/simrail/station/station_info/lowicz_przedmiescie/cctv-sem-lp-m.webp)
 
 CCTV名称：SEM_LP_M
 

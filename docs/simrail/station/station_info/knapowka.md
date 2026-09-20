@@ -13,9 +13,9 @@ slug: /station/station_info/knapowka
 
 ## 位置
 
-![克纳普夫卡站位置示意一](/img/simrail/station/station_info/knapowka/location-1.webp)
+![克纳普夫卡站位置示意一](pathname:///img/simrail/station/station_info/knapowka/location-1.webp)
 
-![克纳普夫卡站位置示意二](/img/simrail/station/station_info/knapowka/location-2.webp)
+![克纳普夫卡站位置示意二](pathname:///img/simrail/station/station_info/knapowka/location-2.webp)
 
 ## 描述
 
@@ -38,21 +38,21 @@ slug: /station/station_info/knapowka
 <details>
 <summary>基本</summary>
 
-![克纳普夫卡站调度面板（基本视图）](/img/simrail/station/station_info/knapowka/panel-basic.webp)
+![克纳普夫卡站调度面板（基本视图）](pathname:///img/simrail/station/station_info/knapowka/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![克纳普夫卡站道岔限速](/img/simrail/station/station_info/knapowka/switch-speed-limit.webp)
+![克纳普夫卡站道岔限速](pathname:///img/simrail/station/station_info/knapowka/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![克纳普夫卡站 ETCS 等级](/img/simrail/station/station_info/knapowka/etcs-level.webp)
+![克纳普夫卡站 ETCS 等级](pathname:///img/simrail/station/station_info/knapowka/etcs-level.webp)
 
 </details>
 

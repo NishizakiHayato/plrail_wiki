@@ -13,9 +13,9 @@ slug: /station/station_info/juliusz
 
 ## 位置
 
-![尤利乌什站位置示意一](/img/simrail/station/station_info/juliusz/location-1.webp)
+![尤利乌什站位置示意一](pathname:///img/simrail/station/station_info/juliusz/location-1.webp)
 
-![尤利乌什站位置示意二](/img/simrail/station/station_info/juliusz/location-2.webp)
+![尤利乌什站位置示意二](pathname:///img/simrail/station/station_info/juliusz/location-2.webp)
 
 尤利乌什（Juliusz）是连接栋布罗瓦-古尔尼恰货场（Dąbrowa Górnicza Towarowa）到 帕内夫尼基（Panewnik） 的 171 号线上一个小型继电器信号楼。相邻的信号楼是索斯诺维茨 丹杜夫卡（Sosnowiec Dańdówka）和多罗塔（Dorota）。
 
@@ -40,14 +40,14 @@ slug: /station/station_info/juliusz
 <details>
 <summary>基本</summary>
 
-![尤利乌什站调度面板（基本视图）](/img/simrail/station/station_info/juliusz/panel-basic.webp)
+![尤利乌什站调度面板（基本视图）](pathname:///img/simrail/station/station_info/juliusz/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![尤利乌什站道岔限速](/img/simrail/station/station_info/juliusz/switch-speed-limit.webp)
+![尤利乌什站道岔限速](pathname:///img/simrail/station/station_info/juliusz/switch-speed-limit.webp)
 
 </details>
 

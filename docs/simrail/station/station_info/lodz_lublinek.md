@@ -19,9 +19,9 @@ slug: /station/station_info/lodz_lublinek
 
 ## 位置
 
-![罗兹 卢布利内克站位置示意一](/img/simrail/station/station_info/lodz_lublinek/location-1.webp)
+![罗兹 卢布利内克站位置示意一](pathname:///img/simrail/station/station_info/lodz_lublinek/location-1.webp)
 
-![罗兹 卢布利内克站位置示意二](/img/simrail/station/station_info/lodz_lublinek/location-2.webp)
+![罗兹 卢布利内克站位置示意二](pathname:///img/simrail/station/station_info/lodz_lublinek/location-2.webp)
 
 罗兹 卢布利内克（Łódź Lublinek，ŁLb）车站位于LK14铁路线上。该站设有五条股道，其中三条配备有站台。相邻的信号楼为莱特基尼亚（Retkinia，通往罗兹）方向和帕比亚尼采（Pabianice），两者均位于LK14铁路线上。
 
@@ -50,21 +50,21 @@ slug: /station/station_info/lodz_lublinek
 <details>
 <summary>基本</summary>
 
-![罗兹 卢布利内克站调度面板（基本视图）](/img/simrail/station/station_info/lodz_lublinek/panel-basic.webp)
+![罗兹 卢布利内克站调度面板（基本视图）](pathname:///img/simrail/station/station_info/lodz_lublinek/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![罗兹 卢布利内克站 CCTV 位置](/img/simrail/station/station_info/lodz_lublinek/cctv-locations.webp)
+![罗兹 卢布利内克站 CCTV 位置](pathname:///img/simrail/station/station_info/lodz_lublinek/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![罗兹 卢布利内克站道岔限速](/img/simrail/station/station_info/lodz_lublinek/switch-speed-limit.webp)
+![罗兹 卢布利内克站道岔限速](pathname:///img/simrail/station/station_info/lodz_lublinek/switch-speed-limit.webp)
 
 </details>
 
@@ -95,7 +95,7 @@ slug: /station/station_info/lodz_lublinek
 <details>
 <summary>SEM_A-B</summary>
 
-![罗兹 卢布利内克站 CCTV SEM_A-B](/img/simrail/station/station_info/lodz_lublinek/cctv-sem-a-b.webp)
+![罗兹 卢布利内克站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/lodz_lublinek/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 
@@ -106,7 +106,7 @@ CCTV名称：SEM_A-B
 <details>
 <summary>SEM_P-R</summary>
 
-![罗兹 卢布利内克站 CCTV SEM_P-R](/img/simrail/station/station_info/lodz_lublinek/cctv-sem-p-r.webp)
+![罗兹 卢布利内克站 CCTV SEM_P-R](pathname:///img/simrail/station/station_info/lodz_lublinek/cctv-sem-p-r.webp)
 
 CCTV名称：SEM_P-R
 

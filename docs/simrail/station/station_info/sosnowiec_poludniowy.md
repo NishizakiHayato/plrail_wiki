@@ -13,9 +13,9 @@ slug: /station/station_info/sosnowiec_poludniowy
 
 ## 位置
 
-![索斯诺维茨南站位置示意一](/img/simrail/station/station_info/sosnowiec_poludniowy/location-1.webp)
+![索斯诺维茨南站位置示意一](pathname:///img/simrail/station/station_info/sosnowiec_poludniowy/location-1.webp)
 
-![索斯诺维茨南站位置示意二](/img/simrail/station/station_info/sosnowiec_poludniowy/location-2.webp)
+![索斯诺维茨南站位置示意二](pathname:///img/simrail/station/station_info/sosnowiec_poludniowy/location-2.webp)
 
 索斯诺维茨南站（Sosnowiec Południowy）是一个小型枢纽站，从索斯诺维茨 丹杜夫卡（Sosnowiec Dańdówka）驶来的单线在此一分为二，均通往索斯诺维茨总站（Sosnowiec Główny）。其中一条线路接入站内，另一条从南侧绕行车站。这里共有七条轨道，其中两条具备客运乘降能力。车站旁还没有一个多式联运的集装箱枢纽。
 
@@ -44,21 +44,21 @@ slug: /station/station_info/sosnowiec_poludniowy
 <details>
 <summary>基本</summary>
 
-![索斯诺维茨南站调度面板（基本视图）](/img/simrail/station/station_info/sosnowiec_poludniowy/panel-basic.webp)
+![索斯诺维茨南站调度面板（基本视图）](pathname:///img/simrail/station/station_info/sosnowiec_poludniowy/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![索斯诺维茨南站 CCTV 位置](/img/simrail/station/station_info/sosnowiec_poludniowy/cctv-locations.webp)
+![索斯诺维茨南站 CCTV 位置](pathname:///img/simrail/station/station_info/sosnowiec_poludniowy/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![索斯诺维茨南站道岔限速](/img/simrail/station/station_info/sosnowiec_poludniowy/switch-speed-limit.webp)
+![索斯诺维茨南站道岔限速](pathname:///img/simrail/station/station_info/sosnowiec_poludniowy/switch-speed-limit.webp)
 
 </details>
 
@@ -87,7 +87,7 @@ slug: /station/station_info/sosnowiec_poludniowy
 <details>
 <summary>PLATFORMS</summary>
 
-![索斯诺维茨南站 CCTV PLATFORMS](/img/simrail/station/station_info/sosnowiec_poludniowy/cctv-platforms.webp)
+![索斯诺维茨南站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/sosnowiec_poludniowy/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -98,7 +98,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_A</summary>
 
-![索斯诺维茨南站 CCTV SEM_A](/img/simrail/station/station_info/sosnowiec_poludniowy/cctv-sem-a.webp)
+![索斯诺维茨南站 CCTV SEM_A](pathname:///img/simrail/station/station_info/sosnowiec_poludniowy/cctv-sem-a.webp)
 
 CCTV名称：SEM_A
 

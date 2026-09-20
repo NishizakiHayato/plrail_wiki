@@ -21,9 +21,9 @@ slug: /station/station_info/pruszkow
 
 ## 位置
 
-![普鲁什库夫站位置示意一](/img/simrail/station/station_info/pruszkow/location-1.webp)
+![普鲁什库夫站位置示意一](pathname:///img/simrail/station/station_info/pruszkow/location-1.webp)
 
-![普鲁什库夫站位置示意二](/img/simrail/station/station_info/pruszkow/location-2.webp)
+![普鲁什库夫站位置示意二](pathname:///img/simrail/station/station_info/pruszkow/location-2.webp)
 
 普鲁什库夫站（Pruszków）是华沙城郊的一个中型车站。该站唯一的站台只供各停列车和区域列车停靠。车站内有几条侧线和一一个集装箱装卸区。在此可远程控制约瑟芬努夫线路所（Jozefinów），在那里建进行客货分离。
 
@@ -46,36 +46,36 @@ slug: /station/station_info/pruszkow
 <details>
 <summary>基本</summary>
 
-![普鲁什库夫站调度面板（基本视图一）](/img/simrail/station/station_info/pruszkow/panel-basic-1.webp)
+![普鲁什库夫站调度面板（基本视图一）](pathname:///img/simrail/station/station_info/pruszkow/panel-basic-1.webp)
 
-![普鲁什库夫站调度面板（基本视图二）](/img/simrail/station/station_info/pruszkow/panel-basic-2.webp)
+![普鲁什库夫站调度面板（基本视图二）](pathname:///img/simrail/station/station_info/pruszkow/panel-basic-2.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![普鲁什库夫站 CCTV 位置一](/img/simrail/station/station_info/pruszkow/cctv-locations-1.webp)
+![普鲁什库夫站 CCTV 位置一](pathname:///img/simrail/station/station_info/pruszkow/cctv-locations-1.webp)
 
-![普鲁什库夫站 CCTV 位置二](/img/simrail/station/station_info/pruszkow/cctv-locations-2.webp)
+![普鲁什库夫站 CCTV 位置二](pathname:///img/simrail/station/station_info/pruszkow/cctv-locations-2.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![普鲁什库夫站道岔限速一](/img/simrail/station/station_info/pruszkow/switch-speed-limit-1.webp)
+![普鲁什库夫站道岔限速一](pathname:///img/simrail/station/station_info/pruszkow/switch-speed-limit-1.webp)
 
-![普鲁什库夫站道岔限速二](/img/simrail/station/station_info/pruszkow/switch-speed-limit-2.webp)
+![普鲁什库夫站道岔限速二](pathname:///img/simrail/station/station_info/pruszkow/switch-speed-limit-2.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![普鲁什库夫站 ETCS 等级一](/img/simrail/station/station_info/pruszkow/etcs-level-1.webp)
+![普鲁什库夫站 ETCS 等级一](pathname:///img/simrail/station/station_info/pruszkow/etcs-level-1.webp)
 
-![普鲁什库夫站 ETCS 等级二](/img/simrail/station/station_info/pruszkow/etcs-level-2.webp)
+![普鲁什库夫站 ETCS 等级二](pathname:///img/simrail/station/station_info/pruszkow/etcs-level-2.webp)
 
 </details>
 
@@ -128,7 +128,7 @@ LCS普鲁什库夫配备了五台CCTV设备，其中两台位于约瑟芬努夫�
 <details>
 <summary>PLATFORMS</summary>
 
-![普鲁什库夫站 CCTV PLATFORMS](/img/simrail/station/station_info/pruszkow/cctv-platforms.webp)
+![普鲁什库夫站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/pruszkow/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -139,7 +139,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_A-B-C-D</summary>
 
-![普鲁什库夫站 CCTV SEM_A-B-C-D](/img/simrail/station/station_info/pruszkow/cctv-sem-a-b-c-d.webp)
+![普鲁什库夫站 CCTV SEM_A-B-C-D](pathname:///img/simrail/station/station_info/pruszkow/cctv-sem-a-b-c-d.webp)
 
 CCTV名称：SEM_A-B-C-D
 
@@ -150,7 +150,7 @@ CCTV名称：SEM_A-B-C-D
 <details>
 <summary>SEM_W-X-Y-Z</summary>
 
-![普鲁什库夫站 CCTV SEM_W-X-Y-Z](/img/simrail/station/station_info/pruszkow/cctv-sem-w-x-y-z.webp)
+![普鲁什库夫站 CCTV SEM_W-X-Y-Z](pathname:///img/simrail/station/station_info/pruszkow/cctv-sem-w-x-y-z.webp)
 
 CCTV名称：SEM_W-X-Y-Z
 
@@ -161,7 +161,7 @@ CCTV名称：SEM_W-X-Y-Z
 <details>
 <summary>JZ_SEM_C-D</summary>
 
-![普鲁什库夫站 CCTV JZ_SEM_C-D](/img/simrail/station/station_info/pruszkow/cctv-jz-sem-c-d.webp)
+![普鲁什库夫站 CCTV JZ_SEM_C-D](pathname:///img/simrail/station/station_info/pruszkow/cctv-jz-sem-c-d.webp)
 
 CCTV名称：JZ_SEM_C-D
 
@@ -172,7 +172,7 @@ CCTV名称：JZ_SEM_C-D
 <details>
 <summary>JZ_SEM_A-B</summary>
 
-![普鲁什库夫站 CCTV JZ_SEM_A-B](/img/simrail/station/station_info/pruszkow/cctv-jz-sem-a-b.webp)
+![普鲁什库夫站 CCTV JZ_SEM_A-B](pathname:///img/simrail/station/station_info/pruszkow/cctv-jz-sem-a-b.webp)
 
 CCTV名称：JZ_SEM_A-B
 

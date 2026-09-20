@@ -19,9 +19,9 @@ slug: /station/station_info/lodz_zabieniec
 
 ## 位置
 
-![罗兹 扎别涅茨站位置示意一](/img/simrail/station/station_info/lodz_zabieniec/location-1.webp)
+![罗兹 扎别涅茨站位置示意一](pathname:///img/simrail/station/station_info/lodz_zabieniec/location-1.webp)
 
-![罗兹 扎别涅茨站位置示意二](/img/simrail/station/station_info/lodz_zabieniec/location-2.webp)
+![罗兹 扎别涅茨站位置示意二](pathname:///img/simrail/station/station_info/lodz_zabieniec/location-2.webp)
 
 罗兹 扎别涅茨（Łódź Żabieniec，ŁŻ）车站位于LK15铁路线上，设有六条股道和两个站台。站台位于中间信号机和出站信号机之间，这意味着越行（超车）与旅客乘降不能同时进行。相邻的信号楼为罗兹 卡里斯卡（Łódź Kaliska）和兹盖日（Zgierz），两者均位于LK15铁路线上。
 
@@ -44,21 +44,21 @@ slug: /station/station_info/lodz_zabieniec
 <details>
 <summary>基本</summary>
 
-![罗兹 扎别涅茨站调度面板（基本视图）](/img/simrail/station/station_info/lodz_zabieniec/panel-basic.webp)
+![罗兹 扎别涅茨站调度面板（基本视图）](pathname:///img/simrail/station/station_info/lodz_zabieniec/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![罗兹 扎别涅茨站 CCTV 位置](/img/simrail/station/station_info/lodz_zabieniec/cctv-locations.webp)
+![罗兹 扎别涅茨站 CCTV 位置](pathname:///img/simrail/station/station_info/lodz_zabieniec/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![罗兹 扎别涅茨站道岔限速](/img/simrail/station/station_info/lodz_zabieniec/switch-speed-limit.webp)
+![罗兹 扎别涅茨站道岔限速](pathname:///img/simrail/station/station_info/lodz_zabieniec/switch-speed-limit.webp)
 
 </details>
 
@@ -90,7 +90,7 @@ slug: /station/station_info/lodz_zabieniec
 <details>
 <summary>SEM_A-B</summary>
 
-![罗兹 扎别涅茨站 CCTV SEM_A-B](/img/simrail/station/station_info/lodz_zabieniec/cctv-sem-a-b.webp)
+![罗兹 扎别涅茨站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/lodz_zabieniec/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 
@@ -101,7 +101,7 @@ CCTV名称：SEM_A-B
 <details>
 <summary>PLATFORMS</summary>
 
-![罗兹 扎别涅茨站 CCTV PLATFORMS](/img/simrail/station/station_info/lodz_zabieniec/cctv-platforms.webp)
+![罗兹 扎别涅茨站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/lodz_zabieniec/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -112,7 +112,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_W-X</summary>
 
-![罗兹 扎别涅茨站 CCTV SEM_W-X](/img/simrail/station/station_info/lodz_zabieniec/cctv-sem-w-x.webp)
+![罗兹 扎别涅茨站 CCTV SEM_W-X](pathname:///img/simrail/station/station_info/lodz_zabieniec/cctv-sem-w-x.webp)
 
 CCTV名称：SEM_W-X
 

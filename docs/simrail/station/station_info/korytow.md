@@ -13,9 +13,9 @@ slug: /station/station_info/korytow
 
 ## 位置
 
-![克里图夫站位置示意一](/img/simrail/station/station_info/korytow/location-1.webp)
+![克里图夫站位置示意一](pathname:///img/simrail/station/station_info/korytow/location-1.webp)
 
-![克里图夫站位置示意二](/img/simrail/station/station_info/korytow/location-2.webp)
+![克里图夫站位置示意二](pathname:///img/simrail/station/station_info/korytow/location-2.webp)
 
 ## 描述
 
@@ -38,28 +38,28 @@ slug: /station/station_info/korytow
 <details>
 <summary>基本</summary>
 
-![克里图夫站调度面板（基本视图）](/img/simrail/station/station_info/korytow/panel-basic.webp)
+![克里图夫站调度面板（基本视图）](pathname:///img/simrail/station/station_info/korytow/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![克里图夫站 CCTV 位置](/img/simrail/station/station_info/korytow/cctv-locations.webp)
+![克里图夫站 CCTV 位置](pathname:///img/simrail/station/station_info/korytow/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![克里图夫站道岔限速](/img/simrail/station/station_info/korytow/switch-speed-limit.webp)
+![克里图夫站道岔限速](pathname:///img/simrail/station/station_info/korytow/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![克里图夫站 ETCS 等级](/img/simrail/station/station_info/korytow/etcs-level.webp)
+![克里图夫站 ETCS 等级](pathname:///img/simrail/station/station_info/korytow/etcs-level.webp)
 
 </details>
 
@@ -88,7 +88,7 @@ slug: /station/station_info/korytow
 <details>
 <summary>POST_11</summary>
 
-![克里图夫站 CCTV POST_11](/img/simrail/station/station_info/korytow/cctv-post-11.webp)
+![克里图夫站 CCTV POST_11](pathname:///img/simrail/station/station_info/korytow/cctv-post-11.webp)
 
 CCTV名称：POST_11
 
@@ -99,7 +99,7 @@ CCTV名称：POST_11
 <details>
 <summary>SEM_A-B</summary>
 
-![克里图夫站 CCTV SEM_A-B](/img/simrail/station/station_info/korytow/cctv-sem-a-b.webp)
+![克里图夫站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/korytow/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 

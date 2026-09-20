@@ -33,9 +33,9 @@ slug: /station/station_info/witonia
 
 ## 位置
 
-![维托尼亚站位置示意一](/img/simrail/station/station_info/witonia/location-1.webp)
+![维托尼亚站位置示意一](pathname:///img/simrail/station/station_info/witonia/location-1.webp)
 
-![维托尼亚站位置示意二](/img/simrail/station/station_info/witonia/location-2.webp)
+![维托尼亚站位置示意二](pathname:///img/simrail/station/station_info/witonia/location-2.webp)
 
 维托尼亚本地控制中心（LCS Witonia）位于铁路线 LK16 上，远程控制文奇察（Łęczyca）与奥佐尔库夫（Ozorków）联锁站，并监督该线路区段的列车运行。相邻联锁站为库特诺（Kutno）与霍奇谢夫（Chociszew）。维托尼亚（Witonia）、文奇察（Łęczyca）与奥佐尔库夫（Ozorków）均设有一座岛式站台和一座侧式站台，用于客运服务。
 
@@ -58,27 +58,27 @@ slug: /station/station_info/witonia
 <details>
 <summary>基本</summary>
 
-![维托尼亚站调度面板（基本视图一）](/img/simrail/station/station_info/witonia/panel-basic-1.webp)
+![维托尼亚站调度面板（基本视图一）](pathname:///img/simrail/station/station_info/witonia/panel-basic-1.webp)
 
-![维托尼亚站调度面板（基本视图二）](/img/simrail/station/station_info/witonia/panel-basic-2.webp)
+![维托尼亚站调度面板（基本视图二）](pathname:///img/simrail/station/station_info/witonia/panel-basic-2.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![维托尼亚站 CCTV 位置一](/img/simrail/station/station_info/witonia/cctv-locations-1.webp)
+![维托尼亚站 CCTV 位置一](pathname:///img/simrail/station/station_info/witonia/cctv-locations-1.webp)
 
-![维托尼亚站 CCTV 位置二](/img/simrail/station/station_info/witonia/cctv-locations-2.webp)
+![维托尼亚站 CCTV 位置二](pathname:///img/simrail/station/station_info/witonia/cctv-locations-2.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![维托尼亚站道岔限速一](/img/simrail/station/station_info/witonia/switch-speed-limit-1.webp)
+![维托尼亚站道岔限速一](pathname:///img/simrail/station/station_info/witonia/switch-speed-limit-1.webp)
 
-![维托尼亚站道岔限速二](/img/simrail/station/station_info/witonia/switch-speed-limit-2.webp)
+![维托尼亚站道岔限速二](pathname:///img/simrail/station/station_info/witonia/switch-speed-limit-2.webp)
 
 </details>
 
@@ -89,7 +89,7 @@ LCS维托尼亚配备了十台 CCTV 设备，分别位于奥佐尔库夫（Ozork
 <details>
 <summary>SEM_OZ_A</summary>
 
-![维托尼亚站 CCTV SEM_OZ_A](/img/simrail/station/station_info/witonia/cctv-sem-oz-a.webp)
+![维托尼亚站 CCTV SEM_OZ_A](pathname:///img/simrail/station/station_info/witonia/cctv-sem-oz-a.webp)
 
 CCTV名称：SEM_OZ_A
 
@@ -100,7 +100,7 @@ CCTV名称：SEM_OZ_A
 <details>
 <summary>L16_36_020_A</summary>
 
-![维托尼亚站 CCTV L16_36_020_A](/img/simrail/station/station_info/witonia/cctv-l16-36-020-a.webp)
+![维托尼亚站 CCTV L16_36_020_A](pathname:///img/simrail/station/station_info/witonia/cctv-l16-36-020-a.webp)
 
 CCTV名称：L16_36_020_A
 
@@ -111,7 +111,7 @@ CCTV名称：L16_36_020_A
 <details>
 <summary>PLATFORMS_OZ</summary>
 
-![维托尼亚站 CCTV PLATFORMS_OZ](/img/simrail/station/station_info/witonia/cctv-platforms-oz.webp)
+![维托尼亚站 CCTV PLATFORMS_OZ](pathname:///img/simrail/station/station_info/witonia/cctv-platforms-oz.webp)
 
 CCTV名称：PLATFORMS_OZ
 
@@ -122,7 +122,7 @@ CCTV名称：PLATFORMS_OZ
 <details>
 <summary>SEM_OZ_U</summary>
 
-![维托尼亚站 CCTV SEM_OZ_U](/img/simrail/station/station_info/witonia/cctv-sem-oz-u.webp)
+![维托尼亚站 CCTV SEM_OZ_U](pathname:///img/simrail/station/station_info/witonia/cctv-sem-oz-u.webp)
 
 CCTV名称：SEM_OZ_U
 
@@ -133,7 +133,7 @@ CCTV名称：SEM_OZ_U
 <details>
 <summary>SEM_LE_A</summary>
 
-![维托尼亚站 CCTV SEM_LE_A](/img/simrail/station/station_info/witonia/cctv-sem-le-a.webp)
+![维托尼亚站 CCTV SEM_LE_A](pathname:///img/simrail/station/station_info/witonia/cctv-sem-le-a.webp)
 
 CCTV名称：SEM_LE_A
 
@@ -144,7 +144,7 @@ CCTV名称：SEM_LE_A
 <details>
 <summary>PLATFORMS_LE</summary>
 
-![维托尼亚站 CCTV PLATFORMS_LE](/img/simrail/station/station_info/witonia/cctv-platforms-le.webp)
+![维托尼亚站 CCTV PLATFORMS_LE](pathname:///img/simrail/station/station_info/witonia/cctv-platforms-le.webp)
 
 CCTV名称：PLATFORMS_LE
 
@@ -155,7 +155,7 @@ CCTV名称：PLATFORMS_LE
 <details>
 <summary>SEM_LE_P</summary>
 
-![维托尼亚站 CCTV SEM_LE_P](/img/simrail/station/station_info/witonia/cctv-sem-le-p.webp)
+![维托尼亚站 CCTV SEM_LE_P](pathname:///img/simrail/station/station_info/witonia/cctv-sem-le-p.webp)
 
 CCTV名称：SEM_LE_P
 
@@ -166,7 +166,7 @@ CCTV名称：SEM_LE_P
 <details>
 <summary>SEM_WT_A</summary>
 
-![维托尼亚站 CCTV SEM_WT_A](/img/simrail/station/station_info/witonia/cctv-sem-wt-a.webp)
+![维托尼亚站 CCTV SEM_WT_A](pathname:///img/simrail/station/station_info/witonia/cctv-sem-wt-a.webp)
 
 CCTV名称：SEM_WT_A
 
@@ -177,7 +177,7 @@ CCTV名称：SEM_WT_A
 <details>
 <summary>L16_60.068_A</summary>
 
-![维托尼亚站 CCTV L16_60.068_A](/img/simrail/station/station_info/witonia/cctv-l16-60-068-a.webp)
+![维托尼亚站 CCTV L16_60.068_A](pathname:///img/simrail/station/station_info/witonia/cctv-l16-60-068-a.webp)
 
 CCTV名称：L16_60.068_A
 
@@ -188,7 +188,7 @@ CCTV名称：L16_60.068_A
 <details>
 <summary>SEM_WT_H</summary>
 
-![维托尼亚站 CCTV SEM_WT_H](/img/simrail/station/station_info/witonia/cctv-sem-wt-h.webp)
+![维托尼亚站 CCTV SEM_WT_H](pathname:///img/simrail/station/station_info/witonia/cctv-sem-wt-h.webp)
 
 CCTV名称：SEM_WT_H
 

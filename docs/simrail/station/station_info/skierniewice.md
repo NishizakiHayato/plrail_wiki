@@ -19,9 +19,9 @@ slug: /station/station_info/skierniewice
 
 ## 位置
 
-![斯凯尔涅维采站位置示意一](/img/simrail/station/station_info/skierniewice/location-1.webp)
+![斯凯尔涅维采站位置示意一](pathname:///img/simrail/station/station_info/skierniewice/location-1.webp)
 
-![斯凯尔涅维采站位置示意二](/img/simrail/station/station_info/skierniewice/location-2.webp)
+![斯凯尔涅维采站位置示意二](pathname:///img/simrail/station/station_info/skierniewice/location-2.webp)
 
 斯凯尔涅维采站（Skierniewice，Ske）位于LK 1、LK 11和LK 12线路上。它拥有三个汇线点（M PZS、S PZS和P PZS汇线点）以及大量的列车停放设施。此外，该站设有三个站台，共有四个站台股道。
 
@@ -46,28 +46,28 @@ slug: /station/station_info/skierniewice
 <details>
 <summary>基本</summary>
 
-![斯凯尔涅维采站调度面板（基本视图）](/img/simrail/station/station_info/skierniewice/panel-basic.webp)
+![斯凯尔涅维采站调度面板（基本视图）](pathname:///img/simrail/station/station_info/skierniewice/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![斯凯尔涅维采站 CCTV 位置](/img/simrail/station/station_info/skierniewice/cctv-locations.webp)
+![斯凯尔涅维采站 CCTV 位置](pathname:///img/simrail/station/station_info/skierniewice/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![斯凯尔涅维采站道岔限速](/img/simrail/station/station_info/skierniewice/switch-speed-limit.webp)
+![斯凯尔涅维采站道岔限速](pathname:///img/simrail/station/station_info/skierniewice/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![斯凯尔涅维采站 ETCS 等级](/img/simrail/station/station_info/skierniewice/etcs-level.webp)
+![斯凯尔涅维采站 ETCS 等级](pathname:///img/simrail/station/station_info/skierniewice/etcs-level.webp)
 
 </details>
 
@@ -78,7 +78,7 @@ slug: /station/station_info/skierniewice
 <details>
 <summary>SEM_A_B(PZS M)</summary>
 
-![斯凯尔涅维采站 CCTV SEM_A_B(PZS M)](/img/simrail/station/station_info/skierniewice/cctv-sem-a-b-pzs-m.webp)
+![斯凯尔涅维采站 CCTV SEM_A_B(PZS M)](pathname:///img/simrail/station/station_info/skierniewice/cctv-sem-a-b-pzs-m.webp)
 
 CCTV名称：SEM_A_B(PZS M)
 
@@ -89,7 +89,7 @@ CCTV名称：SEM_A_B(PZS M)
 <details>
 <summary>SEM_C_D</summary>
 
-![斯凯尔涅维采站 CCTV SEM_C_D](/img/simrail/station/station_info/skierniewice/cctv-sem-c-d.webp)
+![斯凯尔涅维采站 CCTV SEM_C_D](pathname:///img/simrail/station/station_info/skierniewice/cctv-sem-c-d.webp)
 
 CCTV名称：SEM_C_D
 
@@ -100,7 +100,7 @@ CCTV名称：SEM_C_D
 <details>
 <summary>SK_62.950_F</summary>
 
-![斯凯尔涅维采站 CCTV SK_62.950_F](/img/simrail/station/station_info/skierniewice/cctv-sk-62-950-f.webp)
+![斯凯尔涅维采站 CCTV SK_62.950_F](pathname:///img/simrail/station/station_info/skierniewice/cctv-sk-62-950-f.webp)
 
 CCTV名称：SK_62.950_F
 
@@ -113,7 +113,7 @@ CCTV名称：SK_62.950_F
 <details>
 <summary>SK_2.940_F</summary>
 
-![斯凯尔涅维采站 CCTV SK_2.940_F](/img/simrail/station/station_info/skierniewice/cctv-sk-2-940-f.webp)
+![斯凯尔涅维采站 CCTV SK_2.940_F](pathname:///img/simrail/station/station_info/skierniewice/cctv-sk-2-940-f.webp)
 
 CCTV名称：SK_2.940_F
 
@@ -126,7 +126,7 @@ CCTV名称：SK_2.940_F
 <details>
 <summary>SEM_H201-H208</summary>
 
-![斯凯尔涅维采站 CCTV SEM_H201-H208](/img/simrail/station/station_info/skierniewice/cctv-sem-h201-h208.webp)
+![斯凯尔涅维采站 CCTV SEM_H201-H208](pathname:///img/simrail/station/station_info/skierniewice/cctv-sem-h201-h208.webp)
 
 CCTV名称：SEM_H201-H208
 
@@ -137,7 +137,7 @@ CCTV名称：SEM_H201-H208
 <details>
 <summary>PLATFORMS</summary>
 
-![斯凯尔涅维采站 CCTV PLATFORMS](/img/simrail/station/station_info/skierniewice/cctv-platforms.webp)
+![斯凯尔涅维采站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/skierniewice/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -148,7 +148,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SK_1.082_A</summary>
 
-![斯凯尔涅维采站 CCTV SK_1.082_A](/img/simrail/station/station_info/skierniewice/cctv-sk-1-082-a.webp)
+![斯凯尔涅维采站 CCTV SK_1.082_A](pathname:///img/simrail/station/station_info/skierniewice/cctv-sk-1-082-a.webp)
 
 CCTV名称：SK_1.082_A
 
@@ -161,7 +161,7 @@ CCTV名称：SK_1.082_A
 <details>
 <summary>SEM_S1-S402</summary>
 
-![斯凯尔涅维采站 CCTV SEM_S1-S402](/img/simrail/station/station_info/skierniewice/cctv-sem-s1-s402.webp)
+![斯凯尔涅维采站 CCTV SEM_S1-S402](pathname:///img/simrail/station/station_info/skierniewice/cctv-sem-s1-s402.webp)
 
 CCTV名称：SEM_S1-S402
 
@@ -172,7 +172,7 @@ CCTV名称：SEM_S1-S402
 <details>
 <summary>SK_67.163_A</summary>
 
-![斯凯尔涅维采站 CCTV SK_67.163_A](/img/simrail/station/station_info/skierniewice/cctv-sk-67-163-a.webp)
+![斯凯尔涅维采站 CCTV SK_67.163_A](pathname:///img/simrail/station/station_info/skierniewice/cctv-sk-67-163-a.webp)
 
 CCTV名称：SK_67.163_A
 
