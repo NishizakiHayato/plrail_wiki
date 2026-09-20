@@ -13,9 +13,9 @@ slug: /station/station_info/szeligi
 
 ## 位置
 
-![谢利基站位置示意一](/img/simrail/station/station_info/szeligi/location-1.webp)
+![谢利基站位置示意一](pathname:///img/simrail/station/station_info/szeligi/location-1.webp)
 
-![谢利基站位置示意二](/img/simrail/station/station_info/szeligi/location-2.webp)
+![谢利基站位置示意二](pathname:///img/simrail/station/station_info/szeligi/location-2.webp)
 
 ## 描述
 
@@ -40,28 +40,28 @@ slug: /station/station_info/szeligi
 <details>
 <summary>基本</summary>
 
-![谢利基站调度面板（基本视图）](/img/simrail/station/station_info/szeligi/panel-basic.webp)
+![谢利基站调度面板（基本视图）](pathname:///img/simrail/station/station_info/szeligi/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![谢利基站 CCTV 位置](/img/simrail/station/station_info/szeligi/cctv-locations.webp)
+![谢利基站 CCTV 位置](pathname:///img/simrail/station/station_info/szeligi/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![谢利基站道岔限速](/img/simrail/station/station_info/szeligi/switch-speed-limit.webp)
+![谢利基站道岔限速](pathname:///img/simrail/station/station_info/szeligi/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![谢利基站 ETCS 等级](/img/simrail/station/station_info/szeligi/etcs-level.webp)
+![谢利基站 ETCS 等级](pathname:///img/simrail/station/station_info/szeligi/etcs-level.webp)
 
 </details>
 
@@ -94,7 +94,7 @@ slug: /station/station_info/szeligi
 <details>
 <summary>POST_11</summary>
 
-![谢利基站 CCTV POST_11](/img/simrail/station/station_info/szeligi/cctv-post-11.webp)
+![谢利基站 CCTV POST_11](pathname:///img/simrail/station/station_info/szeligi/cctv-post-11.webp)
 
 CCTV名称：POST_11
 
@@ -105,7 +105,7 @@ CCTV名称：POST_11
 <details>
 <summary>SEM_A-B-C</summary>
 
-![谢利基站 CCTV SEM_A-B-C](/img/simrail/station/station_info/szeligi/cctv-sem-a-b-c.webp)
+![谢利基站 CCTV SEM_A-B-C](pathname:///img/simrail/station/station_info/szeligi/cctv-sem-a-b-c.webp)
 
 CCTV名称：SEM_A-B-C
 

@@ -27,9 +27,9 @@ slug: /station/station_info/zakowice_poludniowe
 
 ## 位置
 
-![扎科维采南站位置示意一](/img/simrail/station/station_info/zakowice_poludniowe/location-1.webp)
+![扎科维采南站位置示意一](pathname:///img/simrail/station/station_info/zakowice_poludniowe/location-1.webp)
 
-![扎科维采南站位置示意二](/img/simrail/station/station_info/zakowice_poludniowe/location-2.webp)
+![扎科维采南站位置示意二](pathname:///img/simrail/station/station_info/zakowice_poludniowe/location-2.webp)
 
 扎科维采南站（Żakowice Południowe，ZP）位于LK25线，是一座设有两座站台的枢纽站。
 
@@ -56,27 +56,27 @@ slug: /station/station_info/zakowice_poludniowe
 <details>
 <summary>基本</summary>
 
-![扎科维采南站调度面板（基本视图一）](/img/simrail/station/station_info/zakowice_poludniowe/panel-basic-1.webp)
+![扎科维采南站调度面板（基本视图一）](pathname:///img/simrail/station/station_info/zakowice_poludniowe/panel-basic-1.webp)
 
-![扎科维采南站调度面板（基本视图二）](/img/simrail/station/station_info/zakowice_poludniowe/panel-basic-2.webp)
+![扎科维采南站调度面板（基本视图二）](pathname:///img/simrail/station/station_info/zakowice_poludniowe/panel-basic-2.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![扎科维采南站 CCTV 位置一](/img/simrail/station/station_info/zakowice_poludniowe/cctv-locations-1.webp)
+![扎科维采南站 CCTV 位置一](pathname:///img/simrail/station/station_info/zakowice_poludniowe/cctv-locations-1.webp)
 
-![扎科维采南站 CCTV 位置二](/img/simrail/station/station_info/zakowice_poludniowe/cctv-locations-2.webp)
+![扎科维采南站 CCTV 位置二](pathname:///img/simrail/station/station_info/zakowice_poludniowe/cctv-locations-2.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![扎科维采南站道岔限速一](/img/simrail/station/station_info/zakowice_poludniowe/switch-speed-limit-1.webp)
+![扎科维采南站道岔限速一](pathname:///img/simrail/station/station_info/zakowice_poludniowe/switch-speed-limit-1.webp)
 
-![扎科维采南站道岔限速二](/img/simrail/station/station_info/zakowice_poludniowe/switch-speed-limit-2.webp)
+![扎科维采南站道岔限速二](pathname:///img/simrail/station/station_info/zakowice_poludniowe/switch-speed-limit-2.webp)
 
 </details>
 
@@ -87,7 +87,7 @@ slug: /station/station_info/zakowice_poludniowe
 <details>
 <summary>PLATFORMS</summary>
 
-![扎科维采南站 CCTV PLATFORMS](/img/simrail/station/station_info/zakowice_poludniowe/cctv-platforms.webp)
+![扎科维采南站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/zakowice_poludniowe/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -98,7 +98,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>L25_28.299_A</summary>
 
-![扎科维采南站 CCTV L25_28.299_A](/img/simrail/station/station_info/zakowice_poludniowe/cctv-l25-28-299-a.webp)
+![扎科维采南站 CCTV L25_28.299_A](pathname:///img/simrail/station/station_info/zakowice_poludniowe/cctv-l25-28-299-a.webp)
 
 CCTV名称：L25_28.299_A
 
@@ -111,7 +111,7 @@ CCTV名称：L25_28.299_A
 <details>
 <summary>L25_28.510_A</summary>
 
-![扎科维采南站 CCTV L25_28.510_A](/img/simrail/station/station_info/zakowice_poludniowe/cctv-l25-28-510-a.webp)
+![扎科维采南站 CCTV L25_28.510_A](pathname:///img/simrail/station/station_info/zakowice_poludniowe/cctv-l25-28-510-a.webp)
 
 CCTV名称：L25_28.510_A
 
@@ -124,7 +124,7 @@ CCTV名称：L25_28.510_A
 <details>
 <summary>SEM_U-W</summary>
 
-![扎科维采南站 CCTV SEM_U-W](/img/simrail/station/station_info/zakowice_poludniowe/cctv-sem-u-w.webp)
+![扎科维采南站 CCTV SEM_U-W](pathname:///img/simrail/station/station_info/zakowice_poludniowe/cctv-sem-u-w.webp)
 
 CCTV名称：SEM_U-W
 
@@ -135,7 +135,7 @@ CCTV名称：SEM_U-W
 <details>
 <summary>SL_SEM_A-B-C</summary>
 
-![扎科维采南站 CCTV SL_SEM_A-B-C](/img/simrail/station/station_info/zakowice_poludniowe/cctv-sl-sem-a-b-c.webp)
+![扎科维采南站 CCTV SL_SEM_A-B-C](pathname:///img/simrail/station/station_info/zakowice_poludniowe/cctv-sl-sem-a-b-c.webp)
 
 CCTV名称：SL_SEM_A-B-C
 
@@ -146,7 +146,7 @@ CCTV名称：SL_SEM_A-B-C
 <details>
 <summary>SL_SEM_N-M</summary>
 
-![扎科维采南站 CCTV SL_SEM_N-M](/img/simrail/station/station_info/zakowice_poludniowe/cctv-sl-sem-n-m.webp)
+![扎科维采南站 CCTV SL_SEM_N-M](pathname:///img/simrail/station/station_info/zakowice_poludniowe/cctv-sl-sem-n-m.webp)
 
 CCTV名称：SL_SEM_N-M
 

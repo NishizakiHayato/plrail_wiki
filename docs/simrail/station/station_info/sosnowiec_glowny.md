@@ -13,9 +13,9 @@ slug: /station/station_info/sosnowiec_glowny
 
 ## 位置
 
-![索斯诺维茨总站站位置示意一](/img/simrail/station/station_info/sosnowiec_glowny/location-1.webp)
+![索斯诺维茨总站站位置示意一](pathname:///img/simrail/station/station_info/sosnowiec_glowny/location-1.webp)
 
-![索斯诺维茨总站站位置示意二](/img/simrail/station/station_info/sosnowiec_glowny/location-2.webp)
+![索斯诺维茨总站站位置示意二](pathname:///img/simrail/station/station_info/sosnowiec_glowny/location-2.webp)
 
 索斯诺维茨总站（Sosnowiec Główny）是波兰18个最高等级站之一，所有客运列车均在此停靠。1号线与62号线在本站交汇，去往62号线的列车停靠本站南侧的索斯诺维茨南站（Sosnowiec Południowy）。
 
@@ -38,21 +38,21 @@ slug: /station/station_info/sosnowiec_glowny
 <details>
 <summary>基本</summary>
 
-![索斯诺维茨总站站调度面板（基本视图）](/img/simrail/station/station_info/sosnowiec_glowny/panel-basic.webp)
+![索斯诺维茨总站站调度面板（基本视图）](pathname:///img/simrail/station/station_info/sosnowiec_glowny/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![索斯诺维茨总站站 CCTV 位置](/img/simrail/station/station_info/sosnowiec_glowny/cctv-locations.webp)
+![索斯诺维茨总站站 CCTV 位置](pathname:///img/simrail/station/station_info/sosnowiec_glowny/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![索斯诺维茨总站站道岔限速](/img/simrail/station/station_info/sosnowiec_glowny/switch-speed-limit.webp)
+![索斯诺维茨总站站道岔限速](pathname:///img/simrail/station/station_info/sosnowiec_glowny/switch-speed-limit.webp)
 
 </details>
 
@@ -94,7 +94,7 @@ slug: /station/station_info/sosnowiec_glowny
 <details>
 <summary>SEM_X-Y</summary>
 
-![索斯诺维茨总站站 CCTV SEM_X-Y](/img/simrail/station/station_info/sosnowiec_glowny/cctv-sem-x-y.webp)
+![索斯诺维茨总站站 CCTV SEM_X-Y](pathname:///img/simrail/station/station_info/sosnowiec_glowny/cctv-sem-x-y.webp)
 
 CCTV名称：SEM_X-Y
 
@@ -105,7 +105,7 @@ CCTV名称：SEM_X-Y
 <details>
 <summary>SEM_S_U1-U2</summary>
 
-![索斯诺维茨总站站 CCTV SEM_S_U1-U2](/img/simrail/station/station_info/sosnowiec_glowny/cctv-sem-s-u1-u2.webp)
+![索斯诺维茨总站站 CCTV SEM_S_U1-U2](pathname:///img/simrail/station/station_info/sosnowiec_glowny/cctv-sem-s-u1-u2.webp)
 
 CCTV名称：SEM_S_U1-U2
 
@@ -116,7 +116,7 @@ CCTV名称：SEM_S_U1-U2
 <details>
 <summary>PLATFORMS</summary>
 
-![索斯诺维茨总站站 CCTV PLATFORMS](/img/simrail/station/station_info/sosnowiec_glowny/cctv-platforms.webp)
+![索斯诺维茨总站站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/sosnowiec_glowny/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -127,7 +127,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>POST_SG1</summary>
 
-![索斯诺维茨总站站 CCTV POST_SG1](/img/simrail/station/station_info/sosnowiec_glowny/cctv-post-sg1.webp)
+![索斯诺维茨总站站 CCTV POST_SG1](pathname:///img/simrail/station/station_info/sosnowiec_glowny/cctv-post-sg1.webp)
 
 CCTV名称：POST_SG1
 

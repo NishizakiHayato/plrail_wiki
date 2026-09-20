@@ -13,9 +13,9 @@ slug: /station/station_info/kozlow
 
 ## 位置
 
-![科兹武夫站位置示意一](/img/simrail/station/station_info/kozlow/location-1.webp)
+![科兹武夫站位置示意一](pathname:///img/simrail/station/station_info/kozlow/location-1.webp)
 
-![科兹武夫站位置示意二](/img/simrail/station/station_info/kozlow/location-2.webp)
+![科兹武夫站位置示意二](pathname:///img/simrail/station/station_info/kozlow/location-2.webp)
 
 科兹武夫（Kozłów）是一个中型车站，连接了华沙到克拉科夫和华沙到卡托维兹两条铁路。你需要分流从隧道村（Tunel）开来的列车，分别送往森济舒夫（Sędziszów）和普萨雷（Psary）。
 
@@ -38,16 +38,16 @@ slug: /station/station_info/kozlow
 <details>
 <summary>基本</summary>
 
-![科兹武夫站调度面板（KZ 车站）](/img/simrail/station/station_info/kozlow/panel-basic-1.webp)
+![科兹武夫站调度面板（KZ 车站）](pathname:///img/simrail/station/station_info/kozlow/panel-basic-1.webp)
 
-![科兹武夫站调度面板（APO 及 LK8 闭塞方向监视器）](/img/simrail/station/station_info/kozlow/panel-basic-2.webp)
+![科兹武夫站调度面板（APO 及 LK8 闭塞方向监视器）](pathname:///img/simrail/station/station_info/kozlow/panel-basic-2.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![科兹武夫站道岔限速](/img/simrail/station/station_info/kozlow/switch-speed-limit.webp)
+![科兹武夫站道岔限速](pathname:///img/simrail/station/station_info/kozlow/switch-speed-limit.webp)
 
 </details>
 
@@ -91,7 +91,7 @@ slug: /station/station_info/kozlow
 <details>
 <summary>PLATFORMS</summary>
 
-![科兹武夫站 CCTV PLATFORMS](/img/simrail/station/station_info/kozlow/cctv-platforms.webp)
+![科兹武夫站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/kozlow/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -102,7 +102,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>POST11</summary>
 
-![科兹武夫站 CCTV POST11](/img/simrail/station/station_info/kozlow/cctv-post11.webp)
+![科兹武夫站 CCTV POST11](pathname:///img/simrail/station/station_info/kozlow/cctv-post11.webp)
 
 CCTV名称：POST11
 

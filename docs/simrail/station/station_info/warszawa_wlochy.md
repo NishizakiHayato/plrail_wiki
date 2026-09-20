@@ -13,9 +13,9 @@ slug: /station/station_info/warszawa_wlochy
 
 ## 位置
 
-![华沙 弗沃赫站位置示意一](/img/simrail/station/station_info/warszawa_wlochy/location-1.webp)
+![华沙 弗沃赫站位置示意一](pathname:///img/simrail/station/station_info/warszawa_wlochy/location-1.webp)
 
-![华沙 弗沃赫站位置示意二](/img/simrail/station/station_info/warszawa_wlochy/location-2.webp)
+![华沙 弗沃赫站位置示意二](pathname:///img/simrail/station/station_info/warszawa_wlochy/location-2.webp)
 
 该枢纽负责处理从西面驶入华沙（Warszawa）的客运列车，是卡托维兹（Katowice）、波兹南（Poznan）与马佐夫舍省 格罗济斯克（Grodzisk Mazowiecki）三条线路的交汇点。
 
@@ -38,28 +38,28 @@ slug: /station/station_info/warszawa_wlochy
 <details>
 <summary>基本</summary>
 
-![华沙 弗沃赫站调度面板（基本视图）](/img/simrail/station/station_info/warszawa_wlochy/panel-basic.webp)
+![华沙 弗沃赫站调度面板（基本视图）](pathname:///img/simrail/station/station_info/warszawa_wlochy/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![华沙 弗沃赫站 CCTV 位置](/img/simrail/station/station_info/warszawa_wlochy/cctv-locations.webp)
+![华沙 弗沃赫站 CCTV 位置](pathname:///img/simrail/station/station_info/warszawa_wlochy/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![华沙 弗沃赫站道岔限速](/img/simrail/station/station_info/warszawa_wlochy/switch-speed-limit.webp)
+![华沙 弗沃赫站道岔限速](pathname:///img/simrail/station/station_info/warszawa_wlochy/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![华沙 弗沃赫站 ETCS 等级](/img/simrail/station/station_info/warszawa_wlochy/etcs-level.webp)
+![华沙 弗沃赫站 ETCS 等级](pathname:///img/simrail/station/station_info/warszawa_wlochy/etcs-level.webp)
 
 </details>
 
@@ -70,7 +70,7 @@ slug: /station/station_info/warszawa_wlochy
 <details>
 <summary>SEM_Z_V</summary>
 
-![华沙 弗沃赫站 CCTV SEM_Z_V](/img/simrail/station/station_info/warszawa_wlochy/cctv-sem-z-v.webp)
+![华沙 弗沃赫站 CCTV SEM_Z_V](pathname:///img/simrail/station/station_info/warszawa_wlochy/cctv-sem-z-v.webp)
 
 CCTV名称：SEM_Z_V
 
@@ -81,7 +81,7 @@ CCTV名称：SEM_Z_V
 <details>
 <summary>L1_7.546_B</summary>
 
-![华沙 弗沃赫站 CCTV L1_7.546_B](/img/simrail/station/station_info/warszawa_wlochy/cctv-l1-7-546-b.webp)
+![华沙 弗沃赫站 CCTV L1_7.546_B](pathname:///img/simrail/station/station_info/warszawa_wlochy/cctv-l1-7-546-b.webp)
 
 CCTV名称：L1_7.546_B
 

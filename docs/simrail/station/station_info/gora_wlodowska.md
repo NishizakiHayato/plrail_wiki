@@ -13,9 +13,9 @@ slug: /station/station_info/gora_wlodowska
 
 ## 位置
 
-![伏沃多维采乡 古拉站位置示意一](/img/simrail/station/station_info/gora_wlodowska/location-1.webp)
+![伏沃多维采乡 古拉站位置示意一](pathname:///img/simrail/station/station_info/gora_wlodowska/location-1.webp)
 
-![伏沃多维采乡 古拉站位置示意二](/img/simrail/station/station_info/gora_wlodowska/location-2.webp)
+![伏沃多维采乡 古拉站位置示意二](pathname:///img/simrail/station/station_info/gora_wlodowska/location-2.webp)
 
 伏沃多维采乡 古拉（Góra Włodowska）是位于中央铁路干线（Centralna Magistrala Kolejowa，简称 CMK）南端的一个中等规模的车站。其东南方向的相邻车站是扎维尔切（Zawiercie），西北方向的相邻车站是普萨雷（Psary）。
 
@@ -58,28 +58,28 @@ slug: /station/station_info/gora_wlodowska
 <details>
 <summary>基本</summary>
 
-![伏沃多维采乡 古拉站调度面板（基本视图）](/img/simrail/station/station_info/gora_wlodowska/panel-basic.webp)
+![伏沃多维采乡 古拉站调度面板（基本视图）](pathname:///img/simrail/station/station_info/gora_wlodowska/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![伏沃多维采乡 古拉站 CCTV 位置](/img/simrail/station/station_info/gora_wlodowska/cctv-locations.webp)
+![伏沃多维采乡 古拉站 CCTV 位置](pathname:///img/simrail/station/station_info/gora_wlodowska/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![伏沃多维采乡 古拉站道岔限速](/img/simrail/station/station_info/gora_wlodowska/switch-speed-limit.webp)
+![伏沃多维采乡 古拉站道岔限速](pathname:///img/simrail/station/station_info/gora_wlodowska/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![伏沃多维采乡 古拉站 ETCS 等级](/img/simrail/station/station_info/gora_wlodowska/etcs-level.webp)
+![伏沃多维采乡 古拉站 ETCS 等级](pathname:///img/simrail/station/station_info/gora_wlodowska/etcs-level.webp)
 
 </details>
 
@@ -90,7 +90,7 @@ slug: /station/station_info/gora_wlodowska
 <details>
 <summary>SEM_A-B</summary>
 
-![伏沃多维采乡 古拉站 CCTV SEM_A-B](/img/simrail/station/station_info/gora_wlodowska/cctv-sem-a-b.webp)
+![伏沃多维采乡 古拉站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/gora_wlodowska/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 

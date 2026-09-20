@@ -13,9 +13,9 @@ slug: /station/station_info/opoczno_poludnie
 
 ## 位置
 
-![奥波奇诺南站位置示意一](/img/simrail/station/station_info/opoczno_poludnie/location-1.webp)
+![奥波奇诺南站位置示意一](pathname:///img/simrail/station/station_info/opoczno_poludnie/location-1.webp)
 
-![奥波奇诺南站位置示意二](/img/simrail/station/station_info/opoczno_poludnie/location-2.webp)
+![奥波奇诺南站位置示意二](pathname:///img/simrail/station/station_info/opoczno_poludnie/location-2.webp)
 
 奥波奇诺南站（Opoczno Południe）是中央铁路干线上仅有一个站台的车站，部分长途列车停靠。
 
@@ -38,14 +38,14 @@ slug: /station/station_info/opoczno_poludnie
 <details>
 <summary>基本</summary>
 
-![奥波奇诺南站调度面板（基本视图）](/img/simrail/station/station_info/opoczno_poludnie/panel-basic.webp)
+![奥波奇诺南站调度面板（基本视图）](pathname:///img/simrail/station/station_info/opoczno_poludnie/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![奥波奇诺南站道岔限速](/img/simrail/station/station_info/opoczno_poludnie/switch-speed-limit.webp)
+![奥波奇诺南站道岔限速](pathname:///img/simrail/station/station_info/opoczno_poludnie/switch-speed-limit.webp)
 
 </details>
 
@@ -76,7 +76,7 @@ slug: /station/station_info/opoczno_poludnie
 <details>
 <summary>PLATFORMS</summary>
 
-![奥波奇诺南站 CCTV PLATFORMS](/img/simrail/station/station_info/opoczno_poludnie/cctv-platforms.webp)
+![奥波奇诺南站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/opoczno_poludnie/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -87,7 +87,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>POST_11</summary>
 
-![奥波奇诺南站 CCTV POST_11](/img/simrail/station/station_info/opoczno_poludnie/cctv-post-11.webp)
+![奥波奇诺南站 CCTV POST_11](pathname:///img/simrail/station/station_info/opoczno_poludnie/cctv-post-11.webp)
 
 CCTV名称：POST_11
 
@@ -98,7 +98,7 @@ CCTV名称：POST_11
 <details>
 <summary>SEM_T_W</summary>
 
-![奥波奇诺南站 CCTV SEM_T_W](/img/simrail/station/station_info/opoczno_poludnie/cctv-sem-t-w.webp)
+![奥波奇诺南站 CCTV SEM_T_W](pathname:///img/simrail/station/station_info/opoczno_poludnie/cctv-sem-t-w.webp)
 
 CCTV名称：SEM_T_W
 

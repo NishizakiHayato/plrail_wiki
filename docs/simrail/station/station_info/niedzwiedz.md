@@ -13,9 +13,9 @@ slug: /station/station_info/niedzwiedz
 
 ## 位置
 
-![熊村站位置示意一](/img/simrail/station/station_info/niedzwiedz/location-1.webp)
+![熊村站位置示意一](pathname:///img/simrail/station/station_info/niedzwiedz/location-1.webp)
 
-![熊村站位置示意二](/img/simrail/station/station_info/niedzwiedz/location-2.webp)
+![熊村站位置示意二](pathname:///img/simrail/station/station_info/niedzwiedz/location-2.webp)
 
 熊村站是一个小型车站，有两条股道可用于慢车待避，另外两条设有站台的股道只供通勤列车停靠。
 
@@ -38,14 +38,14 @@ slug: /station/station_info/niedzwiedz
 <details>
 <summary>基本</summary>
 
-![熊村站调度面板（基本视图）](/img/simrail/station/station_info/niedzwiedz/panel-basic.webp)
+![熊村站调度面板（基本视图）](pathname:///img/simrail/station/station_info/niedzwiedz/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![熊村站道岔限速](/img/simrail/station/station_info/niedzwiedz/switch-speed-limit.webp)
+![熊村站道岔限速](pathname:///img/simrail/station/station_info/niedzwiedz/switch-speed-limit.webp)
 
 </details>
 
@@ -79,7 +79,7 @@ slug: /station/station_info/niedzwiedz
 <details>
 <summary>SEM_P-R</summary>
 
-![熊村站 CCTV SEM_P-R](/img/simrail/station/station_info/niedzwiedz/cctv-sem-p-r.webp)
+![熊村站 CCTV SEM_P-R](pathname:///img/simrail/station/station_info/niedzwiedz/cctv-sem-p-r.webp)
 
 CCTV名称：SEM_P-R
 
@@ -90,7 +90,7 @@ CCTV名称：SEM_P-R
 <details>
 <summary>ND_295.190</summary>
 
-![熊村站 CCTV ND_295.190](/img/simrail/station/station_info/niedzwiedz/cctv-nd-295-190.webp)
+![熊村站 CCTV ND_295.190](pathname:///img/simrail/station/station_info/niedzwiedz/cctv-nd-295-190.webp)
 
 CCTV名称：ND_295.190
 

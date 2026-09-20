@@ -19,9 +19,9 @@ slug: /station/station_info/koluszki
 
 ## 位置
 
-![科卢什基站位置示意一](/img/simrail/station/station_info/koluszki/location-1.webp)
+![科卢什基站位置示意一](pathname:///img/simrail/station/station_info/koluszki/location-1.webp)
 
-![科卢什基站位置示意二](/img/simrail/station/station_info/koluszki/location-2.webp)
+![科卢什基站位置示意二](pathname:///img/simrail/station/station_info/koluszki/location-2.webp)
 
 科卢什基（Koluszki，Kl）站是 LK1 线上的重要枢纽站，连接着罗兹（Łódź）、马佐夫舍省 托马舒夫（Tomaszów Mazowiecki）和琴斯托霍瓦（Częstochowa）。
 
@@ -50,28 +50,28 @@ slug: /station/station_info/koluszki
 <details>
 <summary>基本</summary>
 
-![科卢什基站调度面板（基本视图）](/img/simrail/station/station_info/koluszki/panel-basic.webp)
+![科卢什基站调度面板（基本视图）](pathname:///img/simrail/station/station_info/koluszki/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV</summary>
 
-![科卢什基站 CCTV 位置](/img/simrail/station/station_info/koluszki/cctv-locations.webp)
+![科卢什基站 CCTV 位置](pathname:///img/simrail/station/station_info/koluszki/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![科卢什基站道岔限速](/img/simrail/station/station_info/koluszki/switch-speed-limit.webp)
+![科卢什基站道岔限速](pathname:///img/simrail/station/station_info/koluszki/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![科卢什基站 ETCS 等级](/img/simrail/station/station_info/koluszki/etcs-level.webp)
+![科卢什基站 ETCS 等级](pathname:///img/simrail/station/station_info/koluszki/etcs-level.webp)
 
 </details>
 
@@ -163,7 +163,7 @@ slug: /station/station_info/koluszki
 <details>
 <summary>SEM_R1_R2(PZS R145)</summary>
 
-![科卢什基站 CCTV SEM_R1_R2(PZS R145)](/img/simrail/station/station_info/koluszki/cctv-sem-r1-r2.webp)
+![科卢什基站 CCTV SEM_R1_R2(PZS R145)](pathname:///img/simrail/station/station_info/koluszki/cctv-sem-r1-r2.webp)
 
 CCTV名称：SEM_R1_R2(PZS R145)
 
@@ -174,7 +174,7 @@ CCTV名称：SEM_R1_R2(PZS R145)
 <details>
 <summary>KO_24.396_A</summary>
 
-![科卢什基站 CCTV KO_24.396_A](/img/simrail/station/station_info/koluszki/cctv-ko-24-396-a.webp)
+![科卢什基站 CCTV KO_24.396_A](pathname:///img/simrail/station/station_info/koluszki/cctv-ko-24-396-a.webp)
 
 CCTV名称：KO_24.396_A
 
@@ -187,7 +187,7 @@ CCTV名称：KO_24.396_A
 <details>
 <summary>KO_25.537_A</summary>
 
-![科卢什基站 CCTV KO_25.537_A](/img/simrail/station/station_info/koluszki/cctv-ko-25-537-a.webp)
+![科卢什基站 CCTV KO_25.537_A](pathname:///img/simrail/station/station_info/koluszki/cctv-ko-25-537-a.webp)
 
 CCTV名称：KO_25.537_A
 
@@ -200,7 +200,7 @@ CCTV名称：KO_25.537_A
 <details>
 <summary>SEM_U1_U2(PZS R154)</summary>
 
-![科卢什基站 CCTV SEM_U1_U2(PZS R154)](/img/simrail/station/station_info/koluszki/cctv-sem-u1-u2.webp)
+![科卢什基站 CCTV SEM_U1_U2(PZS R154)](pathname:///img/simrail/station/station_info/koluszki/cctv-sem-u1-u2.webp)
 
 CCTV名称：SEM_U1_U2(PZS R154)
 
@@ -211,7 +211,7 @@ CCTV名称：SEM_U1_U2(PZS R154)
 <details>
 <summary>KO_103.742</summary>
 
-![科卢什基站 CCTV KO_103.742](/img/simrail/station/station_info/koluszki/cctv-ko-103-742.webp)
+![科卢什基站 CCTV KO_103.742](pathname:///img/simrail/station/station_info/koluszki/cctv-ko-103-742.webp)
 
 CCTV名称：KO_103.742
 
@@ -224,7 +224,7 @@ CCTV名称：KO_103.742
 <details>
 <summary>SEM_A_B</summary>
 
-![科卢什基站 CCTV SEM_A_B](/img/simrail/station/station_info/koluszki/cctv-sem-a-b.webp)
+![科卢什基站 CCTV SEM_A_B](pathname:///img/simrail/station/station_info/koluszki/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A_B
 

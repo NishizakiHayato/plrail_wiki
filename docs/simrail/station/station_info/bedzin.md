@@ -13,9 +13,9 @@ slug: /station/station_info/bedzin
 
 ## 位置
 
-![本津站位置示意一](/img/simrail/station/station_info/bedzin/location-1.webp)
+![本津站位置示意一](pathname:///img/simrail/station/station_info/bedzin/location-1.webp)
 
-![本津站位置示意二](/img/simrail/station/station_info/bedzin/location-2.webp)
+![本津站位置示意二](pathname:///img/simrail/station/station_info/bedzin/location-2.webp)
 
 本津站位于铁路1号线上，地处索斯诺维茨总站（Sosnowiec Główny）与栋布罗瓦-古尔尼恰（Dąbrowa Górnicza）之间。该站设有通往各自车站方向并配备自动闭塞系统的双线。历史上曾存在通往索斯诺维茨总站的第三条线路，但现已废弃停用。
 
@@ -40,21 +40,21 @@ slug: /station/station_info/bedzin
 <details>
 <summary>基本</summary>
 
-![本津站调度面板（基本视图）](/img/simrail/station/station_info/bedzin/panel-basic.webp)
+![本津站调度面板（基本视图）](pathname:///img/simrail/station/station_info/bedzin/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![本津站 CCTV 位置](/img/simrail/station/station_info/bedzin/cctv-locations.webp)
+![本津站 CCTV 位置](pathname:///img/simrail/station/station_info/bedzin/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![本津站道岔限速](/img/simrail/station/station_info/bedzin/switch-speed-limit.webp)
+![本津站道岔限速](pathname:///img/simrail/station/station_info/bedzin/switch-speed-limit.webp)
 
 </details>
 
@@ -85,7 +85,7 @@ slug: /station/station_info/bedzin
 <details>
 <summary>PLATFORMS</summary>
 
-![本津站 CCTV PLATFORMS](/img/simrail/station/station_info/bedzin/cctv-platforms.webp)
+![本津站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/bedzin/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -96,7 +96,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_A-B</summary>
 
-![本津站 CCTV SEM_A-B](/img/simrail/station/station_info/bedzin/cctv-sem-a-b.webp)
+![本津站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/bedzin/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 
@@ -107,7 +107,7 @@ CCTV名称：SEM_A-B
 <details>
 <summary>SEM_P-R-S</summary>
 
-![本津站 CCTV SEM_P-R-S](/img/simrail/station/station_info/bedzin/cctv-sem-p-r-s.webp)
+![本津站 CCTV SEM_P-R-S](pathname:///img/simrail/station/station_info/bedzin/cctv-sem-p-r-s.webp)
 
 CCTV名称：SEM_P-R-S
 

@@ -19,9 +19,9 @@ slug: /station/station_info/rogow
 
 ## 位置
 
-![罗古夫站位置示意一](/img/simrail/station/station_info/rogow/location-1.webp)
+![罗古夫站位置示意一](pathname:///img/simrail/station/station_info/rogow/location-1.webp)
 
-![罗古夫站位置示意二](/img/simrail/station/station_info/rogow/location-2.webp)
+![罗古夫站位置示意二](pathname:///img/simrail/station/station_info/rogow/location-2.webp)
 
 一座中型车站，位于科卢什基站（Koluszki）和普维契维亚站（Płyćwia）之间。这里只有一个岛式站台，位于两条正线之间，另外还有四条侧线，如有需要可供列车待避。
 
@@ -44,28 +44,28 @@ slug: /station/station_info/rogow
 <details>
 <summary>基本</summary>
 
-![罗古夫站调度面板（基本视图）](/img/simrail/station/station_info/rogow/panel-basic.webp)
+![罗古夫站调度面板（基本视图）](pathname:///img/simrail/station/station_info/rogow/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![罗古夫站 CCTV 位置](/img/simrail/station/station_info/rogow/cctv-locations.webp)
+![罗古夫站 CCTV 位置](pathname:///img/simrail/station/station_info/rogow/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![罗古夫站道岔限速](/img/simrail/station/station_info/rogow/switch-speed-limit.webp)
+![罗古夫站道岔限速](pathname:///img/simrail/station/station_info/rogow/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![罗古夫站 ETCS 等级](/img/simrail/station/station_info/rogow/etcs-level.webp)
+![罗古夫站 ETCS 等级](pathname:///img/simrail/station/station_info/rogow/etcs-level.webp)
 
 </details>
 
@@ -101,7 +101,7 @@ slug: /station/station_info/rogow
 <details>
 <summary>PLATFORMS</summary>
 
-![罗古夫站 CCTV PLATFORMS](/img/simrail/station/station_info/rogow/cctv-platforms.webp)
+![罗古夫站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/rogow/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -112,7 +112,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>RG_95.117_A</summary>
 
-![罗古夫站 CCTV RG_95.117_A](/img/simrail/station/station_info/rogow/cctv-rg-95-117-a.webp)
+![罗古夫站 CCTV RG_95.117_A](pathname:///img/simrail/station/station_info/rogow/cctv-rg-95-117-a.webp)
 
 CCTV名称：RG_95.117_A
 
@@ -125,7 +125,7 @@ CCTV名称：RG_95.117_A
 <details>
 <summary>SEM_L-M</summary>
 
-![罗古夫站 CCTV SEM_L-M](/img/simrail/station/station_info/rogow/cctv-sem-l-m.webp)
+![罗古夫站 CCTV SEM_L-M](pathname:///img/simrail/station/station_info/rogow/cctv-sem-l-m.webp)
 
 CCTV名称：SEM_L-M
 

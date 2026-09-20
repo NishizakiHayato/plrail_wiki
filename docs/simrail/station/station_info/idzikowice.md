@@ -13,9 +13,9 @@ slug: /station/station_info/idzikowice
 
 ## 位置
 
-![伊季科维采站位置示意一](/img/simrail/station/station_info/idzikowice/location-1.webp)
+![伊季科维采站位置示意一](pathname:///img/simrail/station/station_info/idzikowice/location-1.webp)
 
-![伊季科维采站位置示意二](/img/simrail/station/station_info/idzikowice/location-2.webp)
+![伊季科维采站位置示意二](pathname:///img/simrail/station/station_info/idzikowice/location-2.webp)
 
 伊季科维采（Idzikowice）站位于 LK 4（中央铁路干线，CMK）线上，共有 14 条股道。由此可分支接入通往拉季采（Radzice）方向的 LK 573 和 LK 574 线。
 
@@ -42,28 +42,28 @@ slug: /station/station_info/idzikowice
 <details>
 <summary>基本</summary>
 
-![伊季科维采站调度面板（基本视图）](/img/simrail/station/station_info/idzikowice/panel-basic.webp)
+![伊季科维采站调度面板（基本视图）](pathname:///img/simrail/station/station_info/idzikowice/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![伊季科维采站 CCTV 位置](/img/simrail/station/station_info/idzikowice/cctv-locations.webp)
+![伊季科维采站 CCTV 位置](pathname:///img/simrail/station/station_info/idzikowice/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![伊季科维采站道岔限速](/img/simrail/station/station_info/idzikowice/switch-speed-limit.webp)
+![伊季科维采站道岔限速](pathname:///img/simrail/station/station_info/idzikowice/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![伊季科维采站 ETCS 等级](/img/simrail/station/station_info/idzikowice/etcs-level.webp)
+![伊季科维采站 ETCS 等级](pathname:///img/simrail/station/station_info/idzikowice/etcs-level.webp)
 
 </details>
 
@@ -74,7 +74,7 @@ slug: /station/station_info/idzikowice
 <details>
 <summary>SEM_W-Z</summary>
 
-![伊季科维采站 CCTV SEM_W-Z](/img/simrail/station/station_info/idzikowice/cctv-sem-w-z.webp)
+![伊季科维采站 CCTV SEM_W-Z](pathname:///img/simrail/station/station_info/idzikowice/cctv-sem-w-z.webp)
 
 CCTV名称：SEM_W-Z
 
@@ -85,7 +85,7 @@ CCTV名称：SEM_W-Z
 <details>
 <summary>L4_82.192_A</summary>
 
-![伊季科维采站 CCTV L4_82.192_A](/img/simrail/station/station_info/idzikowice/cctv-l4-82-192-a.webp)
+![伊季科维采站 CCTV L4_82.192_A](pathname:///img/simrail/station/station_info/idzikowice/cctv-l4-82-192-a.webp)
 
 CCTV名称：L4_82.192_A
 

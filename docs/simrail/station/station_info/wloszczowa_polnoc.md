@@ -13,9 +13,9 @@ slug: /station/station_info/wloszczowa_polnoc
 
 ## 位置
 
-![伏沃晓瓦北站位置示意一](/img/simrail/station/station_info/wloszczowa_polnoc/location-1.webp)
+![伏沃晓瓦北站位置示意一](pathname:///img/simrail/station/station_info/wloszczowa_polnoc/location-1.webp)
 
-![伏沃晓瓦北站位置示意二](/img/simrail/station/station_info/wloszczowa_polnoc/location-2.webp)
+![伏沃晓瓦北站位置示意二](pathname:///img/simrail/station/station_info/wloszczowa_polnoc/location-2.webp)
 
 ## 描述
 
@@ -42,28 +42,28 @@ slug: /station/station_info/wloszczowa_polnoc
 <details>
 <summary>基本</summary>
 
-![伏沃晓瓦北站调度面板（基本视图）](/img/simrail/station/station_info/wloszczowa_polnoc/panel-basic.webp)
+![伏沃晓瓦北站调度面板（基本视图）](pathname:///img/simrail/station/station_info/wloszczowa_polnoc/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![伏沃晓瓦北站 CCTV 位置](/img/simrail/station/station_info/wloszczowa_polnoc/cctv-locations.webp)
+![伏沃晓瓦北站 CCTV 位置](pathname:///img/simrail/station/station_info/wloszczowa_polnoc/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![伏沃晓瓦北站道岔限速](/img/simrail/station/station_info/wloszczowa_polnoc/switch-speed-limit.webp)
+![伏沃晓瓦北站道岔限速](pathname:///img/simrail/station/station_info/wloszczowa_polnoc/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![伏沃晓瓦北站 ETCS 等级](/img/simrail/station/station_info/wloszczowa_polnoc/etcs-level.webp)
+![伏沃晓瓦北站 ETCS 等级](pathname:///img/simrail/station/station_info/wloszczowa_polnoc/etcs-level.webp)
 
 </details>
 
@@ -97,7 +97,7 @@ slug: /station/station_info/wloszczowa_polnoc
 <details>
 <summary>PLATFORMS</summary>
 
-![伏沃晓瓦北站 CCTV PLATFORMS](/img/simrail/station/station_info/wloszczowa_polnoc/cctv-platforms.webp)
+![伏沃晓瓦北站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/wloszczowa_polnoc/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -108,7 +108,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_A-B</summary>
 
-![伏沃晓瓦北站 CCTV SEM_A-B](/img/simrail/station/station_info/wloszczowa_polnoc/cctv-sem-a-b.webp)
+![伏沃晓瓦北站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/wloszczowa_polnoc/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 

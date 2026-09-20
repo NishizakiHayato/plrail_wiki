@@ -27,9 +27,9 @@ slug: /station/station_info/glinnik
 
 ## 位置
 
-![格林尼克站位置示意一](/img/simrail/station/station_info/glinnik/location-1.webp)
+![格林尼克站位置示意一](pathname:///img/simrail/station/station_info/glinnik/location-1.webp)
 
-![格林尼克站位置示意二](/img/simrail/station/station_info/glinnik/location-2.webp)
+![格林尼克站位置示意二](pathname:///img/simrail/station/station_info/glinnik/location-2.webp)
 
 格林尼克区域控制中心（LCS Glinnik）位于铁路线 LK15 上，远程控制斯特勒库夫（Stryków）联锁站，并监督该线路区段的列车运行。相邻联锁站为兹盖日（Zgierz）和格沃夫诺区域控制中心（LCS Głowno）。格林尼克（Glinnik）和斯特勒库夫（Stryków）均设有两个侧式站台，用于客运服务。
 
@@ -52,27 +52,27 @@ slug: /station/station_info/glinnik
 <details>
 <summary>基本</summary>
 
-![格林尼克站调度面板（基本视图一）](/img/simrail/station/station_info/glinnik/panel-basic-1.webp)
+![格林尼克站调度面板（基本视图一）](pathname:///img/simrail/station/station_info/glinnik/panel-basic-1.webp)
 
-![格林尼克站调度面板（基本视图二）](/img/simrail/station/station_info/glinnik/panel-basic-2.webp)
+![格林尼克站调度面板（基本视图二）](pathname:///img/simrail/station/station_info/glinnik/panel-basic-2.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![格林尼克站 CCTV 位置一](/img/simrail/station/station_info/glinnik/cctv-locations-1.webp)
+![格林尼克站 CCTV 位置一](pathname:///img/simrail/station/station_info/glinnik/cctv-locations-1.webp)
 
-![格林尼克站 CCTV 位置二](/img/simrail/station/station_info/glinnik/cctv-locations-2.webp)
+![格林尼克站 CCTV 位置二](pathname:///img/simrail/station/station_info/glinnik/cctv-locations-2.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![格林尼克站道岔限速一](/img/simrail/station/station_info/glinnik/switch-speed-limit-1.webp)
+![格林尼克站道岔限速一](pathname:///img/simrail/station/station_info/glinnik/switch-speed-limit-1.webp)
 
-![格林尼克站道岔限速二](/img/simrail/station/station_info/glinnik/switch-speed-limit-2.webp)
+![格林尼克站道岔限速二](pathname:///img/simrail/station/station_info/glinnik/switch-speed-limit-2.webp)
 
 </details>
 
@@ -83,7 +83,7 @@ LCS格林尼克配备了八台 CCTV 设备。
 <details>
 <summary>L15_50.456_A</summary>
 
-![格林尼克站 CCTV L15_50.456_A](/img/simrail/station/station_info/glinnik/cctv-l15-50-456-a.webp)
+![格林尼克站 CCTV L15_50.456_A](pathname:///img/simrail/station/station_info/glinnik/cctv-l15-50-456-a.webp)
 
 CCTV名称：L15_50.456_A
 
@@ -96,7 +96,7 @@ CCTV名称：L15_50.456_A
 <details>
 <summary>SEM_GL_A</summary>
 
-![格林尼克站 CCTV SEM_GL_A](/img/simrail/station/station_info/glinnik/cctv-sem-gl-a.webp)
+![格林尼克站 CCTV SEM_GL_A](pathname:///img/simrail/station/station_info/glinnik/cctv-sem-gl-a.webp)
 
 CCTV名称：SEM_GL_A
 
@@ -107,7 +107,7 @@ CCTV名称：SEM_GL_A
 <details>
 <summary>SEM_GL_F</summary>
 
-![格林尼克站 CCTV SEM_GL_F](/img/simrail/station/station_info/glinnik/cctv-sem-gl-f.webp)
+![格林尼克站 CCTV SEM_GL_F](pathname:///img/simrail/station/station_info/glinnik/cctv-sem-gl-f.webp)
 
 CCTV名称：SEM_GL_F
 
@@ -118,7 +118,7 @@ CCTV名称：SEM_GL_F
 <details>
 <summary>SEM_ST_A</summary>
 
-![格林尼克站 CCTV SEM_ST_A](/img/simrail/station/station_info/glinnik/cctv-sem-st-a.webp)
+![格林尼克站 CCTV SEM_ST_A](pathname:///img/simrail/station/station_info/glinnik/cctv-sem-st-a.webp)
 
 CCTV名称：SEM_ST_A
 
@@ -129,7 +129,7 @@ CCTV名称：SEM_ST_A
 <details>
 <summary>L15_41.583_A</summary>
 
-![格林尼克站 CCTV L15_41.583_A](/img/simrail/station/station_info/glinnik/cctv-l15-41-583-a.webp)
+![格林尼克站 CCTV L15_41.583_A](pathname:///img/simrail/station/station_info/glinnik/cctv-l15-41-583-a.webp)
 
 CCTV名称：L15_41.583_A
 
@@ -140,7 +140,7 @@ CCTV名称：L15_41.583_A
 <details>
 <summary>PLATFORMS_ST</summary>
 
-![格林尼克站 CCTV PLATFORMS_ST](/img/simrail/station/station_info/glinnik/cctv-platforms-st.webp)
+![格林尼克站 CCTV PLATFORMS_ST](pathname:///img/simrail/station/station_info/glinnik/cctv-platforms-st.webp)
 
 CCTV名称：PLATFORMS_ST
 
@@ -151,7 +151,7 @@ CCTV名称：PLATFORMS_ST
 <details>
 <summary>L15_42.489_A</summary>
 
-![格林尼克站 CCTV L15_42.489_A](/img/simrail/station/station_info/glinnik/cctv-l15-42-489-a.webp)
+![格林尼克站 CCTV L15_42.489_A](pathname:///img/simrail/station/station_info/glinnik/cctv-l15-42-489-a.webp)
 
 CCTV名称：L15_42.489_A
 
@@ -162,7 +162,7 @@ CCTV名称：L15_42.489_A
 <details>
 <summary>SEM_ST_P</summary>
 
-![格林尼克站 CCTV SEM_ST_P](/img/simrail/station/station_info/glinnik/cctv-sem-st-p.webp)
+![格林尼克站 CCTV SEM_ST_P](pathname:///img/simrail/station/station_info/glinnik/cctv-sem-st-p.webp)
 
 CCTV名称：SEM_ST_P
 

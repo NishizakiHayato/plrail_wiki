@@ -19,9 +19,9 @@ slug: /station/station_info/zgierz
 
 ## 位置
 
-![兹盖日站位置示意一](/img/simrail/station/station_info/zgierz/location-1.webp)
+![兹盖日站位置示意一](pathname:///img/simrail/station/station_info/zgierz/location-1.webp)
 
-![兹盖日站位置示意二](/img/simrail/station/station_info/zgierz/location-2.webp)
+![兹盖日站位置示意二](pathname:///img/simrail/station/station_info/zgierz/location-2.webp)
 
 兹盖日站（Zgierz，Zg）位于LK15线和LK16线，全站共设6条股道及3座站台，站台股道共计5条。
 
@@ -46,21 +46,21 @@ slug: /station/station_info/zgierz
 <details>
 <summary>基本</summary>
 
-![兹盖日站调度面板（基本视图）](/img/simrail/station/station_info/zgierz/panel-basic.webp)
+![兹盖日站调度面板（基本视图）](pathname:///img/simrail/station/station_info/zgierz/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![兹盖日站 CCTV 位置](/img/simrail/station/station_info/zgierz/cctv-locations.webp)
+![兹盖日站 CCTV 位置](pathname:///img/simrail/station/station_info/zgierz/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![兹盖日站道岔限速](/img/simrail/station/station_info/zgierz/switch-speed-limit.webp)
+![兹盖日站道岔限速](pathname:///img/simrail/station/station_info/zgierz/switch-speed-limit.webp)
 
 </details>
 
@@ -99,7 +99,7 @@ slug: /station/station_info/zgierz
 <details>
 <summary>SEM_A</summary>
 
-![兹盖日站 CCTV SEM_A](/img/simrail/station/station_info/zgierz/cctv-sem-a.webp)
+![兹盖日站 CCTV SEM_A](pathname:///img/simrail/station/station_info/zgierz/cctv-sem-a.webp)
 
 CCTV名称：SEM_A
 
@@ -110,7 +110,7 @@ CCTV名称：SEM_A
 <details>
 <summary>SEM_B</summary>
 
-![兹盖日站 CCTV SEM_B](/img/simrail/station/station_info/zgierz/cctv-sem-b.webp)
+![兹盖日站 CCTV SEM_B](pathname:///img/simrail/station/station_info/zgierz/cctv-sem-b.webp)
 
 CCTV名称：SEM_B
 
@@ -121,7 +121,7 @@ CCTV名称：SEM_B
 <details>
 <summary>PLATFORMS</summary>
 
-![兹盖日站 CCTV PLATFORMS](/img/simrail/station/station_info/zgierz/cctv-platforms.webp)
+![兹盖日站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/zgierz/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -132,7 +132,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_T-S</summary>
 
-![兹盖日站 CCTV SEM_T-S](/img/simrail/station/station_info/zgierz/cctv-sem-t-s.webp)
+![兹盖日站 CCTV SEM_T-S](pathname:///img/simrail/station/station_info/zgierz/cctv-sem-t-s.webp)
 
 CCTV名称：SEM_T-S
 
@@ -143,7 +143,7 @@ CCTV名称：SEM_T-S
 <details>
 <summary>SEM_R</summary>
 
-![兹盖日站 CCTV SEM_R](/img/simrail/station/station_info/zgierz/cctv-sem-r.webp)
+![兹盖日站 CCTV SEM_R](pathname:///img/simrail/station/station_info/zgierz/cctv-sem-r.webp)
 
 CCTV名称：SEM_R
 

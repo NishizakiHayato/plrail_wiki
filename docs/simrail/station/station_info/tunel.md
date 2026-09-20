@@ -13,9 +13,9 @@ slug: /station/station_info/tunel
 
 ## 位置
 
-![隧道村站位置示意一](/img/simrail/station/station_info/tunel/location-1.webp)
+![隧道村站位置示意一](pathname:///img/simrail/station/station_info/tunel/location-1.webp)
 
-![隧道村站位置示意二](/img/simrail/station/station_info/tunel/location-2.webp)
+![隧道村站位置示意二](pathname:///img/simrail/station/station_info/tunel/location-2.webp)
 
 隧道村（Tunel）位于LK 62线末端，介于哈尔什尼察（Charsznica）、科兹武夫（Kozłów）与梅胡夫（Miechów）之间。此处线路分岔，可从科兹武夫（Kozłów）经布科夫诺（Bukowno）前往卡托维兹（Katowice），或经斯沃姆尼基（Słomniki）驶向克拉科夫（Kraków）。
 
@@ -42,21 +42,21 @@ slug: /station/station_info/tunel
 <details>
 <summary>基本</summary>
 
-![隧道村站调度面板（基本视图）](/img/simrail/station/station_info/tunel/panel-basic.webp)
+![隧道村站调度面板（基本视图）](pathname:///img/simrail/station/station_info/tunel/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![隧道村站 CCTV 位置](/img/simrail/station/station_info/tunel/cctv-locations.webp)
+![隧道村站 CCTV 位置](pathname:///img/simrail/station/station_info/tunel/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![隧道村站道岔限速](/img/simrail/station/station_info/tunel/switch-speed-limit.webp)
+![隧道村站道岔限速](pathname:///img/simrail/station/station_info/tunel/switch-speed-limit.webp)
 
 </details>
 
@@ -84,7 +84,7 @@ slug: /station/station_info/tunel
 <details>
 <summary>SEM_A-B</summary>
 
-![隧道村站 CCTV SEM_A-B](/img/simrail/station/station_info/tunel/cctv-sem-a-b.webp)
+![隧道村站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/tunel/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 
@@ -95,7 +95,7 @@ CCTV名称：SEM_A-B
 <details>
 <summary>SEM_M-N-O-P</summary>
 
-![隧道村站 CCTV SEM_M-N-O-P](/img/simrail/station/station_info/tunel/cctv-sem-m-n-o-p.webp)
+![隧道村站 CCTV SEM_M-N-O-P](pathname:///img/simrail/station/station_info/tunel/cctv-sem-m-n-o-p.webp)
 
 CCTV名称：SEM_M-N-O-P
 

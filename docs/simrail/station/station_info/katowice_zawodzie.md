@@ -13,9 +13,9 @@ slug: /station/station_info/katowice_zawodzie
 
 ## 位置
 
-![卡托维兹 扎沃杰站位置示意一](/img/simrail/station/station_info/katowice_zawodzie/location-1.webp)
+![卡托维兹 扎沃杰站位置示意一](pathname:///img/simrail/station/station_info/katowice_zawodzie/location-1.webp)
 
-![卡托维兹 扎沃杰站位置示意二](/img/simrail/station/station_info/katowice_zawodzie/location-2.webp)
+![卡托维兹 扎沃杰站位置示意二](pathname:///img/simrail/station/station_info/katowice_zawodzie/location-2.webp)
 
 卡托维兹 扎沃杰（Katowice Zawodzie）是卡托维兹（Katowice）的相邻车站，负责分流开往扎维尔切（Zawiercie）或克拉科夫（Kraków）的列车。有两条线路穿过该站，分别是 LK1 和 LK138，它们都来自卡托维兹。LK1 线通往索斯诺维茨总站（Sosnowiec Główny）（通向扎维尔切），LK138 线则往萨贝尔尼亚（Szabelnia）,经由梅斯沃维采，通往克拉科夫）。
 
@@ -40,21 +40,21 @@ slug: /station/station_info/katowice_zawodzie
 <details>
 <summary>基本</summary>
 
-![卡托维兹 扎沃杰站调度面板（基本视图）](/img/simrail/station/station_info/katowice_zawodzie/panel-basic.webp)
+![卡托维兹 扎沃杰站调度面板（基本视图）](pathname:///img/simrail/station/station_info/katowice_zawodzie/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![卡托维兹 扎沃杰站 CCTV 位置](/img/simrail/station/station_info/katowice_zawodzie/cctv-locations.webp)
+![卡托维兹 扎沃杰站 CCTV 位置](pathname:///img/simrail/station/station_info/katowice_zawodzie/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![卡托维兹 扎沃杰站道岔限速](/img/simrail/station/station_info/katowice_zawodzie/switch-speed-limit.webp)
+![卡托维兹 扎沃杰站道岔限速](pathname:///img/simrail/station/station_info/katowice_zawodzie/switch-speed-limit.webp)
 
 </details>
 
@@ -96,7 +96,7 @@ slug: /station/station_info/katowice_zawodzie
 <details>
 <summary>POST-KZ1</summary>
 
-![卡托维兹 扎沃杰站 CCTV POST-KZ1](/img/simrail/station/station_info/katowice_zawodzie/cctv-post-kz1.webp)
+![卡托维兹 扎沃杰站 CCTV POST-KZ1](pathname:///img/simrail/station/station_info/katowice_zawodzie/cctv-post-kz1.webp)
 
 CCTV名称：POST-KZ1
 
@@ -107,7 +107,7 @@ CCTV名称：POST-KZ1
 <details>
 <summary>SEM_A1_B1_B2</summary>
 
-![卡托维兹 扎沃杰站 CCTV SEM_A1_B1_B2](/img/simrail/station/station_info/katowice_zawodzie/cctv-sem-a1-b1-b2.webp)
+![卡托维兹 扎沃杰站 CCTV SEM_A1_B1_B2](pathname:///img/simrail/station/station_info/katowice_zawodzie/cctv-sem-a1-b1-b2.webp)
 
 CCTV名称：SEM_A1_B1_B2
 

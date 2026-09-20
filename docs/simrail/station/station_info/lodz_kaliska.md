@@ -19,9 +19,9 @@ slug: /station/station_info/lodz_kaliska
 
 ## 位置
 
-![罗兹 卡里斯卡站位置示意一](/img/simrail/station/station_info/lodz_kaliska/location-1.webp)
+![罗兹 卡里斯卡站位置示意一](pathname:///img/simrail/station/station_info/lodz_kaliska/location-1.webp)
 
-![罗兹 卡里斯卡站位置示意二](/img/simrail/station/station_info/lodz_kaliska/location-2.webp)
+![罗兹 卡里斯卡站位置示意二](pathname:///img/simrail/station/station_info/lodz_kaliska/location-2.webp)
 
 罗兹 卡里斯卡（Łódź Kaliska）信号楼分为罗兹 卡里斯卡客场（Łódź Kaliska Osobowa, ŁKO）与罗兹 卡里斯卡货场（Łódź Kaliska Towarowa, ŁKT），位于LK15铁路线。该站近年已完成现代化改造，设有完善的列车停放与调车作业设施，配备5座站台共8条到发线。此外，站内还设有通往施泰德波兰服务中心（Stadler Service Polska）的铁路连接线。
 
@@ -48,21 +48,21 @@ slug: /station/station_info/lodz_kaliska
 <details>
 <summary>基本</summary>
 
-![罗兹 卡里斯卡站调度面板（基本视图）](/img/simrail/station/station_info/lodz_kaliska/panel-basic.webp)
+![罗兹 卡里斯卡站调度面板（基本视图）](pathname:///img/simrail/station/station_info/lodz_kaliska/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![罗兹 卡里斯卡站 CCTV 位置](/img/simrail/station/station_info/lodz_kaliska/cctv-locations.webp)
+![罗兹 卡里斯卡站 CCTV 位置](pathname:///img/simrail/station/station_info/lodz_kaliska/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![罗兹 卡里斯卡站道岔限速](/img/simrail/station/station_info/lodz_kaliska/switch-speed-limit.webp)
+![罗兹 卡里斯卡站道岔限速](pathname:///img/simrail/station/station_info/lodz_kaliska/switch-speed-limit.webp)
 
 </details>
 
@@ -96,7 +96,7 @@ slug: /station/station_info/lodz_kaliska
 <details>
 <summary>SEM_A1-A2</summary>
 
-![罗兹 卡里斯卡站 CCTV SEM_A1-A2](/img/simrail/station/station_info/lodz_kaliska/cctv-sem-a1-a2.webp)
+![罗兹 卡里斯卡站 CCTV SEM_A1-A2](pathname:///img/simrail/station/station_info/lodz_kaliska/cctv-sem-a1-a2.webp)
 
 CCTV名称：SEM_A1-A2
 
@@ -107,7 +107,7 @@ CCTV名称：SEM_A1-A2
 <details>
 <summary>PLATFORMS</summary>
 
-![罗兹 卡里斯卡站 CCTV PLATFORMS](/img/simrail/station/station_info/lodz_kaliska/cctv-platforms.webp)
+![罗兹 卡里斯卡站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/lodz_kaliska/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -118,7 +118,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_T-U</summary>
 
-![罗兹 卡里斯卡站 CCTV SEM_T-U](/img/simrail/station/station_info/lodz_kaliska/cctv-sem-t-u.webp)
+![罗兹 卡里斯卡站 CCTV SEM_T-U](pathname:///img/simrail/station/station_info/lodz_kaliska/cctv-sem-t-u.webp)
 
 CCTV名称：SEM_T-U
 
@@ -129,7 +129,7 @@ CCTV名称：SEM_T-U
 <details>
 <summary>SEM_W-V</summary>
 
-![罗兹 卡里斯卡站 CCTV SEM_W-V](/img/simrail/station/station_info/lodz_kaliska/cctv-sem-w-v.webp)
+![罗兹 卡里斯卡站 CCTV SEM_W-V](pathname:///img/simrail/station/station_info/lodz_kaliska/cctv-sem-w-v.webp)
 
 CCTV名称：SEM_W-V
 
@@ -140,7 +140,7 @@ CCTV名称：SEM_W-V
 <details>
 <summary>SEM_Y-Z</summary>
 
-![罗兹 卡里斯卡站 CCTV SEM_Y-Z](/img/simrail/station/station_info/lodz_kaliska/cctv-sem-y-z.webp)
+![罗兹 卡里斯卡站 CCTV SEM_Y-Z](pathname:///img/simrail/station/station_info/lodz_kaliska/cctv-sem-y-z.webp)
 
 CCTV名称：SEM_Y-Z
 

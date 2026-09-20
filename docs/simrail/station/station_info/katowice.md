@@ -13,9 +13,9 @@ slug: /station/station_info/katowice
 
 ## 位置
 
-![卡托维兹站位置示意一](/img/simrail/station/station_info/katowice/location-1.webp)
+![卡托维兹站位置示意一](pathname:///img/simrail/station/station_info/katowice/location-1.webp)
 
-![卡托维兹站位置示意二](/img/simrail/station/station_info/katowice/location-2.webp)
+![卡托维兹站位置示意二](pathname:///img/simrail/station/station_info/katowice/location-2.webp)
 
 卡托维兹（Katowice）是铁路网中最繁忙的枢纽之一。它服务于大量的区域、城际和国际列车线路，同时也有货运列车经过。尽管列车数量很多，但所有列车仍运行在四条双线铁路和一条额外的单线铁路上。有两条双线铁路通往卡托维兹 扎沃杰（Katowice Zawodzie）方向，而 Katowice Towarowa KTC 和 Katowice Brynów 方向各有一条双线铁路。那条单线铁路也通往 Katowice Brynów，这使得列车可以无冲突地从 1 号和 2 号站台驶往格利维采（Gliwice）方向的线路。该站只有四个岛式站台供客运使用，这导致线路出现瓶颈，并难以在运行图中增开列车。另外还有一个侧式站台——5 号站台，但目前没有使用（以前用于行李业务）。
 
@@ -40,14 +40,14 @@ slug: /station/station_info/katowice
 <details>
 <summary>基本</summary>
 
-![卡托维兹站调度面板（基本视图）](/img/simrail/station/station_info/katowice/panel-basic.webp)
+![卡托维兹站调度面板（基本视图）](pathname:///img/simrail/station/station_info/katowice/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![卡托维兹站道岔限速](/img/simrail/station/station_info/katowice/switch-speed-limit.webp)
+![卡托维兹站道岔限速](pathname:///img/simrail/station/station_info/katowice/switch-speed-limit.webp)
 
 </details>
 
@@ -114,7 +114,7 @@ slug: /station/station_info/katowice
 <details>
 <summary>SEM_A-B-C-D</summary>
 
-![卡托维兹站 CCTV SEM_A-B-C-D](/img/simrail/station/station_info/katowice/cctv-sem-a-b-c-d.webp)
+![卡托维兹站 CCTV SEM_A-B-C-D](pathname:///img/simrail/station/station_info/katowice/cctv-sem-a-b-c-d.webp)
 
 CCTV名称：SEM_A-B-C-D
 
@@ -125,7 +125,7 @@ CCTV名称：SEM_A-B-C-D
 <details>
 <summary>PLATFORMS</summary>
 
-![卡托维兹站 CCTV PLATFORMS](/img/simrail/station/station_info/katowice/cctv-platforms.webp)
+![卡托维兹站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/katowice/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -136,7 +136,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>SEM_S-R-O-P</summary>
 
-![卡托维兹站 CCTV SEM_S-R-O-P](/img/simrail/station/station_info/katowice/cctv-sem-s-r-o-p.webp)
+![卡托维兹站 CCTV SEM_S-R-O-P](pathname:///img/simrail/station/station_info/katowice/cctv-sem-s-r-o-p.webp)
 
 CCTV名称：SEM_S-R-O-P
 
@@ -147,7 +147,7 @@ CCTV名称：SEM_S-R-O-P
 <details>
 <summary>SEM_T</summary>
 
-![卡托维兹站 CCTV SEM_T](/img/simrail/station/station_info/katowice/cctv-sem-t.webp)
+![卡托维兹站 CCTV SEM_T](pathname:///img/simrail/station/station_info/katowice/cctv-sem-t.webp)
 
 CCTV名称：SEM_T
 

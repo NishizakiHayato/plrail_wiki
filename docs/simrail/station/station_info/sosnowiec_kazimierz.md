@@ -13,9 +13,9 @@ slug: /station/station_info/sosnowiec_kazimierz
 
 ## 位置
 
-![索斯诺维茨 卡齐米日站位置示意一](/img/simrail/station/station_info/sosnowiec_kazimierz/location-1.webp)
+![索斯诺维茨 卡齐米日站位置示意一](pathname:///img/simrail/station/station_info/sosnowiec_kazimierz/location-1.webp)
 
-![索斯诺维茨 卡齐米日站位置示意二](/img/simrail/station/station_info/sosnowiec_kazimierz/location-2.webp)
+![索斯诺维茨 卡齐米日站位置示意二](pathname:///img/simrail/station/station_info/sosnowiec_kazimierz/location-2.webp)
 
 索斯诺维茨 卡齐米日站（Sosnowiec Kazimierz）是一个小型枢纽站，连接着索斯诺维茨 丹杜夫卡（Sosnowiec Dańdówka）、索斯诺维茨 马奇基（Sosnowiec Maczki）和栋布罗瓦-古尔尼恰 斯特热梅 希采（Dąbrowa Górnicza Strzemieszcyce）这三条单线线路。本站有三个站台，只供通勤列车停靠。
 
@@ -38,14 +38,14 @@ slug: /station/station_info/sosnowiec_kazimierz
 <details>
 <summary>基本</summary>
 
-![索斯诺维茨 卡齐米日站调度面板（基本视图）](/img/simrail/station/station_info/sosnowiec_kazimierz/panel-basic.webp)
+![索斯诺维茨 卡齐米日站调度面板（基本视图）](pathname:///img/simrail/station/station_info/sosnowiec_kazimierz/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![索斯诺维茨 卡齐米日站道岔限速](/img/simrail/station/station_info/sosnowiec_kazimierz/switch-speed-limit.webp)
+![索斯诺维茨 卡齐米日站道岔限速](pathname:///img/simrail/station/station_info/sosnowiec_kazimierz/switch-speed-limit.webp)
 
 </details>
 
@@ -80,7 +80,7 @@ slug: /station/station_info/sosnowiec_kazimierz
 <details>
 <summary>SKZ_73.070</summary>
 
-![索斯诺维茨 卡齐米日站 CCTV SKZ_73.070](/img/simrail/station/station_info/sosnowiec_kazimierz/cctv-skz-73-070.webp)
+![索斯诺维茨 卡齐米日站 CCTV SKZ_73.070](pathname:///img/simrail/station/station_info/sosnowiec_kazimierz/cctv-skz-73-070.webp)
 
 CCTV名称：SKZ_73.070
 
@@ -93,7 +93,7 @@ CCTV名称：SKZ_73.070
 <details>
 <summary>POST_SKZ1</summary>
 
-![索斯诺维茨 卡齐米日站 CCTV POST_SKZ1](/img/simrail/station/station_info/sosnowiec_kazimierz/cctv-post-skz1.webp)
+![索斯诺维茨 卡齐米日站 CCTV POST_SKZ1](pathname:///img/simrail/station/station_info/sosnowiec_kazimierz/cctv-post-skz1.webp)
 
 CCTV名称：POST_SKZ1
 
@@ -104,7 +104,7 @@ CCTV名称：POST_SKZ1
 <details>
 <summary>SKZ_74.509</summary>
 
-![索斯诺维茨 卡齐米日站 CCTV SKZ_74.509](/img/simrail/station/station_info/sosnowiec_kazimierz/cctv-skz-74-509.webp)
+![索斯诺维茨 卡齐米日站 CCTV SKZ_74.509](pathname:///img/simrail/station/station_info/sosnowiec_kazimierz/cctv-skz-74-509.webp)
 
 CCTV名称：SKZ_74.509
 
@@ -117,7 +117,7 @@ CCTV名称：SKZ_74.509
 <details>
 <summary>POST_SKZ2</summary>
 
-![索斯诺维茨 卡齐米日站 CCTV POST_SKZ2](/img/simrail/station/station_info/sosnowiec_kazimierz/cctv-post-skz2.webp)
+![索斯诺维茨 卡齐米日站 CCTV POST_SKZ2](pathname:///img/simrail/station/station_info/sosnowiec_kazimierz/cctv-post-skz2.webp)
 
 CCTV名称：POST_SKZ2
 

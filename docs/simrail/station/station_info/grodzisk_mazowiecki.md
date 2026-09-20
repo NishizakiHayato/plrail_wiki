@@ -13,9 +13,9 @@ slug: /station/station_info/grodzisk_mazowiecki
 
 ## 位置
 
-![马佐夫舍省 格罗济斯克站位置示意一](/img/simrail/station/station_info/grodzisk_mazowiecki/location-1.webp)
+![马佐夫舍省 格罗济斯克站位置示意一](pathname:///img/simrail/station/station_info/grodzisk_mazowiecki/location-1.webp)
 
-![马佐夫舍省 格罗济斯克站位置示意二](/img/simrail/station/station_info/grodzisk_mazowiecki/location-2.webp)
+![马佐夫舍省 格罗济斯克站位置示意二](pathname:///img/simrail/station/station_info/grodzisk_mazowiecki/location-2.webp)
 
 马佐夫舍省 格罗济斯克（Grodzisk Mazowiecki）的“Gr”信号楼是中央枢纽，连接着 4 号线（格罗济斯克 - 扎维尔切）和 1 号线（华沙 - 卡托维兹）。447 号线（格罗济斯克 - 华沙西）是一条市郊铁路线，只有 RE1 次列车按计划运行，它与 4 号线平行。西侧的两个相邻信号楼分别是克里图夫（Korytów，4 号线）和日拉尔杜夫（Żyrardów，1 号线），而 4 号线和 447 号线的东侧相邻信号楼是普鲁什库夫（Pruszków）。
 
@@ -40,28 +40,28 @@ slug: /station/station_info/grodzisk_mazowiecki
 <details>
 <summary>基本</summary>
 
-![马佐夫舍省 格罗济斯克站调度面板（基本视图）](/img/simrail/station/station_info/grodzisk_mazowiecki/panel-basic.webp)
+![马佐夫舍省 格罗济斯克站调度面板（基本视图）](pathname:///img/simrail/station/station_info/grodzisk_mazowiecki/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![马佐夫舍省 格罗济斯克站 CCTV 位置](/img/simrail/station/station_info/grodzisk_mazowiecki/cctv-locations.webp)
+![马佐夫舍省 格罗济斯克站 CCTV 位置](pathname:///img/simrail/station/station_info/grodzisk_mazowiecki/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔位置</summary>
 
-![马佐夫舍省 格罗济斯克站道岔位置](/img/simrail/station/station_info/grodzisk_mazowiecki/switch-positions.webp)
+![马佐夫舍省 格罗济斯克站道岔位置](pathname:///img/simrail/station/station_info/grodzisk_mazowiecki/switch-positions.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![马佐夫舍省 格罗济斯克站 ETCS 等级](/img/simrail/station/station_info/grodzisk_mazowiecki/etcs-level.webp)
+![马佐夫舍省 格罗济斯克站 ETCS 等级](pathname:///img/simrail/station/station_info/grodzisk_mazowiecki/etcs-level.webp)
 
 </details>
 
@@ -101,7 +101,7 @@ slug: /station/station_info/grodzisk_mazowiecki
 <details>
 <summary>SEM_W-X-Y-Z</summary>
 
-![马佐夫舍省 格罗济斯克站 CCTV SEM_W-X-Y-Z](/img/simrail/station/station_info/grodzisk_mazowiecki/cctv-sem-w-x-y-z.webp)
+![马佐夫舍省 格罗济斯克站 CCTV SEM_W-X-Y-Z](pathname:///img/simrail/station/station_info/grodzisk_mazowiecki/cctv-sem-w-x-y-z.webp)
 
 CCTV名称：SEM_W-X-Y-Z
 
@@ -112,7 +112,7 @@ CCTV名称：SEM_W-X-Y-Z
 <details>
 <summary>SEM_O3-O4</summary>
 
-![马佐夫舍省 格罗济斯克站 CCTV SEM_O3-O4](/img/simrail/station/station_info/grodzisk_mazowiecki/cctv-sem-o3-o4.webp)
+![马佐夫舍省 格罗济斯克站 CCTV SEM_O3-O4](pathname:///img/simrail/station/station_info/grodzisk_mazowiecki/cctv-sem-o3-o4.webp)
 
 CCTV名称：SEM_O3-O4
 
@@ -123,7 +123,7 @@ CCTV名称：SEM_O3-O4
 <details>
 <summary>SEM_A-B-C-D</summary>
 
-![马佐夫舍省 格罗济斯克站 CCTV SEM_A-B-C-D](/img/simrail/station/station_info/grodzisk_mazowiecki/cctv-sem-a-b-c-d.webp)
+![马佐夫舍省 格罗济斯克站 CCTV SEM_A-B-C-D](pathname:///img/simrail/station/station_info/grodzisk_mazowiecki/cctv-sem-a-b-c-d.webp)
 
 CCTV名称：SEM_A-B-C-D
 

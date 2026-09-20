@@ -13,9 +13,9 @@ slug: /station/station_info/dabrowa_gornicza_huta_katowice
 
 ## 位置
 
-![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站位置示意一](/img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/location-1.webp)
+![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站位置示意一](pathname:///img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/location-1.webp)
 
-![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站位置示意二](/img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/location-2.webp)
+![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站位置示意二](pathname:///img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/location-2.webp)
 
 栋布罗瓦-古尔尼恰 卡托维兹钢铁厂（Dąbrowa Górnicza Huta Katowice）站是栋布罗瓦-古尔尼恰 宗布科维采（Dąbrowa Górnicza Ząbkowice）、栋布罗瓦-古尔尼恰南（Dąbrowa Górnicza Południowa）和栋布罗瓦-古尔尼恰 斯特热梅希采（Dąbrowa Górnicza Strzemieszyce）之间的枢纽站，也服务于钢铁厂支线。
 
@@ -38,21 +38,21 @@ slug: /station/station_info/dabrowa_gornicza_huta_katowice
 <details>
 <summary>基本</summary>
 
-![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站调度面板（基本视图）](/img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/panel-basic.webp)
+![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站调度面板（基本视图）](pathname:///img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站 CCTV 位置](/img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/cctv-locations.webp)
+![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站 CCTV 位置](pathname:///img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站道岔限速](/img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/switch-speed-limit.webp)
+![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站道岔限速](pathname:///img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/switch-speed-limit.webp)
 
 </details>
 
@@ -71,7 +71,7 @@ slug: /station/station_info/dabrowa_gornicza_huta_katowice
 <details>
 <summary>DGHK_2.724</summary>
 
-![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站 CCTV DGHK_2.724](/img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/cctv-dghk-2-724.webp)
+![栋布罗瓦-古尔尼恰 卡托维兹钢铁厂站 CCTV DGHK_2.724](pathname:///img/simrail/station/station_info/dabrowa_gornicza_huta_katowice/cctv-dghk-2-724.webp)
 
 CCTV名称：DGHK_2.724
 

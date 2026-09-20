@@ -19,9 +19,9 @@ slug: /station/station_info/retkinia
 
 ## 位置
 
-![莱特基尼亚站位置示意一](/img/simrail/station/station_info/retkinia/location-1.webp)
+![莱特基尼亚站位置示意一](pathname:///img/simrail/station/station_info/retkinia/location-1.webp)
 
-![莱特基尼亚站位置示意二](/img/simrail/station/station_info/retkinia/location-2.webp)
+![莱特基尼亚站位置示意二](pathname:///img/simrail/station/station_info/retkinia/location-2.webp)
 
 莱特基尼亚（Retkinia，缩写Rt）位于LK 14线路上，并提供通往LK 539（往罗兹 霍伊内（Łódź Chojny）方向）的连接。相邻信号楼为LK 14上的罗兹 卡里斯卡（Łódź Kaliska）和罗兹 卢布利内克（Łódź Lublinek），以及通过LK 539连接至LK 25上的罗兹 霍伊内（Łódź Chojny）。
 
@@ -46,27 +46,27 @@ slug: /station/station_info/retkinia
 <details>
 <summary>基本</summary>
 
-![莱特基尼亚站调度面板（基本视图一）](/img/simrail/station/station_info/retkinia/panel-basic-1.webp)
+![莱特基尼亚站调度面板（基本视图一）](pathname:///img/simrail/station/station_info/retkinia/panel-basic-1.webp)
 
-![莱特基尼亚站调度面板（基本视图二）](/img/simrail/station/station_info/retkinia/panel-basic-2.webp)
+![莱特基尼亚站调度面板（基本视图二）](pathname:///img/simrail/station/station_info/retkinia/panel-basic-2.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![莱特基尼亚站 CCTV 位置一](/img/simrail/station/station_info/retkinia/cctv-locations-1.webp)
+![莱特基尼亚站 CCTV 位置一](pathname:///img/simrail/station/station_info/retkinia/cctv-locations-1.webp)
 
-![莱特基尼亚站 CCTV 位置二](/img/simrail/station/station_info/retkinia/cctv-locations-2.webp)
+![莱特基尼亚站 CCTV 位置二](pathname:///img/simrail/station/station_info/retkinia/cctv-locations-2.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![莱特基尼亚站道岔限速一](/img/simrail/station/station_info/retkinia/switch-speed-limit-1.webp)
+![莱特基尼亚站道岔限速一](pathname:///img/simrail/station/station_info/retkinia/switch-speed-limit-1.webp)
 
-![莱特基尼亚站道岔限速二](/img/simrail/station/station_info/retkinia/switch-speed-limit-2.webp)
+![莱特基尼亚站道岔限速二](pathname:///img/simrail/station/station_info/retkinia/switch-speed-limit-2.webp)
 
 </details>
 
@@ -77,7 +77,7 @@ slug: /station/station_info/retkinia
 <details>
 <summary>L14_2.409_A</summary>
 
-![莱特基尼亚站 CCTV L14_2.409_A](/img/simrail/station/station_info/retkinia/cctv-l14-2-409-a.webp)
+![莱特基尼亚站 CCTV L14_2.409_A](pathname:///img/simrail/station/station_info/retkinia/cctv-l14-2-409-a.webp)
 
 CCTV名称：L14_2.409_A
 
@@ -90,7 +90,7 @@ CCTV名称：L14_2.409_A
 <details>
 <summary>SEM_A-B-C-D</summary>
 
-![莱特基尼亚站 CCTV SEM_A-B-C-D](/img/simrail/station/station_info/retkinia/cctv-sem-a-b-c-d.webp)
+![莱特基尼亚站 CCTV SEM_A-B-C-D](pathname:///img/simrail/station/station_info/retkinia/cctv-sem-a-b-c-d.webp)
 
 CCTV名称：SEM_A-B-C-D
 
@@ -101,7 +101,7 @@ CCTV名称：SEM_A-B-C-D
 <details>
 <summary>SEM_E-F</summary>
 
-![莱特基尼亚站 CCTV SEM_E-F](/img/simrail/station/station_info/retkinia/cctv-sem-e-f.webp)
+![莱特基尼亚站 CCTV SEM_E-F](pathname:///img/simrail/station/station_info/retkinia/cctv-sem-e-f.webp)
 
 CCTV名称：SEM_E-F
 

@@ -19,9 +19,9 @@ slug: /station/station_info/pabianice
 
 ## 位置
 
-![帕比亚尼采站位置示意一](/img/simrail/station/station_info/pabianice/location-1.webp)
+![帕比亚尼采站位置示意一](pathname:///img/simrail/station/station_info/pabianice/location-1.webp)
 
-![帕比亚尼采站位置示意二](/img/simrail/station/station_info/pabianice/location-2.webp)
+![帕比亚尼采站位置示意二](pathname:///img/simrail/station/station_info/pabianice/location-2.webp)
 
 帕比亚尼采站（Pabianice）位于LK 14线路上，设有四条股道和两个站台，服务于三个站台股道。相邻信号楼为罗兹-卢布利内克（Łódź-Lublinek），位于罗兹（Łódź）和瓦斯克（Łask）方向，两者也均位于LK 14线路上。
 
@@ -44,21 +44,21 @@ slug: /station/station_info/pabianice
 <details>
 <summary>基本</summary>
 
-![帕比亚尼采站调度面板（基本视图）](/img/simrail/station/station_info/pabianice/panel-basic.webp)
+![帕比亚尼采站调度面板（基本视图）](pathname:///img/simrail/station/station_info/pabianice/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![帕比亚尼采站 CCTV 位置](/img/simrail/station/station_info/pabianice/cctv-locations.webp)
+![帕比亚尼采站 CCTV 位置](pathname:///img/simrail/station/station_info/pabianice/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![帕比亚尼采站道岔限速](/img/simrail/station/station_info/pabianice/switch-speed-limit.webp)
+![帕比亚尼采站道岔限速](pathname:///img/simrail/station/station_info/pabianice/switch-speed-limit.webp)
 
 </details>
 
@@ -91,7 +91,7 @@ slug: /station/station_info/pabianice
 <details>
 <summary>SEM_A-B</summary>
 
-![帕比亚尼采站 CCTV SEM_A-B](/img/simrail/station/station_info/pabianice/cctv-sem-a-b.webp)
+![帕比亚尼采站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/pabianice/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 
@@ -102,7 +102,7 @@ CCTV名称：SEM_A-B
 <details>
 <summary>SEM_P-R</summary>
 
-![帕比亚尼采站 CCTV SEM_P-R](/img/simrail/station/station_info/pabianice/cctv-sem-p-r.webp)
+![帕比亚尼采站 CCTV SEM_P-R](pathname:///img/simrail/station/station_info/pabianice/cctv-sem-p-r.webp)
 
 CCTV名称：SEM_P-R
 

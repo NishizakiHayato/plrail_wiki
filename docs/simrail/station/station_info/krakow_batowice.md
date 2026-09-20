@@ -13,9 +13,9 @@ slug: /station/station_info/krakow_batowice
 
 ## 位置
 
-![克拉科夫 巴托维采站位置示意一](/img/simrail/station/station_info/krakow_batowice/location-1.webp)
+![克拉科夫 巴托维采站位置示意一](pathname:///img/simrail/station/station_info/krakow_batowice/location-1.webp)
 
-![克拉科夫 巴托维采站位置示意二](/img/simrail/station/station_info/krakow_batowice/location-2.webp)
+![克拉科夫 巴托维采站位置示意二](pathname:///img/simrail/station/station_info/krakow_batowice/location-2.webp)
 
 克拉科夫 巴托维采（Kraków Batowice）站是一个位于克拉科夫市内的中间站。在这里列车可以往四个方向运行，分别为克拉科夫新钢铁厂（Kraków Nowa Huta）、隧道村（Tunel）、克拉科夫总站（Kraków Główny）和克拉科夫 梅德尔尼基（Kraków Mydlniki）。该站的主要任务是将列车发送到对应的方向上。在 SimRail 游戏中，通往克拉科夫 梅德尔尼基（Kraków Mydlniki）的线路已经关闭，无法使用。
 
@@ -40,14 +40,14 @@ slug: /station/station_info/krakow_batowice
 <details>
 <summary>基本</summary>
 
-![克拉科夫 巴托维采站调度面板（基本视图）](/img/simrail/station/station_info/krakow_batowice/panel-basic.webp)
+![克拉科夫 巴托维采站调度面板（基本视图）](pathname:///img/simrail/station/station_info/krakow_batowice/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![克拉科夫 巴托维采站道岔限速](/img/simrail/station/station_info/krakow_batowice/switch-speed-limit.webp)
+![克拉科夫 巴托维采站道岔限速](pathname:///img/simrail/station/station_info/krakow_batowice/switch-speed-limit.webp)
 
 </details>
 
@@ -79,7 +79,7 @@ slug: /station/station_info/krakow_batowice
 <details>
 <summary>PLATFORMS</summary>
 
-![克拉科夫 巴托维采站 CCTV PLATFORMS](/img/simrail/station/station_info/krakow_batowice/cctv-platforms.webp)
+![克拉科夫 巴托维采站 CCTV PLATFORMS](pathname:///img/simrail/station/station_info/krakow_batowice/cctv-platforms.webp)
 
 CCTV名称：PLATFORMS
 
@@ -90,7 +90,7 @@ CCTV名称：PLATFORMS
 <details>
 <summary>POST_SKP</summary>
 
-![克拉科夫 巴托维采站 CCTV POST_SKP](/img/simrail/station/station_info/krakow_batowice/cctv-post-skp.webp)
+![克拉科夫 巴托维采站 CCTV POST_SKP](pathname:///img/simrail/station/station_info/krakow_batowice/cctv-post-skp.webp)
 
 CCTV名称：POST_SKP
 

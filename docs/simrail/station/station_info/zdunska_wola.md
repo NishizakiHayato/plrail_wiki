@@ -19,9 +19,9 @@ slug: /station/station_info/zdunska_wola
 
 ## 位置
 
-![兹敦斯卡沃拉站位置示意一](/img/simrail/station/station_info/zdunska_wola/location-1.webp)
+![兹敦斯卡沃拉站位置示意一](pathname:///img/simrail/station/station_info/zdunska_wola/location-1.webp)
 
-![兹敦斯卡沃拉站位置示意二](/img/simrail/station/station_info/zdunska_wola/location-2.webp)
+![兹敦斯卡沃拉站位置示意二](pathname:///img/simrail/station/station_info/zdunska_wola/location-2.webp)
 
 兹敦斯卡沃拉站（Zduńska Wola，ZW）位于LK 14线。全站共设6条股道，其中3条带有站台。从兹敦斯卡沃拉站（Zduńska Wola）出发，列车无需办理中间进路即可接入LK 131（煤炭干线，Magistrala Węglowa）。
 
@@ -46,21 +46,21 @@ slug: /station/station_info/zdunska_wola
 <details>
 <summary>基本</summary>
 
-![兹敦斯卡沃拉站调度面板（基本视图）](/img/simrail/station/station_info/zdunska_wola/panel-basic.webp)
+![兹敦斯卡沃拉站调度面板（基本视图）](pathname:///img/simrail/station/station_info/zdunska_wola/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![兹敦斯卡沃拉站 CCTV 位置](/img/simrail/station/station_info/zdunska_wola/cctv-locations.webp)
+![兹敦斯卡沃拉站 CCTV 位置](pathname:///img/simrail/station/station_info/zdunska_wola/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![兹敦斯卡沃拉站道岔限速](/img/simrail/station/station_info/zdunska_wola/switch-speed-limit.webp)
+![兹敦斯卡沃拉站道岔限速](pathname:///img/simrail/station/station_info/zdunska_wola/switch-speed-limit.webp)
 
 </details>
 
@@ -99,7 +99,7 @@ slug: /station/station_info/zdunska_wola
 <details>
 <summary>SEM_A-B-C-D</summary>
 
-![兹敦斯卡沃拉站 CCTV SEM_A-B-C-D](/img/simrail/station/station_info/zdunska_wola/cctv-sem-a-b-c-d.webp)
+![兹敦斯卡沃拉站 CCTV SEM_A-B-C-D](pathname:///img/simrail/station/station_info/zdunska_wola/cctv-sem-a-b-c-d.webp)
 
 CCTV名称：SEM_A-B-C-D
 
@@ -110,7 +110,7 @@ CCTV名称：SEM_A-B-C-D
 <details>
 <summary>L14_42.956_A</summary>
 
-![兹敦斯卡沃拉站 CCTV L14_42.956_A](/img/simrail/station/station_info/zdunska_wola/cctv-l14-42-956-a.webp)
+![兹敦斯卡沃拉站 CCTV L14_42.956_A](pathname:///img/simrail/station/station_info/zdunska_wola/cctv-l14-42-956-a.webp)
 
 CCTV名称：L14_42.956_A
 
@@ -121,7 +121,7 @@ CCTV名称：L14_42.956_A
 <details>
 <summary>SEM_P-R</summary>
 
-![兹敦斯卡沃拉站 CCTV SEM_P-R](/img/simrail/station/station_info/zdunska_wola/cctv-sem-p-r.webp)
+![兹敦斯卡沃拉站 CCTV SEM_P-R](pathname:///img/simrail/station/station_info/zdunska_wola/cctv-sem-p-r.webp)
 
 CCTV名称：SEM_P-R
 

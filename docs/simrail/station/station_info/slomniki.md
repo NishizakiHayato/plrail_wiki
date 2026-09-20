@@ -13,9 +13,9 @@ slug: /station/station_info/slomniki
 
 ## 位置
 
-![斯沃姆尼基站位置示意一](/img/simrail/station/station_info/slomniki/location-1.webp)
+![斯沃姆尼基站位置示意一](pathname:///img/simrail/station/station_info/slomniki/location-1.webp)
 
-![斯沃姆尼基站位置示意二](/img/simrail/station/station_info/slomniki/location-2.webp)
+![斯沃姆尼基站位置示意二](pathname:///img/simrail/station/station_info/slomniki/location-2.webp)
 
 斯沃姆尼基站（Słomniki）是一个位于梅胡夫站（Miechów）和熊村站（Niedźwiedź）之间的小站，只有通勤列车在此停靠。共有四条股道，其中三条可办理客运业务。
 
@@ -38,14 +38,14 @@ slug: /station/station_info/slomniki
 <details>
 <summary>基本</summary>
 
-![斯沃姆尼基站调度面板（基本视图）](/img/simrail/station/station_info/slomniki/panel-basic.webp)
+![斯沃姆尼基站调度面板（基本视图）](pathname:///img/simrail/station/station_info/slomniki/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![斯沃姆尼基站道岔限速](/img/simrail/station/station_info/slomniki/switch-speed-limit.webp)
+![斯沃姆尼基站道岔限速](pathname:///img/simrail/station/station_info/slomniki/switch-speed-limit.webp)
 
 </details>
 
@@ -77,7 +77,7 @@ slug: /station/station_info/slomniki
 <details>
 <summary>SM_289.756K</summary>
 
-![斯沃姆尼基站 CCTV SM_289.756K](/img/simrail/station/station_info/slomniki/cctv-sm-289-756k.webp)
+![斯沃姆尼基站 CCTV SM_289.756K](pathname:///img/simrail/station/station_info/slomniki/cctv-sm-289-756k.webp)
 
 CCTV名称：SM_289.756K
 
@@ -90,7 +90,7 @@ CCTV名称：SM_289.756K
 <details>
 <summary>SEM_N-M</summary>
 
-![斯沃姆尼基站 CCTV SEM_N-M](/img/simrail/station/station_info/slomniki/cctv-sem-n-m.webp)
+![斯沃姆尼基站 CCTV SEM_N-M](pathname:///img/simrail/station/station_info/slomniki/cctv-sem-n-m.webp)
 
 CCTV名称：SEM_N-M
 

@@ -13,9 +13,9 @@ slug: /station/station_info/dorota
 
 ## 位置
 
-![多罗塔站位置示意一](/img/simrail/station/station_info/dorota/location-1.webp)
+![多罗塔站位置示意一](pathname:///img/simrail/station/station_info/dorota/location-1.webp)
 
-![多罗塔站位置示意二](/img/simrail/station/station_info/dorota/location-2.webp)
+![多罗塔站位置示意二](pathname:///img/simrail/station/station_info/dorota/location-2.webp)
 
 多罗塔（Dorota）站是一条复线铁路和一条单线铁路交汇的线路所。
 
@@ -38,14 +38,14 @@ slug: /station/station_info/dorota
 <details>
 <summary>基本</summary>
 
-![多罗塔站调度面板（基本视图）](/img/simrail/station/station_info/dorota/panel-basic.webp)
+![多罗塔站调度面板（基本视图）](pathname:///img/simrail/station/station_info/dorota/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![多罗塔站道岔限速](/img/simrail/station/station_info/dorota/switch-speed-limit.webp)
+![多罗塔站道岔限速](pathname:///img/simrail/station/station_info/dorota/switch-speed-limit.webp)
 
 </details>
 

@@ -19,9 +19,9 @@ slug: /station/station_info/plycwia
 
 ## 位置
 
-![普维契维亚站位置示意一](/img/simrail/station/station_info/plycwia/location-1.webp)
+![普维契维亚站位置示意一](pathname:///img/simrail/station/station_info/plycwia/location-1.webp)
 
-![普维契维亚站位置示意二](/img/simrail/station/station_info/plycwia/location-2.webp)
+![普维契维亚站位置示意二](pathname:///img/simrail/station/station_info/plycwia/location-2.webp)
 
 普维契维亚站（Płyćwia，Pł）位于LK 1线路上，设有四条股道和两个站台，共有两个站台股道。相邻信号楼为斯凯尔涅维采（Skierniewice）和罗古夫（Rogów），两者也均位于LK1线路上。
 
@@ -44,28 +44,28 @@ slug: /station/station_info/plycwia
 <details>
 <summary>基本</summary>
 
-![普维契维亚站调度面板（基本视图）](/img/simrail/station/station_info/plycwia/panel-basic.webp)
+![普维契维亚站调度面板（基本视图）](pathname:///img/simrail/station/station_info/plycwia/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV</summary>
 
-![普维契维亚站 CCTV 位置](/img/simrail/station/station_info/plycwia/cctv-locations.webp)
+![普维契维亚站 CCTV 位置](pathname:///img/simrail/station/station_info/plycwia/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![普维契维亚站道岔限速](/img/simrail/station/station_info/plycwia/switch-speed-limit.webp)
+![普维契维亚站道岔限速](pathname:///img/simrail/station/station_info/plycwia/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![普维契维亚站 ETCS 等级](/img/simrail/station/station_info/plycwia/etcs-level.webp)
+![普维契维亚站 ETCS 等级](pathname:///img/simrail/station/station_info/plycwia/etcs-level.webp)
 
 </details>
 
@@ -90,7 +90,7 @@ slug: /station/station_info/plycwia
 <details>
 <summary>PL_79.416_A</summary>
 
-![普维契维亚站 CCTV PL_79.416_A](/img/simrail/station/station_info/plycwia/cctv-pl-79-416-a.webp)
+![普维契维亚站 CCTV PL_79.416_A](pathname:///img/simrail/station/station_info/plycwia/cctv-pl-79-416-a.webp)
 
 CCTV名称：PL_79.416_A
 
@@ -103,7 +103,7 @@ CCTV名称：PL_79.416_A
 <details>
 <summary>PL_81.160_A</summary>
 
-![普维契维亚站 CCTV PL_81.160_A](/img/simrail/station/station_info/plycwia/cctv-pl-81-160-a.webp)
+![普维契维亚站 CCTV PL_81.160_A](pathname:///img/simrail/station/station_info/plycwia/cctv-pl-81-160-a.webp)
 
 CCTV名称：PL_81.160_A
 

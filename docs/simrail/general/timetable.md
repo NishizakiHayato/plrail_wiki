@@ -8,7 +8,7 @@ slug: /general/timetable
 ---
 ## 纸质时刻表（路书）
 
-![纸质时刻表（路书）示例](/img/simrail/general/timetable/timetable.webp)
+![纸质时刻表（路书）示例](pathname:///img/simrail/general/timetable/timetable.webp)
 
 ## 车次编号
 

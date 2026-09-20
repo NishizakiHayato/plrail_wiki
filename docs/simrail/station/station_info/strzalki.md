@@ -21,9 +21,9 @@ slug: /station/station_info/strzalki
 
 ## 位置
 
-![斯特扎乌基站位置示意一](/img/simrail/station/station_info/strzalki/location-1.webp)
+![斯特扎乌基站位置示意一](pathname:///img/simrail/station/station_info/strzalki/location-1.webp)
 
-![斯特扎乌基站位置示意二](/img/simrail/station/station_info/strzalki/location-2.webp)
+![斯特扎乌基站位置示意二](pathname:///img/simrail/station/station_info/strzalki/location-2.webp)
 
 斯特扎乌基（Strzałki）站是CMK上一个有两条侧线的小站。在此可远程控制临近的白拉夫斯卡（Biała Rawska）线路所。
 
@@ -46,34 +46,34 @@ slug: /station/station_info/strzalki
 <details>
 <summary>基本</summary>
 
-![斯特扎乌基站调度面板（基本视图一）](/img/simrail/station/station_info/strzalki/panel-basic-1.webp)
+![斯特扎乌基站调度面板（基本视图一）](pathname:///img/simrail/station/station_info/strzalki/panel-basic-1.webp)
 
-![斯特扎乌基站调度面板（基本视图二）](/img/simrail/station/station_info/strzalki/panel-basic-2.webp)
+![斯特扎乌基站调度面板（基本视图二）](pathname:///img/simrail/station/station_info/strzalki/panel-basic-2.webp)
 
 </details>
 
 <details>
 <summary>CCTV</summary>
 
-![斯特扎乌基站 CCTV 位置](/img/simrail/station/station_info/strzalki/cctv-locations.webp)
+![斯特扎乌基站 CCTV 位置](pathname:///img/simrail/station/station_info/strzalki/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![斯特扎乌基站道岔限速一](/img/simrail/station/station_info/strzalki/switch-speed-limit-1.webp)
+![斯特扎乌基站道岔限速一](pathname:///img/simrail/station/station_info/strzalki/switch-speed-limit-1.webp)
 
-![斯特扎乌基站道岔限速二](/img/simrail/station/station_info/strzalki/switch-speed-limit-2.webp)
+![斯特扎乌基站道岔限速二](pathname:///img/simrail/station/station_info/strzalki/switch-speed-limit-2.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![斯特扎乌基站 ETCS 等级一](/img/simrail/station/station_info/strzalki/etcs-level-1.webp)
+![斯特扎乌基站 ETCS 等级一](pathname:///img/simrail/station/station_info/strzalki/etcs-level-1.webp)
 
-![斯特扎乌基站 ETCS 等级二](/img/simrail/station/station_info/strzalki/etcs-level-2.webp)
+![斯特扎乌基站 ETCS 等级二](pathname:///img/simrail/station/station_info/strzalki/etcs-level-2.webp)
 
 </details>
 
@@ -102,7 +102,7 @@ slug: /station/station_info/strzalki
 <details>
 <summary>POST_11</summary>
 
-![斯特扎乌基站 CCTV POST_11](/img/simrail/station/station_info/strzalki/cctv-post-11.webp)
+![斯特扎乌基站 CCTV POST_11](pathname:///img/simrail/station/station_info/strzalki/cctv-post-11.webp)
 
 CCTV名称：POST_11
 
@@ -113,7 +113,7 @@ CCTV名称：POST_11
 <details>
 <summary>SEM_A-B</summary>
 
-![斯特扎乌基站 CCTV SEM_A-B](/img/simrail/station/station_info/strzalki/cctv-sem-a-b.webp)
+![斯特扎乌基站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/strzalki/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 
@@ -124,7 +124,7 @@ CCTV名称：SEM_A-B
 <details>
 <summary>BR_SEM_C-D</summary>
 
-![斯特扎乌基站 CCTV BR_SEM_C-D](/img/simrail/station/station_info/strzalki/cctv-br-sem-c-d.webp)
+![斯特扎乌基站 CCTV BR_SEM_C-D](pathname:///img/simrail/station/station_info/strzalki/cctv-br-sem-c-d.webp)
 
 CCTV名称：BR_SEM_C-D
 
@@ -135,7 +135,7 @@ CCTV名称：BR_SEM_C-D
 <details>
 <summary>BR_SEM_A-B</summary>
 
-![斯特扎乌基站 CCTV BR_SEM_A-B](/img/simrail/station/station_info/strzalki/cctv-br-sem-a-b.webp)
+![斯特扎乌基站 CCTV BR_SEM_A-B](pathname:///img/simrail/station/station_info/strzalki/cctv-br-sem-a-b.webp)
 
 CCTV名称：BR_SEM_A-B
 

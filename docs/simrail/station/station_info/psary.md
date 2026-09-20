@@ -13,9 +13,9 @@ slug: /station/station_info/psary
 
 ## 位置
 
-![普萨雷站位置示意一](/img/simrail/station/station_info/psary/location-1.webp)
+![普萨雷站位置示意一](pathname:///img/simrail/station/station_info/psary/location-1.webp)
 
-![普萨雷站位置示意二](/img/simrail/station/station_info/psary/location-2.webp)
+![普萨雷站位置示意二](pathname:///img/simrail/station/station_info/psary/location-2.webp)
 
 普萨雷（Psary）站是从中央铁路干线分岔出支线、通往科兹武夫（Kozłów）-科涅茨波尔（Koniecpol）64号线的车站。
 
@@ -40,28 +40,28 @@ slug: /station/station_info/psary
 <details>
 <summary>基本</summary>
 
-![普萨雷站调度面板（基本视图）](/img/simrail/station/station_info/psary/panel-basic.webp)
+![普萨雷站调度面板（基本视图）](pathname:///img/simrail/station/station_info/psary/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![普萨雷站 CCTV 位置](/img/simrail/station/station_info/psary/cctv-locations.webp)
+![普萨雷站 CCTV 位置](pathname:///img/simrail/station/station_info/psary/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![普萨雷站道岔限速](/img/simrail/station/station_info/psary/switch-speed-limit.webp)
+![普萨雷站道岔限速](pathname:///img/simrail/station/station_info/psary/switch-speed-limit.webp)
 
 </details>
 
 <details>
 <summary>ETCS等级</summary>
 
-![普萨雷站 ETCS 等级](/img/simrail/station/station_info/psary/etcs-level.webp)
+![普萨雷站 ETCS 等级](pathname:///img/simrail/station/station_info/psary/etcs-level.webp)
 
 </details>
 
@@ -94,7 +94,7 @@ slug: /station/station_info/psary
 <details>
 <summary>POST_11</summary>
 
-![普萨雷站 CCTV POST_11](/img/simrail/station/station_info/psary/cctv-post-11.webp)
+![普萨雷站 CCTV POST_11](pathname:///img/simrail/station/station_info/psary/cctv-post-11.webp)
 
 CCTV名称：POST_11
 
@@ -105,7 +105,7 @@ CCTV名称：POST_11
 <details>
 <summary>SEM_A-B</summary>
 
-![普萨雷站 CCTV SEM_A-B](/img/simrail/station/station_info/psary/cctv-sem-a-b.webp)
+![普萨雷站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/psary/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 

@@ -13,9 +13,9 @@ slug: /station/station_info/dabrowa_gornicza
 
 ## 位置
 
-![栋布罗瓦-古尔尼恰站位置示意一](/img/simrail/station/station_info/dabrowa_gornicza/location-1.webp)
+![栋布罗瓦-古尔尼恰站位置示意一](pathname:///img/simrail/station/station_info/dabrowa_gornicza/location-1.webp)
 
-![栋布罗瓦-古尔尼恰站位置示意二](/img/simrail/station/station_info/dabrowa_gornicza/location-2.webp)
+![栋布罗瓦-古尔尼恰站位置示意二](pathname:///img/simrail/station/station_info/dabrowa_gornicza/location-2.webp)
 
 栋布罗瓦-古尔尼恰站（电报码 DG）位于华沙西（Warszawa Zachodnia）至卡托维兹（Katowice）的铁路 1 号线上，距离卡托维兹站约 20 公里。该站信号楼西邻本津（Będzin）信号楼，东北部则与栋布罗瓦-古尔尼恰 宗布科维采（Dąbrowa Górnicza Ząbkowice）信号楼相接。
 
@@ -40,21 +40,21 @@ slug: /station/station_info/dabrowa_gornicza
 <details>
 <summary>基本</summary>
 
-![栋布罗瓦-古尔尼恰站调度面板（基本视图）](/img/simrail/station/station_info/dabrowa_gornicza/panel-basic.webp)
+![栋布罗瓦-古尔尼恰站调度面板（基本视图）](pathname:///img/simrail/station/station_info/dabrowa_gornicza/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![栋布罗瓦-古尔尼恰站 CCTV 位置](/img/simrail/station/station_info/dabrowa_gornicza/cctv-locations.webp)
+![栋布罗瓦-古尔尼恰站 CCTV 位置](pathname:///img/simrail/station/station_info/dabrowa_gornicza/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![栋布罗瓦-古尔尼恰站道岔限速](/img/simrail/station/station_info/dabrowa_gornicza/switch-speed-limit.webp)
+![栋布罗瓦-古尔尼恰站道岔限速](pathname:///img/simrail/station/station_info/dabrowa_gornicza/switch-speed-limit.webp)
 
 </details>
 
@@ -83,7 +83,7 @@ slug: /station/station_info/dabrowa_gornicza
 <details>
 <summary>L1_299.522_A</summary>
 
-![栋布罗瓦-古尔尼恰站 CCTV L1_299.522_A](/img/simrail/station/station_info/dabrowa_gornicza/cctv-l1-299-522-a.webp)
+![栋布罗瓦-古尔尼恰站 CCTV L1_299.522_A](pathname:///img/simrail/station/station_info/dabrowa_gornicza/cctv-l1-299-522-a.webp)
 
 CCTV名称：L1_299.522_A
 
@@ -96,7 +96,7 @@ CCTV名称：L1_299.522_A
 <details>
 <summary>L1_300.015_A</summary>
 
-![栋布罗瓦-古尔尼恰站 CCTV L1_300.015_A](/img/simrail/station/station_info/dabrowa_gornicza/cctv-l1-300-015-a.webp)
+![栋布罗瓦-古尔尼恰站 CCTV L1_300.015_A](pathname:///img/simrail/station/station_info/dabrowa_gornicza/cctv-l1-300-015-a.webp)
 
 CCTV名称：L1_300.015_A
 
@@ -109,7 +109,7 @@ CCTV名称：L1_300.015_A
 <details>
 <summary>SEM_A-B</summary>
 
-![栋布罗瓦-古尔尼恰站 CCTV SEM_A-B](/img/simrail/station/station_info/dabrowa_gornicza/cctv-sem-a-b.webp)
+![栋布罗瓦-古尔尼恰站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/dabrowa_gornicza/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 
@@ -120,7 +120,7 @@ CCTV名称：SEM_A-B
 <details>
 <summary>SEM_O-P</summary>
 
-![栋布罗瓦-古尔尼恰站 CCTV SEM_O-P](/img/simrail/station/station_info/dabrowa_gornicza/cctv-sem-o-p.webp)
+![栋布罗瓦-古尔尼恰站 CCTV SEM_O-P](pathname:///img/simrail/station/station_info/dabrowa_gornicza/cctv-sem-o-p.webp)
 
 CCTV名称：SEM_O-P
 

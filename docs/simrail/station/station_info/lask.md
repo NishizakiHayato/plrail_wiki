@@ -19,9 +19,9 @@ slug: /station/station_info/lask
 
 ## 位置
 
-![瓦斯克站位置示意一](/img/simrail/station/station_info/lask/location-1.webp)
+![瓦斯克站位置示意一](pathname:///img/simrail/station/station_info/lask/location-1.webp)
 
-![瓦斯克站位置示意二](/img/simrail/station/station_info/lask/location-2.webp)
+![瓦斯克站位置示意二](pathname:///img/simrail/station/station_info/lask/location-2.webp)
 
 瓦斯克（Łask，Łs）信号楼位于 LK14 线路上。该车站共有五条轨道，其中三条设有站台。瓦斯克的控制区域还包括克鲁姆纳（Kolumna）和多布隆（Dobroń）的自动区间所（APO）。相邻信号楼为往罗兹（Łódź）方向的帕比亚尼采（Pabianice），以及加耶夫尼基（Gajewniki），从后者可通往多个方向，包括大波兰省 奥斯特鲁夫（Ostrów Wielkopolski）、比得哥什总站（Bydgoszcz Główna）和琴斯托霍瓦（Częstochowa）。
 
@@ -44,21 +44,21 @@ slug: /station/station_info/lask
 <details>
 <summary>基本</summary>
 
-![瓦斯克站调度面板（基本视图）](/img/simrail/station/station_info/lask/panel-basic.webp)
+![瓦斯克站调度面板（基本视图）](pathname:///img/simrail/station/station_info/lask/panel-basic.webp)
 
 </details>
 
 <details>
 <summary>CCTV位置</summary>
 
-![瓦斯克站 CCTV 位置](/img/simrail/station/station_info/lask/cctv-locations.webp)
+![瓦斯克站 CCTV 位置](pathname:///img/simrail/station/station_info/lask/cctv-locations.webp)
 
 </details>
 
 <details>
 <summary>道岔限速</summary>
 
-![瓦斯克站道岔限速](/img/simrail/station/station_info/lask/switch-speed-limit.webp)
+![瓦斯克站道岔限速](pathname:///img/simrail/station/station_info/lask/switch-speed-limit.webp)
 
 </details>
 
@@ -92,7 +92,7 @@ slug: /station/station_info/lask
 <details>
 <summary>SEM_A-B</summary>
 
-![瓦斯克站 CCTV SEM_A-B](/img/simrail/station/station_info/lask/cctv-sem-a-b.webp)
+![瓦斯克站 CCTV SEM_A-B](pathname:///img/simrail/station/station_info/lask/cctv-sem-a-b.webp)
 
 CCTV名称：SEM_A-B
 
@@ -103,7 +103,7 @@ CCTV名称：SEM_A-B
 <details>
 <summary>SEM_P-R</summary>
 
-![瓦斯克站 CCTV SEM_P-R](/img/simrail/station/station_info/lask/cctv-sem-p-r.webp)
+![瓦斯克站 CCTV SEM_P-R](pathname:///img/simrail/station/station_info/lask/cctv-sem-p-r.webp)
 
 CCTV名称：SEM_P-R
 
@@ -114,7 +114,7 @@ CCTV名称：SEM_P-R
 <details>
 <summary>L14_31.697_A</summary>
 
-![瓦斯克站 CCTV L14_31.697_A](/img/simrail/station/station_info/lask/cctv-l14-31-697-a.webp)
+![瓦斯克站 CCTV L14_31.697_A](pathname:///img/simrail/station/station_info/lask/cctv-l14-31-697-a.webp)
 
 CCTV名称：L14_31.697_A
 
@@ -127,7 +127,7 @@ CCTV名称：L14_31.697_A
 <details>
 <summary>L14_29.970_A</summary>
 
-![瓦斯克站 CCTV L14_29.970_A](/img/simrail/station/station_info/lask/cctv-l14-29-970-a.webp)
+![瓦斯克站 CCTV L14_29.970_A](pathname:///img/simrail/station/station_info/lask/cctv-l14-29-970-a.webp)
 
 CCTV名称：L14_29.970_A
 
