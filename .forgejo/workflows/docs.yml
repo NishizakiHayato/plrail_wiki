@@ -148,12 +148,13 @@ jobs:
   # 部署：FTP / FTPS 上传构建产物
   #
   # 需要配置（Settings → Actions → Secrets and variables）：
-  #   secrets.FTP_USER     FTP 用户名
-  #   secrets.FTP_PASSWORD FTP 密码
-  #   secrets.FTP_HOST     FTP 主机
-  #   vars.FTP_PORT        （可选）端口，默认 21
-  #   vars.FTP_REMOTE      （可选）远端目录，默认站点根目录 /
-  #   vars.FTP_TLS         （可选）0 = 明文 FTP；默认 1（显式 FTPS）
+  #   secrets.FTP_USER        FTP 用户名
+  #   secrets.FTP_PASSWORD    FTP 密码
+  #   secrets.FTP_HOST        FTP 主机
+  #   vars.FTP_PORT           （可选）端口，默认 21
+  #   vars.FTP_REMOTE         （可选）远端目录，默认站点根目录 /
+  #   vars.FTP_TLS            （可选）0 = 明文 FTP；默认 1（显式 FTPS）
+  #   vars.FTP_CONCURRENCY    （可选）并发连接数，默认 5；留空即用默认值
   #
   # 防泄露约定：
   #   1) FTP_HOST 走 secrets（主机名可能含 IP），不得写成 vars 或硬编码
@@ -163,6 +164,12 @@ jobs:
   #
   # 同步策略为镜像：本地没有的远端文件会被删除，
   # .well-known/ 与 .htaccess 默认保留（证书校验 / 服务器配置用）。
+  #
+  # 增量部署：远端 .deploy/manifest.sqlite 记录上一次成功部署后的
+  # 「路径 + 内容摘要 + 远端 size/mtime」，每轮先拉回来比对，只传变化的部分。
+  # 因此**不要**再设 FTP_FORCE=1 —— 那会每次全量重传 1.1 GB。
+  # 注意：清单还没建立时（第一次跑这个版本）仍然是全量上传；
+  # 若确认远端就是当前构建部署的，可临时加 FTP_TRUST_SIZE: '1' 免掉这一次全量。
   # ------------------------------------------------------------------
   deploy:
     needs: [build]
@@ -189,9 +196,9 @@ jobs:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           FTP_REMOTE: ${{ vars.FTP_REMOTE }}
           FTP_TLS: ${{ vars.FTP_TLS }}
+          FTP_CONCURRENCY: ${{ vars.FTP_CONCURRENCY }}
           # 日志里隐藏 FTP 主机（避免主机名 / IP 出现在公开的运行日志中）
           FTP_HIDE_HOST: '1'
-          FTP_FORCE: '1'
         run: python3 scripts/deploy-ftp.py --local build
 
   # ------------------------------------------------------------------
