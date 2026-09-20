@@ -1,0 +1,10 @@
+{
+  "label": "货运车辆",
+  "position": 3,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "SimRail 通用知识",
+    "slug": "/vehicle/wagon/"
+  }
+}
