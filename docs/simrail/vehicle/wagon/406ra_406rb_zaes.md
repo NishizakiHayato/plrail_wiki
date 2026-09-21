@@ -41,7 +41,7 @@ slug: /vehicle/wagon/406ra_406rb_zaes
 <details>
 <summary>Zaes 3351 0079 375-1</summary>
 
-![Zaes 3351 0079 375-1](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/zaes-3351-0079-375-1.webp)
+<img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/zaes-3351-0079-375-1.webp" alt="Zaes 3351 0079 375-1" width="500" />
 
 类型：406Ra
 
@@ -58,7 +58,7 @@ LUA生成代码：
 <details>
 <summary>Zaes 3351 7881 520-5</summary>
 
-![Zaes 3351 7881 520-5](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/zaes-3351-7881-520-5.webp)
+<img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/zaes-3351-7881-520-5.webp" alt="Zaes 3351 7881 520-5" width="500" />
 
 类型：406Ra
 
@@ -75,7 +75,7 @@ LUA生成代码：
 <details>
 <summary>Zaes 3351 7980 031-3</summary>
 
-![Zaes 3351 7980 031-3](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/zaes-3351-7980-031-3.webp)
+<img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/zaes-3351-7980-031-3.webp" alt="Zaes 3351 7980 031-3" width="500" />
 
 类型：406Ra
 
@@ -92,7 +92,7 @@ LUA生成代码：
 <details>
 <summary>Zaes 3351 7982 861-1</summary>
 
-![Zaes 3351 7982 861-1](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/zaes-3351-7982-861-1.webp)
+<img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/zaes-3351-7982-861-1.webp" alt="Zaes 3351 7982 861-1" width="500" />
 
 类型：406Ra
 
@@ -109,7 +109,7 @@ LUA生成代码：
 <details>
 <summary>Zaes 3451 7981 215-0</summary>
 
-![Zaes 3451 7981 215-0](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/zaes-3451-7981-215-0.webp)
+<img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/zaes-3451-7981-215-0.webp" alt="Zaes 3451 7981 215-0" width="500" />
 
 类型：406Ra
 
@@ -126,7 +126,7 @@ LUA生成代码：
 <details>
 <summary>Zas 8451 7862 699-8</summary>
 
-![Zas 8451 7862 699-8](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/zas-8451-7862-699-8.webp)
+<img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/zas-8451-7862-699-8.webp" alt="Zas 8451 7862 699-8" width="500" />
 
 类型：406Rb
 
@@ -144,7 +144,7 @@ LUA生成代码：
 
 | 货物 | UN编号 | 危险品标牌 | LUA代码 |
 | --- | --- | --- | --- |
-| **取暖油** | ![30 1202](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-30-1202.webp) | ![第3类：易燃液体](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-class-3-flammable-liquid.webp) ![危害环境物质](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-environmentally-hazardous-substance.webp) | `"HeatingOil"` 或<br />`FreightLoads_406Ra.Heating_Oil` |
-| **乙醇** | ![33 1170](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-33-1170.webp) | ![第3类：易燃液体](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-class-3-flammable-liquid.webp) ![危害环境物质](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-environmentally-hazardous-substance.webp) | `"Ethanol"` 或<br />`FreightLoads_406Ra.Ethanol` |
-| **汽油** | ![33 1203](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-33-1203.webp) | ![第3类：易燃液体](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-class-3-flammable-liquid.webp) | `"Petrol"` 或<br />`FreightLoads_406Ra.Petrol` |
-| **原油** | ![33 1267](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-33-1267.webp) | ![第3类：易燃液体](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-class-3-flammable-liquid.webp) ![危害环境物质](pathname:///img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-environmentally-hazardous-substance.webp) | `"CrudeOil"` 或<br />`FreightLoads_406Ra.Crude_Oil` |
+| **取暖油** | <img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-30-1202.webp" alt="30 1202" width="100" /> | <img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-class-3-flammable-liquid.webp" alt="第3类：易燃液体" width="100" /> <img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-environmentally-hazardous-substance.webp" alt="危害环境物质" width="100" /> | `"HeatingOil"` 或<br />`FreightLoads_406Ra.Heating_Oil` |
+| **乙醇** | <img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-33-1170.webp" alt="33 1170" width="100" /> | <img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-class-3-flammable-liquid.webp" alt="第3类：易燃液体" width="100" /> <img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-environmentally-hazardous-substance.webp" alt="危害环境物质" width="100" /> | `"Ethanol"` 或<br />`FreightLoads_406Ra.Ethanol` |
+| **汽油** | <img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-33-1203.webp" alt="33 1203" width="100" /> | <img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-class-3-flammable-liquid.webp" alt="第3类：易燃液体" width="100" /> | `"Petrol"` 或<br />`FreightLoads_406Ra.Petrol` |
+| **原油** | <img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-33-1267.webp" alt="33 1267" width="100" /> | <img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-class-3-flammable-liquid.webp" alt="第3类：易燃液体" width="100" /> <img src="/img/simrail/vehicle/wagon/406ra_406rb_zaes/placard-environmentally-hazardous-substance.webp" alt="危害环境物质" width="100" /> | `"CrudeOil"` 或<br />`FreightLoads_406Ra.Crude_Oil` |
