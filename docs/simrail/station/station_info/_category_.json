@@ -4,7 +4,7 @@
   "collapsed": true,
   "link": {
     "type": "generated-index",
-    "description": "SimRail车站信息",
+    "description": "收录 SimRail 中各车站的详细信息，包括车站位置、所属 DLC、调度面板与联锁、轨道长度、CCTV 与所控道口、无线电频道，以及解锁本站所需的调度时长与难度评级。",
     "slug": "/station/station-info"
   }
 }
