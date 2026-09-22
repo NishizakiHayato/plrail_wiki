@@ -29,7 +29,7 @@ slug: /vehicle/wagon/434z_sgnss
 
 <table>
   <tbody>
-    <tr><td><strong>车厂编号</strong></td><td>434V</td></tr>
+    <tr><td><strong>车厂编号</strong></td><td>434Z</td></tr>
     <tr><td><strong>设计代号</strong></td><td>Sgns</td></tr>
     <tr><td><strong>用途</strong></td><td>货运</td></tr>
     <tr><td><strong>车辆种类</strong></td><td>货运车辆</td></tr>
@@ -62,9 +62,9 @@ LUA生成代码：
 </details>
 
 <details>
-<summary>434Z 3151 4553 133-5</summary>
+<summary>434Z 3351 4565 217-8</summary>
 
-![434Z 3151 4553 133-5](pathname:///img/simrail/vehicle/wagon/434z_sgnss/434z-3151-4553-133-5-2.webp)
+![434Z 3351 4565 217-8](pathname:///img/simrail/vehicle/wagon/434z_sgnss/434z-3351-4565-217-8.webp)
 
 类型：434Z
 

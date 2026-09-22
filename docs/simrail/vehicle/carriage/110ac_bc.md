@@ -25,7 +25,7 @@ slug: /vehicle/carriage/110ac_bc
     <tr><td><strong>设计代号</strong></td><td>Bc</td></tr>
     <tr><td><strong>用途</strong></td><td>客运</td></tr>
     <tr><td><strong>车辆种类</strong></td><td>客运车辆</td></tr>
-    <tr><td><strong>制造商</strong></td><td>HCF</td></tr>
+    <tr><td><strong>制造商</strong></td><td>HCP</td></tr>
     <tr><td><strong>生产年份</strong></td><td>1976-1977</td></tr>
     <tr><td><strong>整备质量</strong></td><td>38t</td></tr>
     <tr><td><strong>车长</strong></td><td>25m</td></tr>
@@ -84,9 +84,9 @@ LUA生成代码：`"11xa/80s/110Ac_51 51 59-70 048-0 Variant 80s"` 或 `Passenge
 </details>
 
 <details>
-<summary>Bcwxz 5051 5980 271-6（80年代）</summary>
+<summary>Bcwxz 5151 5980 271-6（80年代）</summary>
 
-![Bcwxz 5051 5980 271-6（80年代）](pathname:///img/simrail/vehicle/carriage/110ac_bc/bcwxz-5051-5980-271-6-80s.webp)
+![Bcwxz 5151 5980 271-6（80年代）](pathname:///img/simrail/vehicle/carriage/110ac_bc/bcwxz-5151-5980-271-6-80s.webp)
 
 铁路运输主体：PKP
 

@@ -64,7 +64,7 @@ LUA生成代码：
 
 铁路运输主体：PKP Cargo
 
-UIC编号：31 51 6635 283-3 PL-PKPC
+UIC编号：31 51 6635 512-5 PL-PKPC
 
 LUA生成代码：
 
