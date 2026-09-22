@@ -72,7 +72,7 @@ LUA生成代码：`"424Z/424Z_brazowy"` 或 `FreightWagonNames.SGS_3151_3947_512
     <tr><td>混凝土板</td><td><code>"Concrete_slab"</code> 或<code>FreightLoads_412W.Concrete_slab</code></td></tr>
     <tr><td>天然气管道</td><td><code>"Gas_pipeline"</code>或 <code>FreightLoads_412W.Gas_pipeline</code></td></tr>
     <tr><td>管道</td><td><code>"Pipeline"</code>或 <code>FreightLoads_412W.Pipeline</code></td></tr>
-    <tr><td>金属板</td><td><code>"Sheet_metal"</code>或<code>reightLoads_412W.Sheet_metal</code></td></tr>
+    <tr><td>金属板</td><td><code>"Sheet_metal"</code>或<code>FreightLoads_412W.Sheet_metal</code></td></tr>
     <tr><td>圆钢</td><td><code>"Steel_circle"</code> 或者 <code>FreightLoads_412W.Steel_circle</code></td></tr>
     <tr><td>T型梁</td><td><code>"T-beam"</code> 或 <code>FreightLoads_412W.T_beam</code></td></tr>
     <tr><td>枕木</td><td><code>"Tie"</code> 或 <code>FreightLoads_412W.Tie</code></td></tr>
