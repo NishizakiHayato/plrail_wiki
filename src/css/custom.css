@@ -300,3 +300,18 @@ details.alert--info > div > div {
   border-top: 1px solid var(--ifm-color-emphasis-200);
   padding: 0.9rem 1rem;
 }
+
+/* ============ 成就图标：正文内行内徽章 ============ */
+/* 背景：Steam 成就图标原图统一为 64×64，直接按 Markdown 渲染会以原始尺寸
+   撑在段落里，比正文文字大出数倍。这里把成就目录下的图片统一缩放并与
+   同行文字垂直居中；用 src 属性选择器限定范围，不影响正文其它插图。
+   --simrail-achievement-icon-size 即最终显示边长，想调整图标大小只改这一处即可
+   （显示用 40px，而磁盘上仍是 64×64 原图，高分辨率屏下不会模糊）。
+   选择器比 !important 更稳：Markdown 图片会被 remark 插件补上 width/height
+   两个 HTML 属性，而 CSS 声明的优先级本就高于呈现属性。 */
+img[src*='/img/simrail/general/achievement/'] {
+  --simrail-achievement-icon-size: 40px;
+  width: var(--simrail-achievement-icon-size);
+  height: var(--simrail-achievement-icon-size);
+  vertical-align: middle;
+}
