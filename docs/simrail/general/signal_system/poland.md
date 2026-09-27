@@ -160,14 +160,15 @@ slug: /general/signal_system/poland
 | ![W9标志其一其二](pathname:///img/simrail/general/signal_system/poland/w9-1.webp)![W9标志其三其四](pathname:///img/simrail/general/signal_system/poland/w9-2.webp) | **W9** | **限速路段标**<br />W9标志表示限速路段的起点和终点，其中黑色角向下的为限速起点，而黑色角朝上的则为限速终点。限速起点标识上的数字为限速值（单位：km/h）的0.1倍，步长5km/h。例如左上图的“3”代表该标志后的限速为30km/h，而右上图的“3,5”则代表该标志后的线路允许速度为35km/h。限速终点标识上的C代表列车头部到达此标即解除限速，而没有C的则代表列车尾部通过后才解除限速。如果该限速地点存在与固定警告列表（WOS,Wykaz ostrzeżeń stałych）中，W9标志前需有W8标志。 |
 | ![W14标志其一其二](pathname:///img/simrail/general/signal_system/poland/w14-1.webp) ![W14标志其三其四](pathname:///img/simrail/general/signal_system/poland/w14-2.webp) | **W14** | **限速路段标（临时）**<br />W14标志表示临时限速路段的起点和终点，其中黑色角向下的为限速起点，而黑色角朝上的则为限速终点。限速起点标识上的数字为限速值（单位：km/h）的0.1倍，步长5km/h。例如左上图的“3”代表该标志后的限速为30km/h，而右上图的“3,5”则代表该标志后的线路允许速度为35km/h。限速终点标识上的C代表列车头部到达此标即解除限速，而没有C的则代表列车尾部通过后才解除限速。W14标志前需有D6标志。 |
 | ![W13 标志：单个障碍物的标记样式](pathname:///img/simrail/general/signal_system/poland/w13-single.webp) ![W13 标志：两个相邻障碍物的标记样式](pathname:///img/simrail/general/signal_system/poland/w13-double.webp) | **W13** | **除雪及大机作业阻碍标**<br />W13标志表示表示前面有道口、道岔、桥梁等建（构）筑物或轴温检测装置等轨旁设备，妨碍除雪机在工作状态下通过。除雪机必须在通过前及时收回除雪翼板并抬起除雪铲刀，防止损毁设备。此外，捣固机、清筛机及其他轨道机械在此区域作业时须特别小心。W13设置于被保护地点两侧各50m处。如果两个障碍物之间的距离小于150m，则视为同一个障碍物，使用双格栅标识牌。 |
-| ![W8 标志：线路上样式](pathname:///img/simrail/general/signal_system/poland/w8-track.webp) ![W8 标志：杆上样式](pathname:///img/simrail/general/signal_system/poland/w8-post.webp) | **W8** | 限速指示标，指示长期限速（临时限速超过 30 天）：左为线路上样式，右为杆上样式 |
+| ![W8 标志：线路上样式](pathname:///img/simrail/general/signal_system/poland/w8-1.webp) ![W8 标志：杆上样式](pathname:///img/simrail/general/signal_system/poland/w8-2.webp) | **W8** | **限速预告标**<br />W8预告前方即将出现低于当前限速的限速，其中的数字为前方限速牌上的限速值（单位：km/h）的0.1倍，步长5km/h。例如上图的“6”代表该标志后的限速牌上的限速为60km/h，而下图的“4,5”则代表该标志后的限速牌上的限速为45km/h。<br />在固定警告列表(Wykaz ostrzeżeń stałych, WOS)上的W9标志前必须有W8标志，也可用于线路允许速度降低的地点前，作为W27a的预告标志。 |
 
 ### 施工标志
 
 | 图示 | 编号 | 含义 |
 | :-: | :-: | --- |
-| ![D1 标志：红色矩形牌](pathname:///img/simrail/general/signal_system/poland/d1.webp) | **D1** | 施工，线路封闭 |
-| ![D6 标志：橙色倒三角形牌](pathname:///img/simrail/general/signal_system/poland/d6.webp) | **D6** | 预告施工临时限速 |
+| ![DO 日间标志：黄色圆盘](pathname:///img/simrail/general/signal_system/poland/DO-day.webp) ![DO 夜间标志：柱上橙色灯光](pathname:///img/simrail/general/signal_system/poland/DO-night.webp) | **DO** | **停车牌预告标**<br />DO标志表示在标准制动距离增加200米处设有显示D1信号的停车牌。 |
+| ![D1 日间标志：红色矩形牌](pathname:///img/simrail/general/signal_system/poland/D1-day.webp) ![D1 夜间标志：矩形板上方中央位置的红色灯光](pathname:///img/simrail/general/signal_system/poland/D1-night.webp)| **D1** | **停车牌**<br />D1标志用于标示因任何原因必须使列车或调车编组停车的地点，而该地点没有信号机或阻挡信号机，或者设置在该处的信号装置无法显示禁止的信号。 |
+| ![D6 标志：橙色倒三角形牌](pathname:///img/simrail/general/signal_system/poland/d6.webp) | **D6** | **临时限速预告标**<br />D6预告前方即将出现低于图定限速的限速，其中的数字为前方W14临时限速牌上的限速值（单位：km/h）的0.1倍，步长5km/h。例如图的“3”代表该标志后的临时限速牌上的临时限速为30km/h，而“2,5”则代表该标志后的临时限速牌上的临时限速为25km/h。 |
 
 ### 接触网（分相）标志
 
