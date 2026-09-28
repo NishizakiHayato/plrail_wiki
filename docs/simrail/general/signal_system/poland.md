@@ -171,14 +171,83 @@ slug: /general/signal_system/poland
 | ![D6 标志：橙色倒三角形牌](pathname:///img/simrail/general/signal_system/poland/d6.webp) | **D6** | **临时限速预告标**<br />D6预告前方即将出现低于图定限速的限速，其中的数字为前方W14临时限速牌上的限速值（单位：km/h）的0.1倍，步长5km/h。例如图的“3”代表该标志后的临时限速牌上的临时限速为30km/h，而“2,5”则代表该标志后的临时限速牌上的临时限速为25km/h。 |
 
 ### 接触网（分相）标志
-
-| 图示 | 编号 | 含义 |
-| :-: | :-: | --- |
-| ![We1 标志：蓝色菱形内断开与相连的横线](pathname:///img/simrail/general/signal_system/poland/We1.webp) | **We1a / We1b / We1c** | **准备降弓标**<br />We1a、We1b、We1c标志表示列车必须在到达接下来的降弓标（We2a、We2c、We2c）前降下受电弓。其中We1a适用于所有前进方向，We2b适用于开往右方线路时，而We1c适用于开往左方线路时。准备降弓标设置在降弓标前方，在最高允许速度不大于60km/h的线路上，两者间距不得小于400m，在最高允许速度大于60km/h但小于等于100km/h的线路上，两者间距不得小于600m，在最高允许速度大于100km/h的线路上，两者间距不得小于800m |
-| ![We2a/We2b/We2c 标志：三块蓝色菱形牌](pathname:///img/simrail/general/signal_system/poland/we2abc.webp) | **We2a / We2b / We2c** | 从左至右依次为：降弓；向右 / 左转线降弓 |
-| ![We3a/We3b 标志：两块蓝色菱形牌](pathname:///img/simrail/general/signal_system/poland/we3ab.webp) | **We3a / We3b** | 动车组或电力机车升弓（L = Locomotive） |
-| ![We8a/We8b/We8c 标志：三块蓝色菱形牌](pathname:///img/simrail/general/signal_system/poland/we8abc.webp) | **We8a / We8b / We8c** | 无电区间，后二者含义可参考 We2a / We2b / We2c |
-| ![We9a/We9b 标志：两块蓝色菱形牌](pathname:///img/simrail/general/signal_system/poland/we9ab.webp) | **We9a / We9b** | 离开无电区间，区别参考 We3a / We3b |
+<table>
+  <colgroup>
+    <col style={{width: '28%'}} />
+    <col style={{width: '18%'}} />
+  </colgroup>
+  <thead>
+    <tr>
+      <th align="center">图示</th>
+      <th align="center">编号</th>
+      <th>含义</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="/img/simrail/general/signal_system/poland/We1.webp" alt="We1 标志：蓝色菱形内断开与相连的横线" loading="lazy" />
+      </td>
+      <td align="center">
+        <strong>We1a/We1b/We1c</strong>
+      </td>
+      <td>
+        <strong>准备降弓标</strong>
+        <br />
+        We1a、We1b、We1c标志表示列车必须在到达接下来的降弓标（We2a、We2b、We2c）前降下受电弓。<br />
+        其中We1a适用于所有前进方向，We1b适用于开往右方线路时，而We1c适用于开往左方线路时。<br />
+        准备降弓标设置在降弓标前方，在最高允许速度不大于60km/h的线路上，两者间距不得小于400m；在最高允许速度大于60km/h但小于等于100km/h的线路上，两者间距不得小于600m；在最高允许速度大于100km/h的线路上，两者间距不得小于800m。
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="/img/simrail/general/signal_system/poland/We2.webp" alt="We2a/We2b/We2c 标志：三块蓝色菱形牌" loading="lazy" />
+      </td>
+      <td align="center">
+        <strong>We2a/We2b/We2c</strong>
+      </td>
+      <td>
+        <strong>降弓标</strong>
+        <br />
+        We2a、We2b、We2c标志表示列车由标志开始必须降弓运行。<br />
+        其中We2a适用于所有前进方向，We2b适用于开往右方线路时，而We2c适用于开往左方线路时。<br />
+        降弓标应设置在必须降弓运行的地点前方不少于50m且不大于150m处。
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="/img/simrail/general/signal_system/poland/We3.webp" alt="We3a/We3b/We3c 标志：三块蓝色菱形牌" loading="lazy" />
+      </td>
+      <td align="center">
+        <strong>We3a/We3b/We3c</strong>
+      </td>
+      <td>
+        <strong>升弓标</strong>
+        <br />
+        We3a、We3b、We3c标志表示列车应当升起受电弓。<br />
+        We3a标志适用于动车组或受电弓距离列车头部超过30m不超过200m的其他列车，设置在允许升弓位置后不少于200m且不超过250m处。We3b标志适用于电力机车，设置在允许升弓位置后不少于30m且不超过100m。We3c标志适用于长度超过200m的动车组或者受电弓距离列车头部超过200m的其他列车（例如机车位于尾部的推挽式列车），设置在允许升弓位置后不少于400m且不超过450m。
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="/img/simrail/general/signal_system/poland/we8abc.webp" alt="We8a/We8b/We8c 标志：三块蓝色菱形牌" loading="lazy" />
+      </td>
+      <td align="center">
+        <strong>We8a / We8b / We8c</strong>
+      </td>
+      <td>无电区间，后二者含义可参考 We2a / We2b / We2c</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="/img/simrail/general/signal_system/poland/we9ab.webp" alt="We9a/We9b 标志：两块蓝色菱形牌" loading="lazy" />
+      </td>
+      <td align="center">
+        <strong>We9a / We9b</strong>
+      </td>
+      <td>离开无电区间，区别参考 We3a / We3b</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 其他标志
 
