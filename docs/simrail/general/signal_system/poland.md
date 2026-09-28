@@ -245,12 +245,18 @@ slug: /general/signal_system/poland
     </tr>
     <tr>
       <td align="center">
-        <img src="/img/simrail/general/signal_system/poland/we8abc.webp" alt="We8a/We8b/We8c 标志：三块蓝色菱形牌" loading="lazy" />
+        <img src="/img/simrail/general/signal_system/poland/We8.webp" alt="We8a/We8b/We8c 标志：三块蓝色菱形牌" loading="lazy" />
       </td>
       <td align="center">
-        <strong>We8a / We8b / We8c</strong>
+        <strong>We8a/We8b/We8c</strong>
       </td>
-      <td>无电区间，后二者含义可参考 We2a / We2b / We2c</td>
+      <td>
+        <strong>无电区标</strong>
+        <br />
+        We8a、We8b和We8c标志表示电力机车或电力动车组在通过该位置时，应停止从接触网获取牵引电流（惰行）；在交流电系统下，还须切断主断路器。<br />
+        其中We8a适用于所有前进方向，We8b适用于开往右方线路时，而We8c适用于开往左方线路时。<br />
+        We8a、We8b、We8c标志应当设置在距离接触网无电区元件不小于30m且不大于80m处。
+      </td>
     </tr>
     <tr>
       <td align="center">
