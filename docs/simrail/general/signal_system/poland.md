@@ -174,7 +174,7 @@ slug: /general/signal_system/poland
 
 | 图示 | 编号 | 含义 |
 | :-: | :-: | --- |
-| ![We1 标志：蓝色菱形内断开与相连的横线](pathname:///img/simrail/general/signal_system/poland/we1.webp) | **We1** | 前方 500m 降弓，限速 60 |
+| ![We1 标志：蓝色菱形内断开与相连的横线](pathname:///img/simrail/general/signal_system/poland/We1.webp) | **We1a / We1b / We1c** | **准备降弓标**<br />We1a、We1b、We1c标志表示列车必须在到达接下来的降弓标（We2a、We2c、We2c）前降下受电弓。其中We1a适用于所有前进方向，We2b适用于开往右方线路时，而We1c适用于开往左方线路时。准备降弓标设置在降弓标前方，在最高允许速度不大于60km/h的线路上，两者间距不得小于400m，在最高允许速度大于60km/h但小于等于100km/h的线路上，两者间距不得小于600m，在最高允许速度大于100km/h的线路上，两者间距不得小于800m |
 | ![We2a/We2b/We2c 标志：三块蓝色菱形牌](pathname:///img/simrail/general/signal_system/poland/we2abc.webp) | **We2a / We2b / We2c** | 从左至右依次为：降弓；向右 / 左转线降弓 |
 | ![We3a/We3b 标志：两块蓝色菱形牌](pathname:///img/simrail/general/signal_system/poland/we3ab.webp) | **We3a / We3b** | 动车组或电力机车升弓（L = Locomotive） |
 | ![We8a/We8b/We8c 标志：三块蓝色菱形牌](pathname:///img/simrail/general/signal_system/poland/we8abc.webp) | **We8a / We8b / We8c** | 无电区间，后二者含义可参考 We2a / We2b / We2c |
