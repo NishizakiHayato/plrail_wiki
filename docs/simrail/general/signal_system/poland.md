@@ -170,7 +170,7 @@ slug: /general/signal_system/poland
 | ![D1 日间标志：红色矩形牌](pathname:///img/simrail/general/signal_system/poland/D1-day.webp) ![D1 夜间标志：矩形板上方中央位置的红色灯光](pathname:///img/simrail/general/signal_system/poland/D1-night.webp)| **D1** | **停车牌**<br />D1标志用于标示因任何原因必须使列车或调车编组停车的地点，而该地点没有信号机或阻挡信号机，或者设置在该处的信号装置无法显示禁止的信号。 |
 | ![D6 标志：橙色倒三角形牌](pathname:///img/simrail/general/signal_system/poland/d6.webp) | **D6** | **临时限速预告标**<br />D6预告前方即将出现低于图定限速的限速，其中的数字为前方W14临时限速牌上的限速值（单位：km/h）的0.1倍，步长5km/h。例如图的“3”代表该标志后的临时限速牌上的临时限速为30km/h，而“2,5”则代表该标志后的临时限速牌上的临时限速为25km/h。 |
 
-### 接触网（分相）标志
+### 接触网标志
 <table>
   <colgroup>
     <col style={{width: '28%'}} />
@@ -260,12 +260,17 @@ slug: /general/signal_system/poland
     </tr>
     <tr>
       <td align="center">
-        <img src="/img/simrail/general/signal_system/poland/we9ab.webp" alt="We9a/We9b 标志：两块蓝色菱形牌" loading="lazy" />
+        <img src="/img/simrail/general/signal_system/poland/We9.webp" alt="We9a/We9b 标志：两块蓝色菱形牌" loading="lazy" />
       </td>
       <td align="center">
-        <strong>We9a / We9b</strong>
+        <strong>We9a/We9b/We9c</strong>
       </td>
-      <td>离开无电区间，区别参考 We3a / We3b</td>
+      <td>
+        <strong>无电区结束标</strong>
+        <br />
+        We9a、We9b和We9c标志表示通过无电区后，可以从接触网获取牵引电流继续行驶的起始位置。<br />
+        We9a标志适用于动车组或受电弓距离列车头部超过30m不超过200m的其他列车，设置在无电区后不少于200m且不超过250m处。We9b标志适用于电力机车，设置在无电区后不少于30m且不超过100m处。We9c标志适用于长度超过200m的动车组或者受电弓距离列车头部超过200m的其他列车（例如机车位于尾部的推挽式列车），设置在无电区后不少于400m且不超过450m处。
+      </td>
     </tr>
   </tbody>
 </table>
