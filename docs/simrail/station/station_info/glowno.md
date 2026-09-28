@@ -1,6 +1,6 @@
 ---
 sidebar_position: 13
-title: Głowno（格沃夫诺）
+title: LCS Głowno（格沃夫诺）
 description: 本文介绍 SimRail（模拟铁路）中 Głowno（格沃夫诺）与 Domaniewice（多玛涅维采）车站的信息，涵盖两站的位置、所属 DLC（Łódź North Region，罗兹北部区域）、调度面板、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（2 星）。
 keywords: [SimRail, Głowno, 格沃夫诺, Domaniewice, 多玛涅维采, 车站, Łódź North Region, 罗兹北部区域, 调度面板, CCTV, 无线电频道]
 tags: [SimRail, 车站]
