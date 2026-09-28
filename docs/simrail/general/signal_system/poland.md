@@ -230,6 +230,21 @@ slug: /general/signal_system/poland
     </tr>
     <tr>
       <td align="center">
+        <img src="/img/simrail/general/signal_system/poland/We4.webp" alt="We4a/We4b/We4c 标志：三块蓝色菱形牌" loading="lazy" />
+      </td>
+      <td align="center">
+        <strong>We4a/We4b/We4c</strong>
+      </td>
+      <td>
+        <strong>电力机车禁入标</strong>
+        <br />
+        We4a、We4b、We4c标志用于表明电力机车、电力动车组等电力牵引车辆禁止越过的地点，主要用于接触网受损、接触网施工或接触网终点等区域。<br />
+        其中We4a适用于所有前进方向，We4b适用于开往右方线路时，而We4c适用于开往左方线路时。<br />
+         We4a、We4b、We4c标志应当设置在距离电力机车禁入区域前方15m-65m内。
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
         <img src="/img/simrail/general/signal_system/poland/we8abc.webp" alt="We8a/We8b/We8c 标志：三块蓝色菱形牌" loading="lazy" />
       </td>
       <td align="center">
