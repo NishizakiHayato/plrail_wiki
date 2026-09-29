@@ -354,50 +354,58 @@ slug: /general/signal_system/poland
         <tr>
             <td><strong>A1 警报</strong></td>
             <td>一长三短声<br /><strong>— • • •</strong></td>
-            <td>A1警报信号的目的是为了通知作业人员存在或可能存在危及行车安全、职工人身安全、第三方安全等的风险。在双线或多线区间的轨道上，列车因不明原因被迫停车时，或者发现区间轨道上有未设置信号标记的行车障碍物时，由本务机车乘务组发出A1警报信号。A1警报信号应持续发出，直至确认不妨碍邻线行车，或障碍物已按规定进行了防护为止。 行驶在区间内的其他列车的本务机车乘务组在接收到A1警报信号后，应当控制速度，以确保列车能够在遇到可能的行车障碍物前及时停下来。<br />
+            <td>
+            A1警报信号的目的是为了通知作业人员存在或可能存在危及行车安全、职工人身安全、第三方安全等的风险。在双线或多线区间的轨道上，列车因不明原因被迫停车时，或者发现区间轨道上有未设置信号标记的行车障碍物时，由本务机车乘务组发出A1警报信号。A1警报信号应持续发出，直至确认不妨碍邻线行车，或障碍物已按规定进行了防护为止。 行驶在区间内的其他列车的本务机车乘务组在接收到A1警报信号后，应当控制速度，以确保列车能够在遇到可能的行车障碍物前及时停下来。<br />
             ※:对于机车乘务组，此时还应将车灯灯号设置为“A1”。
             </td>
         </tr>
         <tr>
             <td><strong>A1r 警报</strong></td>
-            <td>RadioStop（ALARM）按钮或无线电广播</strong></td>
-            <td>A1r在配备有列车无线通信网络的铁路线路发生突发交通安全威胁时发出。任何得知该威胁或有合理理由怀疑该威胁存在，且能够使用列车无线电通信网络中无线电台的员工，应立即通过无线电台发出“A1r 警报”信号。发出警报的方式可以通过无线电台上的"RadioStop"（ALARM）按钮或在无线电频道中口头喊出“Mayday! Mayday! Mayday!”并说明位置和原因。收到RadioStop后，带有RadioStop功能的列车无线装置将立即使列车紧急制动。所有接收到A1r信号的司机都应该立即使车辆处于紧急制动状态。
+            <td>RadioStop（ALARM）按钮或无线电广播</td>
+            <td>
+            A1r在配备有列车无线通信网络的铁路线路发生突发交通安全威胁时发出。任何得知该威胁或有合理理由怀疑该威胁存在，且能够使用列车无线电通信网络中无线电台的员工，应立即通过无线电台发出“A1r 警报”信号。发出警报的方式可以通过无线电台上的"RadioStop"（ALARM）按钮或在无线电频道中口头喊出“Mayday! Mayday! Mayday!”并说明位置和原因。收到RadioStop后，带有RadioStop功能的列车无线装置将立即使列车紧急制动。所有接收到A1r信号的司机都应该立即使车辆处于紧急制动状态。
             </td>
         </tr>
         <tr>
             <td><strong>A2 火灾</strong></td>
-            <td>一长两短声<br /><strong>— • •</strong></strong></td>
-            <td>A2火灾信号用于通知消防队和铁路员工在铁路区域内发生了火灾，需要多次重复。发现火灾的铁路员工应开始发出“火灾”信号并通知消防队。如果该员工没有声音信号工具，应立即通知拥有相应信号工具的员工。位于车站区域内正在值乘的机车司机及其他员工应当重复该火灾信号。
+            <td>一长两短声<br /><strong>— • •</strong></td>
+            <td>
+            A2火灾信号用于通知消防队和铁路员工在铁路区域内发生了火灾，需要多次重复。发现火灾的铁路员工应开始发出“火灾”信号并通知消防队。如果该员工没有声音信号工具，应立即通知拥有相应信号工具的员工。位于车站区域内正在值乘的机车司机及其他员工应当重复该火灾信号。
             </td>
         </tr>
         <tr>
             <td><strong>A3 车站空袭警报</strong></td>
-            <td>鸣10秒停1秒，时间3分钟<br /><strong>— — — — —</strong></strong></td>
-            <td>A3空袭警报信号用于提前警告员工防范迫在眉睫的空袭危险。除鸣笛外，还应通过有线广播装置播报以下通知，并重复三次：“请注意！请注意！现在发布[播报车站名称]站的空袭警报。（Uwaga! Uwaga! Ogłaszam alarm powietrzny dla stacji [wymienić nazwę stacji]）”
+            <td>鸣10秒停1秒，时间3分钟<br /><strong>— — — — —</strong></td>
+            <td>
+            A3空袭警报信号用于提前警告员工防范迫在眉睫的空袭危险。除鸣笛外，还应通过有线广播装置播报以下通知，并重复三次：“请注意！请注意！现在发布[播报车站名称]站的空袭警报。（Uwaga! Uwaga! Ogłaszam alarm powietrzny dla stacji [wymienić nazwę stacji]）”
             </td>
         </tr>
         <tr>
             <td><strong>A4 解除车站空袭警报</strong></td>
-            <td>连续鸣响，时间3分钟<br /><strong>—————</strong></strong></td>
-            <td>A4解除空袭警报信号在空袭危险解除后发布。除鸣笛外，还应通过有线广播装置播报以下通知，并重复三次：“请注意！请注意！解除[播报车站名称]站的空袭警报（Uwaga! Uwaga! Odwołuję alarm powietrzny dla stacji [wymienić nazwę stacji]）”
+            <td>连续鸣响，时间3分钟<br /><strong>—————</strong></td>
+            <td>
+            A4解除空袭警报信号在空袭危险解除后发布。除鸣笛外，还应通过有线广播装置播报以下通知，并重复三次：“请注意！请注意！解除[播报车站名称]站的空袭警报（Uwaga! Uwaga! Odwołuję alarm powietrzny dla stacji [wymienić nazwę stacji]）”
             </td>
         </tr>
         <tr>
             <td><strong>A6 区间列车认收空袭警报</strong></td>
-            <td>鸣10秒停1秒，时间3分钟<br /><strong>— — — — —</strong></strong></td>
-            <td>A6区间列车认收空袭警报用于列车司机确认已收到（看到）A5区间空袭警报，并通知乘务组已收到空袭警报。
+            <td>鸣10秒停1秒，时间3分钟<br /><strong>— — — — —</strong></td>
+            <td>
+            A6区间列车认收空袭警报用于列车司机确认已收到（看到）A5区间空袭警报，并通知乘务组已收到空袭警报。
             </td>
         </tr>
         <tr>
             <td><strong>A7 车站污染警报</strong></td>
-            <td>鸣10秒停15秒，时间3分钟<br /><strong>—   —   —</strong></strong></td>
-            <td>A7车站污染警报用于对铁路车站工作人员进行警示，以防范迫在眉睫的污染危险。。除鸣笛外，还应通过有线广播装置播报以下通告，并重复三次：“请注意！请注意！现对[车站名称]站发布[污染种类]污染警报。（Uwaga! Uwaga! Ogłaszam alarm o skażeniach [wymienić rodzaj skażenia] dla stacji [wymienić nazwę stacji]）”。
+            <td>鸣10秒停15秒，时间3分钟<br /><strong>—   —   —</strong></td>
+            <td>
+            A7车站污染警报用于对铁路车站工作人员进行警示，以防范迫在眉睫的污染危险。。除鸣笛外，还应通过有线广播装置播报以下通告，并重复三次：“请注意！请注意！现对[车站名称]站发布[污染种类]污染警报。（Uwaga! Uwaga! Ogłaszam alarm o skażeniach [wymienić rodzaj skażenia] dla stacji [wymienić nazwę stacji]）”。
             </td>
         </tr>
         <tr>
             <td><strong>A8 解除车站污染警报</strong></td>
-            <td>连续鸣响，时间3分钟<br /><strong>—————</strong></strong></td>
-            <td>A8解除车站污染警报在污染危险解除后发布。除鸣笛外，还应通过有线广播装置播报以下通知，并重复三次：“请注意！请注意！解除 [污染种类] 对 [车站名称] 车站的污染警报（Uwaga! Uwaga! Odwołuję alarm o skażeniach [wymienić rodzaj skażenia] dla stacji [wymienić nazwę stacji]）”
+            <td>连续鸣响，时间3分钟<br /><strong>—————</strong></td>
+            <td>
+            A8解除车站污染警报在污染危险解除后发布。除鸣笛外，还应通过有线广播装置播报以下通知，并重复三次：“请注意！请注意！解除 [污染种类] 对 [车站名称] 车站的污染警报（Uwaga! Uwaga! Odwołuję alarm o skażeniach [wymienić rodzaj skażenia] dla stacji [wymienić nazwę stacji]）”
             </td>
         </tr>
   </tbody>
