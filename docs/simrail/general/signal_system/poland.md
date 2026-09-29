@@ -373,6 +373,28 @@ slug: /general/signal_system/poland
         </tr>
   </tbody>
 </table>
+## 车站值班员信号
+<table>
+  <colgroup>
+    <col style={{width: '14%'}} />
+    <col style={{width: '10%'}} />
+  </colgroup>
+  <thead>
+    <tr>
+      <th>名称</th>
+      <th>操作</th>
+      <th>说明</th>
+    </tr>
+  </thead>
+  <tbody>
+        <tr>
+            <td><strong>Rd1 准许发车</strong></td>
+            <td><img src="/img/simrail/general/signal_system/poland/Rd1.webp"></img></td>
+            <td>Rd1信号在列车发车作业时由车站值班员发出，在列车通过作业时根据适用的规章由车站值班员或信号员根据车站值班员的指令发出。昼间为垂直挥动带有绿色边缘的圆形白色手信号牌，夜间为垂直挥动带有绿光的便携式信号手电筒。</td>
+        </tr>
+  </tbody>
+</table>
+
 
 ## 警报信号
 <table>
