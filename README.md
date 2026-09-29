@@ -3,7 +3,12 @@
 [wiki.plrail.com](https://wiki.plrail.com) 的文档源码。基于 Docusaurus 3 的**纯静态站**，
 内容按游戏拆成 5 个互相独立的文档实例：SimRail · Maszyna · TD2 · ISDR · TPF2。
 
-改内容 → 提交 PR → 合并进 `main` → 流水线自动构建并发布。**贡献者不需要接触服务器与部署凭据。**
+改内容 → 提交 PR → 合并进 `main` → 流水线自动构建并发布。
+
+上游地址：[https://code.shinetsurailway.net/PLRail/wiki](https://code.shinetsurailway.net/PLRail/wiki)\
+GitHub镜像：[https://github.com/NishizakiHayato/plrail_wiki](https://github.com/NishizakiHayato/plrail_wiki)
+
+**如需进行PR或提出Issue，请访问上游仓库。GitHub仓库仅为镜像只用。**
 
 ## 贡献方式
 
