@@ -281,11 +281,11 @@ slug: /general/signal_system/poland
 | ![坡度指示器](pathname:///img/simrail/general/signal_system/poland/gradient-indicator.webp) | **坡度指示器** | 横线上为坡度（单位：‰），下为长度 |
 | ![无人值守道口标志：两道交叉的斜杠，a 为单线、b 为复线](pathname:///img/simrail/general/signal_system/poland/crossing-unattended.webp) | **无人值守道口** | A——单线铁路道口；B——复线及多线铁路道口 |
 
-## 声音和警报信号
-### 声音信号
+## 乘务和运行信号
 <table>
   <colgroup>
-    <col style={{width: '18%'}} />
+    <col style={{width: '14%'}} />
+    <col style={{width: '10%'}} />
   </colgroup>
   <thead>
     <tr>
@@ -352,8 +352,48 @@ slug: /general/signal_system/poland
             <td>在本务机车要求补机结束推进，解挂并驶离列车时由本务机车发出。</td>
         </tr>
         <tr>
+            <td><strong>Rp11 抓紧上车</strong></td>
+            <td>口哨一长声<br /><strong>—</strong></td>
+            <td>Rp11信号由列车乘务组在旅客列车发车前发出。当旅客列车未配备列车长时，不发出该信号；但如果客运乘务组没有指定列车长而配有列车员时，列车员应代为发出。</td>
+        </tr>
+        <tr>
+            <td><strong>Rp12 准备好发车</strong></td>
+            <td><img src="/img/simrail/general/signal_system/poland/Rp12.webp"></img></td>
+            <td>Rp12信号适用于配备多名列车员的列车发车前。昼间为举起黄色信号旗、夜间为举起带有白光的便携式信号手电筒。</td>
+        </tr>
+        <tr>
+            <td><strong>Rp13 无线电准备好发车</strong></td>
+            <td>通过无线电设备发车</td>
+            <td>Rp13由列车长通过口头或通讯设备传达给火车司机，内容为“XXX次列车准备好发车（Pociąg nr... gotów do odjazdu）”。它适用于由动车组或柴油/电力轨道客车组成的列车发车前，且必须满足以下条件之一：车门控制装置以及警告旅客的音响信号装置位于司机室的操纵台上；或在旅客乘降时能够确保车门关闭，且车门的关闭状态能够通过技术设备传送给本务驾驶员。</td>
+        </tr>
+        <tr>
+            <td><strong>Rp14 旅客列车发车</strong></td>
+            <td><img src="/img/simrail/general/signal_system/poland/Rp14.webp"></img></td>
+            <td>Rp14信号适用于客运乘务组向列车发出发车信号；配备多名列车员的列车发车前，需要逐个传递Rp12确认全部准备完毕。昼间为由最靠近机车、面向司机的列车长或列车员高举单臂，并大声喊出“发车（Odjazd）”，夜间为由最靠近司机的列车长或列车员高举并上下晃动带有白光的便携式信号手电筒（光亮朝向司机），并大声喊出“发车（Odjazd）”。Rp14信号亦可通过通信设备进行传达。在配备有专门用于发送Rp14信号装置的列车上，则应通过这些专用信号装置发出该信号。</td>
+        </tr>
+  </tbody>
+</table>
+
+## 警报信号
+<table>
+  <colgroup>
+    <col style={{width: '14%'}} />
+    <col style={{width: '14%'}} />
+  </colgroup>
+  <thead>
+    <tr>
+      <th>名称</th>
+      <th>鸣示方式或操作</th>
+      <th>使用时机或说明</th>
+    </tr>
+  </thead>
+  <tbody>
+        <tr>
             <td><strong>A1 警报</strong></td>
-            <td>一长三短声<br /><strong>— • • •</strong></td>
+            <td>
+            一长三短声<br /><strong>— • • •</strong><br />
+            <img src="/img/simrail/general/signal_system/poland/A1.webp"></img>
+            </td>
             <td>
             A1警报信号的目的是为了通知作业人员存在或可能存在危及行车安全、职工人身安全、第三方安全等的风险。在双线或多线区间的轨道上，列车因不明原因被迫停车时，或者发现区间轨道上有未设置信号标记的行车障碍物时，由本务机车乘务组发出A1警报信号。A1警报信号应持续发出，直至确认不妨碍邻线行车，或障碍物已按规定进行了防护为止。 行驶在区间内的其他列车的本务机车乘务组在接收到A1警报信号后，应当控制速度，以确保列车能够在遇到可能的行车障碍物前及时停下来。<br />
             ※:对于机车乘务组，此时还应将车灯灯号设置为“A1”。
@@ -385,6 +425,13 @@ slug: /general/signal_system/poland
             <td>连续鸣响，时间3分钟<br /><strong>—————</strong></td>
             <td>
             A4解除空袭警报信号在空袭危险解除后发布。除鸣笛外，还应通过有线广播装置播报以下通知，并重复三次：“请注意！请注意！解除[播报车站名称]站的空袭警报（Uwaga! Uwaga! Odwołuję alarm powietrzny dla stacji [wymienić nazwę stacji]）”
+            </td>
+        </tr>
+        <tr>
+            <td><strong>A5 区间列车空袭警报</strong></td>
+            <td><img src="/img/simrail/general/signal_system/poland/A5.webp"></img></td>
+            <td>
+            A5区间列车空袭警报用于向在区间运行的列车发出空袭警报，昼间显示为蓝黄旗，夜间为闪烁的手电筒。
             </td>
         </tr>
         <tr>
