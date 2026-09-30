@@ -315,3 +315,29 @@ img[src*='/img/simrail/general/achievement/'] {
   height: var(--simrail-achievement-icon-size);
   vertical-align: middle;
 }
+
+/* ============ 移动端表格：横向滑动，而不是把配图压小 ============ */
+/* 背景：信号 / 标志类文档（如 docs/simrail/general/signal_system/poland.md）几乎全部
+   用表格排「图示」，一格一张图，而图本身很窄——那页的 s*.webp 只有 70px 宽，
+   post-*.webp 更只有 50px 宽。
+
+   Infima 已经给 table 声明了 display:block + overflow:auto，也就是「表格比视口宽时
+   可以左右滑」是现成能力；让它失效的是同一条 Infima 里的 img { max-width:100% }：
+   图片的最大宽度跟着所在单元格走，而单元格宽度又由表格宽度决定，于是图片的
+   min-content 贡献可以被压到接近 0 —— 表格永远缩得进视口、从不溢出，滑动用不上，
+   图片却跟着窄列被一起压到十几像素宽。
+
+   实测（393px 视口，见 poland.md 的「接触网标志」表）：这种三列表里，「图示」列
+   没有任何宽度偏好，能拿到的只有图片的最小宽度，其余空间会先被文字列吃光 ——
+   也就是说图片的 min-width 事实上就是手机上图示列的最终宽度，定多宽图就多大。
+
+   所以这里给表格配图定一个可读的下限：96px。图片撑起每列的最小宽度后，表格最小
+   内容宽度超过视口，多出来的部分由 table 自带的 overflow:auto 承接，手机上左右
+   滑动即可看全。上限不动（仍是 max-width:100%），宽图该缩还是缩，只是不会再被压到
+   读不出来。选择器限定在 .markdown table 内，不影响正文其它插图；想调下限只改这一处。
+   断点 996px 与文档侧边栏收起的断点一致，桌面端渲染完全不变。 */
+@media (max-width: 996px) {
+  .markdown table img {
+    min-width: 96px;
+  }
+}
