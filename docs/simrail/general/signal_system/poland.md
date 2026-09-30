@@ -188,7 +188,7 @@ slug: /general/signal_system/poland
         <img src="/img/simrail/general/signal_system/poland/We1.webp" alt="We1 标志：蓝色菱形内断开与相连的横线" loading="lazy" />
       </td>
       <td align="center">
-        <strong>We1a/We1b/We1c</strong>
+        <strong>We1a/<wbr />We1b/<wbr />We1c</strong>
       </td>
       <td>
         <strong>准备降弓标</strong>
@@ -203,7 +203,7 @@ slug: /general/signal_system/poland
         <img src="/img/simrail/general/signal_system/poland/We2.webp" alt="We2a/We2b/We2c 标志：三块蓝色菱形牌" loading="lazy" />
       </td>
       <td align="center">
-        <strong>We2a/We2b/We2c</strong>
+        <strong>We2a/<wbr />We2b/<wbr />We2c</strong>
       </td>
       <td>
         <strong>降弓标</strong>
@@ -218,7 +218,7 @@ slug: /general/signal_system/poland
         <img src="/img/simrail/general/signal_system/poland/We3.webp" alt="We3a/We3b/We3c 标志：三块蓝色菱形牌" loading="lazy" />
       </td>
       <td align="center">
-        <strong>We3a/We3b/We3c</strong>
+        <strong>We3a/<wbr />We3b/<wbr />We3c</strong>
       </td>
       <td>
         <strong>升弓标</strong>
@@ -232,7 +232,7 @@ slug: /general/signal_system/poland
         <img src="/img/simrail/general/signal_system/poland/We4.webp" alt="We4a/We4b/We4c 标志：三块蓝色菱形牌" loading="lazy" />
       </td>
       <td align="center">
-        <strong>We4a/We4b/We4c</strong>
+        <strong>We4a/<wbr />We4b/<wbr />We4c</strong>
       </td>
       <td>
         <strong>电力机车禁入标</strong>
@@ -247,7 +247,7 @@ slug: /general/signal_system/poland
         <img src="/img/simrail/general/signal_system/poland/We8.webp" alt="We8a/We8b/We8c 标志：三块蓝色菱形牌" loading="lazy" />
       </td>
       <td align="center">
-        <strong>We8a/We8b/We8c</strong>
+        <strong>We8a/<wbr />We8b/<wbr />We8c</strong>
       </td>
       <td>
         <strong>无电区标</strong>
@@ -262,7 +262,7 @@ slug: /general/signal_system/poland
         <img src="/img/simrail/general/signal_system/poland/We9.webp" alt="We9a/We9b 标志：两块蓝色菱形牌" loading="lazy" />
       </td>
       <td align="center">
-        <strong>We9a/We9b/We9c</strong>
+        <strong>We9a/<wbr />We9b/<wbr />We9c</strong>
       </td>
       <td>
         <strong>无电区结束标</strong>
