@@ -1,5 +1,5 @@
 ---
-sidebar_position: 21
+sidebar_position: 22
 title: Koluszki（科卢什基）
 description: 本文介绍 SimRail（模拟铁路）中 Koluszki（科卢什基）车站的信息，涵盖该站的位置、所属 DLC（Łódź - Warsaw，罗兹 - 华沙）、调度面板、轨道长度、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（5 星）。
 keywords: [SimRail, Koluszki, 科卢什基, 车站, Łódź - Warsaw, 调度面板, 轨道长度, CCTV, 无线电频道]

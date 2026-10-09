@@ -1,5 +1,5 @@
 ---
-sidebar_position: 46
+sidebar_position: 47
 title: Retkinia（莱特基尼亚）
 description: 本文介绍 SimRail（模拟铁路）中 Retkinia（莱特基尼亚）车站的信息，涵盖该站的位置、所属 DLC（Łódź Junction，罗兹枢纽）、调度面板、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（2 星）。
 keywords: [SimRail, Retkinia, 莱特基尼亚, 车站, Łódź Junction, 罗兹枢纽, 调度面板, CCTV, 无线电频道]

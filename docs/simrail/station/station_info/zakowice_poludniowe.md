@@ -1,5 +1,5 @@
 ---
-sidebar_position: 62
+sidebar_position: 64
 title: LCS Żakowice Południowe（扎科维采南）
 description: 本文介绍 SimRail（模拟铁路）中 Żakowice Południowe（扎科维采南）与 Słotwiny（斯沃特维内）车站的信息，涵盖两站的位置、所属 DLC（Łódź - Warsaw，罗兹 - 华沙）、调度面板、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（1 星）。
 keywords: [SimRail, Żakowice Południowe, 扎科维采南, Słotwiny, 斯沃特维内, 车站, Łódź - Warsaw, 罗兹 - 华沙, 调度面板, CCTV, 无线电频道]

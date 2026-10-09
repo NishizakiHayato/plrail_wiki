@@ -1,5 +1,5 @@
 ---
-sidebar_position: 35
+sidebar_position: 36
 title: Łowicz Główny（沃维奇总站）
 description: 本文介绍 SimRail（模拟铁路）中 Łowicz Główny（沃维奇总站）车站的信息，涵盖该站的位置、所属 DLC（Łódź North Region，罗兹北部区域）、调度面板、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（5 星）。
 keywords: [SimRail, Łowicz Główny, 沃维奇总站, 车站, Łódź North Region, 罗兹北部区域, 调度面板, CCTV, 无线电频道]

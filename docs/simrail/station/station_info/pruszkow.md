@@ -1,5 +1,5 @@
 ---
-sidebar_position: 43
+sidebar_position: 44
 title: LCS Pruszków（普鲁什库夫）
 description: 本文介绍 SimRail（模拟铁路）中 Pruszków（普鲁什库夫）与 Jozefinów（约瑟芬努夫）车站的信息，涵盖两站的位置、调度面板、轨道长度、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（4 星）。
 keywords: [SimRail, Pruszków, 普鲁什库夫, Jozefinów, 约瑟芬努夫, 车站, 调度面板, 轨道长度, CCTV, 无线电频道]

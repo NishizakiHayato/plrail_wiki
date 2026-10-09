@@ -1,5 +1,5 @@
 ---
-sidebar_position: 67
+sidebar_position: 69
 title: LCS Zgierz Północ（兹盖日北）
 description: 本文介绍 SimRail（模拟铁路）中 Zgierz Północ（兹盖日北）、Zgierz Kontrewers（兹盖日 孔特雷韦尔斯）与 Chociszew（霍奇谢夫）车站的信息，涵盖三站的位置、所属 DLC（Łódź North Region，罗兹北部区域）、调度面板、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（3 星）。
 keywords: [SimRail, Zgierz Północ, 兹盖日北, Zgierz Kontrewers, 兹盖日 孔特雷韦尔斯, Chociszew, 霍奇谢夫, 车站, Łódź North Region, 罗兹北部区域, 调度面板, CCTV, 无线电频道]
