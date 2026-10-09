@@ -1,5 +1,5 @@
 ---
-sidebar_position: 25
+sidebar_position: 26
 title: Kraków Przedmieście（克拉科夫 郊区）
 description: 本文介绍 SimRail（模拟铁路）中 Kraków Przedmieście（克拉科夫 郊区）车站的信息，涵盖该站的位置、调度面板、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（1 星）。
 keywords: [SimRail, Kraków Przedmieście, 克拉科夫 郊区, 车站, 调度面板, 无线电频道]

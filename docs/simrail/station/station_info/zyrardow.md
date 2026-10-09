@@ -1,5 +1,5 @@
 ---
-sidebar_position: 68
+sidebar_position: 70
 title: LCS Żyrardów（日拉尔杜夫）
 description: 本文介绍 SimRail（模拟铁路）中 Żyrardów（日拉尔杜夫）与 Radziwiłłów Mazowiecki（马佐夫舍省 拉季维武夫）车站的信息，涵盖两站的位置、所属 DLC（Łódź - Warsaw，罗兹 - 华沙）、调度面板、轨道长度、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（3 星）。
 keywords: [SimRail, Żyrardów, 日拉尔杜夫, Radziwiłłów Mazowiecki, 马佐夫舍省 拉季维武夫, 车站, Łódź - Warsaw, 罗兹 - 华沙, 调度面板, 轨道长度, CCTV, 无线电频道]

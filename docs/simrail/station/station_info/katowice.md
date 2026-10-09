@@ -1,5 +1,5 @@
 ---
-sidebar_position: 18
+sidebar_position: 19
 title: Katowice（卡托维兹）
 description: 本文介绍 SimRail（模拟铁路）中 Katowice（卡托维兹）车站的信息，涵盖该站的位置、调度面板、轨道长度、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（4 星）。
 keywords: [SimRail, Katowice, 卡托维兹, 车站, 调度面板, 轨道长度, CCTV, 无线电频道]

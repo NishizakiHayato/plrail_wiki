@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 27
 title: Łask（瓦斯克）
 description: 本文介绍 SimRail（模拟铁路）中 Łask（瓦斯克）车站的信息，涵盖该站的位置、所属 DLC（Łódź Junction，罗兹枢纽）、调度面板、轨道长度、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（1 星）。
 keywords: [SimRail, Łask, 瓦斯克, 车站, Łódź Junction, 罗兹枢纽, 调度面板, 轨道长度, CCTV, 无线电频道]

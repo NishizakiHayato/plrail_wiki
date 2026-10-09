@@ -1,5 +1,5 @@
 ---
-sidebar_position: 45
+sidebar_position: 46
 title: Raciborowice（拉契波罗维采）
 description: 本文介绍 SimRail（模拟铁路）中 Raciborowice（拉契波罗维采）车站的信息，涵盖该站的位置、调度面板、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（1 星）。
 keywords: [SimRail, Raciborowice, 拉契波罗维采, 车站, 调度面板, CCTV, 无线电频道]

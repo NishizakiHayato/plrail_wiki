@@ -1,5 +1,5 @@
 ---
-sidebar_position: 50
+sidebar_position: 51
 title: Sławków（斯瓦夫库夫）
 description: 本文介绍 SimRail（模拟铁路）中 Sławków（斯瓦夫库夫）车站的信息，涵盖该站的位置、调度面板、轨道长度、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（2 星）。
 keywords: [SimRail, Sławków, 斯瓦夫库夫, 车站, 调度面板, 轨道长度, CCTV, 无线电频道]

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 17
+sidebar_position: 18
 title: Juliusz（尤利乌什）
 description: 本文介绍 SimRail（模拟铁路）中 Juliusz（尤利乌什）车站的信息，涵盖该站的位置、调度面板、轨道长度、无线电频道，以及解锁本站所需的调度时长与车站难度（2 星）。
 keywords: [SimRail, Juliusz, 尤利乌什, 车站, 调度面板, 轨道长度, 无线电频道]

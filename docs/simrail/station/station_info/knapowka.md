@@ -1,5 +1,5 @@
 ---
-sidebar_position: 20
+sidebar_position: 21
 title: Knapówka（克纳普夫卡）
 description: 本文介绍 SimRail（模拟铁路）中 Knapówka（克纳普夫卡）车站的信息，涵盖该站的位置、调度面板、CCTV 摄像头及其所控道口、无线电频道，以及解锁本站所需的调度时长与车站难度（1 星）。
 keywords: [SimRail, Knapówka, 克纳普夫卡, 车站, 调度面板, CCTV, 无线电频道]
