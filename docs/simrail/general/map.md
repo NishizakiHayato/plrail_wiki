@@ -19,11 +19,11 @@ slug: /general/map
 
 ## 线路图
 
-![SimRail 全线路图](pathname:///img/simrail/general/map/route-map.webp)
+![SimRail 全线路图](pathname:///img/simrail/general/map/route-map-261026.webp)
 
 ## 无线电频道图
 
-![SimRail 全线路无线电频道图](pathname:///img/simrail/general/map/radio-channel-map.webp)
+![SimRail 全线路无线电频道图](pathname:///img/simrail/general/map/radio-channel-map-261026.webp)
 
 ## 轨道速度图
 
