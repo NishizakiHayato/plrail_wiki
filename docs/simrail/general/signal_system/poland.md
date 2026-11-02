@@ -503,6 +503,11 @@ slug: /general/signal_system/poland
             <td><strong>—   —</strong><br /><img src="/img/simrail/general/signal_system/poland/Rm1-hand.webp"></img></td>
             <td>两长声的同时，昼间挥动黄色信号旗或手臂进行水平移动，夜间用发出白光的手提信号灯进行水平移动。该信号表示列车或调车机车应当朝着发出信号的人的方向行驶。</td>
         </tr>
+        <tr>
+            <td><strong>Rm2 “远离我（Ode mnie）”手信号</strong></td>
+            <td><strong>—</strong><br /><img src="/img/simrail/general/signal_system/poland/Rm2-hand.webp"></img></td>
+            <td>一长声的同时，昼间挥动黄色信号旗或手臂在身体侧面上下移动，夜间用发出白光的手提信号灯在身体侧面上下移动。该信号表示列车或调车机车应当朝着远离发出信号的人的方向行驶。</td>
+        </tr>
   </tbody>
 </table>
 
