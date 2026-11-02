@@ -518,6 +518,11 @@ slug: /general/signal_system/poland
             <td><strong>•••   •••   •••   •••   •••</strong><br /><img src="/img/simrail/general/signal_system/poland/Rm4-hand.webp"></img></td>
             <td>快速发出三短声并重复数次的同时，昼间挥动黄色信号旗或手臂画圆圈，夜间用发出白光的手提信号灯画圆圈。</td>
         </tr>
+        <tr>
+            <td><strong>Rm5 “溜放（Odrzucić）”手信号</strong></td>
+            <td><strong>—   —   •</strong><br /><img src="/img/simrail/general/signal_system/poland/Rm5-hand.webp"></img></td>
+            <td>快速发出两长一短声的同时，昼间挥动黄色信号旗或手臂水平移动两次垂直举起快速放下，夜间用发出白光的手提信号灯水平移动两次垂直举起快速放下。该信号表示正在推送的车辆应从推送机车上甩开</td>
+        </tr>
   </tbody>
 </table>
 
