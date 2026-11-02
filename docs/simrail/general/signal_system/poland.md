@@ -11,7 +11,7 @@ slug: /general/signal_system/poland
 
 :::danger
 
-本文存在大量NNN时代遗留的简化和错误，我们正在紧急修订之中，如果您在wiki.plrail.com上看到他，这代表我们不小心将他推送到了生产环境，请勿参考本文章！
+本文尚未通过同行评议，因此可能存在不准确之处。如您发现相关问题，可以通过QQ群876515952联系我们。
 
 :::
 
@@ -495,9 +495,13 @@ slug: /general/signal_system/poland
   <tbody>
         <tr>
             <td><strong>D2 “停车”手信号</strong></td>
-            <td>
-            <img src="/img/simrail/general/signal_system/poland/D2-hand.webp"></img></td>
+            <td><img src="/img/simrail/general/signal_system/poland/D2-hand.webp"></img></td>
             <td>昼间用展开的信号旗、任何其他物品或手臂画圆圈。夜间用带有白光或红光的随身信号手电筒，或任何其他发光物体画圆圈。在调车作业中，该信号应当用黄色信号旗发出，并同时发出Rm4信号。<br />D2 “停车”手信号主要适用于需要停车且无法或无需使用其他停止信号的情况，例如:<br />1.突发因轨道状态需要减速的情况，且无法给出“减速”信号时；<br />2.在接近或通过的列车、辅助车辆或正在调车的铁路机车车辆上发现异常，若继续行驶可能会危及交通安全或造成财产损失时；<br />3.列车在未提前通知车站/线路所的情况下，进入已封锁的线路运行时；<br />4.列车在未提前通知车站/线路所的情况下,进入左道（非常用行车方向轨道）运行时；<br />5.在能见度受限的情况下，列车或辅助车辆前端的所有必备照明灯全部熄灭时；<br />6.轨道上有人员或大型动物，存在被碾压的危险时;</td>
+        </tr>
+        <tr>
+            <td><strong>Rm1 “向我来（Do mnie）”手信号</strong></td>
+            <td><strong>—   —</strong><br /><img src="/img/simrail/general/signal_system/poland/Rm1-hand.webp"></img></td>
+            <td>两长声的同时，昼间挥动黄色信号旗或手臂进行水平移动，夜间用发出白光的手提信号灯进行水平移动。该信号表示列车或调车机车应当朝着发出信号的人的方向行驶。</td>
         </tr>
   </tbody>
 </table>
