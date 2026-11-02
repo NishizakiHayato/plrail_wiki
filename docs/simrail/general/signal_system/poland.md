@@ -508,6 +508,11 @@ slug: /general/signal_system/poland
             <td><strong>—</strong><br /><img src="/img/simrail/general/signal_system/poland/Rm2-hand.webp"></img></td>
             <td>一长声的同时，昼间挥动黄色信号旗或手臂在身体侧面上下移动，夜间用发出白光的手提信号灯在身体侧面上下移动。该信号表示列车或调车机车应当朝着远离发出信号的人的方向行驶。</td>
         </tr>
+        <tr>
+            <td><strong>Rm3 “减速（Zwolnić）”手信号</strong></td>
+            <td><strong>—   —   —   —   —</strong><br /><img src="/img/simrail/general/signal_system/poland/Rm3-hand.webp"></img></td>
+            <td>数长声的同时，昼间挥动黄色信号旗或手臂在身体侧面做缓慢上下的弧形移动，夜间用发出白光的手提信号灯在身体侧面做缓慢上下的弧形移动。</td>
+        </tr>
   </tbody>
 </table>
 
