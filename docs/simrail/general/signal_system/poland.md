@@ -31,7 +31,7 @@ slug: /general/signal_system/poland
 | --- | :-: | :-: | :-: | :-: |
 | 德国对应编号 | Hp0 | Hp1 | Hp2 | — |
 | 图示 | ![Sr1 臂板信号机：停车](pathname:///img/simrail/general/signal_system/poland/sr1.webp) | ![Sr2 臂板信号机：通过](pathname:///img/simrail/general/signal_system/poland/sr2.webp) | ![Sr3 臂板信号机：限速 40 通过](pathname:///img/simrail/general/signal_system/poland/sr3.webp) | ![Sr3 变体臂板信号机：限速降低到 W21 标志数值](pathname:///img/simrail/general/signal_system/poland/sr3-variant.webp) |
-| 含义 | 停车 | 通过 | 限速 40 通过，下一信号机通过 | 表示限速降低到下方 W21 标志的数值（图中一例为 100） |
+| 含义 | 停车 | 通过 | 限速 40 通过 | 表示限速降低到下方 W21 标志的数值（图中一例为 100） |
 
 ## 色灯信号机
 
@@ -39,7 +39,7 @@ slug: /general/signal_system/poland
 
 波兰的信号机可以按灯杆样式区分用途，灯杆是判断信号机种类的第一依据。
 
-| 名称 | 机械/电路控制信号机 | 自动闭塞信号机 | 复示信号机 | 道口信号机 |
+| 名称 | 主信号机 | 自动闭塞信号机 | 复示信号机/高柱调车信号机 | 道口信号机 |
 | --- | :-: | :-: | :-: | :-: |
 | 灯杆样式 | ![机械/电路控制信号机灯杆](pathname:///img/simrail/general/signal_system/poland/post-relay.webp) | ![自动闭塞信号机灯杆](pathname:///img/simrail/general/signal_system/poland/post-abs.webp) | ![复示信号机灯杆](pathname:///img/simrail/general/signal_system/poland/post-repeater.webp) | ![道口信号机灯杆](pathname:///img/simrail/general/signal_system/poland/post-crossing.webp) |
 
@@ -79,7 +79,7 @@ slug: /general/signal_system/poland
 
 ### 替代信号
 
-![替代信号（Sz）：显示红灯与白灯，可限速越过](pathname:///img/simrail/general/signal_system/poland/sz.webp)
+![替代信号（Sz）：显示红灯与白灯，可限速越过](pathname:///img/simrail/general/signal_system/poland/Sz.webp)
 
 替代信号用于信号故障时，允许列车越过信号机。限速 **40 km/h** ，大多数需要行车至下一信号机处解除。
 
@@ -119,6 +119,9 @@ slug: /general/signal_system/poland
 | --- | :-: | :-: |
 | 图示 | ![Osp1：道口栏杆故障，限速 20](pathname:///img/simrail/general/signal_system/poland/osp1.webp) | ![Osp2：道口正常，无限速](pathname:///img/simrail/general/signal_system/poland/osp2.webp) |
 | 含义 | 道口栏杆故障，限速 20 | 道口正常，无限速 |
+:::note
+当该信号机熄灭或显示不明时，参照Osp1处理。
+:::
 
 ## 线路标志
 
