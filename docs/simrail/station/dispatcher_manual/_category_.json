@@ -1,0 +1,10 @@
+{
+  "label": "调度员手册",
+  "position": 1,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "SimRail 调度员手册：面向车站调度员的实操指南，涵盖调度台界面与联锁操作、进路排列、信号机与道岔控制、列车运行组织，以及常见异常情况的处置。",
+    "slug": "/station/dispatcher-manual"
+  }
+}
