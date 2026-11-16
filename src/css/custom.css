@@ -341,3 +341,108 @@ img[src*='/img/simrail/general/achievement/'] {
     min-width: 96px;
   }
 }
+
+/* ============ 移动端车站一览：八列宽表转成卡片 ============ */
+/* 背景：docs/simrail/station/station_info/index.md 的「车站列表」是 8 列表格
+   （车站 / 中文名 / 电报码 / 游戏内部编号 / 联锁类型 / DLC / 难度 / 解锁时长）。
+   桌面端横向排得开，手机端只能左右滑：一屏看不到两列，还得来回比对行，
+   比直接读列表更难用。
+
+   处理方式：断点内把表格拆成「一站一卡」——thead 隐藏，每个 tr 变成两列网格
+   （标签在上、值在下），第 1 列的站名横跨整卡作为卡片标题。列名不写在文档里，
+   而由 td:nth-child(n)::before 补上，这样 Markdown 源仍是普通表格，桌面端渲染
+   完全不变。改列顺序或增删列时，记得同步下面的 nth-child 映射。
+
+   选择器挂在 .station-table 上（index.md 里用 <div className="station-table">
+   包住表格），不会波及其它页面的表格。断点 996px 与文档侧边栏收起一致。 */
+@media (max-width: 996px) {
+  .station-table table {
+    display: block;
+    overflow: visible;
+    border: 0;
+    font-size: 0.875rem;
+  }
+
+  .station-table thead {
+    display: none;
+  }
+
+  .station-table tbody {
+    display: block;
+  }
+
+  .station-table tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.35rem 0.75rem;
+    margin: 0 0 0.6rem;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--ifm-table-border-color);
+    border-radius: 10px;
+    background: var(--ifm-background-surface-color);
+  }
+
+  .station-table tr:nth-child(2n) {
+    background: var(--ifm-background-surface-color);
+  }
+
+  .station-table td {
+    display: block;
+    padding: 0;
+    border: 0;
+  }
+
+  /* 站名 / 中文名所在的第 1 列：整卡标题 */
+  .station-table td:first-child {
+    grid-column: 1 / -1;
+    margin-bottom: 0.15rem;
+    padding-bottom: 0.45rem;
+    border-bottom: 1px dashed var(--ifm-table-border-color);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  /* 其余列：小号灰字标签 + 值 */
+  .station-table td::before {
+    display: block;
+    margin-bottom: 0.1rem;
+    color: var(--ifm-color-emphasis-600);
+    font-size: 0.72rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .station-table td:nth-child(2)::before {
+    content: '中文名';
+  }
+
+  .station-table td:nth-child(3)::before {
+    content: '电报码';
+  }
+
+  .station-table td:nth-child(4)::before {
+    content: '游戏内部编号';
+  }
+
+  .station-table td:nth-child(5)::before {
+    content: '联锁类型';
+  }
+
+  .station-table td:nth-child(6)::before {
+    content: '所属 DLC';
+  }
+
+  .station-table td:nth-child(7)::before {
+    content: '难度';
+  }
+
+  .station-table td:nth-child(8)::before {
+    content: '解锁调度时长';
+  }
+
+  /* LCS 站的编号是「a/b/c」拼接，半列宽度放不下，允许断行 */
+  .station-table td:nth-child(3),
+  .station-table td:nth-child(4) {
+    overflow-wrap: anywhere;
+  }
+}
