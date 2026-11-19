@@ -1,0 +1,10 @@
+{
+  "label": "实用工具",
+  "position": 11,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "SimRail 实用工具合集，收录游戏辅助工具与第三方资源的下载、安装和使用教程，例如 ETCS DMI 安卓客户端。",
+    "slug": "/tools"
+  }
+}
